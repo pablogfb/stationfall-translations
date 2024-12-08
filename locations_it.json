@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1,
+    "name": "Aft Exhaust",
+    "diagram": "assets/images/rooms/aft_exahust.png",
+    "action": [
+      ""
+    ],
+    "type": "blue",
+    "light": false,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 2,
+    "name": "Kitchen",
+    "diagram": "assets/images/rooms/kitchen.png",
+    "action": [
+      ""
+    ],
+    "type": "blue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 3,
+    "name": "Quarters",
+    "diagram": "assets/images/rooms/quarters.png",
+    "action": [
+      "Lancio di Sezione"
+    ],
+    "type": "blue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 4,
+    "name": "Rec Room",
+    "diagram": "assets/images/rooms/rec_room.png",
+    "action": [
+      ""
+    ],
+    "type": "blue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 5,
+    "name": "Security Station",
+    "diagram": "assets/images/rooms/security_station.png",
+    "action": [
+      "Azione Console",
+      "Metti le telecamere ON/OFF",
+      "Fabbrica Prove"
+    ],
+    "type": "blue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 6,
+    "name": "Shred room",
+    "diagram": "assets/images/rooms/shred_room.png",
+    "action": [
+      "Data Mine: Ottieni un Kompromat da qualsiasi luogo sul Tabellone"
+    ],
+    "type": "blue",
+    "light": false,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 7,
+    "name": "Storage",
+    "diagram": "assets/images/rooms/storage.png",
+    "action": [
+      ""
+    ],
+    "type": "blue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 8,
+    "name": "Suite",
+    "diagram": "assets/images/rooms/suite.png",
+    "action": [
+      ""
+    ],
+    "type": "blue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 9,
+    "name": "Therapy Garden",
+    "diagram": "assets/images/rooms/therapy_garden.png",
+    "action": [
+      "Medita (solo personaggio giocante)"
+    ],
+    "type": "blue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 10,
+    "name": "Bio Lab",
+    "diagram": "assets/images/rooms/bio_lab.png",
+    "action": [
+      "Chi entra qui, viene Contaminato.",
+      "Produci il Dato X-Secret"
+    ],
+    "type": "darkBlue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 11,
+    "name": "Chem Lab",
+    "diagram": "assets/images/rooms/chem_lab.png",
+    "action": [
+      "Produci una Firebomb"
+    ],
+    "type": "darkBlue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 12,
+    "name": "Cryo Lab",
+    "diagram": "assets/images/rooms/cryo_lab.png",
+    "action": [
+      "Libera il Progetto X (Solo Officer)"
+    ],
+    "type": "darkBlue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 13,
+    "name": "Forward Exhaust",
+    "diagram": "assets/images/rooms/forward_exhaust.png",
+    "action": [
+      "Airlock"
+    ],
+    "type": "darkBlue",
+    "light": false,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 14,
+    "name": "Mainframe",
+    "diagram": "assets/images/rooms/mainframe.png",
+    "action": [
+      "Azione Console"
+    ],
+    "type": "darkBlue",
+    "light": true,
+    "energy": true,
+    "notes": ""
+  },
+  {
+    "id": 15,
+    "name": "Nanofactory",
+    "diagram": "assets/images/rooms/nanofactory.png",
+    "action": [
+      "Produci del Nanogel"
+    ],
+    "type": "darkBlue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 16,
+    "name": "Physics Lab",
+    "diagram": "assets/images/rooms/physics_lab.png",
+    "action": [
+      "Durante tutte le fasi Risoluzione, tutti i dati in questo luogo vengono Cancellati."
+    ],
+    "type": "darkBlue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 17,
+    "name": "Print Shop",
+    "diagram": "assets/images/rooms/print_shop.png",
+    "action": [
+      "Produci un Casco, una Mazza o una Pistola (solo un Officer può produrre Pistole)."
+    ],
+    "type": "darkBlue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 18,
+    "name": "Vault X",
+    "diagram": "assets/images/rooms/vault_x.png",
+    "action": [
+      "Se Danneggiato, Libera il Progetto X e innesca il Protocollo Abbandonare la Nave"
+    ],
+    "type": "darkBlue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 19,
+    "name": "Aft Airlocks",
+    "diagram": "assets/images/rooms/aft_airlocks.png",
+    "action": [
+      "Airlock",
+      "Lancio di Sezione"
+    ],
+    "type": "pink",
+    "light": false,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 20,
+    "name": "Aft Hub",
+    "diagram": "assets/images/rooms/aft_hub.png",
+    "action": [
+      ""
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 21,
+    "name": "Array Control",
+    "diagram": "assets/images/rooms/array_control.png",
+    "action": [
+      "Trasmetti Dati"
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 22,
+    "name": "Bridge",
+    "diagram": "assets/images/rooms/bridge.png",
+    "action": [
+      "Libera il Progetto X",
+      "Auto Distruzione",
+      "Abbandonare la Nave",
+      "Lancio dal Ponte"
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": "Officer only"
+  },
+  {
+    "id": 23,
+    "name": "Cargo Claw",
+    "diagram": "assets/images/rooms/cargo_claw.png",
+    "action": [
+      "Grip: Raccogli un oggetto nell'Outer Space o metti Down un Personaggio nell'Outer Space."
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 24,
+    "name": "Forward Airlocks",
+    "diagram": "assets/images/rooms/forward_airlocks.png",
+    "action": [
+      "Airlock"
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 25,
+    "name": "Forward Hub",
+    "diagram": "assets/images/rooms/forward_hub.png",
+    "action": [
+      ""
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 26,
+    "name": "Fuel Cells",
+    "diagram": "assets/images/rooms/fuel_cells.png",
+    "action": [
+      "Se Danneggiato, posiziona un Segnalino Fuoco qui e nei Tanks."
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": true,
+    "notes": ""
+  },
+  {
+    "id": 27,
+    "name": "Hydroponics",
+    "diagram": "assets/images/rooms/hydroponics.png",
+    "action": [
+      ""
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 28,
+    "name": "Locker Room",
+    "diagram": "assets/images/rooms/locker_room.png",
+    "action": [
+      ""
+    ],
+    "type": "pink",
+    "light": false,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 29,
+    "name": "Machine Shop",
+    "diagram": "assets/images/rooms/machine_shop.png",
+    "action": [
+      "Riparazione Robot"
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 30,
+    "name": "Magnetic Containment",
+    "diagram": "assets/images/rooms/magnetic_containmet.png",
+    "action": [
+      "Espelli l'Antimateria"
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": "Durante tutte le fasi Risoluzione, tutti i cubi Influenza sui Robot qui, vanno nel Riquadro Betrayal."
+  },
+  {
+    "id": 31,
+    "name": "Reactor",
+    "diagram": "assets/images/rooms/reactor.png",
+    "action": [
+      ""
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": true,
+    "notes": "Non può essere danneggiato con una mazza. Se danneggiato, aggiungi il pericolo Asfissia qui e nelle sezioni collegate."
+  },
+  {
+    "id": 32,
+    "name": "Storm Shelter",
+    "diagram": "assets/images/rooms/storm_shelter.png",
+    "action": [
+      ""
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 33,
+    "name": "Tanks",
+    "diagram": "assets/images/rooms/tanks.png",
+    "action": [
+      "Decontaminazione"
+    ],
+    "type": "pink",
+    "light": false,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 34,
+    "name": "Alcatraz",
+    "diagram": "assets/images/rooms/alcatraz.png",
+    "action": [
+      "Lancio Programmato"
+    ],
+    "type": "green",
+    "light": true,
+    "energy": false,
+    "notes": "Richiede il protocollo Abbandonare la Nave per essere lanciata. Se il Legal è in gioco, gli Occupanti hanno bisogno del dato NDA per lanciare la capsula."
+  },
+  {
+    "id": 35,
+    "name": "Hail Mary",
+    "diagram": "assets/images/rooms/hail_mary.png",
+    "action": [
+      "Lancio Programmato"
+    ],
+    "type": "green",
+    "light": true,
+    "energy": false,
+    "notes": "Richiede il protocollo Abbandonare la Nave per essere lanciata. Se il Legal è in gioco, gli Occupanti hanno bisogno del dato NDA per lanciare la capsula."
+  },
+  {
+    "id": 36,
+    "name": "Houdini",
+    "diagram": "assets/images/rooms/houdini.png",
+    "action": [
+      "Lancio Programmato"
+    ],
+    "type": "green",
+    "light": true,
+    "energy": false,
+    "notes": "Richiede il protocollo Abbandonare la Nave per essere lanciata. Se il Legal è in gioco, gli Occupanti hanno bisogno del dato NDA per lanciare la capsula."
+  },
+  {
+    "id": 37,
+    "name": "McQueen",
+    "diagram": "assets/images/rooms/mcqueen.png",
+    "action": [
+      "Lancio Programmato"
+    ],
+    "type": "green",
+    "light": false,
+    "energy": false,
+    "notes": "Richiede il protocollo Abbandonare la Nave per poter essere lanciata. Se il Legal è in gioco, tutti gli Occupanti, vivi necessitano del dato NDA per lanciare la capsula."
+  },
+  {
+    "id": 38,
+    "name": "Medivac Pod",
+    "diagram": "assets/images/rooms/medivac_pod.png",
+    "action": [
+      "Lancio Programmato"
+    ],
+    "type": "green",
+    "light": true,
+    "energy": false,
+    "notes": "Deve essere occupata da un umano Down per essere lanciata. Non richiede il protocollo Abbandonare la Nave per poter essere lanciata."
+  },
+  {
+    "id": 39,
+    "name": "Outer Space",
+    "diagram": "assets/images/rooms/outer_space.png",
+    "action": [
+      "Airlock"
+    ],
+    "type": "green",
+    "light": false,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 40,
+    "name": "Panic Pod",
+    "diagram": "assets/images/rooms/panic_pod.png",
+    "action": [
+      "Lancio Programmato"
+    ],
+    "type": "green",
+    "light": true,
+    "energy": false,
+    "notes": "Richiede il protocollo Abbandonare la Nave per essere lanciata"
+  },
+  {
+    "id": 41,
+    "name": "Pirate / Rescue ship",
+    "diagram": "assets/images/rooms/pirate_ship.png",
+    "action": [
+      "Pirate Ship: Al calcolo del punteggio, i Personaggi in possesso della Valigetta nell'Outer Space, fuggono.",
+      "Rescue Ship: Al calcolo del punteggio, qualsiasi umano nell'Outer Space, fugge"
+    ],
+    "type": "green",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  }
+]

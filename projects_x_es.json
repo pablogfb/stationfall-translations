@@ -1,0 +1,183 @@
+[
+  {
+    "name": "Bioexperimento Carnívoro",
+    "subtitle": "Prueba malograde de ente de combate",
+    "image": "assets/images/projects_x/carnivorous.png",
+    "setup": [
+      "Coloca al Monstruo en la Bóveda X"
+    ],
+    "abilities": [
+      {
+        "name": "Rata de Túnel",
+        "description": "Puede mover a través de los Respiraderos",
+        "type": "mobility"
+      },
+      {
+        "name": "Cauteloso",
+        "description": "No puede ser Atacado en Secciones Oscuras",
+        "type": "defensive"
+      }
+    ],
+    "instructions": [
+      "Al final de cualquier fase Resolver, debes Derribar a un Humano Vivo Colocalizado si es posible.",
+      "Si no hay ninguno, el jugador activo debe Mover al Bioexperimento Carnívoro una Sección hacia el Humano Vivo más cercano. En caso de empate, el jugador debe elegir a qué Sección Moverlo.",
+      "El Bioexperimento Carnívoro defiende como un Humano sin Casco y es Derribado debido a los Peligros. El Bioexperimento Carnívoro tiene Autoconservación, y si la única manera de moverse es a través de un Peligro, no se moverá."
+    ]
+  },
+  {
+    "name": "Enjambre de Combate",
+    "subtitle": "Drones asesinos por control remoto",
+    "image": "assets/images/projects_x/combat_swarm.png",
+    "setup": [
+      "Coloca al Monstruo en la Bóveda X",
+      "Coloca la ficha de Enjambre Directo bajo las Acciones de Consola"
+    ],
+    "abilities": [
+      {
+        "name": "Ágil",
+        "description": "Puede Mover hasta dos Secciones con una única Acción. Puede Mover a través de los Respiraderos",
+        "type": "mobility"
+      },
+      {
+        "name": "Reparación improvisada",
+        "description": "Como Acción, Repara una Sección Dañada Colocalizada, o un Robot Derribado Colocalizado",
+        "type": "utility"
+      }
+    ],
+    "instructions": [
+      "El Enjambre de Combate es controlado con Acciones de Consola. Sólo puede Mover (incluyendo Arrastrar), Atacar, o realizar la Acción Reparación Improvisada. Ataca como si tuviese una Pistola.",
+      "No puede ser Derribado a menos que entre en la Sala de Contención Magnética no Dañada, donde queda Derribado inmediatamente.",
+      "No puedes volverte Sospechoso realizando Acciones con el Enjambre de Combate.",
+      "El Enjambre de Combate es un Robot y puede ser Derribado, Reparado e ignora Peligros. Cuenta como un Robot para la puntuación."
+    ]
+  },
+  {
+    "name": "Rayo de la Muerte",
+    "subtitle": "Estación de Combate completamente operativa",
+    "image": "assets/images/projects_x/death_ray.png",
+    "setup": [
+      "Coloca la ficha de Rayo de la Muerte en el Control de Red"
+    ],
+    "abilities": [
+    ],
+    "instructions": [
+      "El Rayo de la Muerte lo puede disparar, como Acción, cualquier Humano o Robot en el Control de la Red. El Rayo de la Muerte no se puede disparar si el Reactor o el Control de la Red están Dañados. Disparar el Rayo de la Muerte Daña el Reactor.",
+      "El Rayo de la Muerte puede apuntar a Lugares Remotos, la Nave de Rescate/Pirata y Cápsulas lanzadas. Cualquier objetivo del Rayo de la Muerte es Aniquilado y retirado de la partida junto con todo aquello que estuviese ahí.",
+      "Los personajes Culpables vuelven a estado Sospechoso si las Autoridades son Aniquiladas. Usar el Rayo de la Muerte no activa la Sospecha."
+    ]
+  },
+  {
+    "name": "Fantasma de Entropía",
+    "subtitle": "Caos Espectral",
+    "image": "assets/images/projects_x/entropy_phantom.png",
+    "setup": [
+      "Coloca al Monstruo en la Bóveda X"
+    ],
+    "abilities": [
+      {
+        "name": "Rata de Túnel",
+        "description": "Puede mover a través de los Respiraderos",
+        "type": "mobility"
+      },
+      {
+        "name": "Etéreo",
+        "description": "Puede moverse a través de Bloqueos",
+        "type": "mobility"
+      }
+    ],
+    "instructions": [
+      "Al final de cualquier fase Resolver, el jugador activo debe mover un cubo de un Personaje Colocalizado a la caja de Traición si es posible (¡está devorando sus recuerdos!).",
+      "Si no hay cubos, el jugador activo debe Mover al Fantasma de Entropía una Sección hacia la Antimanteria, si sigue en la partida. Si alcanza la Antimateria, la arma si no lo está ya, y el Fantasma de Entropía queda Aniquilado. Si la Antimateria está Aniquilada, entonces se Mueve al Fantasma de Entropía hacia la Sala de Contención Magnética.",
+      "El Fantasma de Entropía no puede ser Derribado.",
+      "Cualquier Dato Colocalizado con el Fantasma de Entropía es Borrado inmediatamente."
+    ]
+  },
+  {
+    "name": "Plaga Gris",
+    "subtitle": "Nano-baba invasiva",
+    "image": "assets/images/projects_x/grey_go.png",
+    "setup": [
+      "Da la Carta de Plaga Gris al jugador activo",
+      "Ten en cuenta que la PLaga se espande colocando un marcador de Plaga Gris enla carta, con valor 0. Eso indica la propagación de la Plaga Gris"
+    ],
+    "abilities": [
+    ],
+    "instructions": [
+      "Al final de la fase Resolver del jugador con su carta, la Plaga Gris afecta a cualquier Personaje en una Sección dentro de su propagación, Aniquilando un Casco en Posesión o Derribando a cada Personaje que no Posea un Casco.",
+      "Entonces, el jugador que posea esta carta incrementa en uno la propagación si no hay un Apagón. Toda Sección a ese número de Secciones de la Bóveda X se encuentra ahora dentro de su propagación.",
+      "La Plaga Gris se propaga a través de Bloqueos pero no a través de Respiraderos.",
+      "Si la propagación alcanza el valor 5, procede con la Caída de la Estación."
+    ]
+  },
+  {
+    "name": "Asesino Robótico",
+    "subtitle": "Bot Asesino implacable",
+    "image": "assets/images/projects_x/robotic_assassin.png",
+    "setup": [
+      "Coloca al Monstruo en la Bóveda X",
+      "Coloca la ficha Marcar Objetivo bajo las Acciones de Consola",
+      "El jugador activo coloca el marcador de objetivo en el peón de un Humano o Robot Vivo que no haya Escapado"
+    ],
+    "abilities": [
+      {
+        "name": "Gigante",
+        "description": "Puede Mover a través de los bloqueos (lo que los retira)",
+        "type": "mobility"
+      },
+      {
+        "name": "Blindado",
+        "description": "No puede ser Atacado con una Stillson",
+        "type": "defensive"
+      }
+    ],
+    "instructions": [
+      "La Acción de Consola Marcar Objetivo mueve el marcador de objetivo al peón de un Humano o Robot que no haya Escapado.",
+      "Al final de cualquier fase Resolver, el Asesino Robótico debe Derribar a un Humano o Robot Colocalizado que tenga la ficha de objetivo sobre él.",
+      "Si no hay ninguno, el jugador debe Mover al Asesino Robótico una Sección hacia cualquier Humano o Robot que tenga la ficha de objetivo sobre él.",
+      "En caso de empate, el jugador activo puede elegir la Sección a la que se Mueve el Asesino Robótico.",
+      "El Asesino Robótico es un Robot y puede ser Derribado, Reparado e ignora peligros. Cuenta como un Robot para la puntuación."
+    ]
+  },
+  {
+    "name": "Agujero de gusano estable",
+    "subtitle": "Un portal al CERN",
+    "image": "assets/images/projects_x/stable_wormhole.png",
+    "setup": [
+      "Daña el Reactor si no lo está ya"
+    ],
+    "abilities": [
+    ],
+    "instructions": [
+      "Todos los Objetos o Personajes que se encuentren o entren en la Bóveda X Escapan inmediatamente.",
+      "Todo lo que Escape de esta manera se considera Colocalizado para la puntuación.",
+      "Si la Antimateria Escapa por el Agujero de Gusano lo Aniquila junto con todo lo que haya escapado a través de él"
+    ]
+  },
+  {
+    "name": "Monstruosidad Tentaculada",
+    "subtitle": "Híbrido Animal-planta hambreinto",
+    "image": "assets/images/projects_x/tentacled_monstrosity.png",
+    "setup": [
+      "Coloca al Monstruo en la Bóveda X"
+    ],
+    "abilities": [
+      {
+        "name": "Gigante",
+        "description": "Puede Mover a través de los bloqueos (lo que los retira)",
+        "type": "mobility"
+      },
+      {
+        "name": "Cauteloso",
+        "description": "No puede ser Atacado en Secciones Oscuras",
+        "type": "defensive"
+      }
+    ],
+    "instructions": [
+      "Al final de cualquier fase Resolver, el jugador activo elige a un Personaje, u Objeto que no Posea, Colocalizado para Consumirlo, moviéndolo a su carta. Los Personajes Consumidos no pueden actuar ni se puede interactuar con ellos, considerando Derribados a todos los Humanos Consumidos sin Casco.",
+      "Si no hay Personajes u Objetos Colocalizados, la Monstruosidad Tentaculada mueve, en su lugar, a un Personaje, u Objeto que no Posea, en una Sección adyacente hacia su propia Sección.",
+      "Si no hay ninguno, el jugador activo debe Mover a la Monstruosidad Tentaculada una Sección hacia el Humano sin consumir más cercano (Vivo o Derribado).",
+      "En caso de empate, el jugador activo puede elegir la Sección a la que se Mueve la Monstruosidad Tentaculada.",
+      "La Monstruosidad Tentaculada sólo puede ser Derribada por Fuego y tiene Autoconservación. Si la Monstruosidad Tentaculada es Derribada, todos los Objetos y Personajes consumidos se colocan en su Sección actual."
+    ]
+  }
+]

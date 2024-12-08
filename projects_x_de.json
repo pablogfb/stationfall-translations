@@ -1,0 +1,177 @@
+[
+  {
+    "name": "Riskantes Experiment",
+    "subtitle": "Gescheiterter Bio-Kampfeinheitentest",
+    "image": "assets/images/projects_x/carnivorous.png",
+    "setup": [
+      "Lege den Spielstein in das X-Kabinett"
+    ],
+    "abilities": [
+      {
+        "name": "Tunnelratte",
+        "description": "Darf durch Luftschächte \"gehen\".",
+        "type": "mobility"
+      },
+      {
+        "name": "Misstrauisch",
+        "description": "Kann in dunklen Bereichen nicht \"angegriffen\" werden.",
+        "type": "defensive"
+      }
+    ],
+    "instructions": [
+      "Schlägt am Ende jedes Ereignisschritts 1 Menschen bei sich K.O.",
+      "Kann es das nicht tun, bewegt die aktive Person das \"Riskante Experiment\" um 1 Bereich dichter zu dem gesunden Menschen, der am dichtesten bei ihm ist. Bei gleichwertigen Optionen entscheidet die Person.",
+      "Das \"Riskante Experiment\" verteidigt sich wie ein Mensch ohne Helm und geht in Gefahrenbereichen K.O. Es hat Selbsterhaltung; falls jeder mögliche Weg es in einen Gefahrenbereich führen würde, bewegt es sich nicht."
+    ]
+  },
+  {
+    "name": "Kampfschwarm",
+    "subtitle": "Ferngesteuerte Morddrohnen",
+    "image": "assets/images/projects_x/combat_swarm.png",
+    "setup": [
+      "Legt den Spielstein in das X-Kabinett.",
+      "Legt die Konsolenaktion \"Schwarm lenken\" zu den übrigen Konsolenaktionen."
+    ],
+    "abilities": [
+      {
+        "name": "Schnell",
+        "description": "Darf sich pro \"Gehen\"-Aktion 2 Bereiche weit bewegen. Darf sich durch Luftschächte bewegen.",
+        "type": "mobility"
+      },
+      {
+        "name": "Zusammenflicken",
+        "description": "Darf als Aktion seinen Bereich oder 1 Roboter dort \"reparieren\".",
+        "type": "utility"
+      }
+    ],
+    "instructions": [
+      "Den \"Kampfschwarm\" lenkt man durch die Konsolenaktion \"Schwarm lenken\". Er kann nur \"gehen\", schleifen, \"angreifen\" und zusammenflicken. Er \"greif an\", als ob er eine Pistole hätte.",
+      "Er geht nur K.O., sobald er in den unbeschädigten Magnetkäfig kommt (dann aber sofort).",
+      "Aktionen mit dem \"Kampfschwarm\" können dich nicht verdächtig machen.",
+      "Der \"Kampfschwarm\" gilt in jeder Hinsicht als Roboter, auch in der Wertung. Er ignoriert Gefahren."
+    ]
+  },
+  {
+    "name": "Todesstrahl",
+    "subtitle": "Betriebsbereite Kampfstation",
+    "image": "assets/images/projects_x/death_ray.png",
+    "setup": [
+      "Legt das Plättchen \"Todesstrahl\" auf den Textkasten der Antennensteuerung."
+    ],
+    "abilities": [
+    ],
+    "instructions": [
+      "Jeder Mensch oder Roboter darf den \"Todesstrahl\" als Bereichsaktion der Antennensteuerung abfeuern, falls weder Reaktor noch Antennensteuerung beschädigt sind. Das Abfeuern beschädigt den Reaktor.",
+      "Wird der \"Todesstrahl abgefeuert, vernichtet er 1 Externen oder das Rettungsschiff/Piratenschiff oder 1 gestartete Kapsel samt Inhalt.",
+      "Sobald die Behörde vernichtet ist, werden Schuldige wieder zu Verdächtigen. Den \"Todesstrahl\" zu nutzen, macht dich nicht verdächtig."
+    ]
+  },
+  {
+    "name": "Entropiephantom",
+    "subtitle": "Ein Geist aus Energie",
+    "image": "assets/images/projects_x/entropy_phantom.png",
+    "setup": [
+      "Legt den Spielstein in das X-Kabinett."
+    ],
+    "abilities": [
+      {
+        "name": "Tunnelratte",
+        "description": "Darf durch Luftschächte \"gehen\".",
+        "type": "mobility"
+      },
+      {
+        "name": "Gestaltlos",
+        "description": "Darf durch Schlösser \"gehen\" (entfernt sie aber nicht).",
+        "type": "mobility"
+      }
+    ],
+    "instructions": [
+      "Lege am Ende jedes Ereignisschritts 1 Einflusswürfel von einem Akteur beim \"Entropiephantom\" in den Verratsfundus, falls möglich (Er frisst dessen Erinnerungen!).",
+      "Sind keine Akteure mit Einflusswürfeln beim \"Entropiephantom\", \"geht\" es um 1 Bereich in Richtung Antimaterie, falls möglich. Erreicht es die Antimaterie, schaltet es sie automatisch scharf und vernichtet sich dann sofort selbst. Existiert keine Antimaterie mehr, geht das \"Entropiephantom\" um 1 Bereich in Richtung Magnetkäfig.",
+      "Das \"Entropiephantom\" kann nicht K.O. gehen.",
+      "Im Bereich mit dem \"Entropiephantom\" werden alle Daten sofort \"gelöscht\"."
+    ]
+  },
+  {
+    "name": "Graue Masse",
+    "subtitle": "Expandierender Nanoschleim",
+    "image": "assets/images/projects_x/grey_go.png",
+    "setup": [
+      "Wer am Zug ist, erhält die Karte \"Graue Masse\" und legt 1 Marker \"Graue Masse\" auf das Feld \"0\" auf dieser Karte.",
+      "Der Marker zeigt an, bis zu welcher Entfernung vom X-Kabinett sich die \"Graue Masse\" schon ausgebreitet hat."
+    ],
+    "abilities": [
+    ],
+    "instructions": [
+      "Im Ereignisschritt der Person mit der Karte geht jeder Akteur ohne Helm K.O. (auch Roboter), der in einem Bereich mit \"Grauer Masse\" ist. Wer einen Helm besitzt, verliert stattdessen den Helm (die \"Graue Masse\" löst ihn auf).",
+      "Falls kein Blackout herrscht, breitet sich die \"Graue Masse\" danach in alle Richtungen um jeweils 1 Bereich aus. Legt Marker \"Graue Masse\" in die betroffenen Bereiche und rückt den Marker auf der Karte um 1 Feld vor.",
+      "Die \"Graue Masse\" ignoriert Schlösser. Sie geht nur durch Gänge, nicht durch Luftschächte.",
+      "Sobald der Marker auf der Karte Feld \"5\" erreicht, löst das den Absturz aus."
+    ]
+  },
+  {
+    "name": "Robomörder",
+    "subtitle": "Unerbittlicher Attentäter",
+    "image": "assets/images/projects_x/robotic_assassin.png",
+    "setup": [
+      "Legt den Spielstein in das X-Kabinett.",
+      "Legt die Konsolenaktion \"Ziel markieren\" zu den anderen Konsolenaktionen.",
+      "Wer am Zug ist, legt den Zielmarker auf einen gesunden Menschen oder Roboter, der nicht entkommen ist."
+    ],
+    "abilities": [
+      {
+        "name": "Rammbock",
+        "description": "\"Geht\" durch Schlösser und entfern sie dadurch.",
+        "type": "mobility"
+      },
+      {
+        "name": "Gepanzert",
+        "description": "Kann nicht mittels Keule \"angegriffen\" werden.",
+        "type": "defensive"
+      }
+    ],
+    "instructions": [
+      "Die Konsolenaktion \"Ziel markieren\" versetzt den Zielmarker zu einem anderen gesunden Menschen oder Roboter, der nicht entkommen ist.",
+      "Am Ende jedes Ereignisschritts: Falls der Akteur mit dem Zielmarker beim \"Robomörder\" ist, vernichtet das Monster diesen Akteur.",
+      "Andernfalls bewegt die aktive Person den \"Robomörder\" um 1 Bereich dichter zu dem Akteur, der den Zielmarker hat.",
+      "Bei gleichwertigen Optionen entscheidet die aktive Person.",
+      "Der \"Robomörder\" gilt in jeder Hinsicht als Roboter, auch in der Wertung. Er ignoriert Gefahren."
+    ]
+  },
+  {
+    "name": "Stabiles Wurmloch",
+    "subtitle": "Ein Portal zu CERN",
+    "image": "assets/images/projects_x/stable_wormhole.png",
+    "setup": [
+      "Beschädigt den Reaktor (falls er noch intakt ist)."
+    ],
+    "abilities": [
+    ],
+    "instructions": [
+      "Alle Akteure und Dinge, die im X-Kabinett sind oder es betreten, entkommen sofort. Dinge, die auf diese Weise entkommen, gelten für die Wertung als \"bei dem Akteur\".",
+      "Sollte die Antimaterie in das \"Stabile Wurmloch\" kommen, eliminiert sie das \"Wurmloch\" und alles, was dadurch entkommen ist."
+    ]
+  },
+  {
+    "name": "Tentakelmonster",
+    "subtitle": "Tier-Pflanze-Hybrid mit viel Appetit",
+    "image": "assets/images/projects_x/tentacled_monstrosity.png",
+    "setup": [
+      "Legt den Spielstein in das X-Kabinett."
+    ],
+    "abilities": [
+      {
+        "name": "Rammbock",
+        "description": "\"Geht\" durch Schlösser und entfern sie dadurch.",
+        "type": "mobility"
+      }
+    ],
+    "instructions": [
+      "Am Ende jedes Ereignisschritts bestimmt die aktive Person 1 Akteur (gesund oder K.O.) oder 1 herumliegendes Ding beim \"Tentakelmonster\", das dieses dann verschlingt (legt den Spielstein bzw. Marker auf die Monsterkarte); Menschen ohne Helm gehen dabei K.O. Wer oder was verschlungen wurde, ist aus der Partie, bis das \"Tentakelmonster\" K.O. geht. Alle verschlungenen Akteure und Dinge gelten als \"beieinander\".",
+      "Ist weder Ding noch Akteur beim \"Tentakelmonster\", schleift es stattdessen 1 Akteur (gesund oder K.O.) oder herumliegendes Ding aus einem per Gang zugänglichen Nachbarbereich in seinen eigenen Bereich.",
+      "Kann es das nicht tun, bewegt die aktive Person das \"Tentakelmonster\" um 1 Bereich dichter zu dem Menschen (gesund oder K.O.), der am dichtesten bei ihm ist.",
+      "Bei gleichwertigen Optionen entscheidet jeweils die aktive Person.",
+      "Das \"Tentakelmonster\" hat Selbsterhaltung. Es geht K.O., sobald es im Feuer ist; falls das geschieht, legt alle verschlungenen Objekte in den Bereich des \"Tentakelmonster\"."
+    ]
+  }
+]

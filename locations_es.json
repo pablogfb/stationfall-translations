@@ -1,0 +1,505 @@
+[
+  {
+    "id": 1,
+    "name": "Escape de popa",
+    "diagram": "assets/images/rooms/aft_exahust.png",
+    "action": [
+      "Usar exclusa de aire"
+    ],
+    "type": "blue",
+    "light": false,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 2,
+    "name": "Cocina",
+    "diagram": "assets/images/rooms/kitchen.png",
+    "action": [
+      ""
+    ],
+    "type": "blue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 3,
+    "name": "Cuarteles",
+    "diagram": "assets/images/rooms/quarters.png",
+    "action": [
+      "Lanzamiento de sección"
+    ],
+    "type": "blue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 4,
+    "name": "Sala de ocio",
+    "diagram": "assets/images/rooms/rec_room.png",
+    "action": [
+      ""
+    ],
+    "type": "blue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 5,
+    "name": "Estación de seguridad",
+    "diagram": "assets/images/rooms/security_station.png",
+    "action": [
+      "Acción de consola",
+      "Encender/apagar camaras",
+      "Fabricar Evidencias"
+    ],
+    "type": "blue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 6,
+    "name": "Sala de trituración",
+    "diagram": "assets/images/rooms/shred_room.png",
+    "action": [
+      "Mina de datos: Gana un Kompromat en cualquier lugar A Bordo"
+    ],
+    "type": "blue",
+    "light": false,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 7,
+    "name": "Almacén",
+    "diagram": "assets/images/rooms/storage.png",
+    "action": [
+      ""
+    ],
+    "type": "blue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 8,
+    "name": "Suite",
+    "diagram": "assets/images/rooms/suite.png",
+    "action": [
+      ""
+    ],
+    "type": "blue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 9,
+    "name": "Jardín de Terapia",
+    "diagram": "assets/images/rooms/therapy_garden.png",
+    "action": [
+      "Meditar (sólo pj)"
+    ],
+    "type": "blue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 10,
+    "name": "Laboratorio Biológico",
+    "diagram": "assets/images/rooms/bio_lab.png",
+    "action": [
+      "Al entrar aquí ganas contamiación a menos que haya fuego",
+      "Fabricar X-Secret"
+    ],
+    "type": "darkBlue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 11,
+    "name": "Laboratorio Químico",
+    "diagram": "assets/images/rooms/chem_lab.png",
+    "action": [
+      "Fabricar Bomba incendiaria"
+    ],
+    "type": "darkBlue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 12,
+    "name": "Laboratorio Criogénico",
+    "diagram": "assets/images/rooms/cryo_lab.png",
+    "action": [
+      "Liberar Projecto X (sólo oficiales)"
+    ],
+    "type": "darkBlue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 13,
+    "name": "Escape proa",
+    "diagram": "assets/images/rooms/forward_exhaust.png",
+    "action": [
+      "Usar exclusa de aire"
+    ],
+    "type": "darkBlue",
+    "light": false,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 14,
+    "name": "Ordenador central",
+    "diagram": "assets/images/rooms/mainframe.png",
+    "action": [
+      "Acción de consola"
+    ],
+    "type": "darkBlue",
+    "light": true,
+    "energy": true,
+    "notes": ""
+  },
+  {
+    "id": 15,
+    "name": "Nanofábrica",
+    "diagram": "assets/images/rooms/nanofactory.png",
+    "action": [
+      "Fabricar Nanogel"
+    ],
+    "type": "darkBlue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 16,
+    "name": "Laboratorio de física",
+    "diagram": "assets/images/rooms/physics_lab.png",
+    "action": [
+      "Durante cualquier fase de Resolver, todos lod Datos aquí son borrados"
+    ],
+    "type": "darkBlue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 17,
+    "name": "Sala de impresión",
+    "diagram": "assets/images/rooms/print_shop.png",
+    "action": [
+      "Fabrica casco, Stillson o Pistola (Sólo oficiales para pistola)"
+    ],
+    "type": "darkBlue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 18,
+    "name": "Bóveda X",
+    "diagram": "assets/images/rooms/vault_x.png",
+    "action": [
+      "Si se daña libera el Projecto X y activa Abandonar la Nave"
+    ],
+    "type": "darkBlue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 19,
+    "name": "Exclusas de popa",
+    "diagram": "assets/images/rooms/aft_airlocks.png",
+    "action": [
+      "Usar exclusa de aire",
+      "Lanzamiento de sección"
+    ],
+    "type": "pink",
+    "light": false,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 20,
+    "name": "Centro de popa",
+    "diagram": "assets/images/rooms/aft_hub.png",
+    "action": [
+      ""
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 21,
+    "name": "Control de Red",
+    "diagram": "assets/images/rooms/array_control.png",
+    "action": [
+      "Transmitir"
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 22,
+    "name": "Puente",
+    "diagram": "assets/images/rooms/bridge.png",
+    "action": [
+      "Liberar Projecto X",
+      "Auto-destrucción",
+      "Abandonar la Nave",
+      "Lanzamiento en Puente"
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": "Sólo oficiales"
+  },
+  {
+    "id": 23,
+    "name": "Garra de carga",
+    "diagram": "assets/images/rooms/cargo_claw.png",
+    "action": [
+      "Agarrar: Recoge un objeto en el espacio exterior o derriba a un PJ en el espacio exterior"
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },  
+  {
+    "id": 24,
+    "name": "Exclusas de aire de proa",
+    "diagram": "assets/images/rooms/forward_airlocks.png",
+    "action": [
+      "Usar exclusa de aire",
+      "Lanzamiento de sección"
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 25,
+    "name": "Centro de proa",
+    "diagram": "assets/images/rooms/forward_hub.png",
+    "action": [
+      ""
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 26,
+    "name": "Baterías de combustible",
+    "diagram": "assets/images/rooms/fuel_cells.png",
+    "action": [
+      "Si se daña coloca un Fuego aquí y en los Tanques"
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": true,
+    "notes": ""
+  },
+  {
+    "id": 27,
+    "name": "Sala de Hidroponia",
+    "diagram": "assets/images/rooms/hydroponics.png",
+    "action": [
+      ""
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 28,
+    "name": "Vestuario",
+    "diagram": "assets/images/rooms/locker_room.png",
+    "action": [
+      ""
+    ],
+    "type": "pink",
+    "light": false,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 29,
+    "name": "Sala de Máquinas",
+    "diagram": "assets/images/rooms/machine_shop.png",
+    "action": [
+      "Reparar Robot"
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 30,
+    "name":"Sala de Contención Magnética",
+    "diagram": "assets/images/rooms/magnetic_containmet.png",
+    "action": [
+      "Expulsar Antimateria"
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": "Durante la fase de Resolución, todos los cubos de influencia sobre robots aquí van a la Caja de Traición"
+  },
+  {
+    "id": 31,
+    "name": "Reactor",
+    "diagram": "assets/images/rooms/reactor.png",
+    "action": [
+      ""
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": true,
+    "notes": "No puede ser dañado con una Stillson. Si es dañado coloca asfixia aquí y en las habitaciones adjacentes"
+  },
+  {
+    "id": 32,
+    "name": "Refugio de Tormentas",
+    "diagram": "assets/images/rooms/storm_shelter.png",
+    "action": [
+      ""
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 33,
+    "name": "Tanques",
+    "diagram": "assets/images/rooms/tanks.png",
+    "action": [
+      "Descontaminar"
+    ],
+    "type": "pink",
+    "light": false,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 34,
+    "name": "Alcatraz",
+    "diagram": "assets/images/rooms/alcatraz.png",
+    "action": [
+      "Lanzamiento programado"
+    ],
+    "type": "green",
+    "light": true,
+    "energy": false,
+    "notes": "Requiere Abandonar la Nave para lanzar. Si Abogabot está en juego todos los ocupantes necesitan NDA para lanzar"
+  },
+  {
+    "id": 35,
+    "name": "Hail Mary",
+    "diagram": "assets/images/rooms/hail_mary.png",
+    "action": [
+      "Lanzamiento programado"
+    ],
+    "type": "green",
+    "light": true,
+    "energy": false,
+    "notes": "Requiere Abandonar la Nave para lanzar. Si Abogabot está en juego todos los ocupantes necesitan NDA para lanzar"
+  },
+  {
+    "id": 36,
+    "name": "Houdini",
+    "diagram": "assets/images/rooms/houdini.png",
+    "action": [
+      "Lanzamiento programado"
+    ],
+    "type": "green",
+    "light": true,
+    "energy": false,
+    "notes": "Requiere Abandonar la Nave para lanzar. Si Abogabot está en juego todos los ocupantes necesitan NDA para lanzar"
+  },
+  {
+    "id": 37,
+    "name": "McQueen",
+    "diagram": "assets/images/rooms/mcqueen.png",
+    "action": [
+      "Lanzamiento programado"
+    ],
+    "type": "green",
+    "light": false,
+    "energy": false,
+    "notes": "Requiere Abandonar la Nave para lanzar. Si Abogabot está en juego todos los ocupantes necesitan NDA para lanzar"
+  },
+  {
+    "id": 38,
+    "name": "Cápsula de evacuación médica",
+    "diagram": "assets/images/rooms/medivac_pod.png",
+    "action": [
+      "Lanzamiento programado"
+    ],
+    "type": "green",
+    "light": true,
+    "energy": false,
+    "notes": "Debe estar ocupada por un humano derribado. Abandonar la nave NO es necesario para el lanzamiento"
+  },
+  {
+    "id": 39,
+    "name": "Espacio Exterior",
+    "diagram": "assets/images/rooms/outer_space.png",
+    "action": [
+      "Usar exclusa de aire"
+    ],
+    "type": "green",
+    "light": false,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 40,
+    "name": "Cápsula del Pánico",
+    "diagram": "assets/images/rooms/panic_pod.png",
+    "action": [
+      "Lanzamiento programado"
+    ],
+    "type": "green",
+    "light": true,
+    "energy": false,
+    "notes": "Requiere Abandonar la Nave para el lanzamiento"
+  },
+  {
+    "id": 41,
+    "name": "Nave Pirata / de Rescate",
+    "diagram": "assets/images/rooms/pirate_ship.png",
+    "action": [
+      "Nave Pirata: Durante la Fase de Puntuación cualquier personaje en el Espacio Exterior en posesión del maletín Escapa",
+      "Nave de Rescate: Durante la Fase de Puntuación cualquier humano en el Espacio Exterior Escapa"
+    ],
+    "type": "green",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  }
+  
+ 
+  ]

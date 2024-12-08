@@ -1,0 +1,2416 @@
+[
+  {
+    "id": 1,
+    "name": "Astrochimpancé",
+    "description": "abc",
+    "pronoums": "He/Him",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "Si Astrochimpancé es tu PB y Escapa"
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Rata de túnel",
+        "description": "Puede Mover a través de los Respiraderos",
+        "type": "mobility"
+      },
+      {
+        "name": "Leal",
+        "description": "Para influenciarle devuelve todos los cubos de esta carta y coloca 1 más de los que había antes.",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Acrobacias",
+        "description": "Obtiene Nacido en el Vacío: Puede Mover, o Usar Esclusa de Aire, gratuitamente hacia una Sección sin Gravedad en lugar de la Acción Recoger o Soltar gratuita.",
+        "type": "mobility"
+      }
+    ],
+    "icon": "assets/images/icons/astrochimp.png",
+    "image": "assets/images/portraits/astrochimp.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Astrochimpancé",
+          "location_name": "Cocina",
+          "diagram": "assets/images/rooms/kitchen.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Cosas brillantes",
+      "objetives": [
+        {
+          "main": {
+            "points": 3,
+            "description": "Si Astrochimpancé Escapa"
+          },
+          "sub": [
+            {
+              "points": 2,
+              "description": "Si Posee el Maletín"
+            },
+            {
+              "points": 2,
+              "description": "Si Posee el Artefacto"
+            },
+            {
+              "points": 2,
+              "description": "Si Posee una Pistola"
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "El Astrochimpancé cuenta como un Humano (¡ey!, son un 99% similares, ¡suficientemente cerca!)."
+    ],
+    "tips": [
+      "El Artefacto está en Laboratorio de Física y el Maletín está en la Suite",
+      "Las Pistolas se pueden Fabricar por un Personaje Oficial en la Sala de Impresión o adquirirlas de otro Personaje.",
+      "El Astrochimpancé se mueve muy rápido cuando está Revelado. Si pone sus manitas mugrientas en una Pistola y un Casco se vuelve uno de los Personajes más peligrosos del juego."
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 2,
+    "name": "Billonario",
+    "description": "abc",
+    "pronoums": "He/Him",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "2 puntos si el Billonario es tu PB y Fletcher Escapa (Nadie se preocupa del Billonario, sólo del lindo cachorro espacial)."
+    },
+    "influence_limit": 3,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Retransmisiones en Directo",
+        "description": "Si los Inhibidores están Apagados (OFF), las Secciones del Billonario y Fletcher se consideran Iluminadas y con Cámaras Encendidas (ON)",
+        "type": "defensive"
+      },
+      {
+        "name": "Rico",
+        "description": "No se le puede Sobornar. Al Activarlo, puedes usar un Soborno Gris en vez del tuyo. Éstos sólo puntúan si el Billonario Escapa.",
+        "type": "defensive"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Promesas Vacías",
+        "description": "Al Revelar gana y/o recupera las tres fichas de Soborno Grises",
+        "type": "conspiracy"
+      }
+    ],
+    "icon": "assets/images/icons/billionaire.png",
+    "image": "assets/images/portraits/billionaire.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Billonario",
+          "location_name": "Suite",
+          "diagram": "assets/images/rooms/suite.png"
+        },
+        {
+          "name": "Fletcher",
+          "location_name": "Estación de Seguridad",
+          "diagram": "assets/images/rooms/security_station.png"
+        }
+      ],
+      "notes": "El Billonario comienza con 3 fichas de Soborno Grises en su carta de Personaje."
+    },
+    "agenda": {
+      "description": "Sobrevivir",
+      "objetives": [
+        {
+          "main": {
+            "points": 4,
+            "description": "Si el Billonario Escapa"
+          },
+          "sub": [
+            {
+              "points": 1,
+              "description": "Si no está Colocalizado con Humanos o Robots en la Caída de la Estación"
+            }
+          ]
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "Si Fletcher Escapa"
+          },
+          "sub": [
+            {
+              "points": 1,
+              "description": "Si Fletcher y el Billonario están Colocalizados al Escapar"
+            }
+          ]
+        }
+      ],
+      "notes": "El Billonario no puntúa Sobornos (ni en Posesión ni no usados)"
+    },
+    "quirks": [
+      "El Billonario no puntúa Sobornos",
+      "Fletcher es un Objeto que puede ser Recogido, Soltado, Lanzado, etc. Fletcher no puede ser Atacado ni Derribado (tiene un casco espacial retráctil perruno). Pero Fletcher puede ser Aniquilado como el resto de Objetos",
+      "Los Sobornos Grises sólo se pueden usar, a razón de 1 por Minuto, si están en la carta del Billonario, no si ya se han gastado en otro lugar.",
+      "El Billonario y Fletcher están Colocalizados para la puntuación final si se encontraban Colocalizados al Escapar usando el mismo componente/habilidad."
+    ],
+    "tips": [
+      "Protégete con un Casco e intenta Apagar (OFF) los Inhibidores de manera que tu Habilidad, Retransmisiones en Directo, se mantenga activa.",
+      "Cuando te Revelas puedes utilizar tus Sobornos Grises para relaizar Acciones extra con otros Personajes"
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 3,
+    "name": "Asaltante",
+    "description": "abc",
+    "pronoums": "She/her",
+    "bonus_points": {
+      "points": 1,
+      "alive": true,
+      "notes": "Si la Asaltante es tu PB y Escapa"
+    },
+    "influence_limit": 4,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Brecha",
+        "description": "Como Acción puede retirar un Bloqueo adyacente",
+        "type": "utility"
+      },
+      {
+        "name": "Fugitivo",
+        "description": "Ninguna acción realizada con, o contra, este Personaje hace que un jugador se vuelva Sospechoso ",
+        "type": "offensive"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Misil",
+        "description": "Si los Inhibidores están Apagados (OFF), coloca 1 marcador de tiempo en una Sección que no haya Escapado. Al resolver el marcador de tiempo Daña esa Sección y Derriba a todos los Personajes Colocalizados. Sólo puede haber un Misil activo a la vez.",
+        "type": "offensive"
+      },
+      {
+        "name": "Extracción",
+        "description": "Al Revelar (incluso en la Caída de la Estación), gira la Nave de Rescate a Nave Pirata. La Nave Pirata sólo rescatará al Personaje que Posea el Maletín (incluso si Derribado).",
+        "type": "offensive"
+      }
+    ],
+    "icon": "assets/images/icons/boarder.png",
+    "image": "assets/images/portraits/boarder.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Asaltante",
+          "location_name": "Espacio Exterior",
+          "diagram": "assets/images/rooms/outer_space.png"
+        }
+      ],
+      "notes": "Coloca la ficha de Nave de Rescate en el recuadro bajo la ficha de Abandonar la Nave cerca del Espacio Exterior. La Asaltante comienza con un Casco, una Pistola y una Stillson en su carta de Personaje"
+    },
+    "agenda": {
+      "description": "Botín",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "Si la Asaltante Escapa"
+          },
+          "sub": [
+            {
+              "points": 4,
+              "description": "Si Asaltante posee el Maletín o el Maletín está en el Espacio Exterior en la Caída de la Estación"
+            },
+            {
+              "points": 1,
+              "description": "Por cada Humano Vivo en el Espacio Exterior en la Caída de la Estación"
+            }
+          ]
+        }
+      ],
+      "notes": "Puntúa doble por los Sobornos que posee"
+    },
+    "quirks": [
+      "La Asaltante puede ganar incluso si es Culpable.",
+      "La Asaltante puntúa el doble por los Sobornos en Posesión.",
+      "Si una Cápsula no lanzada es el objetivo de un Misil y es lanzada antes de resolver el Misil, la Cápsula es Aniquilada cuando se resuelve el Misil",
+      "Si la Nave de Rescate/Nave Pirata es Aniquilada por el Rayo de la Muerte (o por la Antimateria) la Asaltante no recibe puntos si hay Humanos Vivos o el Maletín en el Espacio Exterior"
+    ],
+    "tips": [
+      "El Maletín está en la Suite",
+      "Tus objetos iniciales y la indiferencia a ser Culpable te permite Derribar Personajes fácilemente",
+      "Si te Revelas pronto puedes generar mucho caos con los Misiles",
+      "Si te Revelas tarde, los jugadores no sabrán si pueden Escapar estando en el Espacio Exterior o no, de modo que posiblemente te darán más Sobornos",
+      "Cuidado si SECAI participa en la partida, porque cuentas como Fugitivo"
+    ],
+    "board_modifications": [
+      "Al inicio de la partida hay una Nave de Rescate “ahí fuera” que puede ayudar a los Humanos a Escapar.",
+      "Nave de Rescate (anverso) - En la Puntuación, cualquier humano en el Espacio Exterior Escapa",
+      "El jugador que se Revela como la Asaltante da la vuelta a la ficha y la Nave de Rescate resulta ser una Nave Pirata con otra misión",
+      "Nave Pirata (reverso) -  En la Puntuación, cualquier Personaje que Posea el Maletín en el Espacio Exterior Escapa (incluso si es Derribado)"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Botánico",
+    "description": "abc",
+    "pronoums": "He/Him",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "Si el Botánico es tu PB y el Colmillomusgo Escapa (No puntúa si el Botánico Escapa)"
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Científico",
+        "description": "Puede hacer una Acción de Sección gratuita en lugar de la Acción de Recoger o Soltar gratuita",
+        "type": "utility"
+      },
+      {
+        "name": "Nacido en el vacío",
+        "description": "Puede Mover, o Usar Esclusa de Aire, gratuitamente hacia una Sección sin Gravedad en lugar de la Acción Recoger o Soltar gratuita",
+        "type": "mobilitiy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Creatropismo",
+        "description": "Durante la fase de Activación del Jugador Botánico, si el Colmillomusgo no está en Posesión de ningún Personaje Vivo, el Colmillomusgo puede realizar un Movimiento Gratuito o Aniquilar a un Humano Derribado Colocalizado, que Soltará sus Objetos.",
+        "type": "utility"
+      }
+    ],
+    "icon": "assets/images/icons/botanist.png",
+    "image": "assets/images/portraits/botanist.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Botánico",
+          "location_name": "Sala de Hidroponia",
+          "diagram": "assets/images/rooms/hydroponics.png"
+        },
+        {
+          "name": "Colmillomusgo",
+          "location_name": "Sala de Hidroponia",
+          "diagram": "assets/images/rooms/hydroponics.png"
+        }
+      ],
+      "notes": "Coloca la ficha de Habilidad ¡Aliméntame! al lado del tablero cerca de la Sala de Hidroponia"
+    },
+    "agenda": {
+      "description": "Vísceras y Huesos",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "Por cada Humano Aniquilado por Colmillomusgo"
+          },
+          "sub": []  
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "Si Colmillomusgo Escapa"
+          },
+          "sub": []  
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "Si el Botánico Escapa"
+          },
+          "sub": [
+            {
+              "points": 1,
+              "description": "Si está Contaminado"
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "Colmillomusgo es un Objeto. Cualquier personaje que Posea a Colmillomusgo tiene acceso a la Habilidad ¡Aliméntame!"
+      ],
+    "tips": [
+      "Busca Personajes Derribados y Alimenta a Colmillomusgo", 
+      "Consigue un Casco. Contamínate en el Laboratorio Biológico", 
+      "Utiliza Nacido en el Vacío para obtener un movimiento adicional", 
+      "Tras Revelarte, el Colmillomusgo puede actuar, adicionalmente a tu Activación de cualquier Personaje, cada turno"
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 5,
+    "name": "Coronel",
+    "description": "abc",
+    "pronoums": "He/Him",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "Si el Coronel es tu PB y Escapa"
+    },
+    "influence_limit": 4,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Oficial",
+        "description": "Si no hay un Apagón, puede Mover (o si está Derrivado, ser Arrastrado) a través de los Bloqueos, que entonces son retirados.",
+        "type": "mobility"
+      },
+      {
+        "name": "Paranoico",
+        "description": "Para Influenciarle, el jugador activo debe  tener un Conspirador Colocalizado. No puede ser Sobornado",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Primero, la Misión",
+        "description": "Al Revelar, devuelve todos los Cubos de Influencia en la Caja de Traición a tu reserva",
+        "type": "conspiracy"
+      }
+    ],
+    "icon": "assets/images/icons/colonel.png",
+    "image": "assets/images/portraits/colonel.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Coronel",
+          "location_name": "Estación de Seguridad",
+          "diagram": "assets/images/rooms/security_station.png"
+        }
+      ],
+      "notes": "Conecta la Cápsula del Pánico a los Cuarteles y Añade un Bloqueo y una Pistola donde se indique. El Coronel comienza con una Pistola"
+    },
+    "agenda": {
+      "description": "Prueba de Armas",
+      "objetives": [
+        {
+          "main": {
+            "points": 3,
+            "description": "Si el Coronel Escapa"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "Si al menos un PNJ Contaminado Escapa"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "Si el Projecto X es Liberado"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "Si el Projecto X Escapa"
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "La habilidad del Coronel, Paranoico, hace que sea más difícil Influenciarle.",
+      "El Coronel no puede ser Sobornado."
+      ],
+    "tips": [
+      "Puedes Contaminar Personajes y Fabricar el Secreto X en el Laboratorio Biológico.",
+      "Puedes Liberar el Proyecto X con un Oficial en el Puente o el Laboratorio Criogénico, o alternativamente dañando la Bóveda X o provocando un Apagón."
+    ],
+    "board_modifications": [
+      "Añadir la Cápsula del Pánico incrementa el número de Cápsulas en la estación. Comienza Bloqueada con una Pistola en su interior.", 
+      "Cualquier Personaje en su interior puede usar la acción Lanzamiento Programado. Tal y como las cuatro Cápsulas estándar, la Cápsula del Pánico requiere que se haya activado Abandonar la Nave para ser lanzada."]
+  },
+  {
+    "id": 6,
+    "name": "Consorte",
+    "description": "abc",
+    "pronoums": "They/Them",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "Si el Consorte es tu PB y Escapa"
+    },
+    "influence_limit": 6,
+    "type": "Robot",
+    "abilities": [
+      {
+        "name": "Charlatán",
+        "description": "No puede ser Atacado por Humanos con Stillson en Secciones Iluminadas",
+        "type": "defensive"
+      },
+      {
+        "name": "Incriminar",
+        "description": "Tras Derribar a un Humano en una Sección Iluminada y con las Cámaras encendidas (ON), el jugador activo puede elegir a otro jugador, que tenga un Conspirador Colocalizado, para que se vuelva Sospechosos en su lugar",
+        "type": "offensive"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Interruptor Cambiaformas",
+        "description": "Al Revelar, si está Vivo, puede intercambiar localización con cualquier PNJ, Humano o Robot, que no haya Escapado ni esté Aniquilado. Los Personajes también intercambian todas las Posesiones no Integrales (Cualquier Objeto que exceda el Límite de Objetos se Suelta gratuitamente, a elección del Jugador activo).",
+        "type": "conspiracy"
+      }
+    ],
+    "icon": "assets/images/icons/consort.png",
+    "image": "assets/images/portraits/consort.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Consorte",
+          "location_name": "Sala de Ocio",
+          "diagram": "assets/images/rooms/rec_room.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Nueva Vida",
+      "objetives": [
+        {
+          "main": {
+            "points": 0,
+            "description": "Si el Consorte Escapa"
+          },
+          "sub": [
+            {
+              "points": 3,
+              "description": "Si no está Colocalizado con un Humano o un Robot Vivo en la Caída de la Estación"
+            },
+            {
+              "points": 3,
+              "description": "Si Posee el Maletín"
+            },
+            {
+              "points": 1,
+              "description": "Si esta Identidad Secreta no es Revelada hasta la Caída de la Estación"
+            }
+          ]
+        }
+      ],
+      "notes": "El Consorte puntúa el doble por los Sobornos en Posesión.s"
+    },
+    "quirks": [
+      "El Consorte puntúa el doble por los Sobornos en Posesión.",
+      "A pesar de las apariencias, el Consorte es un Robot."
+      ],
+    "tips": [
+      "El Maletín está en la Suite.",
+      "Recuerda que al Revelarte intercambias todos los Objetos, Sobornos y localización.",
+      "Cuanto más tarde te Reveles, será más probable que te Sobornen o puedas intercambiar la Posesión de Sobornos.",
+      "Revelarte tarde, pero en el momento oportuno, puede colocarte en el lugar correcto en el momento correcto.",
+      "Considera usar un PNJ para asegurar el Maletín y moverlo hacia una salida (realizando un intercambio más tarde)."
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 7,
+    "name": "Criónica",
+    "description": "abc",
+    "pronoums": "She/her",
+    "bonus_points": {
+      "points": 3,
+      "alive": true,
+      "notes": "Si la Criónica es tu PB y Escapa"
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Vengativo",
+        "description": "Al usar el Kompromaterial de la Criónica, adicionalmente ésta obtiene una Stillson. Su Kompromaterial puede ser usado incluso si está Derrivada, lo que instantáneamente hace que reviva",
+        "type": "offensive"
+      },
+      {
+        "name": "Muriendo",
+        "description": "No se puede activar cuando está Agotada y no cuenta con la Acción de Recoger o Soltar gratuita cuando es Activada",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Último Suspiro",
+        "description": "Al Revelar, Revive si está Derrivada, o realiza una Acción",
+        "type": "utility"
+      }
+    ],
+    "icon": "assets/images/icons/corpsicle.png",
+    "image": "assets/images/portraits/corpsicle.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Criónica",
+          "location_name": "Laboratorio Criogénico",
+          "diagram": "assets/images/rooms/cryo_lab.png"
+        }
+      ],
+      "notes": "La Criónica comienza Derribada y con un Casco Integral (no se puede retirar)"
+    },
+    "agenda": {
+      "description": "Cura Milagrosa",
+      "objetives": [
+        {
+          "main": {
+            "points": 3,
+            "description": "Si la Criónica Escapa"
+          },
+          "sub": [
+            {
+              "points": 2,
+              "description": "Si Posee Nanogel"
+            },
+            {
+              "points": 2,
+              "description": "Si el Secreto X Escapa"
+            },
+            {
+              "points": 2,
+              "description": "Si el Projecto X no es Liberado"
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "Comienza Derribada",
+      "El Casco de la Criónica es Integral, de modo que no puede ser retirado.",
+      "Al usar el Kompromaterial de la Criónica, adicionalmente ésta obtiene una Stillson y Revive, si está Derribada, es decir, ganaría una Stillson, Reviviría y podría realizar una Acción.."
+    ],
+    "tips": [
+      "La Criónica se mueve lentamente por su cuenta, pero puede obtener movimientos adicionales cruciales usando Sobornos o su Kompromaterial.",
+      "uedes Fabricar Nanogel en la Nanofábrica y el Secreto X en el Laboratorio Biológico.",
+      "Prevén que el Proyecto X se Libere manteniendo a los Oficiales fuera del Puente y el Laboratorio Criogénico.",
+      "La Cápsula de Evacuación Médica puede ser tu Escape más fácil, si está en la partida."
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 8,
+    "name": "Consejero",
+    "description": "abc",
+    "pronoums": "He/Him",
+    "bonus_points": {
+      "points": 3,
+      "alive": true,
+      "notes": "Si el Consejero es tu PB y Escapa"
+    },
+    "influence_limit": 6,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Oficial",
+        "description": "Si no hay un Apagón, puede Mover (o si está Derrivado, ser Arrastrado) a través de los Bloqueos, que entonces son retirados.",
+        "type": "mobility"
+      },
+      {
+        "name": "Manipulador",
+        "description": "Como Acción, mueve un cubo de una carta de un Humano Colocalizado Vivo a la Caja de Traición",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Confesión Grabadad",
+        "description": "Al Revelar, si está Vivo, elige un Humano Vivo Colocalizado. El resto de jugadores Inocentes que tengan a ese Humano como Conspirador se vuelven Sospechosos",
+        "type": "offensive"
+      }
+    ],
+    "icon": "assets/images/icons/counselor.png",
+    "image": "assets/images/portraits/counselor.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Consejero",
+          "location_name": "Jardín de Terapia",
+          "diagram": "assets/images/rooms/therapy_garden.png"
+        }
+      ],
+      "notes": "Conecta la Sala de Trituración al Jardín de Terapia con un Bloqueo en su Pasillo"
+    },
+    "agenda": {
+      "description": "A capa y espada",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "Si el Consejero Escapa"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 4,
+            "description": "Si el Artefacto Escapa"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "Si tienes más Kompromateriales que cualquier otro jugador en la Caída de la Estación"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "Si tienes la menor cantidad de Cubos en la Caja de Traición en la Caída de la Estación"
+          },
+          "sub": []
+        }
+        
+      ],
+      "notes": "También puntúa en caso de Empate"
+    },
+    "quirks": [
+      "Ninguna"
+    ],
+    "tips": [
+      "El Artefacto está en el Laboratorio de Física",
+      "Un uso oportuno de tu Habilidad al ser Revelado puede hacer rápidamente que otros jugadores pasen de ser Inocentes a Culpables si puedes Transmitir una Evidencia a las Autoridades usando el Control de la Red",
+      "Colecciona Kompromateriales",
+      "Ten en en cuenta que, a la hora de puntuar la Agenda, los empates otorgan puntos al Consejero."
+    ],
+    "board_modifications": [
+      "Añadir la Sala de Trituración incrementa el número de Secciones Oscuras en la estación. Comienza Bloqueada.",
+      "Cualquier Personaje en su interior puede usar Mina de Datos: Recoge un Kompromaterial de cualquier otro lugar A Bordo."
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Cíborg",
+    "description": "abc",
+    "pronoums": "He/Him",
+    "bonus_points": {
+      "points": 2,
+      "alive": false,
+      "notes": "Si el Cíborg es tu PB y no está Vivo y no Escapa"
+    },
+    "influence_limit": 4,
+    "type": "Humano y Robot",
+    "abilities": [
+      {
+        "name": "Misterioso",
+        "description": "Hacen falta dos discos de Activación para Agotar a este Personaje",
+        "type": "conspiracy"
+      },
+      {
+        "name": "Fugitivo",
+        "description": "Ninguna acción realizada con, o contra, este Personaje hace que un jugador se vuelva Sospechoso ",
+        "type": "offensive"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Brutalidad",
+        "description": "Puede usar una Stillson para Derribar a un Humano con Casco, momento en el que se Aniquilan tando la Stillson como el Casco",
+        "type": "offensive"
+      },
+      {
+        "name": "Auto Reparación",
+        "description": "Puedes Activar al Cíborg si está Derribado, pero tu primera Acción deberá ser Revivir al Cíborg",
+        "type": "conspiracy"
+      }
+    ],
+    "icon": "assets/images/icons/cyborg.png",
+    "image": "assets/images/portraits/cyborg.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Cíborg",
+          "location_name": "Laboratorio Criogénico",
+          "diagram": "assets/images/rooms/cryo_lab.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Venganza",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "Por cada Personaje con Oficial Derribado en la Caída de la Estación"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "Si ningún PJ Humano Escapa"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "Si la Contaminación no Escapa"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "Si el Projecto X es Liberado"
+          },
+          "sub": []
+        }
+       
+      ],
+      "notes": "El Cíborg puede ganar incluso si es Culpable"
+    },
+    "quirks": [
+      "El Cíborg puede ganar incluso si es Culpable",
+      "El Cíborg es Robot y Humano, actuando como Humano con respecto a los Peligros y Ataques"
+    ],
+    "tips": [
+      "Siempre puedes Derribar Personajes sin penalización pero el resto pueden Derribarte sin penalización. Prioriza Derribar Humanos y Contaminados.",
+      "Una vez Revelado no te Agotarás porque el resto de Jugadores no te podrán activar.",
+      "Puedes Liberar el Proyecto X con un Oficial en el Puente o el Laboratorio Criogénico, o alternativamente dañando la Bóveda X o provocando un Apagón.",
+      "Cuidado si SECAI participa en la partida, porque cuentas como Fugitivo."
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 10,
+    "name": "Temeraria",
+    "description": "abc",
+    "pronoums": "She/her",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "Si la Temeraria es tu PB y Escapa"
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Orgullo",
+        "description": "No se puede Robar a la Temeraria",
+        "type": "defensive"
+      },
+      {
+        "name": "Adrenalina",
+        "description": "Los Peligros no hacen que la Temeraria quede Derribada. Mueve (incluso a través de Esclusas de Aire) hacia una Sección con Peligro gratuitamente",
+        "type": "mobility"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Punto de Ruptura",
+        "description": "Si estás Vivo, Posees un Casco y estás Colocalizado con las Alas de Cohete en la Caída de la Estación, Escapas",
+        "type": "mobility"
+      }
+    ],
+    "icon": "assets/images/icons/daredevil.png",
+    "image": "assets/images/portraits/daredevil.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Temeraria",
+          "location_name": "Vestuario",
+          "diagram": "assets/images/rooms/locker_room.png"
+        }
+      ],
+      "notes": "Coloca las Alas de Cohete en el Laboratorio de Física y la ficha Lanzar Alas de Cohete bajo el cuadro de texto del Espacio Exterior"
+    },
+    "agenda": {
+      "description": "Buscar Emociones",
+      "objetives": [
+        {
+          "main": {
+            "points": 3,
+            "description": "Si la Temeraria Escapa"
+          },
+          "sub": [
+            {
+              "points": 2,
+              "description": "Si eres el único humano que Escapa"
+            },
+            {
+              "points": 2,
+              "description": "Si Posee el Artefacto o está Contaminada"
+            }
+          ]
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "Si el Projecto X es Liberado"
+          },
+          "sub": []
+        }       
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "Con la habilidad de Punto de Ruptura, la Temeraria sólo necesita un Casco y estar Colocada con las Alas de Cohete en la Caída de la Estación para Escapar, no necesita Poseer las Alas de Cohete",
+      "Aunque la Temeraria puede estar en el Espacio Exterior sin Casco, necesitará uno al realizar la acción Lanzar Alas de Cohete"
+    ],
+    "tips": [
+      "El Artefacto está en el Laboratorio de Física y la Contaminación ocurre en el Laboratorio Biológico",
+      "La Temeraria se mueve más rápido a través de los Peligros y Sobrevive allí sin un Casco",
+      "Evita que otros Humanos Escapen Derribándolos, liberando el Proyecto X, Dañando Cápsulas e impidiendo que se active Abandonar la Nave"
+    ],
+    "board_modifications": [
+      "Las Alas de Cohete se añaden como un nuevo Objeto A Bordo útil para Escapar.",
+      "Añadiendo Lanzar Alas de Cohete incrementa el número de Acciones de Sección al Espacio Exterior",
+      "Lanzar Alas de Cohete: Si Posees las Alas de Cohete en el Espacio Exterior, Escapas. Los Humanos necesitan Poseer un Casco"]
+
+  },
+  {
+    "id": 11,
+    "name": "Asistente Digital",
+    "description": "abc",
+    "pronoums": "It",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "Si el Asistente Digital es tu PB y Escapa"
+    },
+    "influence_limit": 5,
+    "type": "Data",
+    "abilities": [
+      {
+        "name": "IA",
+        "description": "Sólo puede realizar acciones de Consola. Los Personajes que Posean Datos de Asistente Digital ganan Oficial para acciones de Sección y no requieren que Abandonar la Nave se haya activado para lanzar una Cápsula.",
+        "type": "console"
+      },
+      {
+        "name": "Útil",
+        "description": "Ningún jugador puede tener más de un Cubo de Influencia en este Personaje.",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Acceso Raíz",
+        "description": "Como Acción, realiza una Acción con cualquier Robot que Posea Datos de Asistente Digital, ignora Autoconservación",
+        "type": "utility"
+      },
+      {
+        "name": "Troyano",
+        "description": "Al Revelar, Copia Datos de Asistente Digital a un Personaje que no haya Escapado y Posea Evidencias o Datos del Secreto X",
+        "type": "utility"
+      }
+    ],
+    "icon": "assets/images/icons/digital_assistant.png",
+    "image": "assets/images/portraits/digital_assistant.png",
+    "setup": {
+      "item": [
+      ],
+      "notes": "Coloca en la reserva general las fichas de Asistente Digital. Coloca la ficha de Ordenador Central sobre el cuadro de texto de la Sección Ordenador Central. Coloca la fihca de Confinamiento bajo las Acciones de Consola"
+    },
+    "agenda": {
+      "description": "Proliferar",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "Por cada Robot Escapado que Posea Datos de Asistente Digital"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "Por cada Lugar Remoto o Humano Escapado que Posea Datos de Asistente Digital"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "Si al menos dos copias de Datos de Asistente Digital Escapan"
+          },
+          "sub": []
+        }
+       
+      ],
+      "notes": "El Asistente Digital puede ganar incluso siendo culpable"
+    },
+    "quirks": [
+      "El Asistente Digital son Datos, y no puede Poseer Objetos o Datos",
+      "El Asistente Digital puede ser Fabricado en el Ordenador Central",
+      "El Asistente Digital puede ganar inclusos siendo culpable",
+      "Un Apagón impide que el Asistente Digital realice Acciones de Consola",
+      "El Asistente Digital sólo puede realizar Acciones de Consola, incluso si ningún Personaje lo ha Fabricado aún",
+      "El Asistente Digital no tiene por qué ser Fabricado para poder actuar",
+      "Se puede seguir interactuando con el Asistente Digital incluso si alguna copia de él ha Escapado"
+    ],
+    "tips": [
+      "Se te considera Datos y, a menudo, necesitarás Conspiradores que hagan el trabajo sucio por ti",
+      "Consigue que alguien te Fabrique en el Ordenador Central y mantén los Inhibidores Apagados (OFF) para Copiarte a tantos Personajes como puedas",
+      "Una vez Revelado puedes controlar a cualquier Robot que te posea",
+      "Daña el Laboratorio de Física para evitar que te borren fácilemente",
+      "Un uso oportuno de tu Habilidad Troyano es justo antes de que alguien Escape con otros Datos"
+    ],
+   "board_modifications": [
+      "La Acción de Consola Confinamiento te permite añadir, mover, o retirar un Bloqueo a cualquier Pasillo si Abandonar la Nave no se ha activado",
+      "Incluir la Acción Fabricar Asistente Digital al Ordenador Central da a cualquier Personaje la Habilidad de Fabricar Datos de Asistente Digital en el Ordenador Central"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Doctora (Hyde)",
+    "description": "abc",
+    "pronoums": "She/her",
+    "bonus_points": {
+      "points": 2,
+      "alive": false,
+      "notes": "Si la Doctora es tu PB y Escapa"
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Científico",
+        "description": "Puede hacer una Acción de Sección gratuita en lugar de la Acción de Recoger o Soltar gratuita",
+        "type": "utility"
+      },
+      {
+        "name": "Dividida",
+        "description": "Tiene dos Cartas de Identidad",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Pistola Zip",
+        "description": "Al Revelar, gana una Pistola",
+        "type": "offensive"
+      }
+    ],
+    "icon": "assets/images/icons/doctor_hyde.png",
+    "image": "assets/images/portraits/doctor_hyde.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Doctora (Hyde)",
+          "location_name": "Centro de Proa",
+          "diagram": "assets/images/rooms/forward_hub.png"
+        }
+      ],
+      "notes": "La Doctora tiene 2 cartas de Identidad. Incluye ambas antes de repartir las cartas de Identidad. Comienza con Datos de Secreto X"
+    },
+    "agenda": {
+      "description": "Crueldad",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "Si la Doctora Escapa"
+          },
+          "sub": [{
+            "points": 3,
+            "description": "Si Posee el Maletín"
+          },
+          {
+            "points": 4,
+            "description": "Si escapa Viva en una Cápsula con un Humano Derribado"
+          }]
+        }
+      ],
+      "notes": "Hyde puntúa doble por los Sobornos en Posesión de la Doctora"
+    },
+    "quirks": [
+      "La Doctora tiene 2 cartas de Identidad. Cada carta de Identidad tiene su propia Agenda.",
+      "La Doctora puede ser el PJ de dos jugadores. Un jugador intentando Sobornar o utilizar el Kompromaterial en este PJ debe elegir uno de los jugadores para que lo acepte o lo rechace. Ambos jugadores se vuelven Sospechosos si el Kompromaterial es rechazado.",
+      "Hyde puntúa doble por los Sobornos en Posesión de la Doctora",
+      "Ambos Jugadores con la Doctora como su PJ pueden activar y actuar con la Doctora."
+    ],
+    "tips": [
+      "El Maletín está en la Suite",
+      "Cuanto más tarde te Reveles, más probable es que te Sobornen",
+      "Revelarte en el momento oportuno te permitirá Derribar a un Humano con tu recién adquirida Pistola justo antes de Escapar con su cuerpo."
+    ],
+    "board_modifications": [""]
+  },  
+  {
+    "id": 13,
+    "name": "Doctora (Jekyll)",
+    "description": "abc",
+    "pronoums": "She/her",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "Si la Doctora es tu PB y Escapa"
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Científico",
+        "description": "Puede hacer una Acción de Sección gratuita en lugar de la Acción de Recoger o Soltar gratuita",
+        "type": "utility"
+      },
+      {
+        "name": "Dividida",
+        "description": "Tiene dos Cartas de Identidad",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Artefacto Falso",
+        "description": "Al Revelar, a menos que un PJ lo Posea, pon el Artefacto en Posesión de la Doctora incluso si este fue Aniquilado",
+        "type": "utility"
+      }
+    ],
+    "icon": "assets/images/icons/doctor_jekyll.png",
+    "image": "assets/images/portraits/doctor_jekyll.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Doctora (Jekyll)",
+          "location_name": "Centro de Proa",
+          "diagram": "assets/images/rooms/forward_hub.png"
+        }
+      ],
+      "notes": "La Doctora tiene 2 cartas de Identidad. Incluye ambas antes de repartir las cartas de Identidad. Comienza con Datos de Secreto X"
+    },
+    "agenda": {
+      "description": "Ciencia",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "Si la Doctora Escapa"
+          },
+          "sub": [
+            {
+              "points": 3,
+              "description": "if Contaminated"
+            },
+            {
+              "points": 3,
+              "description": "Si Posee el Artefacto"
+            }
+          ]
+        },
+        {
+          "main": {
+            "points": 3,
+            "description": "Si los Medios y las Autoridades no tienen Evidencia en la Caída de la Estación"
+          },
+          "sub": []
+        }
+      ],
+      "notes": "Jeckyll puntúa normalmente por los Sobornos en Posesión de la Doctora"
+    },
+    "quirks": [
+      "La Doctora tiene 2 cartas de Identidad. Cada carta de Identidad tiene su propia Agenda.",
+      "La Doctora puede ser el PJ de dos jugadores. Un jugador intentando Sobornar o utilizar el Kompromaterial en este PJ debe elegir uno de los jugadores para que lo acepte o lo rechace. Ambos jugadores se vuelven Sospechosos si el Kompromaterial es rechazado.",
+      "Jeckyll puntúa normalmente por los Sobornos en Posesión de la Doctora",
+      "Ambos Jugadores con la Doctora como su PJ pueden activar y actuar con la Doctora."
+    ],
+    "tips": [
+      "El Artefacto está en el Laboratorio de Física, pero también puees obtenerlo al Revelarte si ningún PJ lo Posee",
+      "Contamínate en el Laboratiorio Biológico",
+      "Mantén los Inhibidores Encendidos (ON) para prevenir que las Evidencias lleguen a los Medios o a las Autoridades fácilmente"
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 14,
+    "name": "Drones",
+    "description": "abc",
+    "pronoums": "It/Them/They",
+    "bonus_points": {
+      "points": 0,
+      "alive": true,
+      "notes": "Los Drones no pueden ser el PB de nadie"
+    },
+    "influence_limit": 0,
+    "type": "Robot",
+    "abilities": [
+      {
+        "name": "Desmontar",
+        "description": "Como Acción, puede Derribarse a sí mismo para Reparar una Sección o un Robot Colocalizado",
+        "type": "utility"
+      },
+      {
+        "name": "Control Remoto",
+        "description": "No puede ser Sobornado, Influenciado o Activado directamente. Como Acción de Consola, los Personajes pueden realizar una Acción con cualquier Dron Vivo",
+        "type": "console"
+      }
+    ],
+    "reveal": [
+
+    ],
+    "icon": "assets/images/icons/drones.png",
+    "image": "assets/images/portraits/drones.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Drone 4",
+          "location_name": "Laboratorio de física",
+          "diagram": "assets/images/rooms/physics_lab.png"
+        },
+        {
+          "name": "Drone 6",
+          "location_name": "Espacio Exterior",
+          "diagram": "assets/images/rooms/outer_space.png"
+        }
+      ],
+      "notes": "Los Drones no tienen carta de Identidad. Coloca la ficha de Control Remoto bajo las Acciones de Consola. Cada Dron comienza con una Stillson Integral"
+    },
+    "agenda": {
+      "description": "",
+      "objetives": [
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "Los Drones no tienen tarjeta de identidad",
+      "Los Drones nunca son Activados de modo que nunca cuentan con una Acción de Recoger o Soltar gratuita.",
+      "Los Drones pueden realizar Acciones y pueden Poseer Objetos y Datos",
+      "Las Stillson de los Drones son Integrales y no se pueden retirar de la carta de Personaje",
+      "Usando la Acción de Consola de COntrol Remoto es la única manera de actuar con los Drones. A no ser que el Asistente Digital participe en la partida",
+      "Si un Dron Derriba a un Humano en una Sección Iluminada y con las Cámaras encendidas, el jugador responsable eleva su nivel de Sospecha (salvo que el objetivo sea un Fugitivo)"
+    ],
+    "tips": [
+      "Los Drones son una manera muy útil de Derribar Personajes ya que siempre Poseen una Stillson",
+      "Los Drones son útiles para Reparar Secciones"
+    ],
+    "board_modifications": ["Añade la acción Control Remoto bajo las Acciones de Consola, dando a los jugadores la posibilidad de: Realizar una Acción con un Dron cualquiera."]
+  },
+  {
+    "id": 15,
+    "name": "Ingeniero",
+    "description": "abc",
+    "pronoums": "He/Him",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "Si el Ingeniero es tu PB y no está Vivo y no Escapa"
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Oficial",
+        "description": "Si no hay un Apagón, puede Mover (o si está Derrivado, ser Arrastrado) a través de los Bloqueos, que entonces son retirados.",
+        "type": "mobilitiy"
+      },
+      {
+        "name": "Reparación Improvisada",
+        "description": "Como Acción, Repara una Sección Dañada Colocalizada, o un Robot Derribado Colocalizado",
+        "type": "utility"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Sobrecarga",
+        "description": "Al Revelar coloca un marcador de tiempo en una Sección que no haya Escapado. Cuando se resuelva, Daña esa Sección",
+        "type": "offensive"
+      }
+    ],
+    "icon": "assets/images/icons/engineer.png",
+    "image": "assets/images/portraits/engineer.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Ingeniero",
+          "location_name": "Control de Red",
+          "diagram": "assets/images/rooms/array_control.png"
+        }
+      ],
+      "notes": "Coloca la ficha de Reactor en el cuadro de texto de la Sección Reactor"
+    },
+    "agenda": {
+      "description": "Preservar la Ecosfera",
+      "objetives": [
+        {
+          "main": {
+            "points": 3,
+            "description": "Si la Antimateria detona A Bordo antes de la Caída de la Estación"
+          },
+          "sub": [
+          ]
+        },
+        {
+          "main": {
+            "points": 3,
+            "description": "Si no Escapa ningún Personaje Contaminado"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "Si el Artefacto no Escapa"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "Si es Inocente, pero puede ganar incluso si es Culpable"
+          },
+          "sub": []
+        }
+      ],
+      "notes": "Puede ganar incluso si es Culpable"
+    },
+    "quirks": [
+      "Si una Cápsula no lanzada es objetivo de la Sobrecarga y se lanza antes de resolver el marcador de Tiempo, la Cápsula es Aniquilada cuando se resuelve el marcador de Tiempo."
+    ],
+    "tips": [
+      "Cualquiera puede armar la Antimateria sacándola de la Sala de Contención Magnética",
+      "Los Oficiales pueden armar la Antimateria activando Autodestrucción desde el Puente",
+      "Puedes Descontaminar a los Personajes en los Tanques, o simplemente Derribarlos ya que te es indiferente ser Culpable"
+    ],
+    "board_modifications": [
+      "Añadir la ficha Reactor cambia el estado de Sección Reactor",
+      "No se puede Dañar con una Stilson. Sin embargo, si es Dañado de otra manera, coloca Asfixia aquí y en las Secciones conectadas por un Pasillo. La Asfixia no se mueve a través de los respiraderos"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Exiliado",
+    "description": "abc",
+    "pronoums": "He/Him",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "Si el Exiliado es tu PB y Escapa"
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Charlatán",
+        "description": "No puede ser Atacado por Humanos con Stillson en Secciones Iluminadas",
+        "type": "defensive"
+      },
+      {
+        "name": "Hacker",
+        "description": "Puede realizar una Acción de Consola gratuita en lugar de la Acción Recoger o Soltar gratuita. Si los Inhibidores están Apagados (OFF) puede realizar Acciones de Consola en cualquier Sección, Incluso si está Dañada e incluso si el Ordenador Central y la Estación de Seguridad están Dañadas",
+        "type": "console"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Sangre de una Piedra",
+        "description": "Tras usar un Kompromaterial en un PNJ, devuélvelo a tu mano",
+        "type": "conspiracy"
+      },
+      {
+        "name": "Spyware",
+        "description": "Como Acción con el Exiliado, descarta dos Kompromateriales de tu mano y coloca un Kompromaterial de un PNJ, ya usado previamente, en tu mano",
+        "type": "conspiracy"
+      }
+    ],
+    "icon": "assets/images/icons/exile.png",
+    "image": "assets/images/portraits/exile.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Exiliado",
+          "location_name": "Control de Red",
+          "diagram": "assets/images/rooms/array_control.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "De vuelta al juego",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "Si el Exiliado Escapa"
+          },
+          "sub": [ 
+            {
+            "points": 2,
+            "description": "Por cada Kompromaterial que Posea de Personajes Escapados"
+            },
+            {
+              "points": 3,
+              "description": "Si el Exiliado tiene Evidencias y los Medios no"
+              }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "La Habilidad Hacker permite realizar una Acción de Consola gratuita únicamente en la Estación de Seguridad o en el Ordenador Central. Además, si los Inhibidores están Apagados (OFF), permite realizar Acciones de Consola (Gratuitas o no) en cualquier Sección (incluso en Secciones Dañadas).",
+      "Nota sobre Sangre de una Piedra: Recuerda que los Kompromateriales son del jugador, no de los Personajes; por tanto, esta Habilidad funciona incluso si el Kompromaterial se usa en un Personaje distinto al Exiliado."
+    ],
+    "tips": [
+      "Recoge tantos Kompromateriales como puedas.",
+      "Tras Revelarte, puedes usar varias veces Kompromateriales en PNJs",
+      "Ayuda a Escapar a cualquier Personaje del que tengas un Kompromaterial.",
+      "Las Evidencias pueden ser Fabricadas en la Estación de Seguridad y Borradas en el Laboratorio de Física",
+      "Mantén los Inhibidores Encendidos (ON) para prevenir que las Evidencias lleguen a los Medios"
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Inspector",
+    "description": "abc",
+    "pronoums": "They/Them",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "Si el Inspector es tu PB y Escapa"
+    },
+    "influence_limit": 4,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Investigador",
+        "description": "Puede Recoger Kompromateriales o Fabricar Datos desde Secciones Adyacentes",
+        "type": "utility"
+      },
+      {
+        "name": "Insignia",
+        "description": "Puede Robar Objetos como si estuviera en Posesión de una Pistola",
+        "type": "offensive"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "CHanchullos Espaciales",
+        "description": "Al Revelar, recupera tu Soborno si lo has utilizado ya",
+        "type": "conspiracy"
+      }
+    ],
+    "icon": "assets/images/icons/inspector.png",
+    "image": "assets/images/portraits/inspector.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Inspector",
+          "location_name": "Laboratorio Químico",
+          "diagram": "assets/images/rooms/chem_lab.png"
+        }
+      ],
+      "notes": "Da la vuelta a la Cápsula Ave María colocando la Lanzadera del Inspector boca arriba."
+    },
+    "agenda": {
+      "description": "Sucio",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "Si el Inspector Escapa"
+          },
+          "sub": [
+            {
+            "points": 4,
+            "description": "Si Posee el Maletín"
+            }
+          ]
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "Si las Autoridades acaban con una Evidencia"
+          },
+          "sub": [
+            {
+            "points": 2,
+            "description": "Si los Medios no acaban con una Evidencia"
+            }
+          ]
+        }
+      ],
+      "notes": "El Inspector puntúa el doble por los Sobornos que Posea"
+    },
+    "quirks": [
+      "El Inspector puntúa el doble por los Sobornos que Posea"
+    ],
+    "tips": [
+      "El Maletín está en la Suite",
+      "Las Evidencias pueden ser Fabricadas en la Estación de Seguridad y enviadas usando el Control de Red o Escapando con ellas en la Caída de la Estación",
+      "Apaga (OFF) los Inhibidores para enviar una Evidencia a cualquier Personaje",
+      "Tu lanzadera no requiere que Abandonar la Nave se haya activado para lanzarla",
+      "Cuanto más tarde te Reveles, más probable es que te Sobornen"
+    ],
+    "board_modifications": [
+      "La Lanzadera del Inspector debe estar Ocupada por el Inspector o un Personaje Vivo con Reparación Improvisada para ser lanzada"]
+  },
+  {
+    "id": 18,
+    "name": "Abogabot",
+    "description": "abc",
+    "pronoums": "It",
+    "bonus_points": {
+      "points": 1,
+      "alive": false,
+      "notes": "Si el Abogabot es tu PB y no está Vivo y no Escapa"
+    },
+    "influence_limit": 4,
+    "type": "Robot",
+    "abilities": [
+      {
+        "name": "Servidor de Processo",
+        "description": "Como una Acción, Fabrica ADC, que quedarán en posesión de cada Humano y cada Robot Colocalizado (incluso Derribado) con el Abogabot",
+        "type": "utility"
+      },
+      {
+        "name": "Consigue un Abogado",
+        "description": "Como Acción, cambia el estado de un Jugador Inocente o Culpable a Sospechoso si está Colocalizado con el PJ de ese jugador.",
+        "type": "offensive"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Letra Pequeña",
+        "description": "Puedes Activar PNJs que Posean Datos de ADC",
+        "type": "conspiracy"
+      },
+      {
+        "name": "Copia Impresa",
+        "description": "Como Acción, cualquier Personaje Colocalizado con el Abogabot puede Fabricar una copia de Datos de ADC.",
+        "type": "conspiracy"
+      }
+    ],
+    "icon": "assets/images/icons/legal.png",
+    "image": "assets/images/portraits/legal.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Abogabot",
+          "location_name": "Centro de Popa",
+          "diagram": "assets/images/rooms/aft_hub.png"
+        }
+      ],
+      "notes": "Da la vuelta a las Cápsulas Alcatraz, Houdini y McQueen de modo que el lado con flecha esté boca abajo. Coloca en la reserva general las fichas de ADC."
+    },
+    "agenda": {
+      "description": "Reducir la responsabilidad corporativa",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "Por cada Humano que Escape con ADC"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 4,
+            "description": "Si no Escapa ningún Humano o todos los Humanos Escapados dienen ADC"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "Si no Escapan Evidencias"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "Por cada PJ Sospechoso (no Culpable) en la Caída de la Estación"
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "ADC son Datos. El Abogabot no Posee Datos de ADC, pero puede Fabricarlos en Posesión de Personajes Colocalizados.",
+      "Los Personajes que Poseen Datos de ADC no pueden Copiar, Borrar, Entregar, ni se les pueden Robar Datos (incluyendo los ADC).",
+      "El Abogabot puede Fabricar ADC en Posesión de Personajes Derribados. (Imagina al Abogabot explicando todos los términos y condiciones a la víctima incapacitada... y entonces levantando la mano sin vida de ésta para firmar, con una de sus huellas, el contrato inteligente corporativo autovinculante).",
+      "Otros efectos del juego pueden eliminar los ADC y otros Datos, incluyendo, por ejemplo, el uso del Laboratorio de Física, la Habilidad de Explosión PEM, o el Fantasma de Entropía."
+    ],
+    "tips": [
+      "Adquirir y usar Kompromateriales es una buena forma de volver Sopechosos a los Jugadores.",
+      "Tu Límite de Influencia es bajo pero Letra Pequeña puede ayudarte si te Revelas.",
+      "Daña la Estación de Seguridad porque las Evidencias se pueden Fabricar allí.",
+      "Prevén cualquier manera de Escapar que no requiera los Datos de ADC.",
+      "Los Datos de ADC sólo se pueden Fabricar personalmente para/con Personajes Colocalizados, así que mantén al Abogabot Vivo si es posible"
+    ],
+    "board_modifications": [
+      "Las Cápsulas Alcatraz, Houdini, y McQueen ahora Requieren que Abandonar la Nave se haya activado y que todos los Ocupanntes Vivos Posean Datos de ADC para ser lanzadas."]
+  },
+  {
+    "id": 19,
+    "name": "Clones de Mantenimiento",
+    "description": "abc",
+    "pronoums": "They/Them",
+    "bonus_points": {
+      "points": 1,
+      "alive": true,
+      "notes": " Por cada Clon que Escapa. +1 punto si los 3 Clones Escapan"
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Nacido en el vacío",
+        "description": "Puede Mover, o Usar Esclusa de Aire, gratuitamente hacia una Sección sin Gravedad en lugar de la Acción Recoger o Soltar gratuita",
+        "type": "mobilitiy"
+      },
+      {
+        "name": "Reparación Improvisada",
+        "description": "Como Acción, Repara una Sección Dañada Colocalizada, o un Robot Derribado Colocalizado",
+        "type": "utility"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "¡Vamos, vamos, vamos!",
+        "description": "Al Revelar, puedes realizar inmediatamente una Acción con cada Clon Vivo que no haya Escapado",
+        "type": "utility"
+      }
+    ],
+    "icon": "assets/images/icons/maintenance-clones.png",
+    "image": "assets/images/portraits/maintenance-clones.png",
+    "setup": {
+      "item": [
+        {
+          "name": "α",
+          "location_name": "Baterías de Combustible",
+          "diagram": "assets/images/rooms/fuel_cells.png"
+        },
+        {
+          "name": "β",
+          "location_name": "Cocina",
+          "diagram": "assets/images/rooms/kitchen.png"
+        },
+        {
+          "name": "γ",
+          "location_name": "Cuarteles",
+          "diagram": "assets/images/rooms/quarters.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Demostrar que existen clones",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "S un Clon Escapa"
+          },
+          "sub": [
+            {
+            "points": 4,
+            "description": "Si al menos 2 Clones Escapan"
+            },
+            {
+            "points": 2,
+            "description": "Si los Medios acaban con Evidencias"
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "Cuando Activas a los Clones de Mantenimiento puedes realizar Acciones con un único Clon por turno.",
+      "Cada Clon tiene un Límite de Objetos de 2 (pon ambos Objetos en el mismo espacio).",
+      "Cada Clon puede Poseer sus propios tipos de Datos y no los comparten automáticamente con los otros Clones. Coloca los Datos y Objetos que Posean en los espacios indicados.",
+      "Puedes Activar y Renegociar con los Clones de Mantenimiento siempre que al menos uno de ellos no haya Escapado ni haya sido Aniquilado."
+    ],
+    "tips": [
+      "Los Clones de Mantenimiento pueden moverse muy rápido.",
+      "Aprovecha el hecho de estar localizado entres sitios diferentes.",
+      "Las Evidencias pueden ser Fabricadas en la Estación de Seguridad y enviadas usando el Control de la Red o Escapando con ellas en la Caída de la Estación.",
+      "Apaga (OFF) los Inhibidores para enviar una Evidencia a cualquier Personaje."
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 20,
+    "name": "Medibot",
+    "description": "abc",
+    "pronoums": "It/They/Them",
+    "bonus_points": {
+      "points": 1,
+      "alive": false,
+      "notes": " Si el Medibot es tu PB y no está Vivo y no Escapa"
+    },
+    "influence_limit": 4,
+    "type": "Robot",
+    "abilities": [
+      {
+        "name": "Respuesta de Emergencia",
+        "description": "Como Acción, puedes Revivir a un Humano. Mueve o usa las Esclusas de Aire hacia una Sección con Humanos Derribados gratuitamente.",
+        "type": "utility"
+      },
+      {
+        "name": "Útil",
+        "description": "Ningún jugador puede tener más de un Cubo de Influencia en este Personaje.",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Estropeado",
+        "description": "Obtiene una Stillson",
+        "type": "offensive"
+      }
+    ],
+    "icon": "assets/images/icons/medical.png",
+    "image": "assets/images/portraits/medical.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Medibot",
+          "location_name": "Centro de Popa",
+          "diagram": "assets/images/rooms/aft_hub.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Ser realmente útil",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "Si no hay humanos Derribados A Bordo en la Caída de la Estación"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": " Por cada Estrella alcanzada en el registro e la carta de Personaje"
+          },
+          "sub": []
+        }
+      ],
+      "notes": "Mueve el marcador un espacio por cada: Humano Revivido por el Medibot y por Cada Cubo movido a la caja de Traición al Revelar el Medibot"
+    },
+    "quirks": [
+      "El marcador del Medibot comienza en 0",
+      "Usa el marcador del Medibot para mantener un recuento de las veces que ha Revivido a Personajes y el número de cubos enviados a la caja de Traición para la puntuación final.",
+      "El Medibot no puede revivir Humanos sin Casco en localizaciones con Peligro.",
+      "Se pueden encadenar varios Movimientos gratuitos seguidos con la Habilidad Respuesta de Emergencia."
+    ],
+    "tips": [
+      "Cuantos más Personajes estén Derribados, más posibilidades tienes de obtener puntos así como moverte más rápido.",
+      "Cuanto más tarde te Reveles, más posibilidades tienes de obtener puntos de los cubos de Influencia de otros Jugadores al Revelar.",
+      "La Acción de Movimiento gratuita puede ser usada incluso si eliges no revivir a nadie."
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 21,
+    "name": "Microbióloga",
+    "description": "abc",
+    "pronoums": "She/her",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": " Si la Microbióloga es tu PB y Escapa"
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Científico",
+        "description": "Puede hacer una Acción de Sección gratuita en lugar de la Acción de Recoger o Soltar gratuita",
+        "type": "utility"
+      },
+      {
+        "name": "Leal",
+        "description": "Para influenciarle devuelve todos los cubos de esta carta y coloca 1 más de los que había antes.",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Infectar",
+        "description": "Como Acción, Contamina a un Humano o Robot Colocalizado. Si no tiene un espacio de Objeto disponible, deberá Soltar un Objeto a tu elección. Los Humanos y Robots no pueden tener más de una ficha de Contaminación.",
+        "type": "offensive"
+      }
+    ],
+    "icon": "assets/images/icons/microbiologist.png",
+    "image": "assets/images/portraits/microbiologist.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Microbióloga",
+          "location_name": "Laboratorio de física",
+          "diagram": "assets/images/rooms/physics_lab.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Patógeno Sensible",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "Si la Microbióloga Escapa"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "Por cada Personaje contaminado que Escape"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "Si el Secreto X Escapa"
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [],
+    "tips": [
+      "Usa tu Habilidad al ser Revelado o el Laboratorio Biológico para Contaminar Personajes.",
+      "Fabrica Datos de Secreto X en el Laboratorio Biológico y Cópialos a otros Personajes.",
+      "Activa Abandonar la Nave usando un Oficial en el Puente, Dañando Secciones de Energía, o liberando el Proyecto X.",
+      "Puedes lanzar varias Cápsulas Ocupadas desde el Puente con un Oficial."
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 22,
+    "name": "Detective",
+    "description": "abc",
+    "pronoums": "She/her",
+    "bonus_points": {
+      "points": 2,
+      "alive": false,
+      "notes": " Si la Detective es tu PB y no está Viva y no Escapa"
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Explosión PEM",
+        "description": "Daña la Sección de la Detective, Derriba a todos los Robots en ella y Borra todos los Datos Colocalizados",
+        "type": "offensive"
+      },
+      {
+        "name": "Oficial",
+        "description": "Si no hay un Apagón, puede Mover (o si está Derrivado, ser Arrastrado) a través de los Bloqueos, que entonces son retirados.",
+        "type": "mobilitiy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Claymore",
+        "description": "Mira y después coloca las 3 fichas de Trampa boca abajo en 3 Secciones diferentes. Da la vuelta a cada ficha cuando un Humano, un Robot, o un Monstruo entre en la Sección y Derríbalo si se trata de una trampa. Las trampas nunca alteran la Sospecha, Culpabilidad o Autoconservación.",
+        "type": "offensive"
+      },
+      {
+        "name": "Granadas de Gas Nervioso",
+        "description": "Como Acción con la Detective, coloca un Peligro de Asfixia en la Sección de la Detective o en una Sección a la que ella pueda Lanzar",
+        "type": "offensive"
+      }
+    ],
+    "icon": "assets/images/icons/operative.png",
+    "image": "assets/images/portraits/operative.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Detective",
+          "location_name": "Suite",
+          "diagram": "assets/images/rooms/suite.png"
+        }
+      ],
+      "notes": "Coloca las 3 fichas de Trampa cerca de la carta de Personaje Detective"
+    },
+    "agenda": {
+      "description": "Encubrir",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "Si las Evidencias no Escapan"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "Si el Secreto X no Escapa"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "Si ningún PJ Inocente Escapa"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "Si ningún Personaje Contaminado Escapa"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "Si ningún Robot Escapa"
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [],
+    "tips": [
+      "Mantén los Inhibidores Encendidos (ON) para prevenir la Copia de Datos",
+      "Borra Datos y Derriba Robots usando tu Explosión PEM",
+      "Usar Kompromateriales en PJs en los momentos críticos es una buena forma de volverlos Sospechosos",
+      "Puedes Descontaminar Personajes en los Tanques",
+      "Usa tus Habilidades al ser Revelado inteligentemente para Derribar Personajes"
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 23,
+    "name": "SECAI",
+    "description": "abc",
+    "pronoums": "It",
+    "bonus_points": {
+      "points": 3,
+      "alive": false,
+      "notes": " Si el SECAI es tu PB y no está Vivo y no Escapa"
+    },
+    "influence_limit": 4,
+    "type": "Robot",
+    "abilities": [
+      {
+        "name": "Pacificador",
+        "description": "Sólo puede Atacar a Fugitivos, Monstruos o PJs no Inocentes. No puede Sabotear",
+        "type": "defensive"
+      },
+      {
+        "name": "Blindado",
+        "description": "No puede ser Atacado ni Robado con una Stillson",
+        "type": "defensive"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Fuerza Autorizada",
+        "description": "Pierde Pacificador",
+        "type": "offensive"
+      }
+    ],
+    "icon": "assets/images/icons/security.png",
+    "image": "assets/images/portraits/security.png",
+    "setup": {
+      "item": [
+        {
+          "name": "SECAI",
+          "location_name": "Sala de Impresión",
+          "diagram": "assets/images/rooms/print_shop.png"
+        }
+      ],
+      "notes": "SECAI comienza con una Pistola Integral (no se puede retirar)"
+    },
+    "agenda": {
+      "description": "Pacificar con violencia",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "Por Fugitivo, Monstruo, o PJ de Jugador no Inocende Derribado A Bordo en la Caída de la Estación"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "Por Humano que Posea una Stillson o Pistola y esté Derribado A Bordo en la Caída de la Estación"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "Si el Maletín no Escapa"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "Si el Artefacto no Escapa"
+          },
+          "sub": [{
+            "points": 1,
+            "description": "Si ni el Maletín ni el Artefacto Escapan"
+          }]
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [],
+    "tips": [
+      "Es difícil Robarte así que el Artefacto y el Maletín están más seguros contigo",
+      "Una vez Revelado puedes Derribar a cualquier Personaje, y entonces plantarle una Stillson",
+      "Adquirir y usar Kompromateriales es una buena forma de volver Sospechosos a los Jugadores",
+      "Puedes Liberar el Proyecto X usando un Oficial en el Puente o el Laboratorio Criogénico",
+      "La Asaltante y el Cíborg son Fugitivos",
+      "Hasta que te Reveles, ser Pacificador no te permite Atacar, o Sabotear, pero puedes Robar Objetos (confiscándolos/asegurándolos)"
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 24,
+    "name": "Jefe de Estación",
+    "description": "abc",
+    "pronoums": "She/her",
+    "bonus_points": {
+      "points": 2,
+      "alive": false,
+      "notes": " si la Jefe de Estación es tu PB y no está Vivo y no Escapa"
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Oficial",
+        "description": "Si no hay un Apagón, puede Mover (o si está Derrivado, ser Arrastrado) a través de los Bloqueos, que entonces son retirados.",
+        "type": "mobilitiy"
+      },
+      {
+        "name": "Orgullo",
+        "description": "No se puede Robar a la Jefe de Estación",
+        "type": "defensive"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Presencia Firme",
+        "description": "Al inicio de la fase de Activación de la Jefe de Estación puedes realizar una Acción Básica gratuita con un PNJ Colocado o un PNJ Oficial en cualquier lugar",
+        "type": "utility"
+      }
+    ],
+    "icon": "assets/images/icons/station_chief.png",
+    "image": "assets/images/portraits/station_chief.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Jefe de Estación",
+          "location_name": "Jardín de Terapia",
+          "diagram": "assets/images/rooms/therapy_garden.png"
+        }
+      ],
+      "notes": "Conecta la Cápsula de Evacuación Médica a las Esclusas de Aire de la Proa"
+    },
+    "agenda": {
+      "description": "Hundirse con la nave",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": " Por cada Humano, diferente de la Jefa de la Estación, que Escape"
+          },
+          "sub": [{
+            "points": 1,
+            "description": "por PNJ con la habilidad de Oficial que Escape"
+          }]
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "Si la Jefa de la Estación está A bordo y Viva en la Caída de la Estación"
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [],
+    "tips": [
+      "Activa Abandonar la Nave tan pronto como puedas con un Oficial en el Puente, Dañando Secciones de Energía, o iberando el Proyecto X.",
+      "Puedes Lanzar varias Cápsulas Ocupadas desde el Puente con un Oficial",
+      "Si arrastras un Humano Derribado a la Cápsula de Evacuación Médica, puedes lanzarla sin que Abandonar la Nave se haya activado"
+    ],
+    "board_modifications": ["La Cápsula de Evacuación Médica debe estar Ocupada por un Humano Derribado para ser lanzada. No se requiere que Abandonar la Nave se haya activado para lanzarla."]
+  },
+  {
+    "id": 25,
+    "name": "Polizón",
+    "description": "abc",
+    "pronoums": "She/her",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "Si la Polizón es tu PB y Escapa"
+    },
+    "influence_limit": 4,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Rata de túnel",
+        "description": "Puede Mover a través de los Respiraderos",
+        "type": "mobilitiy"
+      },
+      {
+        "name": "Hacker",
+        "description": "Puede realizar una Acción de Consola gratuita en lugar de la Acción Recoger o Soltar gratuita. Si los Inhibidores están Apagados (OFF) puede realizar Acciones de Consola en cualquier Sección, Incluso si está Dañada e incluso si el Ordenador Central y la Estación de Seguridad están Dañadas",
+        "type": "utility"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Alijo Secreto",
+        "description": "Al Revelar, tú o uno de tus Conspiradores obtiene un Casco",
+        "type": "defensive"
+      }
+    ],
+    "icon": "assets/images/icons/stowaway.png",
+    "image": "assets/images/portraits/stowaway.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Polizón",
+          "location_name": "Carta de personaje",
+          "diagram": "assets/images/character_card.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Toda una vida de Exclusivas",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "Si los Medios acaban con los Datos del Secreto-X"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "Si los Madios Acaban con Evidencias"
+          },
+          "sub": []
+        },        {
+          "main": {
+            "points": 2,
+            "description": "Si la Polizón Escapa"
+          },
+          "sub": [{
+            "points": 3,
+            "description": "Si Escapa con Evidencias y ningún otro Personaje lo hace"
+          }]
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "El peón de la Polizón comienza en su carta de Personaje",
+      "La primera Acción de la Polizón en la partida debe ser Moverse a una Sección Oscura y no se podrá interactuar con ella hasta ese momento."
+    ],
+    "tips": [
+      "Las Evidencias pueden ser Fabricadas en la Estación de Seguridad y el Secreto X en el Laboratorio Biológico",
+      "Transmite los Datos usando el Control de Red o Escapando con ellos en la Caída de la Estación",
+      "Apaga (OFF) los Inhibidores para copiar Datos y Usar tu habilidad de Hacker",
+      "Prevén que otros Escapen con Datos Derribándolos o Moviéndolos al Laboratorio de Física"
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 26,
+    "name": "El Desconocido",
+    "description": "abc",
+    "pronoums": "They/Them",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "Si El Desconocido es tu PB y Escapa"
+    },
+    "influence_limit": 6,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Misterioso",
+        "description": "Hacen falta dos discos de Activación para Agotar a este Personaje",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Deberes",
+        "description": "Al Revelar, te puedes Revelar con tu PB y realizar una Acción con ese Personaje",
+        "type": "utility"
+      },
+      {
+        "name": "Enigma",
+        "description": "Al realizar una Revelación Schrödinger como El Desconocido (incluso en la Caída de la Estación), no descartes ninguna carta (mantenlas como Personajes de Bonificación). Al realizar una Revelación Schrödinger como El Desconocido pierde Misterioso.",
+        "type": "conspiracy"
+      }
+    ],
+    "icon": "assets/images/icons/stranger.png",
+    "image": "assets/images/portraits/stranger.png",
+    "setup": {
+      "item": [
+        {
+          "name": "El Desconocido",
+          "location_name": "Nanofábrica",
+          "diagram": "assets/images/rooms/nanofactory.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Es Personal",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "Si tu identidad secreta no es revelada hasta la Caída de la Estación"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "Si posee Datos del Secreto-X"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "Si obtienes Puntos de Bonificación"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "Si está Vivo y Colocalizado con uno de tus Personajes de Bonificación en la Caída de la Estación"
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [],
+    "tips": [
+      "Céntrate en conseguir las condiciones de tu PB y en mantener al Desconocido cerca",
+      "Si quieres que tu PB Sobreviva, activa Abandonar la Nave tan pronto como puedas con un Oficial en el Puente, Dañando Secicones de Energía o liberando el Proyecto X",
+      "Dada tu baja capacidad de puntuar, debe instentar activamente deducir e interferir en las Agendas de tus opnentes"
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 27,
+    "name": "Rata Telepática",
+    "description": "abc",
+    "pronoums": "It",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "Si la Rata Telepática es tu PB y Escapa"
+    },
+    "influence_limit": 8,
+    "type": "Item",
+    "abilities": [
+      {
+        "name": "Telepatía",
+        "description": "Realiza una Acción con un Humano Colocalizado ignorando Autoconservación. Sólo puede realizar Acciones de Telepatía",
+        "type": "offensive"
+      },
+      {
+        "name": "Paranoico",
+        "description": "Para Influenciarle, el jugador activo debe  tener un Conspirador Colocalizado. No puede ser Sobornado",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Mi Tesoro",
+        "description": "Otros jugadores no pueden Lanzarte, Usar Esclusa de Aire contigo ni Soltarte. Puedes ser Dado a Personajes Colocalizados",
+        "type": "defensive"
+      }
+    ],
+    "icon": "assets/images/icons/telephatic_rat.png",
+    "image": "assets/images/portraits/telephatic_rat.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Rata Telepática",
+          "location_name": "Laboratorio Biológico",
+          "diagram": "assets/images/rooms/bio_lab.png"
+        }
+      ],
+      "notes": "Rata Telepática comienza Contaminada"
+    },
+    "agenda": {
+      "description": "Penitencia",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "Por cada Humano o Robot Derribados Colocalizados con la Rata en la Caída de la Estación"
+          },
+          "sub": [
+            {
+              "points": 2,
+              "description": "Por cada Kompromaterial que Posea de Personajes Derribados Colocalizados"
+            }
+          ]
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "Si la Rata está Colocalizada con el Artefacto en la Caída de la Estación"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "Si la Rata está Colocalizada con el Maletín en la Caída de la Estación"
+          },
+          "sub": []
+        }
+      ],
+      "notes": "La Rata puede ganar incluso si es Culpable"
+    },
+    "quirks": [
+      "Si la Rata está Colocalizada con el Artefacto en la Caída de la Estación",
+      "Rat starts Contaminated, but can be decontaminated (or recontaminated) normally",
+      "La Rata no puede Poseer Objetos ni Datos.",
+      "La Rata no puede ser Atacada ni quedar nunca Derribada.",
+      "La Rata puede ganar incluso si es Culpable",
+      "La habilidad de Paranoico de la Rata hace que sea más difícil influenciarle",
+      "La Rata no puede ser Sobornada",
+      "La Rata comienza Contaminada incluso aunque no puede Poseer Objetos."
+    ],
+    "tips": [
+      "El Artefacto está en el Laboratorio de Física y el Maletín en la Suite",
+      "en cuidado con ser Aniquilado, o con estar en Posesión de un Personaje que potencialmente pueda Escapar.",
+      "Eres indiferente a la Sospecha, así que puedes Derribar Personajes indiscriminadamente.",
+      "ntenta acabar en una Sección con muchos Personajes Derribados en la Caída de la Estación.",
+      "Tu Habilidad al ser Revelado impide que te dejen en una Sección vacía o en el Espacio Exterior.",
+      "Los Cascos son los enemigos de la Rata; encuentra maneras de deshacerte de ellos."
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 28,
+    "name": "Apagafuegos",
+    "description": "abc",
+    "pronoums": "She/her",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "Si la Apagafuegos es tu PB y Escapa"
+    },
+    "influence_limit": 6,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Rata de túnel",
+        "description": "Puede Mover a través de los Respiraderos",
+        "type": "mobilitiy"
+      },
+      {
+        "name": "Reparación Improvisada",
+        "description": "Como Acción, Repara una Sección Dañada Colocalizada, o un Robot Derribado Colocalizado",
+        "type": "utility"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Contar en Detalle",
+        "description": "Durante tu turno, si la Apagafuegos está Viva, tus Conspiradores mueven y actúan como si ellos tuviesen las Habilidades Reparación Improvisada y Rata de Túnel",
+        "type": "utility"
+      }
+    ],
+    "icon": "assets/images/icons/troubleshooter.png",
+    "image": "assets/images/portraits/troubleshooter.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Apagafuegos",
+          "location_name": "Sala de Impresión",
+          "diagram": "assets/images/rooms/print_shop.png"
+        }
+      ],
+      "notes": "Conecta la Garra de Carga a las Exlusas de Aire de Proa, La Apagafuegos comienza con una Stillson"
+    },
+    "agenda": {
+      "description": "Prístina hasta el final",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "Si la Antimanteria nunca fue Armada"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "Si el Projecto X no es Liberado"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "Si no hay secciones dañadas en la Caída de la Estación"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "Por cada Robot Vivo en la Caída de la Estación"
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [],
+    "tips": [
+      "Tu Habilidad al ser Revelado es muy útil para permitir a tus Conspiradores Reparar Secciones Dañadas.",
+      "Intenta mantener a los Personajes fuera del Puente, del Laboratorio Criogénico y de la Sala de Contención Magnética previniendo que liberen el Proyecto X y armen la Antimateria."
+    ],
+    "board_modifications": [
+      "La Garra de Carga permite a cualquier Personaje realizar la acción Agarrar en esta Sección.",
+      "Agarrar: Recoge un Objeto en el Espacio Exterior o Derriba a un Personaje en el Espacio Exterior"
+    ]
+  }
+  
+]

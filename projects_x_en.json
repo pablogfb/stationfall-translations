@@ -1,0 +1,183 @@
+[
+  {
+    "name": "Carnivorous Bioexperiment",
+    "subtitle": "Derailed combat entity test",
+    "image": "assets/images/projects_x/carnivorous.png",
+    "setup": [
+      "Place the Monster in Vault X"
+    ],
+    "abilities": [
+      {
+        "name": "Tunnel Rat",
+        "description": "May Step through Vents",
+        "type": "mobility"
+      },
+      {
+        "name": "Wary",
+        "description": "Cannot be Attacked in Dark Sections",
+        "type": "defensive"
+      }
+    ],
+    "instructions": [
+      "At the end of any Resolve phase, must Down a Live Colocated Human if possible",
+      "If none, then the acting player must Step with Carnivorous Bioexperiment one Section closer to the closest Live Human. If tied, the player may choose which Section step to",
+      "Carnivorous Bioexperiment defends like an Unhelmet Human and if Downed by hazards. Carnivorous Bioexperiment has Self-Preservation, if the only valid move is through a Hazard it will not move"
+    ]
+  },
+  {
+    "name": "Combat Swarm",
+    "subtitle": "Remote control murder drones",
+    "image": "assets/images/projects_x/combat_swarm.png",
+    "setup": [
+      "Place the Monster in Vault X",
+      "Place the Direct Swarm token under Console Actions"
+    ],
+    "abilities": [
+      {
+        "name": "Agile",
+        "description": "Can move up to two Sections with a single Step. Can Step through Vents.",
+        "type": "mobility"
+      },
+      {
+        "name": "Jury Rig",
+        "description": "As an action, Repair a Colocated Damaged Section or Robot",
+        "type": "utility"
+      }
+    ],
+    "instructions": [
+      "Combat Swarm is controlled with the Console Actions. It can only Step (including Drag), Attack, or Juri Rig. It attacks as though it has a Gun",
+      "It cannot be Downed unless it enters undamaged Magnetic Containment, wherein it is Downed inmediately.",
+      "You cannot become Suspect doing Actions with Combat Swarm",
+      "Combat Swarm is a Robot and can be Downed Repaired and ignores hazards. Counts as Robot for scoring purposes."
+    ]
+  },
+  {
+    "name": "Death Ray",
+    "subtitle": "Fully operational battle station",
+    "image": "assets/images/projects_x/death_ray.png",
+    "setup": [
+      "Place Death Ray token in Array Control"
+    ],
+    "abilities": [
+    ],
+    "instructions": [
+      "Death Ray can be fired as an Action by any Human or Robot in Array Control. Death Ray cannot fire if Reactor or Array Control are Damaged. Firing Death Ray Damages Reactor",
+      "Death Ray can target Offsites, Rescue/Pirate Ship and launched Pods. Anything targeted by Death Ray is Annihilated and is removed from the game along with everythin on it",
+      "Guilty players return to Suspect if Authorities are Annihilated. Using the Death Ray does not trigger Suspicion"
+    ]
+  },
+  {
+    "name": "Entropy Phantom",
+    "subtitle": "An engergy ghost",
+    "image": "assets/images/projects_x/entropy_phantom.png",
+    "setup": [
+      "Place the Monster in Vault X"
+    ],
+    "abilities": [
+      {
+        "name": "Tunnel Rat",
+        "description": "May Step through Vents",
+        "type": "mobility"
+      },
+      {
+        "name": "Ethereal",
+        "description": "Can Step through Locks",
+        "type": "mobility"
+      }
+    ],
+    "instructions": [
+      "At the end of any Resolve Phase, the acting player must move a cube from a Colocated Character to Betrayal if possible (it's eating their memories!)",
+      "If there are no cubes, the acting player must Step Entropy Phantom on Section closer to Antimatter if available. If it reaches Antimatter, arm it if isn't already, and Annihilated Entropy Phantom. If Antimatter is Annihilated, instead Step Entropy Phantom towards Magnetic Containment",
+      "Entropy Phantom cannot be Downed",
+      "Any Data Colocated with Entropy Phantom is immediately Deleted"
+    ]
+  },
+  {
+    "name": "Grey Goo",
+    "subtitle": "Expanding nano-slime",
+    "image": "assets/images/projects_x/grey_go.png",
+    "setup": [
+      "Give Grey Go card to the acting plater",
+      "Note that Goo spreads by placing Grey Goo marker on card at value 0. This show the Grey Goo spread"
+    ],
+    "abilities": [
+    ],
+    "instructions": [
+      "At the end of the Resolve Phase of the player holding the card, Goo affects any Character in Sections within its spread by Annihilating a Helmet in their possession or Downing them if they have no Helmet",
+      "Then, increase the spread by one if not in Blackout. Any Section that number of section away from Vault X is now within its spread",
+      "Goo spreads through Locks but not Vents",
+      "If the spread reaches 5, proceed to Stationfall"
+    ]
+  },
+  {
+    "name": "Robotic Assassin",
+    "subtitle": "Implacable Killbot",
+    "image": "assets/images/projects_x/robotic_assassin.png",
+    "setup": [
+      "Place the Monster in Vault X",
+      "Place the Mark Target token in Console Actions",
+      "The acting player places Target token on a Live Unescaped Human or Robot Pawn"
+    ],
+    "abilities": [
+      {
+        "name": "Juggernaut",
+        "description": "Can Step through Locks (which removes them)",
+        "type": "mobility"
+      },
+      {
+        "name": "Armored",
+        "description": "Cannot be attacked by Bludgeons",
+        "type": "defensive"
+      }
+    ],
+    "instructions": [
+      "The Mark Target Console Action moves the Target Token to a Live Unescaped Human or Robot pawn",
+      "At the end of any Resolve Phase, Robotic Assassin must Down a Colocated Human or Robot that has the Target Token on them",
+      "If none, the player must Step Robotic Assassin on Section closer to any Human or Robot with the Target Token",
+      "If tied, the acting plater may choose which Section Robotic Assassin Steps to",
+      "Robotic Assassin is a Robot and can be Downed, Repaired and ignores Hazards. Count as Robot for scoring purposes"
+    ]
+  },
+  {
+    "name": "Stable Wormhole",
+    "subtitle": "A portal to CERN",
+    "image": "assets/images/projects_x/stable_wormhole.png",
+    "setup": [
+      "Damage Reactor if it isn't already"
+    ],
+    "abilities": [
+    ],
+    "instructions": [
+      "Any Items or Characters that are within Vault X or enter Vault X immediately Escape",
+      "Things that have Escaped in this manner are Colocated for scoring purposes",
+      "If the antimater Escapes through the Stable Wormhole annihilates it and all that have escaped though it"
+    ]
+  },
+  {
+    "name": "Tentacled Monstrosity",
+    "subtitle": "Animal-plant hybrid with an appetite",
+    "image": "assets/images/projects_x/tentacled_monstrosity.png",
+    "setup": [
+      "Place the Monster in Vault X"
+    ],
+    "abilities": [
+      {
+        "name": "Juggernaut",
+        "description": "Can Step through Locks (which removes them)",
+        "type": "mobility"
+      },
+      {
+        "name": "Wary",
+        "description": "Cannot be Attacked in Dark Sections",
+        "type": "defensive"
+      }
+    ],
+    "instructions": [
+      "At the end of any Resolve phase, the acting player chooses a Colocated Character or Unpossessed Item to consume, moving it to this card. Consumed Characters cannot act or be interacted with, are Downed if they are Human without a Helmet",
+      "If there are no Colocated Characters of Items, Tentacled Monstrosity instead moves one adjacent Character or Unpossessed Item to its Section",
+      "If none, then the acting player must Step Tentacled Monstrosity one Section closer to the clossest unconsumed Human (Live or Down)",
+      "If tied, the acting player chooses which Section Tentacled Monstrosity Steps to",
+      "Tentacled Monstrosity can only be Downed by Fire and has Self-Preservation. If Tentacled Monstrosity is Downed, all consumed Items and Characters are placed into its current Section"
+    ]
+  }
+]

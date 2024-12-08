@@ -1,0 +1,2464 @@
+[
+  {
+    "id": 1,
+    "name": "Astrochimp",
+    "description": "abc",
+    "pronoums": "Egli/Lui",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "Se l'Astrochimp è il tuo BC e Fugge."
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Tunnel Rat",
+        "description": "Può muoversi attraverso i condotti di Areazione",
+        "type": "mobility"
+      },
+      {
+        "name": "Loyal",
+        "description": "Per Influenzarlo, restituisci tutti i cubi su questa carta e piazzane uno in più di quanti ne fossero già presenti.",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Acrobatics",
+        "description": "Ottiene ZeroBorn: Può effettuare Step e Airlock into in una sezione a Gravità zero gratuitamente invece delle azioni gratuite di Raccogli o Lascia cadere.",
+        "type": "mobility"
+      }
+    ],
+    "icon": "assets/images/icons/astrochimp.png",
+    "image": "assets/images/portraits/astrochimp.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Astrochimp",
+          "location_name": "Kitchen",
+          "diagram": "assets/images/rooms/kitchen.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Oggetti che luccicano",
+      "objetives": [
+        {
+          "main": {
+            "points": 3,
+            "description": "Se l'Astrochimp Fugge"
+          },
+          "sub": [
+            {
+              "points": 2,
+              "description": "Se in Possesso della Valigetta"
+            },
+            {
+              "points": 2,
+              "description": "Se in Possesso dell'Artefatto"
+            },
+            {
+              "points": 2,
+              "description": "Se in Possesso di una Pistola"
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "L'Astrochimp viene considerato come umano (Hey, sono simili al 99%, è abbastanza!)"
+    ],
+    "tips": [
+      "l'Artefatto si trova nel Physic Lab e la Valigetta nella Suite.",
+      "La Pistola può essere prodotta nel Print Shop da un Ufficiale o ottenuta da un altro personaggio.",
+      "Si muove davvero velocemente grazie alle abilità Tunnel Rat e Zero Born."
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Billionaire",
+    "description": "abc",
+    "pronoums": "Egli/Lui",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "se Fletcher Fugge. (A nessuno importa del Billionaire, solo del cucciolotto spaziale)"
+    },
+    "influence_limit": 3,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Live Streams",
+        "description": "Se i Jammers sono OFF, le Sezioni in cui si trovano il Billionaire e Fletcher sono da considerarsi Illuminate e con le Telecamere accese.",
+        "type": "defensive"
+      },
+      {
+        "name": "Rich",
+        "description": "Non può essere Corrotto. Quando viene attivato, puoi usare un segnalino grigio Bribe invece dei tuoi personali. I segnalini Grigi, daranno punti soltanto se il Billionaire Fugge.",
+        "type": "defensive"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Promesse Vuote",
+        "description": "Quando ti Riveli ottieni/recuperi tutti e tre i segnalini Bribe Grigi",
+        "type": "conspiracy"
+      }
+    ],
+    "icon": "assets/images/icons/billionaire.png",
+    "image": "assets/images/portraits/billionaire.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Billionaire",
+          "location_name": "Suite",
+          "diagram": "assets/images/rooms/suite.png"
+        },
+        {
+          "name": "Fletcher",
+          "location_name": "Security Station",
+          "diagram": "assets/images/rooms/security_station.png"
+        }
+      ],
+      "notes": "il Billionaire inizia con 3 segnalini Bribe grigi sulla sua Carta Personaggio"
+    },
+    "agenda": {
+      "description": "Sopravvivi",
+      "objetives": [
+        {
+          "main": {
+            "points": 4,
+            "description": "Se il Billionaire Fugge"
+          },
+          "sub": [
+            {
+              "points": 1,
+              "description": "Se non si trova nello stesso luogo con Umani Vivi o Robot al momento dello Stationfall"
+            }
+          ]
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "Se Fletcher Fugge"
+          },
+          "sub": [
+            {
+              "points": 1,
+              "description": "Se Fletcher e il Billionaire si trovano nello stesso luogo quando Fuggono"
+            }
+          ]
+        }
+      ],
+      "notes": "Il Billionaire non ottiene punti per ogni segnalino Bribe in suo Possesso o non Usato"
+    },
+    "quirks": [
+      "Il Billionaire non ottiene punti per ogni segnalino Bribe non usato",
+      "Fletcher è un Oggetto e come tale può essere Raccolto, Lasciato Cadere, Lanciato etc. Fletcher non può essere attaccato o messo Down ( è dotato di un Casco retrattile). In compenso può essere Annientato proprio come tutti gli altri Oggetti.",
+      "I segnalini Bribe grigi possono essere usati solo se si trovano ancora sulla Carta Identità del Billionaier. Se invece sono già stati usati altrove, no.",
+      "Il Bilionaire e Fletcher si trovano sempre nello stesso luogo al calcolo del punteggio se quando Fuggono usano lo stesso Mezzo/Abilità"
+    ],
+    "tips": [
+      "Proteggiti con un Casco e prova a tenere i Jammers OFF così la tua abilità Livestream resta sempre attiva",
+      "Dopo esserti Rivelato puoi usare i tuoi segnalini grigi Bribes per eseguire Azioni extra con gli altri Personaggi"
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Boarder",
+    "description": "abc",
+    "pronoums": "Ella/Lei",
+    "bonus_points": {
+      "points": 1,
+      "alive": true,
+      "notes": "se il Boarder è il tuo BC e Fugge"
+    },
+    "influence_limit": 4,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Breach",
+        "description": "Come Azione può rimuovere una Serratura adiacente.",
+        "type": "utility"
+      },
+      {
+        "name": "Fugitive",
+        "description": "Nessuna azione eseguita con o contro questo Personaggio rende un Giocatore Sospetto.",
+        "type": "offensive"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Missile",
+        "description": "Se i Jammers sono OFF, come Azione, posiziona 1 segnalino tempo su una sezione non ancora Fuggita. Quando il segnalino tempo viene risolto, Danneggia quella Sezione e metti Down tutti i Personaggi in quel luogo. E' permesso soltanto un Inbound Missile alla volta.",
+        "type": "offensive"
+      },
+      {
+        "name": "Estrazione",
+        "description": "Al momento della Rivelazione (Persino allo Stationfall), gira la Rescue Ship dal lato della Pirate Ship. La Pirate Ship partirà solo se occupata da Personaggi in possesso della Valigetta (Anche se saranno Down)",
+        "type": "offensive"
+      }
+    ],
+    "icon": "assets/images/icons/boarder.png",
+    "image": "assets/images/portraits/boarder.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Boarder",
+          "location_name": "Outer Space",
+          "diagram": "assets/images/rooms/outer_space.png"
+        }
+      ],
+      "notes": "Posiziona il segnalino della Rescue Ship nel riquadro accanto all'Outer Space. Il Boarder inizia con un Casco, una Pistola e una Mazza sulla sua Carta Personaggio"
+    },
+    "agenda": {
+      "description": "Bottino",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "se il Boarder Fugge"
+          },
+          "sub": [
+            {
+              "points": 4,
+              "description": "se il Boarder è in Possesso della Valigetta o se la Valigetta si trova nell'Outer Space al momento dello Stationfall"
+            },
+            {
+              "points": 1,
+              "description": "per ogni Umano Vivo nell'Outer Space al momento dello Stationfall"
+            }
+          ]
+        }
+      ],
+      "notes": "Raddoppia i Punti per i segnalini Bribe in suo Possesso"
+    },
+    "quirks": [
+      "Il Boarder può vincere anche se Colpevole",
+      "Il Boarder raddoppia i punti per i segnalini Bribe in suo Possesso",
+      "Se una Capsula non ancora lanciata diventa bersaglio dell'abilità Missile e poi viene lanciata prima che l'abilità si risolva,viene Annientata la Capsula con tutto ciò che contiene appena viene risolta l'abilità"
+    ],
+    "tips": [
+      "La Valigetta si trova nella Suite",
+      "I tuoi oggetti iniziali ed il fatto che sei indifferente alla colpevolezza, ti permettono di mettere Down i Personaggi molto facilmente.",
+      "Se ti Riveli troppo Presto, potrai creare molto scompiglio con l'abilità Missile",
+      "Se ti Riveli tardi nella partita, i Giocatori non sapranno se poter Fuggire nell'Outer Space o no, e forse potrebbero darti molti segnalini Bribe",
+      "se la Security è in gioco, guardati le spalle, sei considerato un Fuggitivo"
+    ],
+    "board_modifications": [
+      "All'inizio della partita, c'è una Rescue Ship \"lì fuori\" pronta per aiutare gli Umani a Fuggire.",
+      "Rescue Ship (fronte) - Al momento del calcolo del punteggio, qualsiasi Umano nell'Outer Space, Fugge",
+      "Il Giocatore che si Rivela come Boarder gira il segnalino della Rescue Ship facendola diventare la Pirate Ship con una nuova missione",
+      "Pirate Ship (retro) - Al momento del calcolo del punteggio qualsiasi Personaggio in possesso della Valigetta nell'Outer Space, Fugge."
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Botanist",
+    "description": "abc",
+    "pronoums": "Egli/Lui",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "Se il Botanist è il tuo BC e Fang Moss Fugge (nessun punto se il Botanist Fugge)"
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Scientist",
+        "description": "Può eseguire un'Azione di Sezione Gratuitamente al posto delle azioni gratuite di Raccogli e Lascia Cadere.",
+        "type": "utility"
+      },
+      {
+        "name": "Zero Born",
+        "description": "Può effettuare le Azioni Step o Airlock into verso una sezione a Gravità Zero, gratuitamente.",
+        "type": "mobility"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Creatropismo",
+        "description": "Nella fase Attivazione, se Fang Moss è in Possesso di un Personaggio Vivo, Fang Moss può eseguire un'Azione Step o Annientare un Umano nel suo stesso luogo gratuitamente, facendo cadere tutti i suoi Oggetti.",
+        "type": "utility"
+      }
+    ],
+    "icon": "assets/images/icons/botanist.png",
+    "image": "assets/images/portraits/botanist.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Botanis",
+          "location_name": "Hydroponics",
+          "diagram": "assets/images/rooms/hydroponics.png"
+        },
+        {
+          "name": "Fang Moss",
+          "location_name": "Hydroponics",
+          "diagram": "assets/images/rooms/hydroponics.png"
+        }
+      ],
+      "notes": "Posiziona il segnalino abilità Feed Me! accanto al tabellone vicino l'Hydroponics"
+    },
+    "agenda": {
+      "description": "Pasto di Sangue",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "per ogni Umano Annientato da Fang Moss"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "se Fang Moss Fugge"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "se il Botanist Fugge"
+          },
+          "sub": [
+            {
+              "points": 1,
+              "description": "se Contaminato"
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "Fang Moss è un Oggetto. Ogni personaggio che Possiede Fang Moss ha anche accesso all'Azione Feed Me!"
+    ],
+    "tips": [
+      "Vai a caccia di Personaggi Down e fai che Fang Moss li mangi",
+      "Ottieni un Casco. Puoi essere contaminato nel Bio Lab",
+      "Usa la tua abilità Zero Born per avere più mobilità.",
+      "Dopo esserti Rivelato, Fang Moss può agire ogni turno dopo l'attivazione di un altro Personaggio."
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Colonel",
+    "description": "abc",
+    "pronoums": "Egli/Lui",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "se il Colonel è il tuo BC e Fugge"
+    },
+    "influence_limit": 4,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Officer",
+        "description": "Se non c'è alcun Blackout può effettuare l'Azione Step (o se Down venire trascinato) attraverso le Serrature che quindi vengono rimosse.",
+        "type": "mobility"
+      },
+      {
+        "name": "Paranoid",
+        "description": "Per Influenzarlo, il giocatore attivodeve avere un Cospiratore nel suo stesso luogo. Non può essere Corrotto.",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "La Missione prima di tutto",
+        "description": "Al momento della rivelazione, recupera tutti i tuoi cubi nel riquadro Betrayal e rimettili nella tua riserva",
+        "type": "conspiracy"
+      }
+    ],
+    "icon": "assets/images/icons/colonel.png",
+    "image": "assets/images/portraits/colonel.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Colonel",
+          "location_name": "Security Station",
+          "diagram": "assets/images/rooms/security_station.png"
+        }
+      ],
+      "notes": "Collega la Panic Pod ai Quarters e aggiungi la Pistola e la Serratura indicate. Il Colonel inizia con una Pistola"
+    },
+    "agenda": {
+      "description": "Test delle Armi",
+      "objetives": [
+        {
+          "main": {
+            "points": 3,
+            "description": "se il Colonel Fugge"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "se almeno un NPC Contaminato Fugge"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "se il Progetto X viene liberato"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "se il Dato X-Secret Fugge"
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "L'Abilità Paranoid del Colonel lo rende difficile da influenzare",
+      "il Colonel non può essere Corrotto"
+    ],
+    "tips": [
+      "Puoi Contaminare gli altri Personaggi e produrre il Dato X Secret nel Bio Lab",
+      "Puoi liberare il Progetto X con un Officer dal Bridge o dal Cryo Lab, oppure in alternativa, danneggiando la Vault X o Causando un Blackout"
+    ],
+    "board_modifications": [
+      "Inserire la Panic Pod aggiunge un'altra Capsula alla stazione. Inizia chiusa con serratura ed una Pistola al suo interno",
+      "Qualsiasi Personaggio al suo interno può usare l'Azione Timed Launch. Tieni presente che come le quattro Capsule Standard la Panic Pod richiede Abandon Ship per essere lanciata"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Consort",
+    "description": "abc",
+    "pronoums": "Essi/Loro",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "se il Consort è il tuo BC e Fugge"
+    },
+    "influence_limit": 6,
+    "type": "Robot",
+    "abilities": [
+      {
+        "name": "Fast Talk",
+        "description": "Non può essere Attaccato da Umani con Mazza in Sezioni Illuminate",
+        "type": "defensive"
+      },
+      {
+        "name": "Mimic Frameup",
+        "description": "Dopo aver messo Down un Umano in una Sezione Illuminata, il Giocatore Attivo può scegliere un altro Giocatore che abbia un Cospiratore in quel luogo per diventare Sospetto.",
+        "type": "offensive"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Scambio Mutaforma",
+        "description": "Al momento della Rivelazione, se vivo, può scambiare la sua posizione su mappa con quella di qualsiasi NPC Robot o Umano che non sia ancora Fuggito o Annientato. I Personaggi, scambiano anche il possesso di tutti gli oggetti non Integral. Lascia cadere tutti gli oggetti che eccedono il limite consentito.",
+        "type": "conspiracy"
+      }
+    ],
+    "icon": "assets/images/icons/consort.png",
+    "image": "assets/images/portraits/consort.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Consort",
+          "location_name": "Rec Room",
+          "diagram": "assets/images/rooms/rec_room.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Nuova Vita",
+      "objetives": [
+        {
+          "main": {
+            "points": 0,
+            "description": "se il Consort Fugge"
+          },
+          "sub": [
+            {
+              "points": 3,
+              "description": "Se si trova in un luogo senza Umani e Robot Vivi al momento dello Stationfall"
+            },
+            {
+              "points": 3,
+              "description": "se in Possesso della Valigetta"
+            },
+            {
+              "points": 1,
+              "description": "se l'Identità Segreta non viene rivelata fino allo Stationfall"
+            }
+          ]
+        }
+      ],
+      "notes": "Consort raddoppia i punti dei segnalini Bribe in suo possesso"
+    },
+    "quirks": [
+      "Consort raddoppia i punti dei segnalini Bribe in suo possesso",
+      "A dispetto delle apparenze, Consort è un Robot"
+    ],
+    "tips": [
+      "La Valigetta è nella Suite",
+      "Ricorda che il tuo Potere Rivelato oltre che scambiare la posizione dei personaggi scambia anche gli Oggetti e i segnalini Bribe in possesso",
+      "Una Rivelazione pianificata bene, può metterti al posto giusto al momento giusto",
+      "Più tardi ti Riveli, più facilmente potrai essere Corrotto.",
+      "Considera l'idea di usare un NPC per mettere al sicuro la Valigetta e pianificare la fuga (preparando uno scambio nei turni successivi)"
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Corpiscle",
+    "description": "abc",
+    "pronoums": "Ella/Lei",
+    "bonus_points": {
+      "points": 3,
+      "alive": true,
+      "notes": "se il Corpiscle è il tuo BC e Fugge"
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Vendicativo",
+        "description": "Usare il Kompromat del Corpiscle le fornisce in aggiunta una Mazza. Il suo Kompromat puoi usarlo anche se è Down. Le permetterà di Rianimarsi.",
+        "type": "offensive"
+      },
+      {
+        "name": "Dying",
+        "description": "Non può essere attivato quando Esausto e non può usare le azioni gratuite di Raccolta e Lasciar cadere quando viene attivato.",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Ultimo Respiro",
+        "description": "al momento della Rivelazione, Rianimalo se Down o esegui un'azione",
+        "type": "utility"
+      }
+    ],
+    "icon": "assets/images/icons/corpsicle.png",
+    "image": "assets/images/portraits/corpsicle.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Corpiscle",
+          "location_name": "Cryo Lab",
+          "diagram": "assets/images/rooms/cryo_lab.png"
+        }
+      ],
+      "notes": "il Corpiscle inizia Down e con un Casco Integral (che non può essere rimosso)"
+    },
+    "agenda": {
+      "description": "Cura Miracolosa",
+      "objetives": [
+        {
+          "main": {
+            "points": 3,
+            "description": "se il Corpiscle Fugge"
+          },
+          "sub": [
+            {
+              "points": 2,
+              "description": "se in possesso del Nanogel"
+            },
+            {
+              "points": 2,
+              "description": "se il Dato X-Secret Fugge"
+            },
+            {
+              "points": 2,
+              "description": "se il Progetto X non viene liberato"
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "Inizia la partita Down",
+      "Il Casco del Corpiscle è Integral, quindi non può essere rimosso",
+      "Usare il Kompromat del Corpiscle le fornisce in aggiunta una Mazza e la Rianima se Down."
+    ],
+    "tips": [
+      "il Corpiscle si muove molto lentamente, ma può ottenere dei movimenti extra, cruciali usando i segnalini Bribe e Kompromat",
+      "Puoi produrre il Nanogel nella Nanofactory e produrre il Dato X-Secret nel Bio Lab",
+      "Evita che venga liberato il Progetto X, tenendo gli Officer lontani dal Bridge e dal Cryo Lab.",
+      "Se la Medevac Pod è in gioco,potrebbe essere il modo più facile per te per Fuggire"
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Counselor",
+    "description": "abc",
+    "pronoums": "Egli/Lui",
+    "bonus_points": {
+      "points": 3,
+      "alive": true,
+      "notes": "Se il Counselor è il tuo BC e Fugge"
+    },
+    "influence_limit": 6,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Officer",
+        "description": "Se non vi è un Blackout, può Muoversi (O se Down venire trascinato) attraverso serrature, le quali vengono rimosse",
+        "type": "mobility"
+      },
+      {
+        "name": "Wormtongue",
+        "description": "Come Azione, sposta un Cubo influenza dalla carta di uno degli Umani vivi che si trova nel tuo stesso luogo al riquadro Betrayal",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Confessioni Registrate",
+        "description": "Al momento della Rivelazione, se Vivo, scegli un Umano nel tuo stesso luogo. Tutti gli altri Giocatori Innocenti che abbiano quell'Umano come Cospiratore, diventano Sospetti",
+        "type": "offensive"
+      }
+    ],
+    "icon": "assets/images/icons/counselor.png",
+    "image": "assets/images/portraits/counselor.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Counselor",
+          "location_name": "Therapy Garden",
+          "diagram": "assets/images/rooms/therapy_garden.png"
+        }
+      ],
+      "notes": "Collega la Shred Room al Therapy Garden con una Serratura nel Corridoio"
+    },
+    "agenda": {
+      "description": "Cappa e Spada",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "se il Counselor Fugge"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 4,
+            "description": "se l'Artefatto Fugge"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "Se sei in possesso di più Kompromat di ogni altro giocatore al momento dello Stationfall"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "Se hai il minor numero di Cubi Influenza nel Riquadro Betrayal al momento dello Stationfall"
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "none"
+    ],
+    "tips": [
+      "l'Artefatto si trova nel Physics Lab",
+      "Una Rivelazione pianificata correttamente può velocemente rendere gli altri giocatori da Innocenti a Colpevoli se riesci a Trasmettere le Prove alle Autorità usando l'Array Control",
+      "Raccogli Kompromats"
+    ],
+    "board_modifications": [
+      "Aggiungere la Shred Room, aggiunge ancora una Sezione Buia alla Stazione. Inizia con serratura chiusa a chiave.",
+      "Qualsiasi personaggio che vi si trovi dentro può usare l'azione Data Mine: Raccogli un Kompromat che si trova ovunque sulla mappa."
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Cyborg",
+    "description": "abc",
+    "pronoums": "Egli/Lui",
+    "bonus_points": {
+      "points": 2,
+      "alive": false,
+      "notes": "se il Cyborg è il tuo BC e non è vivo al momento dello Stationfall"
+    },
+    "influence_limit": 4,
+    "type": "Human and Robot",
+    "abilities": [
+      {
+        "name": "Uncanny",
+        "description": "Ha bisogno di due Disci Attivazione su questo Personaggio per diventare Esausto",
+        "type": "conspiracy"
+      },
+      {
+        "name": "Fugitive",
+        "description": "Nessuna azione eseguita con o contro questo personaggio rende un Giocatore Sospetto",
+        "type": "offensive"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Brutale",
+        "description": "Può usare una Mazza per mettere Down un Umano con Casco ed a quel punto, annienta sia la Mazza che il Casco",
+        "type": "offensive"
+      },
+      {
+        "name": "Auto-Riparazione",
+        "description": "Puoi attivare il Cyborg se Down e come tua prima azione bisogna Rianimare il Cyborg",
+        "type": "conspiracy"
+      }
+    ],
+    "icon": "assets/images/icons/cyborg.png",
+    "image": "assets/images/portraits/cyborg.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Cyborg",
+          "location_name": "Cryo Lab",
+          "diagram": "assets/images/rooms/cryo_lab.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Vendetta",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "per ogni Personaggio con l'Abilità Officer , Down al momento dello Stationfall"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "se nessun PC Umano Fugge"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "se nessun Contaminato Fugge"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "se il Progetto X è stato liberato"
+          },
+          "sub": []
+        }
+      ],
+      "notes": "Il Cyborg può vincere anche se Colpevole"
+    },
+    "quirks": [
+      "Il Cyborg può vincere anche se Colpevole",
+      "il Cyborg è sia Robot che Umano e si comporta come un Umano in caso di Pericoli e Attacchi"
+    ],
+    "tips": [
+      "Puoi sempre mettere Down gli altri Personaggi senza penalità ma gli altri possono metterti Down senza penalità. Dai priorità a mettere Down gli Umani e coloro che sono Contaminati",
+      "Una volta rivelato, smetti di essere Esausto in quanto gli altri Giocatori non possono attivarti",
+      "Puoi liberare il Progetto X con l'abilità Officer dal Bridge o dal Cryo Lab. In alternativa puoi danneggiare la Vault X o causare un Blackout.",
+      "Se la Security è in gioco, guardati le spalle, sei considerato un fuggitivo."
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Daredevil",
+    "description": "abc",
+    "pronoums": "Ella/Lei",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "se il Daredevil è il tuo BC e Fugge"
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Pride",
+        "description": "Il Daredevil non può essere Derubato",
+        "type": "defensive"
+      },
+      {
+        "name": "Adrenaline",
+        "description": "Daredevil non viene messo Down dai Pericoli. Le azioni Step e Airlock into Sezioni con i Pericoli sono sempre Gratuite",
+        "type": "mobility"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Point Break",
+        "description": "se sei Vivo, possiedi un Casco e ti trovi nello stesso luogo delle Rocket Wings al momento dello Stationfall, Fuggi.",
+        "type": "mobility"
+      }
+    ],
+    "icon": "assets/images/icons/daredevil.png",
+    "image": "assets/images/portraits/daredevil.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Daredevil",
+          "location_name": "Locker Room",
+          "diagram": "assets/images/rooms/locker_room.png"
+        }
+      ],
+      "notes": "Posiziona il Jet-Pack nel Physics Lab e posiziona il Segnalino Rocket Wings Launch sotto il testo dell'Outer Space"
+    },
+    "agenda": {
+      "description": "Amante del brivido",
+      "objetives": [
+        {
+          "main": {
+            "points": 3,
+            "description": "se Daredevil Fugge"
+          },
+          "sub": [
+            {
+              "points": 2,
+              "description": "se sei l'unico Umano a Fuggire"
+            },
+            {
+              "points": 2,
+              "description": "se in Possesso dell'Artefatto o se Contaminato"
+            }
+          ]
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "se il Progetto X è stato liberato"
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "Con l'Abilità Point Break, Daredevil ha solo bisogno di possedere un Casco e trovarsi nello stesso luogo con le Rocket Wings al momento dello Stationfall per fuggire. Non ha bisogno di possedere le Rocket Wings",
+      "Anche se il Daredevil può restare nell'Outer Space senza Casco, ha comunque bisogno del Casco per effettuare l'azione Lancio con le Rocket Wings"
+    ],
+    "tips": [
+      "l'Artefatto si trova nel Physics Lab ela contaminazione avviene nel Bio Lab",
+      "il Daredevil si muove velocemente attraverso i Pericoli e sopravvive lì anche senza Casco",
+      "evita che gli altri Umani fuggano mettendoli down, liberando il Progetto X, danneggiando le Capsule ed evitando che venga attivato Abbandonare la Nave"
+    ],
+    "board_modifications": [
+      "le Rocket Wings vengono aggiunte alla mappa come nuovo Oggetto utile per la Fuga",
+      "Aggiungere il Lancio tramite Rocket Wings, aggiunge un ulteriore Azione di Sezione nell'Outer Space",
+      "Lancio con le Rocket Wings: Se possiedi le Rocket Wings e ti trovi nell'Outer Space, Fuggi. Gli Umani hanno anche bisogno di avere un Casco."
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Digital Assistant",
+    "description": "abc",
+    "pronoums": "It",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "se il Digital Assistant è il tuo BC e Fugge"
+    },
+    "influence_limit": 5,
+    "type": "Data",
+    "abilities": [
+      {
+        "name": "AI",
+        "description": "Può sempre e solo eseguire Azioni Console. I personaggi in possesso del dato Digital Assistant hanno l'abilità Officer per le Azioni di Sezione ed è come se fosse attivo Abbandonare la Nave per il lancio delle Capsule",
+        "type": "console"
+      },
+      {
+        "name": "Helpful",
+        "description": "Nessun giocatore può avere più di un cubo influenza su questo Personaggio",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Accesso al Root di Sistema",
+        "description": "Come Azione, esegui un'azione con qualsiasi Robot che possiede il Digital Assistant. Ignora l'autoconservazione.",
+        "type": "utility"
+      },
+      {
+        "name": "Cavallo di Troia",
+        "description": "Al momento della Rivelazione, Copia il Digital Assistant ad un Personaggio non ancora fuggito che sia in possesso delle Prove o dell'X-Secret",
+        "type": "utility"
+      }
+    ],
+    "icon": "assets/images/icons/digital_assistant.png",
+    "image": "assets/images/portraits/digital_assistant.png",
+    "setup": {
+      "item": [
+
+      ],
+      "notes": "Prendi i segnalini Digital Assistant dalla riserva generale. Posiziona il segnalino Mainframe sul testo della Sezione Mainframe. Posiziona l'Azione Lockdown tra le Azioni Console."
+    },
+    "agenda": {
+      "description": "Proliferare",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "per ogni Robot Fuggito che possiede il Digital Assistant"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "per ogni Offsite o Umano Fuggito che sia in possesso del Digital Assistant"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "se almeno due copie del Digital Assistant Fuggono"
+          },
+          "sub": []
+        }
+      ],
+      "notes": "il Digital Assistant può vincere anche se Colpevole"
+    },
+    "quirks": [
+      "il Digital Assitant è un Dato e non può possedere Oggetti o Dati",
+      "il Digital Assistant può essere prodotto nel Mainframe",
+      "Il Digital Assistant può vincere anche se Colpevole",
+      "Il Blackout evita che il Digital Assistant possa eseguire Azioni Console",
+      "Il Digital Assistant può eseguire soltanto Azioni Console, anche se nessun Personaggio ti ha ancora prodotto"
+    ],
+    "tips": [
+      "Sei un Dato e spesso hai bisogno dei Cospiratori che facciano il lavoro sporco al posto tuo",
+      "Fai in modo che qualcuno ti produca nel Mainframe, tieni i Jammers Spenti (OFF) per copiarti a più personaggi possibile",
+      "Dopo esserti rivelato, puoi controllare qualsiasi Robot che ti possiede.",
+      "Danneggiare il Physics Lab evita di essere cancellato facilmente.",
+      "Un buon momento per usare il tuo Potere Rivelato può essere appena prima che qualcuno Fugga con qualche altro Dato."
+    ],
+    "board_modifications": [
+      "Aggiungere l'Azione Console Lockdown, ti permette di aggiungere, spostare o rimuovere una Serratura in qualsiasi corridoio se non è attivo il Protocollo Abbandonare la Nave",
+      "Aggiungere l'Azione di Sezione \"Manufacture Digital Assistant\" nel Mainframe fornisce ad ogni Personaggio l'abilità di Produrre il Digital Assistant nel Mainframe"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Doctor (Hyde)",
+    "description": "abc",
+    "pronoums": "Ella/Lei",
+    "bonus_points": {
+      "points": 2,
+      "alive": false,
+      "notes": "se il Doctor è il tuo BC e Fugge"
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Scientist",
+        "description": "Può eseguire un'azione di Sezione gratuitamente al posto delle azioni di Raccolta e Lasciar cadere gratuite.",
+        "type": "utility"
+      },
+      {
+        "name": "Split",
+        "description": "Ha due Carte Identità",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Pistoletta",
+        "description": "Al momento della Rivelazione, ottiene una Pistola",
+        "type": "offensive"
+      }
+    ],
+    "icon": "assets/images/icons/doctor_hyde.png",
+    "image": "assets/images/portraits/doctor_hyde.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Doctor (Hyde)",
+          "location_name": "Forward Hub",
+          "diagram": "assets/images/rooms/forward_hub.png"
+        }
+      ],
+      "notes": "Il Doctor ha 2 Carte Identità. Mischiale normalmente quando componi il mazzo prima di distribuirle ai giocatori. Inizia con il dato X-Secret"
+    },
+    "agenda": {
+      "description": "Cruelty",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "se il Doctor Fugge"
+          },
+          "sub": [
+            {
+              "points": 3,
+              "description": "se in possesso della Valigetta"
+            },
+            {
+              "points": 4,
+              "description": "se Fugge vivo, in una Capsula con un Umano Down."
+            }
+          ]
+        }
+      ],
+      "notes": "Hyde raddoppia i punti per i segnalini Bribe in possesso del Doctor"
+    },
+    "quirks": [
+      "il Doctor ha 2 Carte Identità. Ogni Carta Identità ha i suoi obiettivi",
+      "il Doctor può essere il PC di due giocatori. Un giocatore che prova ad usare un segnalino Bribe o Compromat su questo PC deve scegliere uno dei due giocatori che debba accettare o rifiutarsi di eseguire l'azione richiesta. Entrambi i giocatori diventano Sospetti se viene rifiutato il Kompromat",
+      "Hyde raddoppia il punteggio per per ogni segnalino Bribe in suo Possesso",
+      "Entrambi i Giocatori con il Doctor come loro PC possono attivarlo e agire con esso."
+    ],
+    "tips": [
+      "La Valigetta si trova nella Suite",
+      "Più tardi ti riveli, più facilmente potresti essere corrotto",
+      "Rivelarti al momento giusto potrebbe permetterti di mettere Down un Umano con la pistola appena prima di Fuggire con il suo corpo."
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Doctor (Jekyll)",
+    "description": "abc",
+    "pronoums": "Ella/Lei",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "se il Doctor è il tuo BC e Fugge"
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Scientist",
+        "description": "Può eseguire un'azione di Sezione gratuitamente al posto delle azioni di Raccolta e Lasciar cadere gratuite.",
+        "type": "utility"
+      },
+      {
+        "name": "Split",
+        "description": "Ha due Carte Identità",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Artefatto Fasullo",
+        "description": "Al momento della Rivelazione, a meno che non sia già posseduto dal Personaggio di un Giocatore, l'Artefatto va nelle mani del Doctor, anche se era stato Annientato",
+        "type": "utility"
+      }
+    ],
+    "icon": "assets/images/icons/doctor_jekyll.png",
+    "image": "assets/images/portraits/doctor_jekyll.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Doctor(Jekyll)",
+          "location_name": "Forward Hub",
+          "diagram": "assets/images/rooms/forward_hub.png"
+        }
+      ],
+      "notes": "Il Doctor ha due Carte Identità, mischiale nel mazzo normalmente prima di distribuire le carte ai giocatori. Parte con il dato X-Secret"
+    },
+    "agenda": {
+      "description": "Science",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "se il Doctor fugge"
+          },
+          "sub": [
+            {
+              "points": 3,
+              "description": "se Contaminato"
+            },
+            {
+              "points": 3,
+              "description": "se in Possesso dell'Artefatto"
+            }
+          ]
+        },
+        {
+          "main": {
+            "points": 3,
+            "description": "se i Notiziari e le Autorità non hanno le Prove al momento dello Stationfall"
+          },
+          "sub": []
+        }
+      ],
+      "notes": "Jeckil fa punti normalmente per ogni segnalino corruzione in possesso del Doctor"
+    },
+    "quirks": [
+      "Il Doctor ha due Carte Identità. Ogni identità ha i propri obiettivi",
+      "Il Doctor può essere il Personaggio di due Giocatori. Un giocatore che prova a corromperlo o usare i Kompromat su di esso può chiedere ad uno dei due giocatori di accettare o rifiutare. Entrambi i giocatori diventano Sospetti se il Kompromat viene rifiutato.",
+      "Jeckill raddoppia i punti dei segnalini Corruzione in possesso del Doctor",
+      "Entrambi i giocatori con il Doctor come loro Personaggio, possono agire ed Attivarlo"
+    ],
+    "tips": [
+      "L'Artefatto si trova nel Physics Lab ma tu puoi ottenerlo anche Rivelandoti se nessun Personaggio Rivelato ne è in possesso",
+      "Contaminati nel Bio Lab",
+      "Tieni i Jammers Accesi (ON) per evitare che le Prove raggiungano facilmente i Notiziari o le Autorità"
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Drones",
+    "description": "abc",
+    "pronoums": "Esso/Essi/Loro",
+    "bonus_points": {
+      "points": 0,
+      "alive": true,
+      "notes": "I Droni non possono essere i Personaggi Bonus di nessuno"
+    },
+    "influence_limit": 0,
+    "type": "Robot",
+    "abilities": [
+      {
+        "name": "Disassemble",
+        "description": "Come Azione può mettere Down se stesso per Riparare una Sezione o un Robot che si trovino nello stesso luogo.",
+        "type": "utility"
+      },
+      {
+        "name": "Remote Control",
+        "description": "Non possono essere Corrotti, Influenzati o Attivati direttamente. Come Azione Console, i personaggi possono eseguire un'azione con qualsiasi Drone vivo.",
+        "type": "console"
+      }
+    ],
+    "reveal": [
+    ]
+    ,
+    "icon": "assets/images/icons/drones.png",
+    "image": "assets/images/portraits/drones.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Drone 4",
+          "location_name": "Physics Lab",
+          "diagram": "assets/images/rooms/physics_lab.png"
+        },
+        {
+          "name": "Drone 6",
+          "location_name": "Outer Space",
+          "diagram": "assets/images/rooms/outer_space.png"
+        }
+      ],
+      "notes": "I Droni non hanno alcuna Carta Personaggio. Posiziona l'Azione Console Remote Control. Ogni Drone inizia con una mazza Integral"
+    },
+    "agenda": {
+      "description": "",
+      "objetives": [],
+      "notes": ""
+    },
+    "quirks": [
+      "i Droni non hanno Carta Personaggio",
+      "i Droni non possono essere mai Attivati e non possono eseguire le azioni gratuite di Raccogli e Lascia Cadere",
+      "i Droni possono eseguire Azioni e possedere Oggetti e Dati",
+      "Le mazze dei Droni sono oggetti Integral e non possono essere rimossi dalla Carta Personaggio",
+      "l'Azione Console Remote Control è l'unico modo per agire con i Droni. A meno che non sia in gioco il Digital Assistant"
+    ],
+    "tips": [
+      "I Droni sono molto utili per mettere Down i Personaggi, in quanto dotati di una Mazza",
+      "I Droni sono utilissimi per Riparare le Sezioni"
+    ],
+    "board_modifications": [
+      "Aggiungi l'Azione Console Remote Control. Dando la possibilità ai giocatori di: Esegui un'Azione con un Drone Qualsiasi"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Engineer",
+    "description": "abc",
+    "pronoums": "Egli/Lui",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "se l'Engineer è il tuo BC e non è vivo al momento dello Stationfall"
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Officer",
+        "description": "Se non vi è un Blackout, può Muoversi (O essere trascinato) attraverso le serrature, le quali vengono rimosse",
+        "type": "mobility"
+      },
+      {
+        "name": "Juri Rig",
+        "description": "Come Azione, Ripata una Sezione Danneggiata in cui ti trovi o un Robot Down nella tua stessa Sezione",
+        "type": "utility"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Sovraccarico",
+        "description": "Al momento della Rivelazione, posiziona un segnalino tempo in una Sezione a tua scelta. Quando viene Risolto, quella Sezione viene Danneggiata",
+        "type": "offensive"
+      }
+    ],
+    "icon": "assets/images/icons/engineer.png",
+    "image": "assets/images/portraits/engineer.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Engineer",
+          "location_name": "Array Control",
+          "diagram": "assets/images/rooms/array_control.png"
+        }
+      ],
+      "notes": "Posiziona il Segnalino Reactor sul testo del luogo Reactor"
+    },
+    "agenda": {
+      "description": "Preserva l'Ecosfera",
+      "objetives": [
+        {
+          "main": {
+            "points": 3,
+            "description": "se l'Antimateria detona a Bordo prima dello Stationfall"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 3,
+            "description": "se nessun Personaggio Contaminato Fugge"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "se l'Artefatto non fugge"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "se innocente, ma può vincere anche se Colpevole"
+          },
+          "sub": []
+        }
+      ],
+      "notes": "può vincere anche se Colpevole"
+    },
+    "quirks": [
+      "Se una Capsula non lanciata diventa bersaglio dell'Overload e poi viene lanciata prima che il segnalino Tempo sia risolto, la Capsula viene annientata appena il segnalino tempo viene Risolto."
+    ],
+    "tips": [
+      "Chiunque può armare l'Antimateria semplicemente rimuovendola dal Magnetic Containment",
+      "Gli Ufficiali (Officers) possono armare l'Antimateria innescando dal Bridge, l'Autodistruzione",
+      "Puoi Decontaminare i Personaggi nei Tanks, o metterli Down, dato che sei indifferente dal diventare Colpevole"
+    ],
+    "board_modifications": [
+      "Aggiungere il segnalino Reactor cambia lo stato del Reattore.",
+      "Non può essere danneggiato con una Mazza. Comunque, se danneggiato in altri modi, aggiungi il pericolo Asfissia qui e nelle Sezioni connesse da corridoi. L'Asfissia non si propaga attraverso le prese d'aria."
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Exile",
+    "description": "abc",
+    "pronoums": "Egli/Lui",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "se l'Exile è il tuo BC e Fugge"
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Fast Talk",
+        "description": "Non può essere Attaccato da Umani con Mazza in Sezioni Illuminate",
+        "type": "defensive"
+      },
+      {
+        "name": "Hacker",
+        "description": "Può eseguire un'Azione Console gratuitamente invece delle azioni gratuite di Raccogli o Lascia cadere. Se i Jammers sono OFF può eseguire l'Azione Console da qualsiasi Sezione.",
+        "type": "console"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Spremerlo fino all'Osso",
+        "description": "Dopo aver usato un Kompromat su un NPC, riprendilo in mano",
+        "type": "conspiracy"
+      },
+      {
+        "name": "Competenze Spinte",
+        "description": "Come Azione con L'Exile, scarta due Kompromat dalla mano e prendine uno di un Personaggio non rivelato NPC usato in precedenza.",
+        "type": "conspiracy"
+      }
+    ],
+    "icon": "assets/images/icons/exile.png",
+    "image": "assets/images/portraits/exile.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Exile",
+          "location_name": "Array Control",
+          "diagram": "assets/images/rooms/array_control.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Rimettiti in gioco",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "se l'Exile Fugge"
+          },
+          "sub": [
+            {
+              "points": 2,
+              "description": "per ogni Kompromat posseduto di Personaggi Fuggiti"
+            },
+            {
+              "points": 3,
+              "description": "se l'Exile ha le Prove e i Notiziari no"
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      ""
+    ],
+    "tips": [
+      "Raccogli più Kompromat possibile",
+      "Dopo esserti Rivelato, puoi usare più volte i Kompromat sugli NPC",
+      "Aiuta tutti i Personaggi di cui hai i Kompromat a Fuggire",
+      "Le prove possono essere Prodotte nella Security Station e Cancellate nel Physics Lab",
+      "Tieni i Jammers accesi (ON) per evitare che le Prove raggiungano i Notiziari"
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Inspector",
+    "description": "abc",
+    "pronoums": "Essi/Loro",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "se l'Inspector è il tuo BC e Fugge"
+    },
+    "influence_limit": 4,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Investigator",
+        "description": "Può Raccogliere Kompromat o Produrre dati dalle Sezioni adiacenti",
+        "type": "utility"
+      },
+      {
+        "name": "Badge",
+        "description": "Può Rubare oggetti come se avesse una Pistola",
+        "type": "offensive"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Attività illecite nello Spazio Profondo",
+        "description": "Al momento della Rivelazione, recupera il tuo segnalino Bribe se era già stato usato",
+        "type": "conspiracy"
+      }
+    ],
+    "icon": "assets/images/icons/inspector.png",
+    "image": "assets/images/portraits/inspector.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Inspector",
+          "location_name": "Chem Lab",
+          "diagram": "assets/images/rooms/chem_lab.png"
+        }
+      ],
+      "notes": "Gira la Capsula Hail Mary sul lato Inspector Shuttle"
+    },
+    "agenda": {
+      "description": "Marciume",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "se l'Inspector Fugge"
+          },
+          "sub": [
+            {
+              "points": 4,
+              "description": "se in Possesso della Valigetta"
+            }
+          ]
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "se le Autorithies terminano la partita con le Prove"
+          },
+          "sub": [
+            {
+              "points": 2,
+              "description": "se i Notiziari non hanno le Prove"
+            }
+          ]
+        }
+      ],
+      "notes": "L'Inspector raddoppia i punti per i segnalini Bribe in suo possesso"
+    },
+    "quirks": [
+      "L'Inspector raddoppia i punti per i segnalini Bribe in suo possesso"
+    ],
+    "tips": [
+      "La Valigetta si trova nella Suite",
+      "le Prove possono essere Prodotte nella Security Station e inviate usando l'Array Control o Fuggendo con esse allo Stationfall",
+      "Spegni i Jammers (OFF) per inviare le Prove agli altri Personaggi",
+      "Il tuo Shuttle non richiede il protocollo Abbandonare la Nave per essere lanciato",
+      "Più tardi ti riveli, più facilmente potrai essere Corrotto"
+    ],
+    "board_modifications": [
+      "L'Inspector Shuttle deve essere occupato soltanto dall'Inspector o da un Personaggio Vivo con l'abilità Juri Rig per essere lanciato"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Legal",
+    "description": "abc",
+    "pronoums": "Esso",
+    "bonus_points": {
+      "points": 1,
+      "alive": false,
+      "notes": "se il Legal è il tuo BC e non è Vivo al momento dello Stationfall"
+    },
+    "influence_limit": 4,
+    "type": "Robot",
+    "abilities": [
+      {
+        "name": "Process Server",
+        "description": "Come Azione , puoi produrre il Dato NDA direttamente in possesso di Umani o Robot che si trovino nello stesso luogo del Legal",
+        "type": "utility"
+      },
+      {
+        "name": "Lawyer Up",
+        "description": "Come Azione puoi cambiare lo stato di un Giocatore che abbia il Personaggio nello stesso luogo del Legal, da Innocente o Colpevole a Sospetto.",
+        "type": "offensive"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Stampa Fine",
+        "description": "Puoi Attivare i Personaggi non rivelati in possesso dell'NDA",
+        "type": "conspiracy"
+      },
+      {
+        "name": "Copia Cartacea",
+        "description": "Come Azione, qualsiasi Personaggio che si trovi nello stesso luogo del Legal può Produrre una Copia dell'NDA",
+        "type": "conspiracy"
+      }
+    ],
+    "icon": "assets/images/icons/legal.png",
+    "image": "assets/images/portraits/legal.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Legal",
+          "location_name": "Aft Hub",
+          "diagram": "assets/images/rooms/aft_hub.png"
+        }
+      ],
+      "notes": "Capovolgi Alcatraz, Houdini e McQueen in modo che il lato della freccia sia rivolto verso il basso. Posiziona i segnalini NDA accanto alla riserva generale"
+    },
+    "agenda": {
+      "description": "Riduci la Responsabilità Aziendale",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "per ogni Umano che fugge con il dato NDA"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 4,
+            "description": "se nessun Umano Fugge o se tutti gli umani che Fuggono hanno il Dato NDA"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "se le Prove non Fuggono"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "per ogni PC Sospetto (non Colpevole) allo Stationfall"
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "NDA è un tipo di dato, il Legal non possiede l'NDA ma può produrlo direttamente in possesso di Personaggi nel suo stesso luogo",
+      "I Personaggi in possesso del dato NDA non possono Copiare, Cancellare, Consegnare o venire Derubati del dato.",
+      "Il Legal può ancora produrre il Dato NDA direttamente in possesso di Personaggi Down. (Immagina il Legal spiegare i termini e condizioni dell'accordo alle vittime prive di sensi....quindi sollevare la mano inerte e con le impronte digitali firmare il contratto vincolante della corporazione)"
+    ],
+    "tips": [
+      "Acquisire e Usare Kompromats è un ottimo modo per creare Giocatori Sospetti",
+      "Il tuo limite di influenza è basso ma l'abilità Fine Print può aiutarti se ti Riveli",
+      "Danneggia la Security Station in quanto le Prove possono essere prodotte lì.",
+      "Impedisci qualsiasi via di fuga che non richieda il dato NDA",
+      "Il dato NDA può essere prodotto personalmente o con Personaggi nello stesso luogo, quindi, mantieni in vita il Lega, se possibile"
+    ],
+    "board_modifications": [
+      "Le Capsule Alcatraz, Houdini e McQueen da adesso richiedono Abbandonare la Nave e che tutti i passeggeri abbiano il dato NDA per poter essere lanciate"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Maintenance Clones",
+    "description": "abc",
+    "pronoums": "Essi/Loro",
+    "bonus_points": {
+      "points": 1,
+      "alive": true,
+      "notes": "per ogni Clone Fuggito. +1 punto se tutti e 3 i Cloni, Fuggono"
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Zero Born",
+        "description": "Può effettuare le Azioni Step e Airlock into verso una Sezione a Gravità zero gratuitamente, invece delle azioni gratuite di Raccogli e Lascia Cadere",
+        "type": "mobility"
+      },
+      {
+        "name": "Juri Rig",
+        "description": "Come Azione, ripara una Sezione Danneggiata in cui ti trovi o Rianima un Robot nella sezione in cui ti trovi",
+        "type": "utility"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Vai Vai Vai!",
+        "description": "Al momento della Rivelazione, puoi immediatamente eseguire un'azione con ogni Clone",
+        "type": "utility"
+      }
+    ],
+    "icon": "assets/images/icons/maintenance-clones.png",
+    "image": "assets/images/portraits/maintenance-clones.png",
+    "setup": {
+      "item": [
+        {
+          "name": "α",
+          "location_name": "Fuel Cels",
+          "diagram": "assets/images/rooms/fuel_cells.png"
+        },
+        {
+          "name": "β",
+          "location_name": "Kitchen",
+          "diagram": "assets/images/rooms/kitchen.png"
+        },
+        {
+          "name": "γ",
+          "location_name": "Quarters",
+          "diagram": "assets/images/rooms/quarters.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Provare al mondo l'esistenza dei Cloni",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "se un Clone Fugge"
+          },
+          "sub": [
+            {
+              "points": 4,
+              "description": "se almeno due Cloni Fuggono"
+            },
+            {
+              "points": 2,
+              "description": "se i Notiziari terminano la partita in possesso delle Prove"
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "Quando Attivi i Maintenance Clones puoi eseguire un'Azione con un singolo Clone per turno",
+      "Ogni Clone ha un limite di oggetti da poter portare di 2 (metti entrambi gli oggetti nello stesso slot)",
+      "Ogni Clone può possedere diversi tipi di dati e la condivisione non è automatica con gli altri Cloni. Piazza i Dati in possesso di ognuno dei Cloni e i loro oggetti negli slot appositi sulla Carta Personaggio",
+      "Puoi Attivare o Rinegoziare con i Maintenance Clones fintanto che almeno uno di essi non sia Fuggito o sia stato Annientato"
+    ],
+    "tips": [
+      "I Maintenance Clones si muovono molto velocemente",
+      "Sfrutta il vantaggio di essere in tre posti diversi",
+      "Le Prove possono essere Prodotte nella Security Station e inviate usando l'Array Control",
+      "Spegni i Jammers (OFF) per inviare le Prove a tutti i Personaggi"
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Medical",
+    "description": "abc",
+    "pronoums": "Esso/Essi/Loro",
+    "bonus_points": {
+      "points": 1,
+      "alive": false,
+      "notes": "se il Medical è il tuo BC e non è vivo al momento dello Stationfall"
+    },
+    "influence_limit": 4,
+    "type": "Robot",
+    "abilities": [
+      {
+        "name": "Emergency Response",
+        "description": "Come Azione, puoi Rianimare un Umano. Le Azioni Step e Airlock into verso sezioni con umani Down sono sempre Gratuite",
+        "type": "utility"
+      },
+      {
+        "name": "Helpful",
+        "description": "Nessun giocatore può avere più di un cubo influenza su questo Personaggio",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Haywire",
+        "description": "Ottiene una Mazza",
+        "type": "offensive"
+      }
+    ],
+    "icon": "assets/images/icons/medical.png",
+    "image": "assets/images/portraits/medical.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Medical",
+          "location_name": "Aft Hub",
+          "diagram": "assets/images/rooms/aft_hub.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Renditi davvero utile",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "se non vi sono Umani Down al momento dello Stationfall"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "per ogni stella raggiunta sul tracciato della Carta Personaggio"
+          },
+          "sub": []
+        }
+      ],
+      "notes": "Muovi il segnalino sul tracciato per ogni: Azione Rianimazione fatta dal Medical e per ogni cubo spedito al riquadro Betrayal prima che il Medical si sia Rivelato"
+    },
+    "quirks": [
+      "Il segnalino Medical parte dal valore 0",
+      "Usa il segnalino Medical per tenere traccia delle azioni di Rianimazione e dei cubi inviati al riquadro Betrayal per il punteggio finale",
+      "Medical non può rianimare Umani senza Casco in Sezioni con Pericolo",
+      "E' possibile concatenare più movimenti con Emergency Response"
+    ],
+    "tips": [
+      "Più Personaggi sono Down, più possibilità hai di ottenere punti e muoverti più velocemente",
+      "Più tardi ti riveli più possibilità hai di guadagnare punti dai cubi influenza degli altri giocatori al momento della rivelazione",
+      "Il Movimento Gratuito può essere usato anche quando decidi di non rianimare nessuno"
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Microbiologist",
+    "description": "abc",
+    "pronoums": "Ella/Lei",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "se il Microbiologist è il tuo BC e fugge"
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Scientist",
+        "description": "Può eseguire un'azione di Sezione gratuitamente invece di Raccogli o Lasciar Cadere",
+        "type": "utility"
+      },
+      {
+        "name": "Loyal",
+        "description": "Per influenzarlo, restituisci tutti i cubi presenti sulla carta e piazzane almeno 1 in più di quelli presenti in precedenza sulla carta",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Infetta",
+        "description": "Come Azione, Contamina un Umano o Robot nel tuo stesso luogo. Se non hanno slot oggetti liberi, fanno cadere un oggetto a tua scelta. Sia gli Umani che i Robot non possono avere più di un segnalino Contaminazione",
+        "type": "offensive"
+      }
+    ],
+    "icon": "assets/images/icons/microbiologist.png",
+    "image": "assets/images/portraits/microbiologist.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Microbiologist",
+          "location_name": "Physics Lab",
+          "diagram": "assets/images/rooms/physics_lab.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Patogeno Senziente",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "se il Microbiologist Fugge"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "per ogni Personaggio Contaminato che Fugge"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "se il Dato X-Secret Fugge"
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+
+    ],
+    "tips": [
+      "Usa il tuo Potere Rivelato o il Bio Lab per Contaminare i Personaggi",
+      "Produci il dato X-Secret nel Bio Lab e Copialo agli altri Personaggi",
+      "Innesca il protocollo Abbandonare la Nave dal Bridge usando un Officer, danneggiando le Sezioni di Alimentazione o liberando il Progetto X",
+      "Puoi lanciare più di una Capsula Occupata dal Bridge con un Officer"
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Operative",
+    "description": "abc",
+    "pronoums": "Ella/Lei",
+    "bonus_points": {
+      "points": 2,
+      "alive": false,
+      "notes": "se l'Operative è il tuo BC e non è Vivo al momento dello Stationfall"
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Emp Burst",
+        "description": "Sabota la Sezione in cui si trova L'Operative, metti Down tutti i Robot in essa e Cancella tutti i Dati presenti in quella Sezione.",
+        "type": "offensive"
+      },
+      {
+        "name": "Officer",
+        "description": "Se non vi è un Blackout può muoversi (o essere trascinato) attraverso le serrature che vengono rimosse.",
+        "type": "mobility"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Claymore",
+        "description": "Sbircia, poi posiziona 3 segnalini trappola a faccia in giù in tre Sezioni diverse. Scopri ogni segnalino appena un Umano, Robot o Mostro entra in quella sezione e mettilo Down se è una Trappola. Le trappole non innescano mai Sospetto, Colpa o Auto-Conservazione",
+        "type": "offensive"
+      },
+      {
+        "name": "Granata di Gas Nervino",
+        "description": "Come Azione con l'Operative, posiziona il pericolo Gas nella Sezione in cui si trova o in una Sezione in cui potrebbe lanciarlo",
+        "type": "offensive"
+      }
+    ],
+    "icon": "assets/images/icons/operative.png",
+    "image": "assets/images/portraits/operative.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Operative",
+          "location_name": "Suite",
+          "diagram": "assets/images/rooms/suite.png"
+        }
+      ],
+      "notes": "Posiziona 3 segnalini Trappola sulla Carta Personaggio dell'Operative"
+    },
+    "agenda": {
+      "description": "Insabbia tutto",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "se le Prove non Fuggono"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "se il Dato X-Secret non Fugge"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "se nessun Personaggio di Giocatori Innocenti Fugge"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "se nessun Personaggio Contaminato Fugge"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "se nessun Robot Fugge"
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+
+    ],
+    "tips": [
+      "Tieni i Jammers ON per evitare la Copia dei Dati",
+      "Cancella Dati o metti Down Robot usando il tuo Impulso EMP",
+      "Usare i Kompromat sui PC in alcuni momenti chiave è un buon modo per rendere i giocatori Sospetti",
+      "Nei Tank è possibile Decontaminare Personaggi",
+      "Usa il tuo Potere Rivelato con saggezza per mettere Down i Personaggi"
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Security",
+    "description": "abc",
+    "pronoums": "Esso",
+    "bonus_points": {
+      "points": 3,
+      "alive": false,
+      "notes": "se Security è il tuo BC e non è vivo al momento dello Stationfall"
+    },
+    "influence_limit": 4,
+    "type": "Robot",
+    "abilities": [
+      {
+        "name": "Peacekeeper",
+        "description": "Può Attaccare solo Fuggitivi, Mostri o Personaggi di Giocatori non Innocenti. Non può effettuare sabotaggi",
+        "type": "defensive"
+      },
+      {
+        "name": "Armored",
+        "description": "Non può essere attaccato o derubato con un manganello",
+        "type": "defensive"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Violenza Autorizzata",
+        "description": "Perde l'abilità Peacekeeper",
+        "type": "offensive"
+      }
+    ],
+    "icon": "assets/images/icons/security.png",
+    "image": "assets/images/portraits/security.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Security",
+          "location_name": "Print Shop",
+          "diagram": "assets/images/rooms/print_shop.png"
+        }
+      ],
+      "notes": "Security inizia la partita con una Pistola Integral (non può essere rimossa)"
+    },
+    "agenda": {
+      "description": "Garantire la Pace essendo la Potenza di fuoco maggiore",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "per ogni Fuggitivo Down, Mostro o PC di giocatori non innocenti a bordo al momento dello Stationfall"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "per Umano Down che possiede una mazza o pistola a Bordo al momento dello Stationfall"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "se la valigetta non fugge"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "se l'Artefatto non fugge"
+          },
+          "sub": [
+            {
+              "points": 1,
+              "description": "Se entrambe, Valigetta + Artefatto non fuggono"
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+
+    ],
+    "tips": [
+      "Sei difficile da derubare quindi l'Artefatto e la Valigetta sono più al sicuro con te",
+      "Una volta che ri Riveli puoi mettere Down qualsiasi personaggio e mettergli addosso una mazza.",
+      "Ottenere ed usare Kompromat è un buon modo per creare giocatori Sospetti",
+      "Puoi liberare un Progetto X con un Officer dal Ponte o dal Cryo Lab",
+      "Il Boarder ed il Cyborg sono Fuggitivi",
+      "Fino a quando non ti riveli, Peacekeeper non ti permette di Attaccare e Sabotare ma puoi ancora Rubare oggetti (Confiscarli/Tenerli al sicuro)"
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Station Chief",
+    "description": "abc",
+    "pronoums": "Ella/Lei",
+    "bonus_points": {
+      "points": 2,
+      "alive": false,
+      "notes": "se lo Station Chief è il tuo BC e non è vivo al momento dello Stationfall"
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Officer",
+        "description": "Se non vi è un Blackout può muoversi (O venire trascinato) attraverso le serrature le quali vengono rimosse.",
+        "type": "mobility"
+      },
+      {
+        "name": "Pride",
+        "description": "Non può essere derubato",
+        "type": "defensive"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Forceful Presence",
+        "description": "All'inizio della fase attivazione dello Station Chief puoi effettuare una azione gratuita con un NPC che si trovi nel tuo stesso luogo o con un NPC con abilità Officer ovunque si trovi.",
+        "type": "utility"
+      }
+    ],
+    "icon": "assets/images/icons/station_chief.png",
+    "image": "assets/images/portraits/station_chief.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Station Chief",
+          "location_name": "Therapy Garden",
+          "diagram": "assets/images/rooms/therapy_garden.png"
+        }
+      ],
+      "notes": "Collega la Medevac Pod ai Forward Airlocks"
+    },
+    "agenda": {
+      "description": "Affondare con la Nave",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "per ogni altro Umano che Fugge"
+          },
+          "sub": [
+            {
+              "points": 1,
+              "description": "per ogni NPC con l'abilità Officer che Fugge"
+            }
+          ]
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "se lo Station Chief si trova A Bordo della Stazione Vivo al momento dello Stationfall"
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+
+    ],
+    "tips": [
+      "Innesca Abbandonare la Nave prima possibile con un Officer dal Bridge, danneggiando una Sezione di Alimentazione o liberando il Progetto X",
+      "Puoi lanciare più Capsule Occupate con un Officer dal Bridge",
+      "Se riesci a Trascinare un Umano Down alla Medevac Pod, puoi lanciarla senza il protocollo Abbandonare la Nave."
+    ],
+    "board_modifications": [
+      "La Medevac Pod deve essere occupata da un Umano Down al momento del Lancio. Non è richiesto il protocollo Abbandonare la Nave per il Lancio."
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Stowaway",
+    "description": "abc",
+    "pronoums": "Ella/Lei",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "se lo Stowaway è il tuo BC e Fugge"
+    },
+    "influence_limit": 4,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Tunnel Rat",
+        "description": "Può muoversi attraverso le prese d'aria",
+        "type": "mobility"
+      },
+      {
+        "name": "Hacker",
+        "description": "Può eseguire un'Azione Console gratuita invece delle azioni gratuite Raccogli o Lascia cadere. Se i Jammers sono OFF può eseguire Azioni Console in qualsiasi Sezione",
+        "type": "utility"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Bottino Segreto",
+        "description": "Al momento della Rivelazione, tu o uno dei tuoi Cospiratori ottenete un Casco",
+        "type": "defensive"
+      }
+    ],
+    "icon": "assets/images/icons/stowaway.png",
+    "image": "assets/images/portraits/stowaway.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Stowaway",
+          "location_name": "Carta Personaggio",
+          "diagram": "assets/images/character_card.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Scoop di una vita",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "Se i Notiziari terminano la partita con il Dato X-Secret"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "Se i Notiziari terminano la partita con le Prove"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "se lo Stowaway Fugge"
+          },
+          "sub": [
+            {
+              "points": 3,
+              "description": "se Fugge con le Prove ed è l'unico Personaggio ad arrivare sulla terra con esse"
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "La Pedina dello Stowaway parte sulla sua carta personaggio.",
+      "La prima Azione con lo Stowaway deve essere un movimento verso qualsiasi Sezione Buia. Non è possibile interagirvi in alcun altro modo fino a quel momento."
+    ],
+    "tips": [
+      "Puoi produrre le Prove nella Security Station e il dato X-Secret nel Bio Lab",
+      "Trasmetti i Dati usando l'Array Control o Fuggendo con essi al momento dello Stationfall",
+      "Spegni i Jammers (Mettili su OFF) per copiare i Dati e usare la tua abilità Hacker",
+      "Ferma tutti coloro che hanno dei Dati mettendoli Down o portandoli nel Physic Lab."
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Stranger",
+    "description": "abc",
+    "pronoums": "Essi/Loro",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "se lo Stranger è il tuo BC e Fugge"
+    },
+    "influence_limit": 6,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Uncanny",
+        "description": "questo Personaggio ha bisogno di due dischi attivazione per essere Esausto",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Compito a Casa",
+        "description": "Appena ti Riveli, puoi Rivelare il tuo BC ed effettuare un'Azione con quel Personaggio",
+        "type": "utility"
+      },
+      {
+        "name": "Enigma",
+        "description": "Se effettui una rivelazione Schrödinger come Stranger non scartare alcuna carta (mantienile come Personaggi Bonus). Se effettui una rivelazione Schrödinger come Stranger, perdi Uncanny",
+        "type": "conspiracy"
+      }
+    ],
+    "icon": "assets/images/icons/stranger.png",
+    "image": "assets/images/portraits/stranger.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Stranger",
+          "location_name": "Nanofactory",
+          "diagram": "assets/images/rooms/nanofactory.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "E' una faccenda personale",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "se la tua Identità Segreta non viene rivelata fino al momento dello Stationfall"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "se in possesso del Dato X-Secret"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "se ottieni Punti Bonus"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "se vivo e nello stesso luogo con il Personaggio Bonus al momento dello Stationfall"
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+
+    ],
+    "tips": [
+      "Punta principalmente a soddisfare le condizioni del tuo BC e tieni lo Stranger nei paraggi.",
+      "Se vuoi che il tuo BC sopravviva, innesca il protocollo Abbandonare la nave prima possibile con un Officer sul Bridge, Danneggiando le Sezioni di Alimentazione o liberando il Progetto X",
+      "A causa del fatto che fai pochi punti, devi concentrarti sul dedurre gli obiettivi degli altri e interferire con i loro piani."
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Telepatich Rat",
+    "description": "abc",
+    "pronoums": "Esso",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "Se il Telephatic Rat è il tuo BC e Fugge."
+    },
+    "influence_limit": 8,
+    "type": "Item",
+    "abilities": [
+      {
+        "name": "Telephaty",
+        "description": "Effettua un'Azione con un Umano nel tuo stesso luogo senza Casco ignorando l'Auto-Conservazione. Può effettuare solo Azioni Telepatiche.",
+        "type": "offensive"
+      },
+      {
+        "name": "Paranoid",
+        "description": "Per essere influenzato, il giocatore attivo deve avere un Cospiratore nel suo stesso luogo. Non può essere Corrotto.",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "My Precious",
+        "description": "Gli Altri giocatori non possono Gettarti via, Gettarti fuori dalla Nave o Lasciarti cadere. Puoi ancora essere dato ad altri Personaggi nello stesso luogo.",
+        "type": "defensive"
+      }
+    ],
+    "icon": "assets/images/icons/telephatic_rat.png",
+    "image": "assets/images/portraits/telephatic_rat.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Telepathic Rat",
+          "location_name": "Bio Lab",
+          "diagram": "assets/images/rooms/bio_lab.png"
+        }
+      ],
+      "notes": "Telepathic Rat parte Contaminato"
+    },
+    "agenda": {
+      "description": "Penitenza",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "per ogni Umano o Robot Down che si trovino nello stesso luogo del Telepathic Rat al momento dello Stationfall"
+          },
+          "sub": [
+            {
+              "points": 2,
+              "description": "per ogni Kompromat posseduto di personaggi Down nel suo stesso luogo."
+            }
+          ]
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "Se il Telepatich Rat si trova nello stesso luogo dell'Artefatto al momento dello Stationfall"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "Se il Telepatich Rat si trova nello stesso luogo della Valigetta al momento dello Stationfall"
+          },
+          "sub": []
+        }
+      ],
+      "notes": "Il Ratto può vincere anche se Colpevole"
+    },
+    "quirks": [
+      "Il Ratto è un oggetto e come tale può essere raccolto, lanciato, lasciato cadere etc.",
+      "Il Ratto parte Contaminato, ma può essere decontaminato (o ricontaminato) normalmente",
+      "Il Ratto non può possedere Oggetti o Dati",
+      "Il Ratto non può essere Attaccato o messo Down",
+      "Il Ratto può vincere anche se Colpevole",
+      "La Paranoia del Ratto lo rende difficile da influenzare",
+      "Il Ratto non può essere Corrotto",
+      "Il Rat parte Contaminato anche se non possiede Oggetti."
+    ],
+    "tips": [
+      "L'Artefatto si trova nel Physics Lab e la Valigetta nella Suite.",
+      "Fai attenzione all'Annientamento se vieni posseduto da qualsiasi Personaggio che possa potenzialmente Fuggire",
+      "Sei totalmente indifferente alla Colpevolezza, quindi puoi mettere Down i Personaggi indiscriminatamente",
+      "Punta a finire in una Sezione con tanti Personaggi Down al momento dello Stationfall",
+      "Il tuo Potere Rivelato evita che tu possa essere lasciato in una Sezione vuota o nell'Outer Space.",
+      "I Caschi sono i tuoi principali nemici; Trova il modo di liberartene"
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Troubleshooter",
+    "description": "abc",
+    "pronoums": "Lei/Ella",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "se il Troubleshooter è il tuo BC e Fugge"
+    },
+    "influence_limit": 6,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Tunnel Rat",
+        "description": "Può Muoversi attraverso le prese d'aria",
+        "type": "mobility"
+      },
+      {
+        "name": "Juri Rig",
+        "description": "Come Azione, Ripara una Sezione Danneggiata dove ti trovi o un Robot Down che si trovi nella tua stessa Sezione",
+        "type": "utility"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Parla con loro attraverso esso",
+        "description": "Nel tuo turno, se il TroubleShooter è Vivo, i tuoi Cospiratori possono muoversi e agire come se avessero tutti Juri Rig e Tunnel Rat.",
+        "type": "utility"
+      }
+    ],
+    "icon": "assets/images/icons/troubleshooter.png",
+    "image": "assets/images/portraits/troubleshooter.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Troubleshooter",
+          "location_name": "Print Shop",
+          "diagram": "assets/images/rooms/print_shop.png"
+        }
+      ],
+      "notes": "Connetti il Cargo Claw alle Forward Airlocks. Il Troubleshooter inizia con una Mazza"
+    },
+    "agenda": {
+      "description": "Immacolato fino alla fine",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "Se l'Antimateria non è Armata al momento dello Stationfall"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "Se il Progetto X non viene Liberato"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "Se nessuna Sezione è Danneggiata al momento dello Stationfall"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "per ogni Robot Vivo al momento dello Stationfall"
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      
+    ],
+    "tips": [
+      "Il tuo Potere Rivelato è molto importante per permettere ai tuoi Cospiratori di Riparare le Sezioni Danneggiate.",
+      "Prova a tenere lontani i Personaggi dal Bridge, dal Cryo Lab e dal Magnetic Containment per evitare che liberino il Progetto X o armino l'Antimateria."
+    ],
+    "board_modifications": [
+      "Cargo Claw permette a qualsiasi Personaggio di effettuare l'Azione Grip in questa Sezione.",
+      "Grip: Raccogli un Oggetto nell'Outer Space o metti Down un Personaggio nell'Outer Space"
+    ]
+  }
+]

@@ -1,0 +1,504 @@
+[
+  {
+    "id": 1,
+    "name": "Aft Exhaust",
+    "diagram": "assets/images/rooms/aft_exahust.png",
+    "action": [
+      ""
+    ],
+    "type": "blue",
+    "light": false,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 2,
+    "name": "Kitchen",
+    "diagram": "assets/images/rooms/kitchen.png",
+    "action": [
+      ""
+    ],
+    "type": "blue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 3,
+    "name": "Quarters",
+    "diagram": "assets/images/rooms/quarters.png",
+    "action": [
+      "Section Launch"
+    ],
+    "type": "blue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 4,
+    "name": "Rec Room",
+    "diagram": "assets/images/rooms/rec_room.png",
+    "action": [
+      ""
+    ],
+    "type": "blue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 5,
+    "name": "Security Station",
+    "diagram": "assets/images/rooms/security_station.png",
+    "action": [
+      "Console Action",
+      "Switch cameras on/off",
+      "Fabricate Evidences"
+    ],
+    "type": "blue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 6,
+    "name": "Shred room",
+    "diagram": "assets/images/rooms/shred_room.png",
+    "action": [
+      "Data Mine: Gain a Kompromat from anywhere On Board"
+    ],
+    "type": "blue",
+    "light": false,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 7,
+    "name": "Storage",
+    "diagram": "assets/images/rooms/storage.png",
+    "action": [
+      ""
+    ],
+    "type": "blue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 8,
+    "name": "Suite",
+    "diagram": "assets/images/rooms/suite.png",
+    "action": [
+      ""
+    ],
+    "type": "blue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 9,
+    "name": "Therapy Garden",
+    "diagram": "assets/images/rooms/therapy_garden.png",
+    "action": [
+      "Meditate (only PJs)"
+    ],
+    "type": "blue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 10,
+    "name": "Bio Lab",
+    "diagram": "assets/images/rooms/bio_lab.png",
+    "action": [
+      "Entering here gains Contaminated",
+      "Manufacture X-Secret"
+    ],
+    "type": "darkBlue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 11,
+    "name": "Chem Lab",
+    "diagram": "assets/images/rooms/chem_lab.png",
+    "action": [
+      "Manufacture Firebomb"
+    ],
+    "type": "darkBlue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 12,
+    "name": "Cryo Lab",
+    "diagram": "assets/images/rooms/cryo_lab.png",
+    "action": [
+      "Release Project X (officer only)"
+    ],
+    "type": "darkBlue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 13,
+    "name": "Forward Exhaust",
+    "diagram": "assets/images/rooms/forward_exhaust.png",
+    "action": [
+      "Airlock"
+    ],
+    "type": "darkBlue",
+    "light": false,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 14,
+    "name": "Mainframe",
+    "diagram": "assets/images/rooms/mainframe.png",
+    "action": [
+      "Console Action"
+    ],
+    "type": "darkBlue",
+    "light": true,
+    "energy": true,
+    "notes": ""
+  },
+  {
+    "id": 15,
+    "name": "Nanofactory",
+    "diagram": "assets/images/rooms/nanofactory.png",
+    "action": [
+      "Manufacture Nanogel"
+    ],
+    "type": "darkBlue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 16,
+    "name": "Physics Lab",
+    "diagram": "assets/images/rooms/physics_lab.png",
+    "action": [
+      "During any Resolve fase all data here is Deleted"
+    ],
+    "type": "darkBlue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 17,
+    "name": "Print Shop",
+    "diagram": "assets/images/rooms/print_shop.png",
+    "action": [
+      "Manufacture Helmet, Bludgeon or Gun (Officer only for Guns)"
+    ],
+    "type": "darkBlue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 18,
+    "name": "Vault X",
+    "diagram": "assets/images/rooms/vault_x.png",
+    "action": [
+      "if Damaged Release Project X and trigger Abandon Ship"
+    ],
+    "type": "darkBlue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 19,
+    "name": "Aft Airlocks",
+    "diagram": "assets/images/rooms/aft_airlocks.png",
+    "action": [
+      "Airlock",
+      "Section Launch"
+    ],
+    "type": "pink",
+    "light": false,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 20,
+    "name": "Aft Hub",
+    "diagram": "assets/images/rooms/aft_hub.png",
+    "action": [
+      ""
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 21,
+    "name": "Array Control",
+    "diagram": "assets/images/rooms/array_control.png",
+    "action": [
+      "Transmit"
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 22,
+    "name": "Bridge",
+    "diagram": "assets/images/rooms/bridge.png",
+    "action": [
+      "Release Project X",
+      "Self-Destruct",
+      "Abandon Ship",
+      "Bridge Launch"
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": "Officer only"
+  },
+  {
+    "id": 23,
+    "name": "Cargo Claw",
+    "diagram": "assets/images/rooms/cargo_claw.png",
+    "action": [
+      "Grip: Pick Up an Item in Outer Space or Down a Character in Outer Space"
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },  
+  {
+    "id": 24,
+    "name": "Forward Airlocks",
+    "diagram": "assets/images/rooms/forward_airlocks.png",
+    "action": [
+      "Airlock"
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 25,
+    "name": "Forward Hub",
+    "diagram": "assets/images/rooms/forward_hub.png",
+    "action": [
+      ""
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 26,
+    "name": "Fuel Cells",
+    "diagram": "assets/images/rooms/fuel_cells.png",
+    "action": [
+      "if Damaged place a Fire token here and in Tanks"
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": true,
+    "notes": ""
+  },
+  {
+    "id": 27,
+    "name": "Hydroponics",
+    "diagram": "assets/images/rooms/hydroponics.png",
+    "action": [
+      ""
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 28,
+    "name": "Locker Room",
+    "diagram": "assets/images/rooms/locker_room.png",
+    "action": [
+      ""
+    ],
+    "type": "pink",
+    "light": false,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 29,
+    "name": "Machine Shop",
+    "diagram": "assets/images/rooms/machine_shop.png",
+    "action": [
+      "Repair Robot"
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 30,
+    "name": "Magnetic Containment",
+    "diagram": "assets/images/rooms/magnetic_containmet.png",
+    "action": [
+      "Eject Antimatter"
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": "During any Resolve Phase, all Influence Cubes on Robots here go to Betrayal Box"
+  },
+  {
+    "id": 31,
+    "name": "Reactor",
+    "diagram": "assets/images/rooms/reactor.png",
+    "action": [
+      ""
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": true,
+    "notes": "Can not be Damaged with a Bludgeon. If Damaged add Asphyxiation here and in connected sections"
+  },
+  {
+    "id": 32,
+    "name": "Storm Shelter",
+    "diagram": "assets/images/rooms/storm_shelter.png",
+    "action": [
+      ""
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 33,
+    "name": "Tanks",
+    "diagram": "assets/images/rooms/tanks.png",
+    "action": [
+      "Decontaminate"
+    ],
+    "type": "pink",
+    "light": false,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 34,
+    "name": "Alcatraz",
+    "diagram": "assets/images/rooms/alcatraz.png",
+    "action": [
+      "Timed Launch"
+    ],
+    "type": "green",
+    "light": true,
+    "energy": false,
+    "notes": "Requires Abandon Ship to Launch. If Legal is in play all Live Occupants need NDA to Launch"
+  },
+  {
+    "id": 35,
+    "name": "Hail Mary",
+    "diagram": "assets/images/rooms/hail_mary.png",
+    "action": [
+      "Timed Launch"
+    ],
+    "type": "green",
+    "light": true,
+    "energy": false,
+    "notes": "Requires Abandon Ship to Launch. If Legal is in play all Live Occupants need NDA to Launch"
+  },
+  {
+    "id": 36,
+    "name": "Houdini",
+    "diagram": "assets/images/rooms/houdini.png",
+    "action": [
+      "Timed Launch"
+    ],
+    "type": "green",
+    "light": true,
+    "energy": false,
+    "notes": "Requires Abandon Ship to Launch. If Legal is in play all Live Occupants need NDA to Launch"
+  },
+  {
+    "id": 37,
+    "name": "McQueen",
+    "diagram": "assets/images/rooms/mcqueen.png",
+    "action": [
+      "Timed Launch"
+    ],
+    "type": "green",
+    "light": false,
+    "energy": false,
+    "notes": "Requires Abandon Ship to Launch. If Legal is in play all Live Occupants need NDA to Launch"
+  },
+  {
+    "id": 38,
+    "name": "Medivac Pod",
+    "diagram": "assets/images/rooms/medivac_pod.png",
+    "action": [
+      "Timed Launch"
+    ],
+    "type": "green",
+    "light": true,
+    "energy": false,
+    "notes": "Must be occupied by a Down Human to Launch. Abandon Ship is not required to Launch"
+  },
+  {
+    "id": 39,
+    "name": "Outer Space",
+    "diagram": "assets/images/rooms/outer_space.png",
+    "action": [
+      "Airlock"
+    ],
+    "type": "green",
+    "light": false,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 40,
+    "name": "Panic Pod",
+    "diagram": "assets/images/rooms/panic_pod.png",
+    "action": [
+      "Timed Launch"
+    ],
+    "type": "green",
+    "light": true,
+    "energy": false,
+    "notes": "Requires Abandon Ship to Launch"
+  },
+  {
+    "id": 41,
+    "name": "Pirate / Rescue ship",
+    "diagram": "assets/images/rooms/pirate_ship.png",
+    "action": [
+      "Pirate Ship: At Scoring any Character Possessing the Briefcase in Outer Spaces Escapes",
+      "Rescue Ship: At Scoring any Human in Outer Spaces Escapes"
+    ],
+    "type": "green",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  }
+  
+ 
+  ]

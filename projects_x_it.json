@@ -1,0 +1,180 @@
+[
+  {
+    "name": "Carnivorous Bioexperiment",
+    "image": "assets/images/projects_x/carnivorous.png",
+    "subtitle": "Test di Entità di Combattimento Fallito",
+    "setup": [
+      "Posiziona il Mostro nella Vault X"
+    ],
+    "abilities": [
+      {
+        "name": "Tunnel Rat",
+        "description": "Può muoversi attraverso i Condotti di Areazione",
+        "type": "mobility"
+      },
+      {
+        "name": "Wary",
+        "description": "Non può essere attaccato nelle Sezioni Buie",
+        "type": "defensive"
+      }
+    ],
+    "instructions": [
+      "Al termine di ogni fase Risoluzione deve mettere Down un Umano Vivo che si trovi nel suo stesso luogo se possibile.",
+      "Se non ve ne sono, il giocatore attivo, Muove il Carnivorous Bioexperiment di una Sezione verso l'umano Vivo più vicino. Se vi è un pareggio il giocatore attivo sceglie dove si dirige il mostro.",
+      "Il Carnivorous Bioexperiment si difende come un Umano senza Casco e viene messo Down dai Pericoli. Il Carnivorous Bioexperiment è dotato di Auto-Conservazione, se l'unico percorso valido prevederebbe l'attraversamento di pericoli, non si muove."
+    ]
+  },
+  {
+    "name": "Combat Swarm",
+    "image": "assets/images/projects_x/combat_swarm.png",
+    "subtitle": "Droni Assassini controllati da remoto",
+    "setup": [
+      "Posiziona il Mostro nella Vault X",
+      "Posiziona il Segnalino Direct Swarm sotto le Azioni Console."
+    ],
+    "abilities": [
+      {
+        "name": "Agile",
+        "description": "Può muoversi di due sezioni con un singolo movimento. Può passarea attraverso i condotti di areazione",
+        "type": "mobility"
+      },
+      {
+        "name": "Jury Rig",
+        "description": "Come Azione ripara un Robot o una Sezione dove ti trovi",
+        "type": "utility"
+      }
+    ],
+    "instructions": [
+      "Il Combat Swarm viene controllato tramite le Azioni Console. Può soltanto effettuare le azioni Muoversi (incluso trascinare), Attaccare, Juri Rig. Attacca come se avesse una Pistola.",
+      "Non può essere messo Down a meno che non entri nel Magnetic Containment, dove va immediatamente Down.",
+      "Non puoi diventare Sospetto mentre effettui azioni con il Combat Swarm",
+      "Il Combat Swarm è un Robot e può essere messo Down, Riparato ed è immune ai Pericoli. Conta come Robot ai fini del calcolo del punteggio."
+    ]
+  },
+  {
+    "name": "Death Ray",
+    "image": "assets/images/projects_x/death_ray.png",
+    "subtitle": "Stazione da Battaglia Operativa ",
+    "setup": [
+      "Posiziona il segnalino Death Ray nell'Array Control"
+    ],
+    "abilities": [],
+    "instructions": [
+      "Il Death Ray può essere Attivato come Azione da qualsiasi Umano o Robot nell'Array Control. Il Death Ray non può essere attivato se il Reactor o l'Array Control sono danneggiati. Sparare con il Death Ray danneggia il Reactor.",
+      "Il Death Ray può bersagliare gli Offisites, Rescue\/Pirate Ship e Capsule già lanciate. Qualsiasi cosa sia bersaglio del Death Ray viene Annientata e rimossa dal gioco con tutto ciò che contiene.",
+      "I giocatori Colpevoli tornano Sospetti se le Autorità vengono Annientate. Usare il Death Ray non innesca Sospetto nei giocatori."
+    ]
+  },
+  {
+    "name": "Entropy Phantom",
+    "image": "assets/images/projects_x/entropy_phantom.png",
+    "subtitle": "un Fantasma Etereo",
+    "setup": [
+      "Posiziona il Mostro nella Vault X"
+    ],
+    "abilities": [
+      {
+        "name": "Tunnel Rat",
+        "description": "Può muoversi attraverso i Condotti di Areazione",
+        "type": "mobility"
+      },
+      {
+        "name": "Ethereal",
+        "description": "Può passare attraverso le Serrature",
+        "type": "mobility"
+      }
+    ],
+    "instructions": [
+      "Al termine di ogni fase Risoluzione, il giocatore attivo deve spostare un cubo da uno dei personaggi che si trovi nello stesso luogo dell'Entropy Phantom al riquadro Betrayal se possibile. (Sta divorando i loro ricordi!)",
+      "Se non vi sono cubi, il giocatore attivo deve Muovere l'Entropy Phantom di una Sezione verso l'Antimateria, se disponibile. Se raggiunge l'Antimateria, la arma se non lo è già e annienta l'Entropy Phantom. Se l'Antimateria è già annientata, Muovi l'Entropy Phantom verso la zona di Contenimento Magnetico",
+      "L'Entropy Phantom non può essere messo Down",
+      "Tutti i Dati che si trovano nello stesso luogo dell'Entropy Phantom sono immediatamente cancellati"
+    ]
+  },
+  {
+    "name": "Grey Goo",
+    "image": "assets/images/projects_x/grey_go.png",
+    "subtitle": "Melma in Espansione",
+    "setup": [
+      "Dai la Carta Grey Goo al giocatore attivo",
+      "Traccia il valore di diffusione del Grey Goo, posizionando il segnalino sul valore 0 di questa carta."
+    ],
+    "abilities": [],
+    "instructions": [
+      "Al termine della fase Risoluzione del giocatore che possiede questa carta, il Goo influenza tutti i personaggi nelle sezioni alla sua portata. Annienta il Casco in possesso dei personaggi o mette direttamente Down i personaggi senza Casco.",
+      "Quindi, aumenta la diffusione di uno se non vi è un Blackout. Tutte le sezioni entro il valore di diffusione dal Vault X sono considerate a portata del Grey Goo",
+      "Il Goo si diffonde attraverso le Serrature ma non attraverso le prese d'aria",
+      "Se la diffusione arriva al valore 5 provoca lo Stationfall"
+    ]
+  },
+  {
+    "name": "Robotic Assassin",
+    "image": "assets/images/projects_x/robotic_assassin.png",
+    "subtitle": "Implacabile Robot Assassino",
+    "setup": [
+      "Posiziona il Mostro nella Vault X",
+      "Posiziona l'Azione Console Marked Target, tra le azioni Console",
+      "Il giocatore attivo, piazza il segnalino Bersaglio su un Umano o Robot vivo che non sia ancora Fuggito"
+    ],
+    "abilities": [
+      {
+        "name": "Juggernaut",
+        "description": "Can Step through Locks (which removes them)",
+        "type": "mobility"
+      },
+      {
+        "name": "Armored",
+        "description": "Non può essere attaccato con Mazza",
+        "type": "defensive"
+      }
+    ],
+    "instructions": [
+      "L'Azione Console Marked Target muove il Segnalino Bersaglio su un Umano o Robot vivo che non sia ancora Fuggito.",
+      "Al termine di ogni fase Risoluzione, il Robotic Assassin deve mettere Down un Umano o Robot che si trovi nel suo stesso luogo che abbia il Segnalino Bersaglio",
+      "Se non è possibile, allora il giocatore attivo deve muovere il Robotic Assassin di una sezione verso qualsiasi Umano o Robot con il Segnalino Bersaglio",
+      "In caso di pareggio, il giocatore attivo può scegliere in quale Sezione si muove il Robotic Assassin.",
+      "Robotic Assassin è un Robot e come tale può essere messo Down, Riparato e ignora i Pericoli. Viene considerato come Robot ai fini del calcolo del punteggio"
+    ]
+  },
+  {
+    "name": "Stable Wormhole",
+    "image": "assets/images/projects_x/stable_wormhole.png",
+    "subtitle": "un Portale per il CERN",
+    "setup": [
+      "Danneggia il Reattore se non lo è già"
+    ],
+    "abilities": [],
+    "instructions": [
+      "Qualsiasi Personaggio o Oggetto che si trovi nella Vault X o vi entri immediatamente Fugge",
+      "Tutto ciò che è Fuggito in questo modo viene considerato essere nello stesso luogo, ai fini del calcolo del punteggio",
+      "Se l'Antimateria oltrepassa lo Stable Wormhole annienta tutto ciò che è passato attraverso il portale"
+    ]
+  },
+  {
+    "name": "Tentacled Monstrosity",
+    "image": "assets/images/projects_x/tentacled_monstrosity.png",
+    "subtitle": "Un Ibrido Pianta-Animale con un certo Appetito",
+    "setup": [
+      "Posiziona il Mostro nella Vault X"
+    ],
+    "abilities": [
+      {
+        "name": "Juggernaut",
+        "description": "Può attraversare le Serrature (e le rimuove)",
+        "type": "mobility"
+      },
+      {
+        "name": "Wary",
+        "description": "Non può essere attaccato in Sezioni Buie",
+        "type": "defensive"
+      }
+    ],
+    "instructions": [
+      "Al termine di ogni fase Risoluzione, il giocatore attivo sceglie un Personaggio o Oggetto che non è in possesso di nessuno, che si trova nello stesso luogo del mostro, per essere divorato, spostando l'elemento sulla sua carta. I personaggi Divorati non possono agire e nessuno può interagire con loro.\nSe sono Umani senza Casco vanno subito Down",
+      "Se non vi sono Oggetti o Personaggi nella stessa Sezione,la Tentacled Monstrosity sposta invece un Oggetto non posseduto da nessuno o un\nPersonaggio che si trovi in una Sezione adiacente, nella sua Sezione.",
+      "Se non ve ne sono, il giocatore attivo Muove Tentacled Monstrosity una Sezione verso l'Umano non divorato più vicino (Vivo o Down)",
+      "In caso di Pareggio, il Giocatore Attivo sceglie in quale Sezione si dirige la Tentacled Monstrosity",
+      "La Tentacled Monstrosity può andare Down solo con il Fuoco ed è dotata di Auto-Conservazione. Se la Tentacled Monstrosity va Down, tutti gli Oggetti e i Personaggi Divorati vengono posizionati nella Sezione in cui si trova"
+    ]
+  }
+]

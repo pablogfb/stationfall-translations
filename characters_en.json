@@ -1,0 +1,2409 @@
+[
+  {
+    "id": 1,
+    "name": "Astrochimp",
+    "description": "abc",
+    "pronoums": "He/Him",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "if Astrochimp is your BC and Escapes"
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Tunnel Rat",
+        "description": "May Step through Vents.",
+        "type": "mobility"
+      },
+      {
+        "name": "Loyal",
+        "description": "To Influence return all cubes on this card and place at least 1 more cube than was previously here.",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Acrobatics",
+        "description": "Gains ZeroBorn: May Free Step or Airlock into a zero Gravity Section instead of Free Pickup or Drop.",
+        "type": "mobility"
+      }
+    ],
+    "icon": "assets/images/icons/astrochimp.png",
+    "image": "assets/images/portraits/astrochimp.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Astrochimp",
+          "location_name": "Kitchen",
+          "diagram": "assets/images/rooms/kitchen.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Shiny things",
+      "objetives": [
+        {
+          "main": {
+            "points": 3,
+            "description": "if Astrochimp Escapes"
+          },
+          "sub": [
+            {
+              "points": 2,
+              "description": "if in Possession of Briefcase"
+            },
+            {
+              "points": 2,
+              "description": "if in Possession of Artifact"
+            },
+            {
+              "points": 2,
+              "description": "if in Possession of Gun"
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "Astrochimp counts as human (hey, they're 99% similar, close enough!)."
+    ],
+    "tips": [
+      "Artifact is in the Physics Lab and Briefcase is in Suite",
+      "Gun can be Manufactured in Print Shop by an Officer or acquired from another Character",
+      "Moves very quickly due to Tunnel Rat and Zero Born abilities."
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 2,
+    "name": "Billionaire",
+    "description": "abc",
+    "pronoums": "He/Him",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "Fletcher escapes. (Nobody cares about the Billionare, just the cute space pup.)"
+    },
+    "influence_limit": 3,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Live Streams",
+        "description": "If Jammers are OFF, Billionaire's and Fletcher's Sections act as if Lit and Cameras are on. ",
+        "type": "defensive"
+      },
+      {
+        "name": "Rich",
+        "description": "Cannot be Bribed. When Activated, you may use a grey Bribe instead of your own. Grey Bribes only score if Billionaire Escapes.",
+        "type": "defensive"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Hollow Promises",
+        "description": "Upon Reveal gain and/or return all three Grey Bribe tokens.",
+        "type": "conspiracy"
+      }
+    ],
+    "icon": "assets/images/icons/billionaire.png",
+    "image": "assets/images/portraits/billionaire.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Billionaire",
+          "location_name": "Suite",
+          "diagram": "assets/images/rooms/suite.png"
+        },
+        {
+          "name": "Fletcher",
+          "location_name": "Securiy Station",
+          "diagram": "assets/images/rooms/security_station.png"
+        }
+      ],
+      "notes": "Billionaire starts with 3 grey Bribe tokens on his Character Card"
+    },
+    "agenda": {
+      "description": "Survive",
+      "objetives": [
+        {
+          "main": {
+            "points": 4,
+            "description": "If Billionaire Escapes"
+          },
+          "sub": [
+            {
+              "points": 1,
+              "description": "If not Colocated with Live Humans or Robots at Stationfall"
+            }
+          ]
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "If Fletcher Escapes"
+          },
+          "sub": [
+            {
+              "points": 1,
+              "description": "If Fletcher and Billionaire are Colocated when Escaping"
+            }
+          ]
+        }
+      ],
+      "notes": "Billionaire doesn't score any Possessed or unused Bribes"
+    },
+    "quirks": [
+      "Billionaire doesn't score any unused bribes",
+      "Fletcher is an item that can be Picked Up, Dropped, Thrown, etc. Fletcher cannot be Attacked or Downed( he's got a retractable doggie space helment). But Fletcher can be Annihilated in the same way as other items",
+      "Grey Bribes can only be used if they are still on the Billionaire's card, not if it has been spent elsewhere already.",
+      "Billionaire and Fletcher are Collocated for end of the games scoring if they are Colocated when Escaping using the same component/ability"
+    ],
+    "tips": [
+      "Protect yourself with a Helmet and try to keep Jammers OFF so your Livestream Ability stays active.",
+      "After Revealing you can use your grey Bribes for extra Actions with other Characters."
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 3,
+    "name": "Boarder",
+    "description": "abc",
+    "pronoums": "She/her",
+    "bonus_points": {
+      "points": 1,
+      "alive": true,
+      "notes": "if Boarder is your BC and Escapes"
+    },
+    "influence_limit": 4,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Breach",
+        "description": "As an action may Remove an adjacent Lock.",
+        "type": "utility"
+      },
+      {
+        "name": "Fugitive",
+        "description": "No actions taken with or against this Character will make a player Suspect. ",
+        "type": "offensive"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Missile",
+        "description": "If Jammers OFF,  as an Action place 1 time marker on one unescaped Section. When time marker is resolved Damage that Section and Down all Colocated Characters. Only one inbound Missile at a time is allowed.",
+        "type": "offensive"
+      },
+      {
+        "name": "Extricate",
+        "description": "Upon Reveal (even at Stationfall), flip the Rescue Ship to Pirate Ship. Pirate Ship will only rescue any Character Possessing the Briefcase (even if down)",
+        "type": "offensive"
+      }
+    ],
+    "icon": "assets/images/icons/boarder.png",
+    "image": "assets/images/portraits/boarder.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Boarder",
+          "location_name": "Outer Space",
+          "diagram": "assets/images/rooms/outer_space.png"
+        }
+      ],
+      "notes": "Place Rescue Ship Token on the box next to Outer Space. Boarder starts with a Helmet, a Pistol and a Bludgeon on her Character Card"
+    },
+    "agenda": {
+      "description": "Loot",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "If Boarder Escapes"
+          },
+          "sub": [
+            {
+              "points": 4,
+              "description": "If Boarder in Possession of Briefcase or it the Briefcase is in OuterSpace at Stationfall"
+            },
+            {
+              "points": 1,
+              "description": "for every Live Human in Outer Space at Stationfall"
+            }
+          ]
+        }
+      ],
+      "notes": "Score double for Possessed Bribes"
+    },
+    "quirks": [
+      "Boarder can win even if Guilty",
+      "Boarder scores double for Possessed Bribes",
+      "If an unlaunched Pod is targeted by Missile and then launches before Missile resolves, the Pod is Annihilated when Missile resolves"
+    ],
+    "tips": [
+      "Briefcase is in Suite",
+      "Your starting Items and indiference to Guilt allow you to Down Characters easily",
+      "If you Reveal early you can cause much mayhem with Missiles",
+      "If you Reveal late players won't know whether they can Escape in Outer Space or not, possibly giving you more Bribes",
+      "If Security is in the game, look out, as you count as Fugitive"
+    ],
+    "board_modifications": [
+      "At the start of the game there is a Rescue Ship \"out there\" than can hel humans Escape",
+      "Recue Ship (front) - At Scoring any Human in Outer Space Escapes",
+      "The player Revealing as Boarder flips this token over and the Rescue Ship turns out to be a Pirate Ship with another mission",
+      "Pirate Ship (back) -  At Scoring, any Character Possesing Briefcase in Outer Space Escapes"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Botanist",
+    "description": "abc",
+    "pronoums": "He/Him",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "If Botanist is your BC and Fang Moss Escapes (no points if Botanist Escapes)"
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Scientist",
+        "description": "May perform a Free Section Action instead of a Free Pick Up or Drop.",
+        "type": "utility"
+      },
+      {
+        "name": "Zero Born",
+        "description": "May Free Step or Airlock into a zero Gravity Section instead of Free Pickup or Drop.",
+        "type": "mobilitiy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Creatropism",
+        "description": "During your Activation phase, if Fang Moss is not Possessed by a Live Character, Fang Moss may perform a Free Step or Annihilate a Down Colocated Human, Dropping its Items.",
+        "type": "utility"
+      }
+    ],
+    "icon": "assets/images/icons/botanist.png",
+    "image": "assets/images/portraits/botanist.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Botanist",
+          "location_name": "Hydroponics",
+          "diagram": "assets/images/rooms/hydroponics.png"
+        },
+        {
+          "name": "Fang Moss",
+          "location_name": "Hydroponics",
+          "diagram": "assets/images/rooms/hydroponics.png"
+        }
+      ],
+      "notes": "Place the Feed Me! Ability token next to the board near Hydroponics"
+    },
+    "agenda": {
+      "description": "Blood meal",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "for every Human Annihilated by Fang Moss"
+          },
+          "sub": []  
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "if Fang Moss Escapes"
+          },
+          "sub": []  
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "If Botanist Escapes"
+          },
+          "sub": [
+            {
+              "points": 1,
+              "description": "If contaminated"
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "Fang Moss is an Item. Any Character Possesing Fang Moss get access to the Feed Me! Action. "
+      ],
+    "tips": [
+      "Seek out Down Characters and feed Fang Moss.", 
+      "Get a helmet. Get contaminated in Bio Lab.", 
+      "Use your ZeroBorn for extra mobility.", 
+      "After Reveal, Fang Moss can act in addition to your activation of another Character each turn."
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 5,
+    "name": "Colonel",
+    "description": "abc",
+    "pronoums": "He/Him",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "if Colonel is your BC and Escapes"
+    },
+    "influence_limit": 4,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Officer",
+        "description": "If not Blackout, may Step (or if Down, be Dragged) through Locks, which are then removed.",
+        "type": "mobility"
+      },
+      {
+        "name": "Paranoid",
+        "description": "To Influence, the active player must have a Colocated Conspirator. Cannot be Bribed.",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Mission First",
+        "description": "Upon Reveal, return all of your cubes in Betrayal to your pool.",
+        "type": "conspiracy"
+      }
+    ],
+    "icon": "assets/images/icons/colonel.png",
+    "image": "assets/images/portraits/colonel.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Colonel",
+          "location_name": "Security Station",
+          "diagram": "assets/images/rooms/security_station.png"
+        }
+      ],
+      "notes": "Connect Panic Pod to Quarters and add the indicated Lock and Pistol. Colonel starts with a Pistol"
+    },
+    "agenda": {
+      "description": "Weapon test",
+      "objetives": [
+        {
+          "main": {
+            "points": 3,
+            "description": "If Colonel Escapes"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "If at least one Contaminated NPC Escapes"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "If Project X is released"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "If the X-Secret Escapes"
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "Colonel's Paranoid ability makes him harder to influence",
+      "Colonel can not be Bribed"
+      ],
+    "tips": [
+      "You cam Contaminate Characters and Manufacture X-Secret in Bio Lab.",
+      "You can Release Project X with Officer in Bridge of Cryo Lab, alternatively by damaging Vault X or by causing Blackout."
+    ],
+    "board_modifications": [
+      "Adding Panic Pod adds another Pod to the station. It start Locked with a Gun inside.", 
+      "Any Character inside may use Timed Launch action. Note that like the four standard Pods, the Panic Pod requires Abandon Ship to launch"]
+  },
+  {
+    "id": 6,
+    "name": "Consort",
+    "description": "abc",
+    "pronoums": "They/Them",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "if Consort is your BC and Escapes"
+    },
+    "influence_limit": 6,
+    "type": "Robot",
+    "abilities": [
+      {
+        "name": "Fast Talk",
+        "description": "Cannot be Attacked by Humans with Bludgeon in Lit Sections.",
+        "type": "defensive"
+      },
+      {
+        "name": "Mimic Frameup",
+        "description": "After Downing a Human in a Lit Section,active player may choose another player who has a Colocated Conspirator to become Suspect instead..",
+        "type": "offensive"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Shapeshift Switch",
+        "description": "Upon Reveal, if Live may swap locations with any Human or Robot NPC that is not Escaped or Annihilated. Characters also swap all non-Integral Possessions. Free Drop any Item exceeding the Item Limit.",
+        "type": "conspiracy"
+      }
+    ],
+    "icon": "assets/images/icons/consort.png",
+    "image": "assets/images/portraits/consort.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Consort",
+          "location_name": "Rec Room",
+          "diagram": "assets/images/rooms/rec_room.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "New Life",
+      "objetives": [
+        {
+          "main": {
+            "points": 0,
+            "description": "If Consort Escapes"
+          },
+          "sub": [
+            {
+              "points": 3,
+              "description": "If not Colocated with Live Humans or Robots at Stationfall"
+            },
+            {
+              "points": 3,
+              "description": "if in Possession of Briefcase"
+            },
+            {
+              "points": 1,
+              "description": "If Secret Identity not Revealed until Station Fall"
+            }
+          ]
+        }
+      ],
+      "notes": "Consort scores double for Possessed Bribes"
+    },
+    "quirks": [
+      "Consort scores double for Possessed Bribes",
+      "Despite appareances, Consort is a Robot"
+      ],
+    "tips": [
+      "Briefcase is in Suite.",
+      "Remember that your Reveal Power swaps all items and Bribes as well as your location. ",
+      "A well-timed Reveal late game can put you in the right place at the right time.",
+      "The later you Reveal, the more likely you'll get Bribed.",
+      "Consider using an NPC to secure the Briefcase and move towards escape (setting up a later swap)."
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 7,
+    "name": "Corpsicle",
+    "description": "abc",
+    "pronoums": "She/her",
+    "bonus_points": {
+      "points": 3,
+      "alive": true,
+      "notes": "if Corpsicle is your BC and Escapes"
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Vengeful",
+        "description": "Using Corpsicle's Kompromat will additionally give her a Bludgeon. Her Kompromat can be used even if Down, which will instantly Revive her.",
+        "type": "offensive"
+      },
+      {
+        "name": "Dying",
+        "description": "May not be activated when Exhausted and gets no Free Pick Up or Drop when activated.",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Last Gasp",
+        "description": "Upon Reveal, Revive if Down or perform an Action.",
+        "type": "utility"
+      }
+    ],
+    "icon": "assets/images/icons/corpsicle.png",
+    "image": "assets/images/portraits/corpsicle.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Corpsicle",
+          "location_name": "Cryo Lab",
+          "diagram": "assets/images/rooms/cryo_lab.png"
+        }
+      ],
+      "notes": "Corpsicle starts Down and starts with a Helmet which is Integral (cannot be removed)"
+    },
+    "agenda": {
+      "description": "Miracle Cure",
+      "objetives": [
+        {
+          "main": {
+            "points": 3,
+            "description": "If Corpsicle Escapes"
+          },
+          "sub": [
+            {
+              "points": 2,
+              "description": "If Possess Nanogel"
+            },
+            {
+              "points": 2,
+              "description": "If the X-Secret Escapes"
+            },
+            {
+              "points": 2,
+              "description": "If Project X is not released"
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "Starts Down",
+      "Corpsicle's Helmet is Integral, therefore cannot be removed.",
+      "Using Corpsicle's Kompromat will additionally give her a Bludgeon and Revive her if Down."
+    ],
+    "tips": [
+      "Corpsicle moves slowly on her own, but she can get crucial extra Steps by using Bribes or Kompromat.",
+      "You can Manufacture Nanogel in Nanofactory and Manufacture X-Secret in Bio Lab.",
+      "Prevent the release of Project X by keeping Officers out of Bridge and Cryo Lab.",
+      "If Medevac Pod is in the game, that may be your easiest Escape."
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 8,
+    "name": "Counselor",
+    "description": "abc",
+    "pronoums": "He/Him",
+    "bonus_points": {
+      "points": 3,
+      "alive": true,
+      "notes": "if Counselor is your BC and Escapes"
+    },
+    "influence_limit": 6,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Officer",
+        "description": "If not Blackout, may Step (or if Down, be Dragged) through Locks, which are then removed.",
+        "type": "mobility"
+      },
+      {
+        "name": "Wormtongue",
+        "description": "As an Action, move a cube on a Colocated Live Human's card to Betrayal.",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Recorded Confessional",
+        "description": "Upon Reveal, if Live choose a Colocated Human. All other Innocent players who have that Human as a Conspirator become Suspect.",
+        "type": "offensive"
+      }
+    ],
+    "icon": "assets/images/icons/counselor.png",
+    "image": "assets/images/portraits/counselor.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Counselor",
+          "location_name": "Therapy Garden",
+          "diagram": "assets/images/rooms/therapy_garden.png"
+        }
+      ],
+      "notes": "Connect Shred Room to Therapy Garden with Lock on its Corridor"
+    },
+    "agenda": {
+      "description": "Cloak and Dagger",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "If Counsselor Escapes"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 4,
+            "description": "If the Artifact Escapes"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "If you have more Kompromat than any other player at Stationfall"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "If you have the least Cubes in Betrayal Box at Stationfall"
+          },
+          "sub": []
+        }
+        
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "none"
+    ],
+    "tips": [
+      "Artifact is in the Physics Lab.",
+      "A well timed use of your Reveal Power can quickly make other players go from Innocent to Guilty if you can Transmit Evidence to Authorities using Array Control",
+      "Collect Kompromats"
+    ],
+    "board_modifications": [
+      "Adding Shred Room adds another Dark Section to the station. It starts Locked",
+      "Any Character inside it may use Data Mine: Pickup Kompromat from anywhere On Board"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Cyborg",
+    "description": "abc",
+    "pronoums": "He/Him",
+    "bonus_points": {
+      "points": 2,
+      "alive": false,
+      "notes": "if Cyborg is yor BC and it is not Live at Stationfall"
+    },
+    "influence_limit": 4,
+    "type": "Human and Robot",
+    "abilities": [
+      {
+        "name": "Uncanny",
+        "description": "It takes two Activation discs for this Character to become Exhausted",
+        "type": "conspiracy"
+      },
+      {
+        "name": "Fugitive",
+        "description": "No actions taken with or against this Character will make a player Suspect. ",
+        "type": "offensive"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Brutal",
+        "description": "May use a Bludgeon to Down a Helmeted Human, at which point Annihilate both the Bludgeon and the Helmet.",
+        "type": "offensive"
+      },
+      {
+        "name": "Slef-Repair",
+        "description": "You may Activate Cyborg if Down and as your first action Revive Cyborg.",
+        "type": "conspiracy"
+      }
+    ],
+    "icon": "assets/images/icons/cyborg.png",
+    "image": "assets/images/portraits/cyborg.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Cyborg",
+          "location_name": "Cryo Lab",
+          "diagram": "assets/images/rooms/cryo_lab.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Revenge",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "for each Character with Officer that is Down at Stationfall"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "If no Human PCs Escape"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "If no Contamination Escapes"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "If Project X was released"
+          },
+          "sub": []
+        }
+       
+      ],
+      "notes": "Cyborg can win even if Guilty"
+    },
+    "quirks": [
+      "Cyborg can win even if Guilty",
+      "Cyborg is both Robot and Human, and acts as Human in the case of Hazards and Attacks"
+    ],
+    "tips": [
+      "You can always Down Characters without penalty but others can also Down you without penalty. Priorize Downing Human and Contaminated",
+      "Once revealed you will stop becoming Exhausted because other Players may not Activate you",
+      "You can Release Project X with Officer in Bridge of Cryo Lab, alternatively by damaging Vault X or by causing Blackout.",
+      "If Security is in the game, look out, as you count as Fugitive"
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 10,
+    "name": "Daredevil",
+    "description": "abc",
+    "pronoums": "She/her",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "if Daredevil is your BC and Escapes"
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Pride",
+        "description": "Daredevil cannot be Robed",
+        "type": "defensive"
+      },
+      {
+        "name": "Adrenaline",
+        "description": "Daredevil is not Downed by Hazards. Step or Airlock into Section with Hazard is always Free.",
+        "type": "mobility"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Point Break",
+        "description": "If you are Live, Possess a Helmet, and are Colocated with Rocket Wings at Stationfall, you Escape.",
+        "type": "mobility"
+      }
+    ],
+    "icon": "assets/images/icons/daredevil.png",
+    "image": "assets/images/portraits/daredevil.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Daredevil",
+          "location_name": "Locker Room",
+          "diagram": "assets/images/rooms/locker_room.png"
+        }
+      ],
+      "notes": "Place Jet-Pack in Physics Lab and place Rocket Wings Launch token under Outer Space Action text bubble"
+    },
+    "agenda": {
+      "description": "Thrillseeker",
+      "objetives": [
+        {
+          "main": {
+            "points": 3,
+            "description": "if Daredevil Escapes"
+          },
+          "sub": [
+            {
+              "points": 2,
+              "description": "if you are the only Human that Escapes"
+            },
+            {
+              "points": 2,
+              "description": "if in Possession of Artifact or is Contaminated"
+            }
+          ]
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "If Project X was released"
+          },
+          "sub": []
+        }       
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "With Point Breack ability, Daredevil only needs to Posses a Helmet and be Colocated with Rocket Wings at Stationfall to Escape, she doesn't need to Possess Rocket Wings",
+      "Even if Daredevil can be in Outer Space without a Helemet she still need a Helmet to take the Rocket Wings Launch action"
+    ],
+    "tips": [
+      "Artifact is in the Physics Laband Contamination happens in Bio Lab.",
+      "Daredevil moves faster through Hazards and survives there without a Helmet",
+      "Prevent other Humans from Escaping by Downing them, releasing Project X, Damaging Pods and preventing Abandon Ship."
+    ],
+    "board_modifications": [
+      "Rocket Wings is added as new iten on board that is useful for Escaping",
+      "Adding Rocket Wings Launch adds another Section Action to Outer Space",
+      "Rocket Wings Launch: If Possess Rocket Wings in Outer Space, Escape. Humans still needs to Possess a Helmet"]
+
+  },
+  {
+    "id": 11,
+    "name": "Digital Assistant",
+    "description": "abc",
+    "pronoums": "It",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "if Digital Assistant is yor BC and Escapes"
+    },
+    "influence_limit": 5,
+    "type": "Data",
+    "abilities": [
+      {
+        "name": "AI",
+        "description": "Can always and only do [Console Actions]. Characters Possessing [Digital Assistant data] have Officer for Section actions and \"Abandon ship\" for Pod launch.",
+        "type": "console"
+      },
+      {
+        "name": "Helpful",
+        "description": "No player may have more than one influence cube on this Character.  ",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Root Access",
+        "description": "As an Action, perform an Action with any Robot that Possesses the Digital Assistant. Ignore Self-Preservation.",
+        "type": "utility"
+      },
+      {
+        "name": "Trojan Horse",
+        "description": "Upon Reveal, Copy Digital Assistant to an Unescaped Character that Possesses Evidence or XSecret.",
+        "type": "utility"
+      }
+    ],
+    "icon": "assets/images/icons/digital_assistant.png",
+    "image": "assets/images/portraits/digital_assistant.png",
+    "setup": {
+      "item": [
+      ],
+      "notes": "Place Digital Assistant tokens by the general supply. Place Mainframe token on Mainframe Section text bubble. Place lockdown token under Console Actions"
+    },
+    "agenda": {
+      "description": "Proliferate",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "for every Escaped Robot that Possesses Digital Assistant"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "for every Offsite or Escaped Human that Possesses Digital Assistant"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "if at least two copies of Digital Assistant Escape"
+          },
+          "sub": []
+        }
+       
+      ],
+      "notes": "Digital Assistant can win even if Guilty"
+    },
+    "quirks": [
+      "Digital Assistant is Data, and cannot Possess items or Data",
+      "Digital Assistant can be Manufactured in Mainframe",
+      "Digital Assistant can win even if Guilty",
+      "Blackout prevents Digital Assistant from doing Console Actions",
+      "Digital Assistant can only perform Console Actions, even when no Character Manufactured you yet"
+    ],
+    "tips": [
+      "You are Data and will often need Conspirators to do your dirty work for you",
+      "Get someone to manufacture you in the Mainframe, keep Jammers OFF to Copy yourself to as many Characters as possible",
+      "After Reveal you can control any Robot that Possess you",
+      "Damage Physics Lab to avoid easy deletion",
+      "A well timed use of your Reveal Power may be just before someone Escapes with other Data"
+    ],
+    "board_modifications": [
+      "Adding Console Action Lockdown lets you add, move, or remove a Lock to any Corridor if not in Abandon Ship",
+      "Adding the Section Action \"Manufacture Digital Assistant\" in Mainframe gives any Character the ability to Manufacture Digital Assistant in Mainframe"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Doctor (Hyde)",
+    "description": "abc",
+    "pronoums": "She/her",
+    "bonus_points": {
+      "points": 2,
+      "alive": false,
+      "notes": "if Doctor is your BC and Escapes"
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Scientist",
+        "description": "May perform a Free Section Action instead of a Free Pick Up or Drop.",
+        "type": "utility"
+      },
+      {
+        "name": "Split",
+        "description": "Has two identity cards",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "ZipGun",
+        "description": "  Upon Reveal, gain a Gun",
+        "type": "offensive"
+      }
+    ],
+    "icon": "assets/images/icons/doctor_hyde.png",
+    "image": "assets/images/portraits/doctor_hyde.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Doctor (Hyde)",
+          "location_name": "Forward Hub",
+          "diagram": "assets/images/rooms/forward_hub.png"
+        }
+      ],
+      "notes": "Doctor has 2 Identity Cards, Shuffle them in as normal before dealing the Identity cards. Starts with X-Secret"
+    },
+    "agenda": {
+      "description": "Cruelty",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "if Doctor Escapes"
+          },
+          "sub": [{
+            "points": 3,
+            "description": "if in Possession of Briefcase"
+          },
+          {
+            "points": 4,
+            "description": "if Escaped Live in a Pod with a Down Human"
+          }]
+        }
+      ],
+      "notes": "Hyde scores double for Bribes Possessed by Doctor"
+    },
+    "quirks": [
+      "Doctor has 2 Identity cards. Each Identity card has its own Agenda",
+      "Doctor may be the PC of two players. A player trying to Bribe or use Kompromat on such a PC must choose one of the two players to accept or refuse. Both players become Suspect if Kompromat is refused",
+      "Hyde scores double for Bribes Possessed by Doctor",
+      "Both Players with Doctor as their PC may activate and act with Doctor"
+    ],
+    "tips": [
+      "Briefcase is in Suite",
+      "The later you Reveal, the more likely you'll get Bribed.",
+      "A well timed Reveal will allow you to Down a Human with you newly acquired Gun just before you Escape with their body"
+    ],
+    "board_modifications": [""]
+  },  
+  {
+    "id": 13,
+    "name": "Doctor (Jekyll)",
+    "description": "abc",
+    "pronoums": "She/her",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "if Doctor is your BC and Escapes"
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Scientist",
+        "description": "May perform a Free Section Action instead of a Free Pick Up or Drop.",
+        "type": "utility"
+      },
+      {
+        "name": "Split",
+        "description": "Has two identity cards",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Fake Artifact",
+        "description": "Upon Reveal, unless Possesed by PC, Artifact moves to Doctor even if it was Annihilated",
+        "type": "utility"
+      }
+    ],
+    "icon": "assets/images/icons/doctor_jekyll.png",
+    "image": "assets/images/portraits/doctor_jekyll.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Doctor (Jekyll)",
+          "location_name": "Forward Hub",
+          "diagram": "assets/images/rooms/forward_hub.png"
+        }
+      ],
+      "notes": "Doctor has 2 Identity Cards, Shuffle them in as normal before dealing the Identity cards. Starts with X-Secret"
+    },
+    "agenda": {
+      "description": "Science",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "if Doctor Escapes"
+          },
+          "sub": [
+            {
+              "points": 3,
+              "description": "if Contaminated"
+            },
+            {
+              "points": 3,
+              "description": "if in Possession of Artifact"
+            }
+          ]
+        },
+        {
+          "main": {
+            "points": 3,
+            "description": "if News and Authorities do not have Evidence at Stationfall"
+          },
+          "sub": []
+        }
+      ],
+      "notes": "Jeckyll scores normally any Bribes Possessed by Doctor"
+    },
+    "quirks": [
+      "Doctor has 2 Identity cards. Each Identity card has its own Agenda",
+      "Doctor may be the PC of two players. A player trying to Bribe or use Kompromat on such a PC must choose one of the two players to accept or refuse. Both players become Suspect if Kompromat is refused",
+      "Jeckyll scores double for Bribes Possessed by Doctor",
+      "Both Players with Doctor as their PC may activate and act with Doctor"
+    ],
+    "tips": [
+      "Artifact is in the Physics Lab, but you can also get it by Revealing if no PC Possess it.",
+      "Get Contaminated in Bio Lab",
+      "Keep Jammers ON to prevent the Evidence from reaching the News or the Authorities easily"
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 14,
+    "name": "Drones",
+    "description": "abc",
+    "pronoums": "It/Them/They",
+    "bonus_points": {
+      "points": 0,
+      "alive": true,
+      "notes": "Drones can not be anyones BC"
+    },
+    "influence_limit": 0,
+    "type": "Robot",
+    "abilities": [
+      {
+        "name": "Disassemble",
+        "description": "As an Action, can Down self to Repair a Colocated Section or Robot.",
+        "type": "utility"
+      },
+      {
+        "name": "Remote Control",
+        "description": "Cannot be Bribed, Influenced, or Activated directly. As a Console Action Characters may perform an Action with any Live Drone. ",
+        "type": "console"
+      }
+    ],
+    "reveal": [
+
+    ],
+    "icon": "assets/images/icons/drones.png",
+    "image": "assets/images/portraits/drones.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Drone 4",
+          "location_name": "Physics Lab",
+          "diagram": "assets/images/rooms/physics_lab.png"
+        },
+        {
+          "name": "Drone 6",
+          "location_name": "Outer Space",
+          "diagram": "assets/images/rooms/outer_space.png"
+        }
+      ],
+      "notes": "Drones have no Identity Card. Place Remote control token under Console Actions Actions. Each Drone starts with an Integral Bludgeon"
+    },
+    "agenda": {
+      "description": "",
+      "objetives": [
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "Drones have no Identity Card",
+      "Drones are never Activated and therefore can never Free Pick Up or Drop",
+      "Drones can perform Actions and may Possess Items and Data",
+      "Drones Bludgeons are Integral and can not be removed from the Character Card",
+      "Using Console action Remote Control is the only way to act with Drones. Unless Digital Assistant is in the game"
+    ],
+    "tips": [
+      "Drones are a useful way to Down Characters since they always Possess a Bludgeon",
+      "Drones are useful for Repairing Sections"
+    ],
+    "board_modifications": ["Add Remote Control action under Console actions. Giving the players the possibility to: Perform an Action with any one Drone"]
+  },
+  {
+    "id": 15,
+    "name": "Engineer",
+    "description": "abc",
+    "pronoums": "He/Him",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "if Engineer is your BC and is not Live at Stationfall"
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Officer",
+        "description": "If not Blackout, may Step (or if Down, be Dragged) through Locks, which are then removed.",
+        "type": "mobilitiy"
+      },
+      {
+        "name": "Jury Rig",
+        "description": "As an action, Repair a Colocated Damaged Section or Down Robot.",
+        "type": "utility"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Overload",
+        "description": "Upon Reveal place a time marker in any Section. When it resolves Damage that Section.",
+        "type": "offensive"
+      }
+    ],
+    "icon": "assets/images/icons/engineer.png",
+    "image": "assets/images/portraits/engineer.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Engineer",
+          "location_name": "Array Control",
+          "diagram": "assets/images/rooms/array_control.png"
+        }
+      ],
+      "notes": "Place Reactor Token on Reactor Text bubble"
+    },
+    "agenda": {
+      "description": "Preserve Ecosphere",
+      "objetives": [
+        {
+          "main": {
+            "points": 3,
+            "description": "if Antimatter detonates On Board before Stationfall"
+          },
+          "sub": [
+          ]
+        },
+        {
+          "main": {
+            "points": 3,
+            "description": "if no Contaminated Characters Escapes"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "if Artifact does not Escape"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "if Innocent, but may win even if Guilty"
+          },
+          "sub": []
+        }
+      ],
+      "notes": "May win even if Guilty"
+    },
+    "quirks": [
+      "If an unlaunched Pod is targeted by Overload and then launches before Time maker resolves, the Pod if Annihilated when the Time maker resolves"
+    ],
+    "tips": [
+      "Anyone can arm Antimatter by removing it from Magnetic Containment",
+      "Officers can arm the Antimatter by triggering Slef-Destruct from Bridge",
+      "You can Decontaminate Characters in Tanks, or just Down them since you're indifferent to Guilt"
+    ],
+    "board_modifications": [
+      "Addin Reactor changes the state of Reactor",
+      "It cannot be Damaged with Bludgeon. However if it is Damaged by other means, add Asphyxiation here and in connected through corridor Sections. Asphyxiation does not move through vents"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Exile",
+    "description": "abc",
+    "pronoums": "He/Him",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "if Exile is your BC and Escapes"
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Fast Talk",
+        "description": "Cannot be Attacked by Humans with Bludgeon in Lit Sections.",
+        "type": "defensive"
+      },
+      {
+        "name": "Hacker",
+        "description": "May perform a Free Console Action instead of a Free Pick Up or Drop.  If Jammers are OFF may perform Console Actions in any Section.",
+        "type": "console"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Blod from a Stone",
+        "description": "After using Kompromat on an NPC, return it to your hand. ",
+        "type": "conspiracy"
+      },
+      {
+        "name": "Tradecraft",
+        "description": "As an Action with Exile, discard two Kompromat from your hand and take a previously used NPC's Kompromat into your hand.",
+        "type": "conspiracy"
+      }
+    ],
+    "icon": "assets/images/icons/exile.png",
+    "image": "assets/images/portraits/exile.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Exile",
+          "location_name": "Array Control",
+          "diagram": "assets/images/rooms/array_control.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Back in the game",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "if Exile Escapes"
+          },
+          "sub": [ 
+            {
+            "points": 2,
+            "description": "for each Possessed Kompromat of Escaped Characters"
+            },
+            {
+              "points": 3,
+              "description": "if Exile has Evidence and News does not"
+              }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      ""
+    ],
+    "tips": [
+      "Pick up as much Kompromats as possible",
+      "After Reveal, Kompromats can be used multiple times on NPCs",
+      "Help any Character that you have Kompromat for to Escape",
+      "Evidence can be Manufactured in Security Station and can be Deleted in Physics Lab",
+      "Keep Jammers ON to prevent the Evidence from reaching the News"
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Inspector",
+    "description": "abc",
+    "pronoums": "They/Them",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "if Inspector is your BC and Escapes"
+    },
+    "influence_limit": 4,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Investigator",
+        "description": "Can Pick Up Kompromat or Manufacture Data from adjacent Sections.",
+        "type": "utility"
+      },
+      {
+        "name": "Badge",
+        "description": "May Rob Items as if in Possession of a Gun.",
+        "type": "offensive"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Offshore Sheanigans",
+        "description": "Upon Reveal, regain your Bribe if it has been used.",
+        "type": "conspiracy"
+      }
+    ],
+    "icon": "assets/images/icons/inspector.png",
+    "image": "assets/images/portraits/inspector.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Inspector",
+          "location_name": "Chem Lab",
+          "diagram": "assets/images/rooms/chem_lab.png"
+        }
+      ],
+      "notes": "Flip Hail Mary Pod to Inspector Shuttle side up"
+    },
+    "agenda": {
+      "description": "Dirty",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "if Inspector Escapes"
+          },
+          "sub": [
+            {
+            "points": 4,
+            "description": "if in Possession of Briefcase"
+            }
+          ]
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "if Authorities end with Evidence"
+          },
+          "sub": [
+            {
+            "points": 2,
+            "description": "if News does not"
+            }
+          ]
+        }
+      ],
+      "notes": "Inspector Scores doubled for Possesed Bribes"
+    },
+    "quirks": [
+      "Inspector Scores doubled for Possesed Bribes"
+    ],
+    "tips": [
+      "Briefcase is in Suite",
+      "Evidence can be Manufactured in Security Station and sent using Array Control or by Escaping with it at Stationfall",
+      "Turn Jammers OFF to send Evidence to any Character",
+      "Your Shuttle does not require Abandon Ship to launch",
+      "The later you Reveal, the more likely you'll get Bribed."
+    ],
+    "board_modifications": [
+      "The Inspector Shuttle must be Occupied by Inspector or Live Character with Jury Rig to launch"]
+  },
+  {
+    "id": 18,
+    "name": "Legal",
+    "description": "abc",
+    "pronoums": "It",
+    "bonus_points": {
+      "points": 1,
+      "alive": false,
+      "notes": "if Legal is your BC and is not Live at Stationfall"
+    },
+    "influence_limit": 4,
+    "type": "Robot",
+    "abilities": [
+      {
+        "name": "Process Server",
+        "description": "As an Action, Manufacture NDA into the Possession of all Colocated Humans and Robots.",
+        "type": "utility"
+      },
+      {
+        "name": "Lawyer Up",
+        "description": "As an action, change a Player's Innocent or Guilty status to Suspect if Colocated with that Player's PC.",
+        "type": "offensive"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Fine Print",
+        "description": "You may Activate NPCs Possessing the NDA.",
+        "type": "conspiracy"
+      },
+      {
+        "name": "Hardcopy",
+        "description": "As an Action, any Character Colocated with Legal can Manufacture a copy of the NDA.",
+        "type": "conspiracy"
+      }
+    ],
+    "icon": "assets/images/icons/legal.png",
+    "image": "assets/images/portraits/legal.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Legal",
+          "location_name": "Aft Hub",
+          "diagram": "assets/images/rooms/aft_hub.png"
+        }
+      ],
+      "notes": "Flip Alcatraz, Houdini, and McQueen so the arrow side is down. Place the NDA tokens by the general supply"
+    },
+    "agenda": {
+      "description": "Reduce Corporate Liability",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "for each Human that Escapes with NDA"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 4,
+            "description": "if no Human Escape or all Escaped Humans have NDA"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "if the Evidence does not Escape"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "for each Suspect (not Guilty) PC at Stationfall"
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "NDA is Data, Legal does not Possess NDA, but can Manufacture it into the Possession of Colocated Characters",
+      "Characters Possesing NDA may not Copy, Delete, Deliver, or be Roobed of Data",
+      "Legal may still Manufacture NDA into Downed Characters' Possession. (Imagine Legal explaining all of the terms and conditions to the incapacitated victim...then lifting their lifeless handprint to sing the self-binding corporate smart-contract.)"
+    ],
+    "tips": [
+      "Acquiring and using Kompromat is a good way to create Suspect Players",
+      "Your Influence Limit is low but Fine Print can help if you Reveal",
+      "Damage Security Station since Evidence can be Manufactured there",
+      "Prevent any form of Escape that does not requiere an NDA",
+      "The NDA can only be personally Manufactured to or with Colocated Characters, so keep Legal Live if possible"
+    ],
+    "board_modifications": [
+      "The Pods Alcatraz, Houdini, and McQueen now Requiere Abdandon Ship and all Live Occupants Possesing NDA to launch"]
+  },
+  {
+    "id": 19,
+    "name": "Maintenance Clones",
+    "description": "abc",
+    "pronoums": "They/Them",
+    "bonus_points": {
+      "points": 1,
+      "alive": true,
+      "notes": " for every Clone that Escapes. +1 point if all 3 Clones Escape"
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Zero Born",
+        "description": "May Free Step or Airlock into a zero Gravity Section instead of Free Pickup or Drop.",
+        "type": "mobilitiy"
+      },
+      {
+        "name": "Jury Rig",
+        "description": "As an action, Repair a Colocated Damaged Section or Down Robot.",
+        "type": "utility"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Go Go Go!",
+        "description": "Upon Reveal, you may immediately perform an Action with each Clone.",
+        "type": "utility"
+      }
+    ],
+    "icon": "assets/images/icons/maintenance-clones.png",
+    "image": "assets/images/portraits/maintenance-clones.png",
+    "setup": {
+      "item": [
+        {
+          "name": "α",
+          "location_name": "Fuel Cels",
+          "diagram": "assets/images/rooms/fuel_cells.png"
+        },
+        {
+          "name": "β",
+          "location_name": "Kitchen",
+          "diagram": "assets/images/rooms/kitchen.png"
+        },
+        {
+          "name": "γ",
+          "location_name": "Quarters",
+          "diagram": "assets/images/rooms/quarters.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Prove clones Exists",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "if a Clone Escapes"
+          },
+          "sub": [
+            {
+            "points": 4,
+            "description": "if at least two Clones Escapes"
+            },
+            {
+            "points": 2,
+            "description": "if News ends with Evidence"
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "When activating Maintenance Clones you may perform Actions with a single Clone per turn",
+      "Each Clone has an Item Limit of 2 (put both Items in the same slot)",
+      "Each Clone can Possess its own Data Types and does not automatically share with other Clones. Place Possessed Data and Items on their indicated slots",
+      "You can still Activate and Renegociate with Maintenace Clones as long as at least one of them has not Escaped or been Annihilated"
+    ],
+    "tips": [
+      "Maintenance Clones can move very quickly",
+      "Take advantage of being in three different locations",
+      "Evidence can be Manufactured in Security Station and sent using Array Control",
+      "Turn Jammers OFF to send Evidence to any Character"
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 20,
+    "name": "Medical",
+    "description": "abc",
+    "pronoums": "It/They/Them",
+    "bonus_points": {
+      "points": 1,
+      "alive": false,
+      "notes": " if Medical is your BC and is not Live at Stationfall"
+    },
+    "influence_limit": 4,
+    "type": "Robot",
+    "abilities": [
+      {
+        "name": "Emergency Response",
+        "description": "As an Action, may Revive a Human. Step or Airlock into Section with Down Human is always Free.",
+        "type": "utility"
+      },
+      {
+        "name": "Helpful",
+        "description": "No player may have more than one influence cube on this Character.",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Haywire",
+        "description": "Gains a Bludgeon",
+        "type": "offensive"
+      }
+    ],
+    "icon": "assets/images/icons/medical.png",
+    "image": "assets/images/portraits/medical.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Medical",
+          "location_name": "Aft Hub",
+          "diagram": "assets/images/rooms/aft_hub.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Be really useful",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "if no Down Human on Board at Stationfall"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": " for each star reached on the tracker on the Character Card"
+          },
+          "sub": []
+        }
+      ],
+      "notes": "Move tracker on slot for every: Human Revival performed by Medical and Cubed moved to Betrayal upon Medical's Reveal"
+    },
+    "quirks": [
+      "Medical marker starts at 0",
+      "Use Medical marker to keep track of Revives and number of cubes sent to Betrayal for scoring purposes",
+      "Medical can not revive Unhelmeted Humans in Hazards",
+      "Free Steps from Emergency Response can be chained gained"
+    ],
+    "tips": [
+      "The more Characters that are Down, the more chances you have to score points and move around quicker",
+      "The later you Reveal, the more chances you have to gain Points from other Players Influence Cubes when Revealing",
+      "Free Step can be used even when you do not choose to revive anyone"
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 21,
+    "name": "Microbiologist",
+    "description": "abc",
+    "pronoums": "She/her",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": " if Microbiologist is your BC and Escapes"
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Scientist",
+        "description": "May perform a Free Section Action instead of a Free Pick Up or Drop.",
+        "type": "utility"
+      },
+      {
+        "name": "Loyal",
+        "description": "To Influence return all cubes on this card and place at least 1 more cube than was previously here.",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Infect",
+        "description": "As an Action, Contaminate a Colocated Human or Robot.  If they have no empty item slots, they drop an Item of your choice.  Humans and Robots can never have more than one contamination token.",
+        "type": "offensive"
+      }
+    ],
+    "icon": "assets/images/icons/microbiologist.png",
+    "image": "assets/images/portraits/microbiologist.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Microbiologist",
+          "location_name": "Physics Lab",
+          "diagram": "assets/images/rooms/physics_lab.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Sentient Pathogen",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "if Microbiologist Escape"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "for every Contaminated Character that Escapes"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "If the X-Secret Escapes"
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [],
+    "tips": [
+      "Use your Reveal power or Bio Lab to Contaminate Characters",
+      "Manufacture X-Secret in Bio Lab and Copy it to other Characters",
+      "Trigger Abandon Ship using an Officer on Bridge, Damaging Power Section, or releasing Project X",
+      "You can launch multiple Occuped Pods from Bridge with Officer"
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 22,
+    "name": "Operative",
+    "description": "abc",
+    "pronoums": "She/her",
+    "bonus_points": {
+      "points": 2,
+      "alive": false,
+      "notes": " if Operative is your BC and is not Live at Stationfall"
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "EMP Burst",
+        "description": "Sabotage Operative's Section, Down all Robots in it and Delete all Colocated Data.",
+        "type": "offensive"
+      },
+      {
+        "name": "Officer",
+        "description": "If not Blackout, may Step (or if Down, be Dragged) through Locks, which are then removed.",
+        "type": "mobilitiy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Claymore",
+        "description": "Peek at, then place 3 trap markers face-Down in 3 different Sections. Flip each marker after a Human, Robot, or Monster enters the Section and Down them if it is the trap. Traps never trigger Suspicion, Guilt or Self-Preservation.",
+        "type": "offensive"
+      },
+      {
+        "name": "Nerve Gas Grenades",
+        "description": "As an Action with Operative, place Gas in Operative’s Section or a Section she can Throw to.",
+        "type": "offensive"
+      }
+    ],
+    "icon": "assets/images/icons/operative.png",
+    "image": "assets/images/portraits/operative.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Operative",
+          "location_name": "Suite",
+          "diagram": "assets/images/rooms/suite.png"
+        }
+      ],
+      "notes": "Place the 3 trap tokens close to Operative's Character Card"
+    },
+    "agenda": {
+      "description": "Coverup",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "if the Evidence does not Escape"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "if X-Secret does not Escape"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "If no Innocent PCs Escape"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "if no Contaminated Characters Escape"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "If no Robots Scape"
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [],
+    "tips": [
+      "Keep Jammers ON to prevent Data Copying",
+      "Delete Data and Down Robots using you EMP Burst",
+      "Using Kompromat on PCs at critical moment is a good way to make them Suspect",
+      "You can Decontaminate Characters in Tanks",
+      "Use your Reveal Powers wisely to Down Characters"
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 23,
+    "name": "Security",
+    "description": "abc",
+    "pronoums": "It",
+    "bonus_points": {
+      "points": 3,
+      "alive": false,
+      "notes": " if Security is your BC and is not Live at Stationfall"
+    },
+    "influence_limit": 4,
+    "type": "Robot",
+    "abilities": [
+      {
+        "name": "Peacekeeper",
+        "description": "May only Attack Fugitives, Monsters or non-Innocent PCs. May not Sabotage",
+        "type": "defensive"
+      },
+      {
+        "name": "Armored",
+        "description": "Cannot be Attacked or Robbed with Bludgeon.",
+        "type": "defensive"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Authorized Force",
+        "description": "Lose Peacekeeper",
+        "type": "offensive"
+      }
+    ],
+    "icon": "assets/images/icons/security.png",
+    "image": "assets/images/portraits/security.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Security",
+          "location_name": "Print Shop",
+          "diagram": "assets/images/rooms/print_shop.png"
+        }
+      ],
+      "notes": "Security starts with an Integral Gun (can not be removed)"
+    },
+    "agenda": {
+      "description": "Peace through superior firepower",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "per Down Fugitive, Monster, or non-Innocent Player PC On Board at Stationfall"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "per Down Human with Bludgeon or Gun On Board at Stationfall"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "if Briefcase does not Escape"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "if Artifact does not Escape"
+          },
+          "sub": [{
+            "points": 1,
+            "description": "if both Briefcase + Artifact do not Escape"
+          }]
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [],
+    "tips": [
+      "You are hard to Rob so Artifact and Briefcase are safest with you",
+      "Once you Reveal you can Down any Character, and then plant a Bludgeon on them",
+      "Acquiring and using Kompromat is a good way to create Suspect Players",
+      "You can Release Project X with Officer in Bridge of Cryo Lab",
+      "Boarder and Cyborg are Fugitives",
+      "Until you Reveal, Peacekeeper prevents you from Attacking or Sabotaging, but you can still 'Rob' items (confiscating/securing them)"
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 24,
+    "name": "Station Chief",
+    "description": "abc",
+    "pronoums": "She/her",
+    "bonus_points": {
+      "points": 2,
+      "alive": false,
+      "notes": " if Station Chief is your BC and is not Live at Stationfall"
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Officer",
+        "description": "If not Blackout, may Step (or if Down, be Dragged) through Locks, which are then removed.",
+        "type": "mobilitiy"
+      },
+      {
+        "name": "Pride",
+        "description": "Cannot be Robbed",
+        "type": "defensive"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Forceful Presence",
+        "description": "At the start of Station Chief's Activation phase you may perform a Free Basic Action with a Colocated NPC or with an NPC Officer anywhere.",
+        "type": "utility"
+      }
+    ],
+    "icon": "assets/images/icons/station_chief.png",
+    "image": "assets/images/portraits/station_chief.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Station Chief",
+          "location_name": "Therapy Garden",
+          "diagram": "assets/images/rooms/therapy_garden.png"
+        }
+      ],
+      "notes": "Connect Medevac Pod to Forward Airlocks"
+    },
+    "agenda": {
+      "description": "Go down with the Ship",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": " per every other Human that Escapes"
+          },
+          "sub": [{
+            "points": 1,
+            "description": "per NPC with the Officer ability that Escapes"
+          }]
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "if Station Chief is On Board and Live at Stationfall"
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [],
+    "tips": [
+      "Trigger Abandon Ship as quickly as possible with Officer on Bridge, Damaging Power Sections, or releasing Project X",
+      "You can launch multiple Occupied Pods from Bridge with Officer",
+      "If you can Drag a Down Human to Medevac Pod, you can launch it without Abandon ship"
+    ],
+    "board_modifications": ["The Medevac Pod must be Occupied by a Down Human to launch. Abandon Ship is no requiered to launch"]
+  },
+  {
+    "id": 25,
+    "name": "Stowaway",
+    "description": "abc",
+    "pronoums": "She/her",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "if Stowaway is your BC and Escapes"
+    },
+    "influence_limit": 4,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Tunnel Rat",
+        "description": "May Step through Vents.",
+        "type": "mobilitiy"
+      },
+      {
+        "name": "Hacker",
+        "description": "May perform a Free Console Action instead of a Free Pick Up or Drop.  If Jammers are OFF may perform Console Actions in any Section.",
+        "type": "utility"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Secret Cache",
+        "description": "Upon Reveal, you or one of your Conpirators gains a Helmet.",
+        "type": "defensive"
+      }
+    ],
+    "icon": "assets/images/icons/stowaway.png",
+    "image": "assets/images/portraits/stowaway.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Stowaway",
+          "location_name": "Character Card",
+          "diagram": "assets/images/character_card.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Scoop of a lifetime",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "if News ends with X-Secret"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "if News ends with Evidence"
+          },
+          "sub": []
+        },        {
+          "main": {
+            "points": 2,
+            "description": "if Stowaway Escapes"
+          },
+          "sub": [{
+            "points": 3,
+            "description": "if Escape with Evidence and no other Character does"
+          }]
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "Stoaway's pawn starts on her Character card",
+      "Stoaway's first ever Action must be to Step into any Dark Section and may not be interacted with until then"
+    ],
+    "tips": [
+      "Evidence can be Manufactured in Security Station and X-Secret in Bio Lab",
+      "Transmit Data using Array Control or by Escaping with it at Stationfall",
+      "Turn Jammers OFF to Copy Data and to use your Hacker Ability",
+      "Stop others with Data from Escaping by Downing them or Step them into Physics Lab."
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 26,
+    "name": "Stranger",
+    "description": "abc",
+    "pronoums": "They/Them",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "if Stranger is your BC and Escapes"
+    },
+    "influence_limit": 6,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Uncanny",
+        "description": "It takes two Activation discs for this Character to become Exhausted",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Homework",
+        "description": "Upon Reveal, you may Reveal your BC and perform one Action with that Character.",
+        "type": "utility"
+      },
+      {
+        "name": "Enigma",
+        "description": "If Schrödinger Reveal as Stranger, do not discard any card(s) (retain them as Bonus Characters).  YYY If Schrödinger Reveal as Stranger then lose Uncanny.",
+        "type": "conspiracy"
+      }
+    ],
+    "icon": "assets/images/icons/stranger.png",
+    "image": "assets/images/portraits/stranger.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Stranger",
+          "location_name": "Nanofactory",
+          "diagram": "assets/images/rooms/nanofactory.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "It's personal",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "if your Secret Identity is not revealed until Stationfall"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "if Possess X-Secret"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "if you Score Bonus Points"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "if Live and Colocated with a Bonus Character of yours at Stationfall"
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [],
+    "tips": [
+      "Focus mainly on achieving your BC's condition and keeping the Stranger close to them",
+      "If you want your BC to survive, trigger Abandon Ship as quickly as possible either with Officer on Bridge, Damaging Power Sections, or releasing Project X",
+      "Due to your low point cap you should actively deduce and interfere with your opponent's Agendas if possible"
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 27,
+    "name": "Telepathic Rat",
+    "description": "abc",
+    "pronoums": "It",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "if Telephatic Rat is your BC and Escapes"
+    },
+    "influence_limit": 8,
+    "type": "Item",
+    "abilities": [
+      {
+        "name": "Telepathy",
+        "description": "Perform an Action with a Colocated Unhelmeted Human, ignoring Self-Preservation. May only perform Telepathy Actions.",
+        "type": "offensive"
+      },
+      {
+        "name": "Paranoid",
+        "description": "To Influence, the active player must have a Colocated Conspirator. Cannot be Bribed.",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "My Precious",
+        "description": "Other players may not Throw, Airlock, or Drop you. You may still be Given to Colocated Characters.",
+        "type": "defensive"
+      }
+    ],
+    "icon": "assets/images/icons/telephatic_rat.png",
+    "image": "assets/images/portraits/telephatic_rat.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Telepathic Rat",
+          "location_name": "Bio Lab",
+          "diagram": "assets/images/rooms/bio_lab.png"
+        }
+      ],
+      "notes": "Telepathic Rat starts Contaminated"
+    },
+    "agenda": {
+      "description": "Penance",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "for each Down Human or Robot Colocated with Telepathic Rat at Stationfall"
+          },
+          "sub": [
+            {
+              "points": 2,
+              "description": "for each Possessed Kompromat of Colocated Down Characters"
+            }
+          ]
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "if Telepathic Rat is Collocated with Artifact at Stationfall"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "if Telepathic Rat is Collocated with Briefcase at Stationfall"
+          },
+          "sub": []
+        }
+      ],
+      "notes": "Rat can win even if Guilty"
+    },
+    "quirks": [
+      "Rat is an Item, it can be Picked Up, Dropped, Thrown, Etc",
+      "Rat starts Contaminated, but can be decontaminated (or recontaminated) normally",
+      "Rat cannot Possess Items or Data",
+      "Rat cannot be Attacked or ever become Down",
+      "Rat can win even if Guilty",
+      "Rat's Paranoid ability makes it harder to influence",
+      "Rat cannot be Bribed",
+      "Rat stats Contaminated even though it will not Possess Items"
+    ],
+    "tips": [
+      "Artifact is in the Physics Lab and Briefcase is in Suite",
+      "Beware of Annihilation of being Possesed by any Character that can potentially Escape",
+      "You're indifferent to Guilt, so you can Down Characters indiscriminately",
+      "Aim to end a Section with many Down Characters at Stationfall",
+      "Your Reveal power prevents you fron being left in an empty Section or Outer Space",
+      "Helmets are the Rat's enemy; find ways to dispose if them"
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 28,
+    "name": "Troubleshooter",
+    "description": "abc",
+    "pronoums": "She/her",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "if Troubleshooter is your BC and Escapes"
+    },
+    "influence_limit": 6,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Tunnel Rat",
+        "description": "May Step through Vents.",
+        "type": "mobilitiy"
+      },
+      {
+        "name": "Jury Rig",
+        "description": "As an action, Repair a Colocated Damaged Section or Down Robot.",
+        "type": "utility"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Talk them through it",
+        "description": "During your turn, if Troubleshooter is Live, your Conspirators move and act as though they have Jury Rig and Tunnel Rat.",
+        "type": "utility"
+      }
+    ],
+    "icon": "assets/images/icons/troubleshooter.png",
+    "image": "assets/images/portraits/troubleshooter.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Troubleshooter",
+          "location_name": "Print Shop",
+          "diagram": "assets/images/rooms/print_shop.png"
+        }
+      ],
+      "notes": "Connect Cargo Claw to forward Airlocks. Troubleshooter starts with a Bludgeon"
+    },
+    "agenda": {
+      "description": "Pristine 'til the end",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "If Antimatter is not Armed at Stationfall"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "If Project X is not released"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "if no Sections are Damaged at Stationfall"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "for each Live Robot at Stationfall"
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [],
+    "tips": [
+      "Your Reveal power is very useful to allow your Conspirators to Repair Damaged Sections",
+      "Try to keep Characters out of Bridge, Cryo Lab and Magnetic Containment preventing releasing Project X and arming Antimatter"
+    ],
+    "board_modifications": [
+      "Cargo Claw enables any Character to do the action Grip in this Section",
+      "Grip: Pick Up an Item in Outer Space or Down a Character in Outer Space"
+    ]
+  }
+  
+]

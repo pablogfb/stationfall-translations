@@ -1,0 +1,2463 @@
+[
+  {
+    "id": 1,
+    "name": "Afftronaut",
+    "description": "abc",
+    "pronoums": "Er/ihm",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "falls der \"Afftronaut\" dein ZA ist und entkommt."
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Tunnelratte",
+        "description": "Darf durch Luftschächte \"gehen\".",
+        "type": "mobility"
+      },
+      {
+        "name": "Loyal",
+        "description": "Falls du ihn beeinflusst, lege 1 Einflusswürfel mehr auf die Karte, als dort insgesamt liegen, und gib die anderen Würfel dann ihren Eigentümern zurück.",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Akrobatisch",
+        "description": "Wird \"Raumkind\" und erhält 1 freies \"Gehen\"/\"Schleusen\" in einen Bereich ohne Schwerkraft (alternativ zu freiem \"Aufnehmen\"/\"Ablegen\").",
+        "type": "mobility"
+      }
+    ],
+    "icon": "assets/images/icons/astrochimp.png",
+    "image": "assets/images/portraits/astrochimp.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Astrochimp",
+          "location_name": "Küche",
+          "diagram": "assets/images/rooms/kitchen.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Glitzerkram",
+      "objetives": [
+        {
+          "main": {
+            "points": 3,
+            "description": "falls der \"Afftronaut\" entkommt."
+          },
+          "sub": [
+            {
+              "points": 2,
+              "description": "falls er den Koffer besitzt."
+            },
+            {
+              "points": 2,
+              "description": "falls er das Artefakt besitzt."
+            },
+            {
+              "points": 2,
+              "description": "falls er eine Pistole besitzt."
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "Der \"Afftronaut\" gilt als Mensch (genetisch zu 99% identisch – das sollte doch wohl reichen!)."
+    ],
+    "tips": [
+      "Das Artefakt ist im Physiklabor.",
+      "Der Koffer ist in den Wohnräumen.",
+      "Ein Offizier darf eine Pistole im Replikatorraum \"herstellen\", aber man darf sie auch jemand Anderem \"rauben\".",
+      "Sobald man sich zu ihm bekannt hat, bewegt sich der \"Afftronaut\" sehr schnell. Verschafft er sich dann noch einen Helm und eine Pistole, wird er zu einem der gefährlichsten Akteure."
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Milliardär",
+    "description": "abc",
+    "pronoums": "Er/ihm",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "falls der \"Milliardär\" dein ZA ist und Fletscher entkommt. (Niemanden interessiert der \"Milliardär\", es geht nur um den süßen Raumhund.)"
+    },
+    "influence_limit": 3,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Immer Live",
+        "description": "Falls die Störsender aus sind, verhalten sich die Bereiche mit dem \"Milliardär\" und mit Fletscher, als ob sie hell und die Kameras an wären.",
+        "type": "defensive"
+      },
+      {
+        "name": "Reich",
+        "description": "Kann nicht bestochen werden. Wer ihn aktiviert hat, darf 1 grauen Bestechungsmarker von seiner Karte nutzen statt eines eigenen (nur 1-mal pro Runde möglich); diese Marker werden nur gewertet, falls der \"Milliardär\" entkommt.",
+        "type": "defensive"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Leere Versprechen",
+        "description": "Erhält beim Bekennen alle 3 grauen Bestechungsmarker zurück (auch beim Absturz).",
+        "type": "conspiracy"
+      }
+    ],
+    "icon": "assets/images/icons/billionaire.png",
+    "image": "assets/images/portraits/billionaire.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Billionaire",
+          "location_name": "Wohnräume",
+          "diagram": "assets/images/rooms/suite.png"
+        },
+        {
+          "name": "Fletcher",
+          "location_name": "Sicherheitszentrale",
+          "diagram": "assets/images/rooms/security_station.png"
+        }
+      ],
+      "notes": "Der \"Milliardär\" beginnt die Partie mit 3 grauen Bestechungsmarkern auf seiner Karte."
+    },
+    "agenda": {
+      "description": "Überleben",
+      "objetives": [
+        {
+          "main": {
+            "points": 4,
+            "description": "falls der \"Milliardär\" entkommt."
+          },
+          "sub": [
+            {
+              "points": 1,
+              "description": "falls beim Absturz nicht bei gesunden Menschen oder Robotern."
+            }
+          ]
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "falls Fletscher entkommt."
+          },
+          "sub": [
+            {
+              "points": 1,
+              "description": "falls Fletscher und der \"Milliardär\" zusammen entkommen."
+            }
+          ]
+        }
+      ],
+      "notes": "Bestechungsmarker auf der Karte des \"Milliardärs\" werden nicht gewertet."
+    },
+    "quirks": [
+      "Ungenutzte graue Bestechungsmarker auf der Karte des \"Milliardärs\" werden nicht gewertet. Pro Runde kann nur 1 von ihnen genutzt werden.",
+      "Fletscher ist ein Ding. Du darfst ihn \"aufnehmen\", \"ablegen\", \"werfen\" usw., kannst ihn aber weder \"angreifen\" noch K.O. schlagen (er hat ein integrales Hundehelmchen). Wie alle anderen Dinge darf er vernichtet werden.",
+      "Graue Bestechungsmarker, die nicht auf der Karte des \"Milliardärs\" liegen, kannst du nicht nutzen.",
+      "Für die Wertung gelten Fletscher und der \"Milliardär\" als beieinander, falls sie zusammen entkommen sind, d.h. im selben Bereich oder mittels derselben Fähigkeit."
+    ],
+    "tips": [
+      "Schütze dich mit einem Helm. \"Schalte die Störsender aus\", damit deine Fähigkeit \"Immer Live\" nutzbar ist.",
+      "Nach dem Bekennen darfst du die grauen Bestechungsmarker erneut nutzen."
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Piratin",
+    "description": "abc",
+    "pronoums": "Sie/ihr",
+    "bonus_points": {
+      "points": 1,
+      "alive": true,
+      "notes": "falls die \"Piratin\" dein ZA ist und entkommt."
+    },
+    "influence_limit": 4,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Aufbrechen",
+        "description": "Darf als Aktion \"1 angrenzendes Schloss entfernen\".",
+        "type": "utility"
+      },
+      {
+        "name": "Gesetzlos",
+        "description": "Keine Aktion mit ihr oder gegen sie macht dich verdächtig.",
+        "type": "offensive"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Raketen",
+        "description": "Als Aktion: Falls Störsender aus sind und Piratenschiff noch existiert: Lege 1 Zeitmarker auf 1 nicht entkommenen Bereich. Sobald er fällig ist, beschädige den Bereich, Akteure darin gehen K.O. Zu jedem Zeitpunkt ist nur 1 Rakete erlaubt.",
+        "type": "offensive"
+      },
+      {
+        "name": "Abhauen",
+        "description": "Wende bei Bekennen (auch beim Absturz) das Rettungsschiff auf die Seite Piratenschiff. Es nimmt nur Akteure (gesund oder K.O.) mit Koffer auf. Falls es zerstört wurde, erhalte keine Punkte für den Koffer und Menschen.",
+        "type": "offensive"
+      }
+    ],
+    "icon": "assets/images/icons/boarder.png",
+    "image": "assets/images/portraits/boarder.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Boarder",
+          "location_name": "Weltraum",
+          "diagram": "assets/images/rooms/outer_space.png"
+        }
+      ],
+      "notes": "Legt das Rettungsschiff auf das mit \"Weltraum\" beschriftete Feld rechts oben auf dem Spielplan (es gilt nicht als Bereich). Die \"Piratin\" besitzt von Beginn an einen Helm, eine Pistole, und eine Keule."
+    },
+    "agenda": {
+      "description": "Beute",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "falls die \"Piratin\" entkommt."
+          },
+          "sub": [
+            {
+              "points": 4,
+              "description": "falls im Besitz des Koffers oder falls der Koffer im Weltraum ist UND falls Rettungs- oder Piratenschiff noch existiert."
+            },
+            {
+              "points": 1,
+              "description": "pro gesundem Menschen im Weltraum und falls Rettungs- oder Piratenschiff noch existiert."
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "Die \"Piratin\" kann gewinnen, obwohl sie schuldig ist.",
+      "Jeder Bestechungsmarker in ihrem Besitz zählt 2 Punkte.",
+      "Eine Rakete, die auf eine Kapsel zielt, trifft die Kapsel auch (und vernichtet sie), falls die Kapsel zwischenzeitlich startet.",
+      "Falls Antimaterie im Weltraum detoniert, wird das Rettungs-/Piratenschiff zerstört."
+    ],
+    "tips": [
+      "Der Koffer ist in den Wohnräumen.",
+      "Du bist gut gerüstet und Schuld stoppt dich nicht, daher kannst du Akteure bedenkenlos K.O. schlagen.",
+      "Bekennst du dich früh, kannst du mehr Schaden mit Raketen anrichten.",
+      "Bekennst du dich spät, weiß niemand, ob er per Rettungsschiff entkommen kann – das kann dir Bestechungen einbringen.",
+      "Pass auf, falls der \"Wächter\" in der Partie ist – du bist gesetzlos!"
+    ],
+    "board_modifications": [
+      "Zu Beginn der Partie ist das Rettungsschiff im Weltraum. Es hilft beim Entkommen.",
+      "Rettungsschiff: Alle Menschen im Weltraum entkommen zu Beginn der Wertung.",
+      "Bekennt sich jemand zur \"Piratin\", wendet das Schiffsplättchen. Es hat sich als Piratenschiff herausgestellt.",
+      "Piratenschiff: Ein Akteur im Weltraum, der den Koffer hat, entkommt während der Wertung."
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Botaniker",
+    "description": "abc",
+    "pronoums": "Er/ihm",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "falls der \"Botaniker\" dein ZA ist und das Beißmoos entkommt (ob der \"Botaniker\" entkommt, ist dafür egal)."
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Wissenschaftler",
+        "description": "Hat 1 freie Bereichsaktion (alternativ zu freiem \"Aufnehmen\"/ \"Ablegen\").",
+        "type": "utility"
+      },
+      {
+        "name": "Raumkind",
+        "description": "Hat 1 freies \"Gehen\"/\"Schleusen\" in einen Bereich ohne Schwerkraft hinein (alternativ zu freien \"Aufnehmen\"/\"Ablegen\").",
+        "type": "mobilitiy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Nahrungssuche",
+        "description": "Im Zug des \"Botanikers\", falls kein gesunder Akteur das Beißmoos im Besitz hat: Beißmoos darf frei 1-mal \"gehen\" oder 1 Menschen, der im selben Bereich und K.O. ist, vernichten (das Opfer legt automatisch alle Dinge ab, die es besitzt).",
+        "type": "utility"
+      }
+    ],
+    "icon": "assets/images/icons/botanist.png",
+    "image": "assets/images/portraits/botanist.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Botanist",
+          "location_name": "Gewächshaus",
+          "diagram": "assets/images/rooms/hydroponics.png"
+        },
+        {
+          "name": "Fang Moss",
+          "location_name": "Gewächshaus",
+          "diagram": "assets/images/rooms/hydroponics.png"
+        }
+      ],
+      "notes": "Legt den Fähigkeitsmarker \"Fütter mich!\" neben das Gewächshaus."
+    },
+    "agenda": {
+      "description": "Lebendfutter",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "pro Mensch, den das Beißmoos vernichtet hat."
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "falls das Beißmoos entkommt."
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "falls der \"Botaniker\" entkommt."
+          },
+          "sub": [
+            {
+              "points": 1,
+              "description": "falls er kontaminiert ist."
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "Beißmoos ist ein Ding. Wer es besitzt, hat automatisch die Fähigkeit/Aktion \"Fütter mich!\"."
+    ],
+    "tips": [
+      "Gehe zu Menschen, die K.O. sind, und füttere Beißmoos.",
+      "Besorge dir einen Helm.",
+      "Geh ins Biolabor, um dich zu kontaminieren.",
+      "Nutze die Fähigkeit \"Raumkind\", um schneller voranzukommen.",
+      "Nach dem Bekennen darf Beißmoos evtl. in deinem Zug handeln, unabhängig von und zusätzlich zu der normalen Aktivierung."
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Oberst",
+    "description": "abc",
+    "pronoums": "Er/ihm",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "falls der \"Oberst\" dein ZA ist und entkommt."
+    },
+    "influence_limit": 4,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Offizier",
+        "description": "Solange kein Blackout: Darf durch Schlösser \"gehen\" (oder geschleift werden, falls K.O.). Dies entfernt die Schlösser.",
+        "type": "mobility"
+      },
+      {
+        "name": "Paranoid",
+        "description": "Um ihn zu beeinflussen, muss einer deiner (gesunden) Komplizen bei ihm sein. Kann nicht bestochen werden.",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Die Pflicht geht vor",
+        "description": "Nimmt beim Bekennen alle seine Einflusswürfel aus dem Verratsfundus zurück in seinen Vorrat (auch beim Absturz).",
+        "type": "conspiracy"
+      }
+    ],
+    "icon": "assets/images/icons/colonel.png",
+    "image": "assets/images/portraits/colonel.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Colonel",
+          "location_name": "Sicherheitszentrale",
+          "diagram": "assets/images/rooms/security_station.png"
+        }
+      ],
+      "notes": "Der \"Oberst\" beginnt die Partie mit einer Pistole. Legt die Panikkapsel an das Schlafquartier an und platziert dort 1 Schloss und 1 Pistole."
+    },
+    "agenda": {
+      "description": "Waffentest",
+      "objetives": [
+        {
+          "main": {
+            "points": 3,
+            "description": "falls der \"Oberst\" entkommt."
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "falls mind. 1 kontaminierter UBA entkommt."
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "falls Projekt X freigesetzt wurde."
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "falls Geheimnis X entkommt."
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "Durch die Fähigkeit \"Paranoid\" ist der \"Oberst\" schwer zu beeinflussen.",
+      "Der \"Oberst\" kann nicht bestochen werden."
+    ],
+    "tips": [
+      "Im Biolabor kann man das Geheimnis X \"herstellen\" und Akteure kontaminieren.",
+      "Jeder Offizier kann vom Kältelabor oder von der Brücke aus \"Projekt X freilassen\". Es kommt auch bei Blackout frei oder falls das X-Kabinett beschädigt wird."
+    ],
+    "board_modifications": [
+      "Die Panikkapsel ist eine zusätzliche Kapsel, die zur Station gehört. Sie beginnt die Partie verschlossen und mit einer Pistole darin.",
+      "Jeder Akteur in dieser Kapsel darf sie per \"verzögertem Start starten\" (aber erst, nachdem die Station aufgegeben wurde)."
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Escort",
+    "description": "abc",
+    "pronoums": "Was immer du willst.",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "falls \"Escort\" dein ZA ist und entkommt."
+    },
+    "influence_limit": 6,
+    "type": "Robot",
+    "abilities": [
+      {
+        "name": "Redegewandt",
+        "description": "Kann in hellen Bereichen nicht von Menschen mittels Keule \"angegriffen\" werden.",
+        "type": "defensive"
+      },
+      {
+        "name": "Reingelegt",
+        "description": "Nachdem \"Escort\" einen Menschen K.O. geschlagen hat und dadurch verdächtig würde, darf \"Escort\" stattdessen jemanden verdächtig machen, der im selben Bereich einen Komplizen hat.",
+        "type": "offensive"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Gestalttausch",
+        "description": "Sofort nach dem Bekennen darf \"Escort\" den Ort, Bestechungsmarker und alle nicht-integralen Besitztümer mit einem anderen UBA (Mensch oder Roboter) nach \"Escorts\" Wahl tauschen, der weder entkommen noch vernichtet ist. Jeder Akteur behält jedoch seine Identität und seinen Status (gesund/K.O.). Falls einer der Akteure dabei Dinge \"ablegen\" muss, entscheidest du darüber. Dies ist eine freie Aktion.",
+        "type": "conspiracy"
+      }
+    ],
+    "icon": "assets/images/icons/consort.png",
+    "image": "assets/images/portraits/consort.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Consort",
+          "location_name": "Aufenthaltsraum",
+          "diagram": "assets/images/rooms/rec_room.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Neubeginn",
+      "objetives": [
+        {
+          "main": {
+            "points": 0,
+            "description": "falls \"Escort\" entkommt, jedoch …"
+          },
+          "sub": [
+            {
+              "points": 3,
+              "description": "falls beim Absturz nicht bei gesunden Menschen oder Robotern."
+            },
+            {
+              "points": 3,
+              "description": "falls \"Escort\" den Koffer besitzt."
+            },
+            {
+              "points": 3,
+              "description": "falls die Identität erst beim Absturz bekannt wird."
+            }
+          ]
+        }
+      ],
+      "notes": "Jeder Bestechungsmarker in \"Escorts\" Besitz zählt 2 Punkte."
+    },
+    "quirks": [
+      "Jeder Bestechungsmarker in \"Escorts\" Besitz zählt 2 Punkte.",
+      "Das Aussehen trügt: \"Escort\" ist ein Roboter."
+    ],
+    "tips": [
+      "Der Koffer ist in den Wohnräumen.",
+      "Denke daran, dass die \"Fähigkeit bei Bekennen\" nicht nur den Ort tauscht, sondern auch Dinge und erhaltene Bestechungsmarker.",
+      "Ein gut gewählter Zeitpunkt zum Bekennen kann dich im richtigen Moment an den richtigen Ort bringen.",
+      "Je später du dich bekennst, desto größer ist die Chance, dass du durch Bestechung oder Gestalttausch in den Besitz von Bestechungsmarkern kommst.",
+      "Du könntest an den Koffer kommen, indem du ihn einem anderen UBA verschaffst und ihn für einen Gestalttausch positionierst."
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Siechlinde",
+    "description": "abc",
+    "pronoums": "Sie/ihr",
+    "bonus_points": {
+      "points": 3,
+      "alive": true,
+      "notes": "falls \"Siechlinde\" dein ZA ist und entkommt."
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Rachsüchtig",
+        "description": "Sobald jemand ihr Kompromat nutzt, erhält sie 1 Keule aus dem allgemeinen Vorrat und wird sofort gesund, falls sie K.O. war.",
+        "type": "offensive"
+      },
+      {
+        "name": "Im Sterben",
+        "description": "Kann nicht aktiviert werden, falls sie erschöpft ist. Hat keine freie Aktion \"Aufnehmen\"/\"Ablegen\".",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Letzter Atemzug",
+        "description": "Wird beim Bekennen gesund, falls sie K.O. war, oder erhält sofort 1 Aktion.",
+        "type": "utility"
+      }
+    ],
+    "icon": "assets/images/icons/corpsicle.png",
+    "image": "assets/images/portraits/corpsicle.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Corpsicle",
+          "location_name": "Kältelabor",
+          "diagram": "assets/images/rooms/cryo_lab.png"
+        }
+      ],
+      "notes": "\"Siechlinde\" beginnt K.O.; sie besitzt einen integralen Helm, den man nicht entfernen kann."
+    },
+    "agenda": {
+      "description": "Wunderheilung",
+      "objetives": [
+        {
+          "main": {
+            "points": 3,
+            "description": "falls \"Siechlinde\" entkommt."
+          },
+          "sub": [
+            {
+              "points": 2,
+              "description": "falls sie Heilgel besitzt."
+            }
+          ]
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "falls Geheimnis X entkommt."
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "falls Projekt X nicht freigesetzt wurde."
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "Beginnt die Partie K.O.",
+      "Ihr Helm ist integral und kann nicht entfernt werden.",
+      "Ihr Kompromat gibt \"Siechlinde\" bei Nutzung zusätzlich 1 Keule und sie wird sofort gesund, falls sie K.O. war."
+    ],
+    "tips": [
+      "\"Siechlinde\" bewegt sich langsam. Hilf ihr durch Kompromat oder Bestechung auf die Sprünge!",
+      "Heilgel \"stellt\" man in der Nanofabrik \"her\", das Geheimnis X im Biolabor.",
+      "Verhindere, dass Projekt X freikommt, indem du Offiziere vom Kältelabor und der Brücke fernhältst.",
+      "Falls die Notfallkapsel verfügbar ist, könnte sie den einfachsten Fluchtweg bieten."
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Anwalt",
+    "description": "abc",
+    "pronoums": "Er/ihm",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "falls der \"Anwalt\" dein ZA ist und entkommt."
+    },
+    "influence_limit": 6,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Offizier",
+        "description": "Solange kein Blackout: Darf durch Schlösser \"gehen\" (oder geschleift werden, falls K.O.). Dies entfernt die Schlösser.",
+        "type": "mobility"
+      },
+      {
+        "name": "Doppelzüngig",
+        "description": "Als Aktion: Bewege 1 Einflusswürfel von einem gesunden Menschen im selben Bereich in den Verratsfundus.",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Bezeugtes Geständnis",
+        "description": "Falls beim Bekennen gesund: Wählt 1 Mensch im selben Bereich. Alle, die diesen Akteur zum Komplizen haben, werden verdächtig.",
+        "type": "offensive"
+      }
+    ],
+    "icon": "assets/images/icons/counselor.png",
+    "image": "assets/images/portraits/counselor.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Counselor",
+          "location_name": "Heilgarten",
+          "diagram": "assets/images/rooms/therapy_garden.png"
+        }
+      ],
+      "notes": "Legt das Zentralarchiv so auf den Spielplan, dass es an den Heilgarten anschließt. Legt 1 Schloss auf den Gang."
+    },
+    "agenda": {
+      "description": "Dunkle Intrige",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "falls der \"Anwalt\" entkommt."
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 4,
+            "description": "falls das Artefakt entkommt."
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "falls du beim Absturz mindestens so viel Kompromat besitzt wie jede:r Andere."
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "falls du beim Absturz höchstens so viele Einflusswürfel im Verratsfundus hast wie jede:r Andere."
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "Keine."
+    ],
+    "tips": [
+      "Das Artefakt ist im Physiklabor.",
+      "Sich zum richtigen Zeitpunkt zu bekennen, kann die Anderen sehr schnell zu Schuldigen machen – falls du es schaffst, die Beweise von der Antennensteuerung aus an die Behörden zu \"senden\".",
+      "Sammle Kompromat."
+    ],
+    "board_modifications": [
+      "Fügt der Station das Zentralarchiv hinzu (ein dunkler Raum). Der Gang dorthin ist verschlossen.",
+      "Wer im Zentralarchiv ist, darf die Aktion \"Datenklau\" ausführen: Nimm 1 Kompromat von irgendwo auf dem Spielplan."
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Cyborg",
+    "description": "abc",
+    "pronoums": "Er/ihm",
+    "bonus_points": {
+      "points": 2,
+      "alive": false,
+      "notes": "falls der \"Cyborg\" dein ZA und beim Absturz weder gesund noch entkommen ist."
+    },
+    "influence_limit": 4,
+    "type": "Human and Robot",
+    "abilities": [
+      {
+        "name": "Zäh",
+        "description": "Dieser Akteur gilt erst mit 2 Aktivierungsscheiben als erschöpft.",
+        "type": "conspiracy"
+      },
+      {
+        "name": "Gesetzlos",
+        "description": "Keine Aktion mit ihm oder gegen ihn macht dich verdächtig.",
+        "type": "offensive"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Brutal",
+        "description": "Darf auch Menschen mit Helm K.O. schlagen. Das vernichtet sowohl die Keule als auch den Helm.",
+        "type": "offensive"
+      },
+      {
+        "name": "Selbstreparierend",
+        "description": "Du darfst den \"Cyborg\" aktivieren, während er K.O. ist. Seine 1. Aktion muss dann \"Heilen\" sein; er benötigt dafür kein Heilgel und wird wieder gesund.",
+        "type": "conspiracy"
+      }
+    ],
+    "icon": "assets/images/icons/cyborg.png",
+    "image": "assets/images/portraits/cyborg.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Cyborg",
+          "location_name": "Kältelabor",
+          "diagram": "assets/images/rooms/cryo_lab.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Rache",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "pro Offizier, der beim Absturz K.O. ist."
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "falls kein Mensch entkommt."
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "falls kein Kontaminierter entkommt."
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "falls Projekt X freigesetzt wurde."
+          },
+          "sub": []
+        }
+      ],
+      "notes": "Der \"Cyborg\" kann gewinnen, obwohl er schuldig ist."
+    },
+    "quirks": [
+      "Der \"Cyborg\" kann gewinnen, obwohl er schuldig ist.",
+      "Der \"Cyborg\" ist gleichzeitig Mensch und Roboter und wird in der Wertung als beides gewertet. Gegenüber Gefahren, \"Angriffen\" und \"Raub\" verhält er sich wie ein Mensch."
+    ],
+    "tips": [
+      "Du darfst ungestraft Akteure niederschlagen, sie dich aber ebenfalls. Deine Priorität: Schlage Menschen und kontaminierte Akteure K.O.",
+      "Sobald er zum BA wird, kann er nie mehr erschöpft werden (weil du nur 1 Aktivierungsscheibe hast und kein Anderer den BA aktivieren kann).",
+      "Jeder Offizier kann vom Kältelabor oder von der Brücke aus \"Projekt X freilassen\". Es kommt auch bei Blackout frei oder falls das X-Kabinett beschädigt wird.",
+      "Pass auf, falls der \"Wächter\" in der Partie ist – du bist gesetzlos!"
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Draufgängerin",
+    "description": "abc",
+    "pronoums": "Sie/ihr",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "falls die \"Draufgängerin\" dein ZA ist und entkommt."
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Wachsam",
+        "description": "Man kann die \"Draufgängerin\" nicht \"berauben\".",
+        "type": "defensive"
+      },
+      {
+        "name": "Adrenalin",
+        "description": "Gefahren lassen die \"Draufgängerin\" nicht K.O. gehen. \"Gehen\" oder \"Schleusen\" in einen Bereich mit Gefahr ist eine freie Aktion.",
+        "type": "mobility"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Gutes Timing",
+        "description": "Die \"Draufgängerin\" entkommt, falls sie beim Absturz gesund ist, einen Helm besitzt und beim Jetpack ist.",
+        "type": "mobility"
+      }
+    ],
+    "icon": "assets/images/icons/daredevil.png",
+    "image": "assets/images/portraits/daredevil.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Daredevil",
+          "location_name": "Kältelabor",
+          "diagram": "assets/images/rooms/locker_room.png"
+        }
+      ],
+      "notes": "Legt das Jetpack ins Physiklabor und die Bereichsaktion \"Jetpack starten\" an den Bereich \"Weltraum\"."
+    },
+    "agenda": {
+      "description": "Nervenkitzel",
+      "objetives": [
+        {
+          "main": {
+            "points": 3,
+            "description": "falls die \"Draufgängerin\" entkommt."
+          },
+          "sub": [
+            {
+              "points": 2,
+              "description": "falls sie der einzige Mensch ist, der entkommt."
+            },
+            {
+              "points": 2,
+              "description": "falls kontaminiert und/oder im Besitz des Artefakts."
+            }
+          ]
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "falls Projekt X freigesetzt wurde."
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "Für ihre Fähigkeit \"Gutes Timing\" benötigt die \"Draufgängerin\" einen eigenen Helm, aber sie muss das Jetpack nicht besitzen, um zu entkommen – es muss nur im selben Bereich sein wie sie.",
+      "Obwohl die \"Draufgängerin\" im Weltraum ohne Helm überlebt, benötigt sie trotzdem zum \"Start des Jetpacks\" (Bereichsaktion) einen Helm."
+    ],
+    "tips": [
+      "Das Artefakt ist im Physiklabor. Kontaminiert wird man im Biolabor.",
+      "Die \"Draufgängerin\" bewegt sich schnell durch Gefahrenbereiche und überlebt dort ohne Helm.",
+      "Um andere Menschen am Entkommen zu hindern, schlage sie K.O., setze Projekt X frei, beschädige Kapseln und verhindere, dass \"Station aufgeben\" ausgelöst wird."
+    ],
+    "board_modifications": [
+      "Das Jetpack kommt als zusätzliches Ding anBord.",
+      "Der Weltraum erhält die zusätzliche Bereichsaktion \"Jetpack starten\".",
+      "Voraussetzung für Aktion \"Jetpack starten\": Ist im Weltraum und im Besitz des Jetpacks sowie, falls Mensch, eines Helms."
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Digitaler Assistent",
+    "description": "abc",
+    "pronoums": "Es/ihm",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "falls der \"Digitale Assistent\" dein ZA ist und entkommt."
+    },
+    "influence_limit": 5,
+    "type": "Data",
+    "abilities": [
+      {
+        "name": "KI",
+        "description": "Kann ausschließlich Konsolenaktionen ausführen. Wer \"Digitaler Assistent\" besitzt, führt Bereichsaktionen als Offizier aus und darf Kapseln \"starten\", ohne dass die Station aufgegeben ist.",
+        "type": "console"
+      },
+      {
+        "name": "Hilfsbereit",
+        "description": "Niemand kann mehr als 1 Einflusswürfel auf diesem Akteur haben.",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Root-Zugriff",
+        "description": "Darf als Aktion 1 Aktion mit 1 beliebigen Roboter ausführen, der \"Digitaler Assistent\" besitzt. Ignoriert Selbsterhaltung.",
+        "type": "utility"
+      },
+      {
+        "name": "Trojaner",
+        "description": "Darf sich beim Bekennen zu 1 nicht entkommenen Akteur \"kopieren\", der bereits \"Beweis\" und/oder \"Geheimnis X\" besitzt.",
+        "type": "utility"
+      }
+    ],
+    "icon": "assets/images/icons/digital_assistant.png",
+    "image": "assets/images/portraits/digital_assistant.png",
+    "setup": {
+      "item": [],
+      "notes": "Fügt dem allgemeinen Vorrat den Datentyp \"Digitaler Assistent\" hinzu. Legt das Plättchen \"Rechnerraum\" auf den Textkasten des gleichnamigen Bereichs. Legt die Konsolenaktion \"Ausgangssperre\" zu den anderen Konsolenaktionen."
+    },
+    "agenda": {
+      "description": "Ausbreitung",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "pro entkommenem Roboter, der \"Digitaler Assistent\" besitzt."
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "pro entkommenem Mensch oder Externem, der \"Digitaler Assistent\" besitzt."
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "falls mind. 2 Exemplare des \"Digitalen Assistenten\" entkommen."
+          },
+          "sub": []
+        }
+      ],
+      "notes": "Der \"Digitale Assistent\" kann gewinnen, obwohl er schuldig ist."
+    },
+    "quirks": [
+      "Der \"Digitale Assistent\" ist ein Datensatz. Er selbst kann weder Daten noch Dinge besitzen. Er bleibt in der Partie, auch nachdem Kopien von ihm entkommen sind.",
+      "\"Digitalen Assistenten\" kann man im Rechnerraum \"herstellen\".",
+      "Der \"Digitale Assistent\" kann gewinnen, obwohl er schuldig ist.",
+      "Der \"Digitale Assistent\" kann nur Konsolenaktionen ausführen. Man darf ihn aktivieren, bevor ihn jemand \"hergestellt\" hat.",
+      "Bei einem Blackout kann auch der \"Digitale Assistent\" keine Konsolenaktionen mehr ausführen."
+    ],
+    "tips": [
+      "Als reiner Datensatz ohne Physis benötigst du oft andere Akteure, um \"das Grobe\" für dich zu erledigen.",
+      "Sorge dafür, dass dich jemand im Rechnerraum \"herstellt\". Halte die Störsender ausgeschaltet, damit du dich zu so vielen Akteuren wie möglich \"kopieren\" kannst.",
+      "Beschädige das Physiklabor, damit man dich nicht zu leicht \"löschen\" kann.",
+      "Nach dem Bekennen darfst du jeden Roboter steuern, der dich besitzt.",
+      "Wende die \"Fähigkeit bei Bekennen\" möglichst an, kurz bevor jemand mit anderen Daten entkommt."
+    ],
+    "board_modifications": [
+      "Solange die Station nicht aufgegeben wurde: Mit der Konsolenaktion \"Ausgangssperre\" darfst du in 1 beliebigem Gang 1 Schloss hinzufügen, entfernen oder es dorthin verschieben.",
+      "Die Bereichsaktion \"Digitalen Assistenten herstellen\" im Rechnerraum erlaubt jedem Akteur, dort Kopien des Digitalen Assistenten anzufertigen."
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Doktorin (Hyde)",
+    "description": "abc",
+    "pronoums": "Sie/ihr",
+    "bonus_points": {
+      "points": 2,
+      "alive": false,
+      "notes": "falls die \"Doktorin\" dein ZA ist und entkommt."
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Wissenschaftler",
+        "description": "Hat 1 freie Bereichsaktion (alternativ zu freiem \"Aufnehmen\"/ \"Ablegen\").",
+        "type": "utility"
+      },
+      {
+        "name": "Identitätsstörung",
+        "description": "Die \"Doktorin\" ist 1 Akteur mit 2 Identitäten.",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Schießeisen",
+        "description": "Erhält 1 Pistole, sobald sie sich bekennt.",
+        "type": "offensive"
+      }
+    ],
+    "icon": "assets/images/icons/doctor_hyde.png",
+    "image": "assets/images/portraits/doctor_hyde.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Doctor (Hyde)",
+          "location_name": "Bugzentrale",
+          "diagram": "assets/images/rooms/forward_hub.png"
+        }
+      ],
+      "notes": "Die \"Doktorin\" hat 2 Identitätskarten, aber nur 1 Akteurkarte und 1 Spielstein. Mischt beide Identitätskarten in den Stapel, bevor ihr die Karten zieht. Besitzt zu Beginn der Partie das \"Geheimnis X\"."
+    },
+    "agenda": {
+      "description": "Grausamkeit",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "falls die \"Doktorin\" entkommt."
+          },
+          "sub": [
+            {
+              "points": 3,
+              "description": "falls sie den Koffer besitzt."
+            },
+            {
+              "points": 4,
+              "description": "falls sie gesund in einer Kapsel entkommt, in der auch ein K.O. geschlagener Mensch ist."
+            }
+          ]
+        }
+      ],
+      "notes": "Jeder Bestechungsmarker im Besitz der \"Doktorin\" zählt für Hyde 2 Punkte."
+    },
+    "quirks": [
+      "Jede Identität der \"Doktorin\" hat ihre eigene Agenda.",
+      "Die \"Doktorin\" ist möglicherweise gleichzeitig der BA von 2 Personen. Wer sie bestechen oder ihr Kompromat anwenden will, muss sich für 1 dieser BA entscheiden; die zugehörige Person muss dann zustimmen oder ablehnen. Falls sie Kompromat ablehnt, werden beide BA verdächtig.",
+      "Jeder Bestechungsmarker im Besitz der \"Doktorin\" zählt für Hyde 2 Punkte.",
+      "Alle, die eine \"Doktorin\" als BA haben, dürfen den Akteur \"Doktorin\" aktivieren und nutzen."
+    ],
+    "tips": [
+      "Der Koffer ist in den Wohnräumen.",
+      "Je später du dich bekennst, desto wahrscheinlicher wird man dich bestechen.",
+      "Bekenne dich in einem günstigen Moment, um die dabei erworbene Pistole sofort gegen einen Menschen anzuwenden und (hoffentlich) mit ihm zu entkommen."
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Doktorin (Jekyll)",
+    "description": "abc",
+    "pronoums": "Sie/ihr",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "falls die \"Doktorin\" dein ZA ist und entkommt."
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Wissenschaftler",
+        "description": "Hat 1 freie Bereichsaktion (alternativ zu freiem \"Aufnehmen\"/ \"Ablegen\").",
+        "type": "utility"
+      },
+      {
+        "name": "Identitätsstörung",
+        "description": "Die \"Doktorin\" ist 1 Akteur mit 2 Identitäten.",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Artefakt-Imitat",
+        "description": "Falls nicht ein BA das Artefakt besitzt, nimmt es sich die \"Doktorin\", sobald sie sich bekennt (selbst wenn es vernichtet war).",
+        "type": "utility"
+      }
+    ],
+    "icon": "assets/images/icons/doctor_jekyll.png",
+    "image": "assets/images/portraits/doctor_jekyll.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Doctor (Jekyll)",
+          "location_name": "Bugzentrale",
+          "diagram": "assets/images/rooms/forward_hub.png"
+        }
+      ],
+      "notes": "Die \"Doktorin\" hat 2 Identitätskarten, aber nur 1 Akteurkarte und 1 Spielstein. Mischt beide Identitätskarten in den Stapel, bevor ihr die Karten zieht. Besitzt zu Beginn der Partie das \"Geheimnis X\"."
+    },
+    "agenda": {
+      "description": "Wissenschaft",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "falls die \"Doktorin\" entkommt."
+          },
+          "sub": [
+            {
+              "points": 3,
+              "description": "falls sie kontaminiert ist."
+            },
+            {
+              "points": 3,
+              "description": "falls sie das Artefakt besitzt."
+            }
+          ]
+        },
+        {
+          "main": {
+            "points": 3,
+            "description": "falls Behörde und Nachrichtennetz keine Beweise haben."
+          },
+          "sub": []
+        }
+      ],
+      "notes": "Jeder Bestechungsmarker im Besitz der \"Doktorin\" zählt für Jekyll 1 Punkt (wie üblich, aber im Gegensatz zu Hyde)."
+    },
+    "quirks": [
+      "Jede Identität der \"Doktorin\" hat ihre eigene Agenda.",
+      "Die \"Doktorin\" ist möglicherweise gleichzeitig der BA von 2 Personen. Wer sie bestechen oder ihr Kompromat anwenden will, muss sich für 1 dieser BA entscheiden; die zugehörige Person muss dann zustimmen oder ablehnen. Falls sie Kompromat ablehnt, werden beide BA verdächtig.",
+      "Jeder Bestechungsmarker im Besitz der \"Doktorin\" zählt für Jekyll 1 Punkt (wie üblich, aber im Gegensatz zu Hyde).",
+      "Alle, die eine \"Doktorin\" als BA haben, dürfen den Akteur \"Doktorin\" aktivieren und nutzen."
+    ],
+    "tips": [
+      "Das Artefakt ist im Physiklabor, aber solange es kein BA besitzt, erhältst du es auch automatisch, sobald du dich bekennst.",
+      "Geh ins Biolabor, um dich zu kontaminieren.",
+      "Halte die Störsender eingeschaltet, damit Behörde und Nachrichtennetz möglichst keine Beweise erhalten."
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Drohnen",
+    "description": "abc",
+    "pronoums": "Es/sie/ihnen",
+    "bonus_points": {
+      "points": 0,
+      "alive": true,
+      "notes": "\"Drohnen\" können nie zum ZA werden."
+    },
+    "influence_limit": 0,
+    "type": "Robot",
+    "abilities": [
+      {
+        "name": "Zerlegen",
+        "description": "Jede \"Drohne\" darf Selbsterhaltung ignorieren, um sich als Aktion selbst K.O. zu setzen und dadurch ihren Bereich oder 1 Roboter dort zu \"reparieren\".",
+        "type": "utility"
+      },
+      {
+        "name": "Fernsteuerung",
+        "description": "\"Drohnen\" können nicht beeinflusst, bestochen oder direkt aktiviert werden. Mit der Konsolenaktion \"Fernsteuerung\" dürfen andere Akteure 1 gesunde \"Drohne\" 1 Aktion ausführen lassen.",
+        "type": "console"
+      }
+    ],
+    "reveal": [],
+    "icon": "assets/images/icons/drones.png",
+    "image": "assets/images/portraits/drones.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Drone 4",
+          "location_name": "Physiklabor",
+          "diagram": "assets/images/rooms/physics_lab.png"
+        },
+        {
+          "name": "Drone 6",
+          "location_name": "Weltraum",
+          "diagram": "assets/images/rooms/outer_space.png"
+        }
+      ],
+      "notes": "Für die \"Drohnen\" gibt es keine Identitätskarte. Legt die Konsolenaktion \"Fernsteuerung\" zu den anderen Konsolenaktionen. Jede \"Drohne\" hat eine integrale Keule und darf zusätzlich zur Keule 1 Ding besitzen."
+    },
+    "agenda": {
+      "description": "",
+      "objetives": [],
+      "notes": ""
+    },
+    "quirks": [
+      "Für die \"Drohnen\" gibt es keine Identitätskarte.",
+      "Da man \"Drohnen\" selbst nicht aktiviert, erhalten sie keine freie Aktion.",
+      "\"Drohnen\" dürfen (per \"Fernsteuerung\") Aktionen ausführen. Sie dürfen Daten und (zusätzlich zur Keule) 1 Ding besitzen.",
+      "Die fest eingebauten Keulen kann man nicht entfernen.",
+      "Die Konsolenaktion \"Fernsteuerung\" ist der einzige Weg, um mit \"Drohnen\" zu agieren (falls nicht der \"Digitale Assistent\" in der Partie ist).",
+      "Auch durch den Einsatz von Drohnen kann man sich nach den üblichen Kriterien verdächtig machen."
+    ],
+    "tips": [
+      "\"Drohnen\" sind wegen ihrer integral vorhandenen Keule sehr praktisch, um andere Akteure K.O. zu schlagen. Das kann dich allerdings (nach den üblichen Regeln) verdächtig machen.",
+      "\"Drohnen\" sind ein praktisches Mittel, um Bereiche zu \"reparieren\"."
+    ],
+    "board_modifications": [
+      "Fügt der Liste der Konsolenaktionen die Aktion \"Fernsteuerung\" hinzu. Wer sie nutzt, darf 1 Aktion mit 1 \"Drohne\" ausführen."
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Ingenieur",
+    "description": "abc",
+    "pronoums": "Er/ihm",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "falls der \"Ingenieur\" dein ZA und beim Absturz weder gesund noch entkommen ist."
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Offizier",
+        "description": "Solange kein Blackout: Darf durch Schlösser \"gehen\" (oder geschleift werden, falls K.O.). Dies entfernt die Schlösser.",
+        "type": "mobilitiy"
+      },
+      {
+        "name": "Zusammenflicken",
+        "description": "Darf als Aktion seinen Bereich oder 1 Roboter dort \"reparieren\".",
+        "type": "utility"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Überlastung",
+        "description": "Lege beim Bekennen 1 Zeitmarker in 1 nicht entkommenen Bereich. Der Bereich wird beschädigt, sobald der Marker fällig wird.",
+        "type": "offensive"
+      }
+    ],
+    "icon": "assets/images/icons/engineer.png",
+    "image": "assets/images/portraits/engineer.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Engineer",
+          "location_name": "Antennensteuerung",
+          "diagram": "assets/images/rooms/array_control.png"
+        }
+      ],
+      "notes": "Legt das Reaktorplättchen auf den Textkasten des Reaktors."
+    },
+    "agenda": {
+      "description": "Die Umwelt retten",
+      "objetives": [
+        {
+          "main": {
+            "points": 3,
+            "description": "falls die Antimaterie vor dem Absturz an Bord detoniert."
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 3,
+            "description": "falls kein Kontaminierter entkommt."
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "falls das Artefakt nicht entkommt."
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "falls unschuldig (kann aber gewinnen, obwohl er schuldig ist)."
+          },
+          "sub": []
+        }
+      ],
+      "notes": "Kann gewinnen, obwohl er schuldig ist."
+    },
+    "quirks": [
+      "Wirkt Überlastung auf eine Kapsel und sie startet, bevor der Zeitmarker fällig ist, wird die Kapsel trotzdem vernichtet."
+    ],
+    "tips": [
+      "Jeder darf die Antimaterie scharf schalten, indem er sie aus dem Magnetkäfig entfernt.",
+      "Offiziere dürfen Antimaterie scharf schalten, indem sie von der Brücke aus die \"Selbstzerstörung\" auslösen.",
+      "Du darfst Akteure in den Tanks \"dekontaminieren\". Du darfst sie aber auch ungestraft K.O. schlagen, weil dir Schuld nichts ausmacht."
+    ],
+    "board_modifications": [
+      "Das Reaktorplättchen ändert das Verhalten des Reaktors.",
+      "Wie bisher kann er nicht mit einer Keule beschädigt werden. Falls er aber auf andere Weise beschädigt wird, werden der Reaktor und die durch Gänge (nicht durch den Luftschacht) verbundenen Bereiche zu Gefahrenbereichen mit Erstickungsgefahr."
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Verbannter",
+    "description": "abc",
+    "pronoums": "Er/ihm",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "falls der \"Verbannte\" dein ZA ist und entkommt."
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Redegewandt",
+        "description": "Kann in hellen Bereichen nicht von Menschen mittels Keule \"angegriffen\" werden.",
+        "type": "defensive"
+      },
+      {
+        "name": "Hacker",
+        "description": "Hat 1 freie Konsolenaktion (alternativ zu freiem \"Aufnehmen\"/\"Ablegen\"). Solange die Störsender ausgeschaltet sind, darf er in jedem (auch beschädigten) Bereich Konsolenaktionen ausführen.",
+        "type": "console"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Ausquetschen",
+        "description": "Egal, wen du aktivierst: Wann immer du Kompromat gegen einen UBA nutzt, nimm es zurück auf die Hand.",
+        "type": "conspiracy"
+      },
+      {
+        "name": "Schachern",
+        "description": "Als Aktion: Der \"Verbannte\" darf 2 Kompromat aus der Hand abwerfen, um 1 Kompromat von einer beliebigen UBA-Karte zurückzunehmen.",
+        "type": "conspiracy"
+      }
+    ],
+    "icon": "assets/images/icons/exile.png",
+    "image": "assets/images/portraits/exile.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Exile",
+          "location_name": "Antennensteuerung",
+          "diagram": "assets/images/rooms/array_control.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Zurück im Spiel",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "falls der \"Verbannte\" entkommt."
+          },
+          "sub": [
+            {
+              "points": 2,
+              "description": "pro Kompromat, das er von entkommenen Akteuren besitzt."
+            },
+            {
+              "points": 3,
+              "description": "falls er Beweise hat und das Nachrichtennetz nicht."
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "Keine."
+    ],
+    "tips": [
+      "Sammle so viel Kompromat wie möglich.",
+      "Nach dem Bekennen darfst du Kompromat gegen UBA mehrfach nutzen.",
+      "Hilf Akteuren, deren Kompromat du hast, beim Entkommen.",
+      "Beweise kann man in der Sicherheitszentrale \"herstellen\" und im Physiklabor \"löschen\".",
+      "Halte die Störsender eingeschaltet, damit das Nachrichtennetz möglichst keine Beweise erhält."
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Inspektore",
+    "description": "abc",
+    "pronoums": "En/em",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "falls de \"Inspektore\" dein ZA ist und entkommt."
+    },
+    "influence_limit": 4,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Ermittler",
+        "description": "Darf von einem zugänglichen Nachbarbereich aus Kompromat \"aufnehmen\" und Daten \"herstellen\".",
+        "type": "utility"
+      },
+      {
+        "name": "Dienstmarke",
+        "description": "Darf immer \"rauben\", als hätte en eine Pistole.",
+        "type": "offensive"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Kavaliersdelikt",
+        "description": "Erhält beim Bekennen ens Bestechungsmarker zurück (falls en ihn genutzt hatte) (auch beim Absturz).",
+        "type": "conspiracy"
+      }
+    ],
+    "icon": "assets/images/icons/inspector.png",
+    "image": "assets/images/portraits/inspector.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Inspector",
+          "location_name": "Chemielabor",
+          "diagram": "assets/images/rooms/chem_lab.png"
+        }
+      ],
+      "notes": "Wende die Kapsel \"Maria Hilf\" auf die Seite \"Polizeikapsel\"."
+    },
+    "agenda": {
+      "description": "Niedertracht",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "falls de \"Inspektore\" entkommt."
+          },
+          "sub": [
+            {
+              "points": 4,
+              "description": "falls en den Koffer besitzt."
+            }
+          ]
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "falls die Behörde Beweise hat."
+          },
+          "sub": [
+            {
+              "points": 2,
+              "description": "falls das Nachrichtennetz keine hat."
+            }
+          ]
+        }
+      ],
+      "notes": "Jeder Bestechungsmarker in ens Besitz zählt 2 Punkte."
+    },
+    "quirks": [
+      "Jeder Bestechungsmarker in ens Besitz zählt 2 Punkte."
+    ],
+    "tips": [
+      "Der Koffer ist in den Wohnräumen.",
+      "Beweise kann man in der Sicherheitszentrale \"herstellen\" und von der Antennensteuerung aus \"senden\". Es genügt auch, mit Beweisen im Besitz zu entkommen.",
+      "Ausgeschaltete Störsender erleichtern es, Beweise an Akteure zu \"kopieren\".",
+      "Die Polizeikapsel darf \"starten\", ohne dass die Station aufgegeben wurde.",
+      "Je später du dich bekennst, desto wahrscheinlicher wird man dich bestechen."
+    ],
+    "board_modifications": [
+      "Zum Start der Polizeikapsel muss de \"Inspektore\" oder ein gesunder Akteur mit \"Zusammenflicken\" in der Kapsel sein."
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Juribot",
+    "description": "abc",
+    "pronoums": "Es/ihm",
+    "bonus_points": {
+      "points": 1,
+      "alive": false,
+      "notes": "falls der \"Juribot\" dein ZA und beim Absturz weder gesund noch entkommen ist."
+    },
+    "influence_limit": 4,
+    "type": "Robot",
+    "abilities": [
+      {
+        "name": "Prozessbeschleuniger",
+        "description": "Darf als Aktion \"Geheimhaltungsvertrag\" herstellen und ihn sofort in den Besitz aller Menschen und Roboter im selben Bereich \"kopieren\".",
+        "type": "utility"
+      },
+      {
+        "name": "Beweislast",
+        "description": "Darf als Aktion den Status von 1 unschuldigen oder schuldigen BA im selben Bereich auf \"verdächtig\" ändern.",
+        "type": "offensive"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Das Kleingedruckte",
+        "description": "Darf UBA, die einen Geheimhaltungsvertrag besitzen, auch ohne Einfluss aktivieren.",
+        "type": "conspiracy"
+      },
+      {
+        "name": "Hardcopy",
+        "description": "Jeder Akteur im selben Bereich wie der \"Juribot\" darf \"Geheimhaltungsvertrag\" herstellen und in seinen Besitz nehmen.",
+        "type": "conspiracy"
+      }
+    ],
+    "icon": "assets/images/icons/legal.png",
+    "image": "assets/images/portraits/legal.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Legal",
+          "location_name": "Heckzentrale",
+          "diagram": "assets/images/rooms/aft_hub.png"
+        }
+      ],
+      "notes": "Wende die Kapseln \"Alcatraz\", \"Houdini\" und \"McQueen\", sodass der weiße Pfeil nicht sichtbar ist. Lege die Geheimhaltungsverträge in den allgemeinen Vorrat."
+    },
+    "agenda": {
+      "description": "Die Firma schützen",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "pro Mensch, der entkommt und einen Geheimhaltungsvertrag besitzt."
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 4,
+            "description": "falls kein Mensch entkommt oder alle entkommenen Menschen Geheimhaltungsverträge haben."
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "falls kein Beweis entkommt."
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "pro verdächtigem BA beim Absturz (schuldige zählen nicht)."
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "Geheimhaltungsverträge sind Daten. Der \"Juribot\" besitzt keinen Geheimhaltungsvertrag, darf ihn aber \"herstellen\" und dabei sofort in den Besitz von Akteuren im selben Bereich bringen.",
+      "Akteure mit Geheimhaltungsvertrag können keine Daten mehr \"kopieren\", \"löschen\", \"senden\" und übertragen und man kann ihnen keine Daten \"rauben\". Den Vertrag selbst kann man nur durch andere Effekte verlieren (z.B. Physiklabor, EMP, \"Entropiephantom\").",
+      "Der \"Juribot\" darf auch Akteuren, die K.O. sind, einen Geheimhaltungsvertrag aufzwingen. (Er wird dem Opfer den kompletten Vertrag vorlesen und dann seine leblose Hand nehmen, um den Vertrag zu unterzeichnen.)"
+    ],
+    "tips": [
+      "Kompromat ist ein gutes Mittel, um Verdächtige zu produzieren.",
+      "Dein Einflusslimit ist niedrig, aber \"das Kleingedruckte\" hilft dir, falls du dich bekennst.",
+      "Beschädige die Sicherheitszentrale, weil man dort Beweise \"herstellen\" kann.",
+      "Verhindere jedes Entkommen, zu dem kein Geheimhaltungsvertrag nötig ist.",
+      "Halte den \"Juribot\" gesund, denn nur er oder Akteure in seiner Gegenwart können \"Geheimhaltungsverträge\" herstellen."
+    ],
+    "board_modifications": [
+      "Die Kapseln \"Alcatraz\", \"Houdini\" und \"McQueen\" haben jetzt die zusätzliche Startbedingung, dass alle Passagiere Geheimhaltungsverträge haben müssen."
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Wartungsklone",
+    "description": "abc",
+    "pronoums": "Er/sie/ihnen",
+    "bonus_points": {
+      "points": 1,
+      "alive": true,
+      "notes": "pro \"Klon\", der entkommt. +1 Punkt, falls alle 3 \"Klone\" entkommen."
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Raumkind",
+        "description": "Hat 1 freies \"Gehen\"/\"Schleusen\" in einen Bereich ohne Schwerkraft hinein (alternativ zu freien \"Aufnehmen\"/\"Ablegen\").",
+        "type": "mobilitiy"
+      },
+      {
+        "name": "Zusammenflicken",
+        "description": "Darf als Aktion seinen Bereich oder 1 Roboter dort \"reparieren\".",
+        "type": "utility"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Los, los, los!",
+        "description": "Darf sofort nach dem Bekennen mit jedem gesunden \"Klon\", der nicht entkommen ist, 1 Aktion ausführen.",
+        "type": "utility"
+      }
+    ],
+    "icon": "assets/images/icons/maintenance-clones.png",
+    "image": "assets/images/portraits/maintenance-clones.png",
+    "setup": {
+      "item": [
+        {
+          "name": "α",
+          "location_name": "Brennstoffzellen",
+          "diagram": "assets/images/rooms/fuel_cells.png"
+        },
+        {
+          "name": "β",
+          "location_name": "Küche",
+          "diagram": "assets/images/rooms/kitchen.png"
+        },
+        {
+          "name": "γ",
+          "location_name": "Schlafquartier",
+          "diagram": "assets/images/rooms/quarters.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Es gibt Klone!",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "falls ein \"Klon\" entkommt."
+          },
+          "sub": [
+            {
+              "points": 4,
+              "description": "falls mind. 2 \"Klone\" entkommen."
+            },
+            {
+              "points": 2,
+              "description": "falls das Nachrichtennetz Beweise hat."
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "Bei Aktivierung der \"Wartungsklone\" darfst du mit 1 der \"Klone\" Aktionen ausführen.",
+      "Jeder \"Klon\" hat Platz für 2 Dinge (lege beide auf denselben Platz).",
+      "Die \"Klone\" halten die Daten in ihrem Besitz getrennt (lege sie jeweils auf den entsprechenden Platz oben auf der Karte).",
+      "Du darfst die \"Klone\" aktivieren und sammeln, solange mind. 1 von ihnen weder entkommen noch vernichtet ist."
+    ],
+    "tips": [
+      "Die \"Wartungsklone\" sind sehr beweglich.",
+      "Nutze es aus, dass sie in 3 Orten gleichzeitig sein können. Falls 1 \"Klon\" aktiviert ist, dürfen weitere \"Klone\" per Bestechung oder Kompromat agieren.",
+      "Beweise darf man in der Sicherheitszentrale \"herstellen\" und von der Antennensteuerung aus \"senden\". Es genügt auch, mit Beweisen im Besitz zu entkommen.",
+      "Ausgeschaltete Störsender erleichtern es, Beweise an Akteure zu \"kopieren\"."
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Medibot",
+    "description": "abc",
+    "pronoums": "Er/es/ihm",
+    "bonus_points": {
+      "points": 1,
+      "alive": false,
+      "notes": "falls der \"Medibot\" dein ZA und beim Absturz weder gesund noch entkommen ist."
+    },
+    "influence_limit": 4,
+    "type": "Robot",
+    "abilities": [
+      {
+        "name": "Noteinsatz",
+        "description": "Darf als Aktion 1 Menschen ohne Heilgel \"heilen\". In einen Bereich zu \"gehen\"/ zu \"schleusen\", in dem ein Mensch K.O. ist, ist immer eine freie Aktion.",
+        "type": "utility"
+      },
+      {
+        "name": "Hilfsbereit",
+        "description": "Niemand kann mehr als 1 Einflusswürfel auf diesem Akteur haben.",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Durchgedreht",
+        "description": "Erhält 1 Keule aus dem allgemeinen Vorrat.",
+        "type": "offensive"
+      }
+    ],
+    "icon": "assets/images/icons/medical.png",
+    "image": "assets/images/portraits/medical.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Medical",
+          "location_name": "Heckzentrale",
+          "diagram": "assets/images/rooms/aft_hub.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Stets Hilfsbereit!",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "falls beim Absturz keine Menschen an Bord, die K.O. sind."
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "für jeden erreichten oder passierten Stern auf der Behandlungsleiste auf seiner Akteurkarte."
+          },
+          "sub": []
+        }
+      ],
+      "notes": "Rücke den Medibot-Marker für jede \"Heilung\" eines Menschen um 1 Feld nach rechts. Rücke den Medibot-Marker für jeden Einflusswürfel, den er beim Bekennen in den Verratsfundus legt, um 1 Feld nach rechts."
+    },
+    "quirks": [
+      "Der Medibot-Marker startet bei 0 (außerhalb der Karte).",
+      "Mit dem Medibot-Marker notierst du für die Wertung, wie viele Menschen der \"Medibot\" \"geheilt\" hat und wie viele Einflusswürfel in den Verratsfundus gewandert sind.",
+      "Auch der \"Medibot\" kann keine Menschen \"heilen\", die ohne Helm in einem Gefahrenbereich sind.",
+      "Noteinsatz: Die freie Bewegung zu Patienten hin darf mehrfach pro Zug genutzt werden."
+    ],
+    "tips": [
+      "Je mehr Akteure K.O. sind, desto mehr kannst du \"heilen\" und desto schneller bewegst du dich.",
+      "Je später du dich bekennst, desto mehr Einflusswürfel wandern wahrscheinlich von deiner Karte in den Verratsfundus und bringen dir Punkte.",
+      "Die freie Bewegung zu einem Patienten hin verpflichtet nicht zur \"Heilung\"!"
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Mikrobiologin",
+    "description": "abc",
+    "pronoums": "Sie/ihr",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "falls die \"Mikrobiologin\" dein ZA ist und entkommt."
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Wissenschaftler",
+        "description": "Hat 1 freie Bereichsaktion (alternativ zu 1 freien \"Aufnehmen\"/\"Ablegen\").",
+        "type": "utility"
+      },
+      {
+        "name": "Loyal",
+        "description": "Falls du sie beeinflusst, lege 1 Einflusswürfel mehr auf die Karte, als dort insgesamt liegen, und gib die anderen Würfel dann ihren Eigentümern zurück.",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Infizieren",
+        "description": "Als Aktion: Darf 1 Mensch oder Roboter im selben Bereich \"kontaminieren\". Falls dafür kein freier Platz auf der Akteurkarte ist, entscheidest du, welches Ding er ablegt. Niemand kann mehr als 1 Kontamination haben.",
+        "type": "offensive"
+      }
+    ],
+    "icon": "assets/images/icons/microbiologist.png",
+    "image": "assets/images/portraits/microbiologist.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Microbiologist",
+          "location_name": "Physiklabor",
+          "diagram": "assets/images/rooms/physics_lab.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Intelligenter Erreger",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "falls die \"Mikrobiologin\" entkommt."
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "pro kontaminiertem Akteur, der entkommt."
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "falls Geheimnis X entkommt."
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": ["Keine."],
+    "tips": [
+      "Kontaminiere Akteure im Biolabor oder durch die \"Fähigkeit bei Bekennen\".",
+      "\"Stelle\" das Geheimnis X im Biolabor \"her\". \"Kopiere\" es zu anderen Akteuren.",
+      "Löse \"Station aufgeben\" aus (durch Offizier auf Brücke, Beschädigen von Kraftwerken oder \"Freilassen von Projekt X\").",
+      "Von der Brücke aus ist es möglich, mehrere Kapseln auf einmal zu \"starten\" (falls ihre Startbedingung erfüllt ist)."
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Agentin",
+    "description": "abc",
+    "pronoums": "Sie/ihr",
+    "bonus_points": {
+      "points": 2,
+      "alive": false,
+      "notes": "falls die \"Agentin\" dein ZA und beim Absturz weder gesund noch entkommen ist."
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Offizier",
+        "description": "Solange kein Blackout: Darf durch Schlösser \"gehen\" (oder geschleift werden, falls K.O.). Dies entfernt die Schlösser.",
+        "type": "mobilitiy"
+      },
+      {
+        "name": "EMP-Blitz",
+        "description": "Als Aktion: Beschädigt den Bereich, in dem die \"Agentin\" ist, \"löscht\" dort alle Daten und alle Roboter dort gehen K.O.",
+        "type": "offensive"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Verminen",
+        "description": "Darf sich die 3 Minen ansehen und sie verdeckt (Fragezeichen sichtbar) in 3 beliebige Bereiche legen. Dreht die Mine um, sobald ein Mensch, Roboter oder Monster (falls es nicht immun ist, siehe unten) den Bereich betritt; falls es eine echte Mine ist, geht der Akteur bzw. das Monster K.O. Minen lösen niemals Verdacht, Schuld oder Selbsterhaltung aus.",
+        "type": "offensive"
+      },
+      {
+        "name": "Gasgranaten",
+        "description": "Darf als Aktion Erstickungsgefahr auslösen (in ihrem Bereich oder in einem Bereich, in den sie etwas \"werfen\" kann).",
+        "type": "offensive"
+      }
+    ],
+    "icon": "assets/images/icons/operative.png",
+    "image": "assets/images/portraits/operative.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Operative",
+          "location_name": "Wohnräume",
+          "diagram": "assets/images/rooms/suite.png"
+        }
+      ],
+      "notes": "Legt die 3 Minen neben die Akteurkarte der \"Agentin\"."
+    },
+    "agenda": {
+      "description": "Vertuschen",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "falls kein Beweis entkommt."
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "falls das Geheimnis X nicht entkommt."
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "falls kein unschuldiger BA entkommt."
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "falls kein Kontaminierter entkommt."
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "falls kein Roboter entkommt."
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": ["Keine."],
+    "tips": [
+      "Das \"Entropiephantom\" und das \"Tentakelmonster\" ignorieren Minen.",
+      "Eingeschaltete Störsender verhindern, dass viele Daten \"kopiert\" werden.",
+      "\"Lösche\" Daten und schalte Roboter per EMP-Blitz aus.",
+      "Nutze Kompromat im richtigen Moment, um Akteure verdächtig zu machen.",
+      "In den Tanks darfst du Akteure \"dekontaminieren\".",
+      "Nutze deine \"Fähigkeiten bei Bekennen\" klug, um Akteure auszuschalten."
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Wächter",
+    "description": "abc",
+    "pronoums": "Es/ihm",
+    "bonus_points": {
+      "points": 3,
+      "alive": false,
+      "notes": "falls der \"Wächter\" dein ZA und beim Absturz weder gesund noch entkommen ist."
+    },
+    "influence_limit": 4,
+    "type": "Robot",
+    "abilities": [
+      {
+        "name": "Friedenswächter",
+        "description": "Kann nur Gesetzlose (\"Piratin\" und \"Cyborg\"), Monster und verdächtige oder schuldige BA direkt \"angreifen\". Kann nicht direkt \"sabotieren\". (Beides ist aber mittelbar, z.B. durch den Einsatz von Drohnen, erlaubt.)",
+        "type": "defensive"
+      },
+      {
+        "name": "Gepanzert",
+        "description": "Kann mittels Keule weder \"angegriffen\" noch \"beraubt\" werden.",
+        "type": "defensive"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Gewaltmonopol",
+        "description": "Der \"Wächter\" verliert die Fähigkeit \"Friedenswächter\".",
+        "type": "offensive"
+      }
+    ],
+    "icon": "assets/images/icons/security.png",
+    "image": "assets/images/portraits/security.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Security",
+          "location_name": "Replikatorraum",
+          "diagram": "assets/images/rooms/print_shop.png"
+        }
+      ],
+      "notes": "Der \"Wächter\" besitzt eine integrale Pistole, die er nicht verlieren kann."
+    },
+    "agenda": {
+      "description": "Friede durch Feuerkraft",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "pro Gesetzlosem, Monster und verdächtigem oder schuldigem BA, die beim Absturz K.O. und an Bord sind."
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "pro Mensch, der eine Keule oder Pistole besitzt und beim Absturz K.O. und an Bord ist."
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "falls der Koffer nicht entkommt."
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "falls das Artefakt nicht entkommt."
+          },
+          "sub": [
+            {
+              "points": 1,
+              "description": "falls beide nicht entkommen."
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "Wen ein Friedenswächter nicht direkt \"angreifen\" kann, den darf er trotzdem indirekt (per Fernsteuerung oder Monster) \"angreifen\"."
+    ],
+    "tips": [
+      "Man kann dich nur schwer \"berauben\", deshalb sind das Artefakt und der Koffer bei dir gut aufgehoben.",
+      "Nach dem Bekennen darfst du beliebige Akteure K.O. schlagen und ihnen dann je 1 Keule unterschieben.",
+      "Kompromat ist ein gutes Mittel, um Verdächtige zu produzieren.",
+      "Du darfst vom Kältelabor oder von der Brücke aus (jeweils durch einen Offizier) \"Projekt X freilassen\".",
+      "Die \"Piratin\" und der \"Cyborg\" sind Gesetzlose.",
+      "Vor dem Bekennen hindert dich \"Friedenswächter\" daran, \"anzugreifen\" und zu \"sabotieren\". Du darfst trotzdem Dinge \"rauben\" (\"Muss das – Sicherheitsgründe – lei…drrrr konfiszieren!\")."
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Kommandantin",
+    "description": "abc",
+    "pronoums": "Sie/ihr",
+    "bonus_points": {
+      "points": 2,
+      "alive": false,
+      "notes": "falls die \"Kommandantin\" dein ZA und beim Absturz weder gesund noch entkommen ist."
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Offizier",
+        "description": "Solange kein Blackout: Darf durch Schlösser \"gehen\" (oder geschleift werden, falls K.O.). Dies entfernt die Schlösser.",
+        "type": "mobilitiy"
+      },
+      {
+        "name": "Wachsam",
+        "description": "Man kann die \"Kommandantin\" nicht \"berauben\".",
+        "type": "defensive"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Starke Persönlichkeit",
+        "description": "Darf zu Beginn ihrer Aktivierung 1 freie Aktion (aber keine Bereichsaktion) mit einem UBA im selben Bereich oder einem UBA-Offizier irgendwo ausführen.",
+        "type": "utility"
+      }
+    ],
+    "icon": "assets/images/icons/station_chief.png",
+    "image": "assets/images/portraits/station_chief.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Station Chief",
+          "location_name": "Heilgarten",
+          "diagram": "assets/images/rooms/therapy_garden.png"
+        }
+      ],
+      "notes": "Legt die Notfallkapsel an die Bugschleuse."
+    },
+    "agenda": {
+      "description": "Mit dem Schiff untergehen",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "pro anderem Mensch, der entkommt."
+          },
+          "sub": [
+            {
+              "points": 1,
+              "description": "pro UBA-Offizier, der entkommt."
+            }
+          ]
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "falls die \"Kommandantin\" beim Absturz an Bord und gesund ist."
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": ["Keine."],
+    "tips": [
+      "Löse so schnell wie möglich \"Station aufgeben\" aus (durch Offizier auf Brücke, Beschädigen von Kraftwerken oder \"Freilassen von Projekt X\").",
+      "Von der Brücke aus ist es möglich, mehrere Kapseln auf einmal zu \"starten\" (falls ihre Startbedingung erfüllt ist).",
+      "Falls du einen Menschen, der K.O. ist, in die Notfallkapsel schleifen kannst, darfst du sie \"starten\". (Die Station muss nicht aufgegeben sein.)"
+    ],
+    "board_modifications": [
+      "Zum Start muss die Notfallkapsel mit mind. 1 Menschen besetzt sein, der K.O. ist. Die Station muss nicht aufgegeben sein."
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Blinde Passagierin",
+    "description": "abc",
+    "pronoums": "Sie/ihr",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "falls die \"Blinde Passagierin\" dein ZA ist und entkommt."
+    },
+    "influence_limit": 4,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Tunnelratte",
+        "description": "Darf durch Luftschächte \"gehen\".",
+        "type": "mobilitiy"
+      },
+      {
+        "name": "Hacker",
+        "description": "Hat 1 freie Konsolenaktion (alternativ zu freiem \"Aufnehmen\"/\"Ablegen\"). Solange die Störsender ausgeschaltet sind, darf sie in jedem (auch beschädigten) Bereich Konsolenaktionen ausführen.",
+        "type": "utility"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Geheimversteck",
+        "description": "Sie oder 1 ihrer Komplizen erhält sofort 1 Helm aus dem allgemeinen Vorrat.",
+        "type": "defensive"
+      }
+    ],
+    "icon": "assets/images/icons/stowaway.png",
+    "image": "assets/images/portraits/stowaway.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Stowaway",
+          "location_name": "Akteurkarte",
+          "diagram": "assets/images/character_card.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Der große Coup",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "falls das Nachrichtennetz das Geheimnis X kennt."
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "falls das Nachrichtennetz Beweise hat."
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "falls die \"Blinde Passagierin\" entkommt."
+          },
+          "sub": [
+            {
+              "points": 3,
+              "description": "falls sie die einzige ist, die mit Beweisen entkommt."
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "Der Spielstein der \"Blinden Passagierin\" beginnt die Partie auf ihrer Akteurkarte.",
+      "Ihre 1. Aktion ist immer, sich von dort in einen dunklen Bereich der Station zu bewegen (\"gehen\"). Bis dahin ist sie sowohl aktiv als auch passiv außerhalb der Partie."
+    ],
+    "tips": [
+      "Beweise darfst du in der Sicherheitszentrale \"herstellen\", das Geheimnis X im Biolabor.",
+      "\"Sende\" Daten von der Antennensteuerung aus oder indem du mit ihnen entkommst.",
+      "Halte die Störsender ausgeschaltet, um Daten zu \"kopieren\" und die Fähigkeit \"Hacker\" bestmöglich zu nutzen.",
+      "Hindere Andere mit Daten am Entkommen, indem du sie K.O. schlägst oder sie ins Physiklabor schickst."
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Enigma",
+    "description": "abc",
+    "pronoums": "Niemand hat sich bisher getraut, es danach zu fragen.",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "falls das \"Enigma\" dein ZA ist und entkommt."
+    },
+    "influence_limit": 6,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Zäh",
+        "description": "Dieser Akteur gilt erst mit 2 Aktivierungsscheiben als erschöpft.",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Folge mir",
+        "description": "Sobald du dich zu ihm bekennst, darfst du auch deinen ZA aufdecken (3er-Partie: 1 deiner ZA) und mit ihm 1 Aktion ausführen.",
+        "type": "utility"
+      },
+      {
+        "name": "Rätselhaft",
+        "description": "Falls du dich per Schrödinger- Bekenntnis zur Identität \"Enigma\" bekennst, wirf keine Karten ab, sondern behalte sie als ZA. Außerdem verliert das \"Enigma\" in diesem Fall die Fähigkeit \"Zäh\".",
+        "type": "conspiracy"
+      }
+    ],
+    "icon": "assets/images/icons/stranger.png",
+    "image": "assets/images/portraits/stranger.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Stranger",
+          "location_name": "Nanofabrik",
+          "diagram": "assets/images/rooms/nanofactory.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Ich nehme es persönlich",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "falls die Identität erst beim Absturz bekannt wird."
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "falls es das Geheimnis X besitzt."
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "falls es Bonuspunkte erhalten hat."
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "falls es beim Absturz gesund und bei einem deiner ZA ist."
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": ["Keine."],
+    "tips": [
+      "Konzentriere dich auf den Zustand deines ZA und halte das \"Enigma\" in dessen Nähe.",
+      "Damit dein ZA überlebt, löse so schnell wie möglich \"Station aufgeben\" aus (durch Offizier auf Brücke, Beschädigen von Kraftwerken oder \"Freilassen von Projekt X\").",
+      "Deine Agenda liefert wenig Punkte. Versuche daher, aktiv die Agenden der Anderen zu durchkreuzen."
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Relepathische Ratte",
+    "description": "abc",
+    "pronoums": "Es/ihm",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "falls die \"Telepathische Ratte\" dein ZA ist und entkommt."
+    },
+    "influence_limit": 8,
+    "type": "Item",
+    "abilities": [
+      {
+        "name": "Telepathie",
+        "description": "Führe 1 Aktion mit einem Menschen ohne Helm im selben Bereich aus; er ignoriert dabei Selbsterhaltung. Dies ist die einzige Aktion, die die \"Ratte\" ausführen kann.",
+        "type": "offensive"
+      },
+      {
+        "name": "Paranoid",
+        "description": "Um sie zu beeinflussen, muss einer deiner (gesunden) Komplizen bei ihr sein. Kann nicht bestochen werden.",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Mein Schatz",
+        "description": "Andere Spieler können die \"Ratte\" nicht mehr \"werfen\", \"schleusen\" und \"ablegen\". Man darf sie aber noch an Akteure im selben Bereich \"weitergeben\".",
+        "type": "defensive"
+      }
+    ],
+    "icon": "assets/images/icons/telephatic_rat.png",
+    "image": "assets/images/portraits/telephatic_rat.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Telepathic Rat",
+          "location_name": "Biolabor",
+          "diagram": "assets/images/rooms/bio_lab.png"
+        }
+      ],
+      "notes": "Die \"Telepathische Ratte\" beginnt die Partie kontaminiert. Lege den Marker auf die Karte."
+    },
+    "agenda": {
+      "description": "Buße",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "pro K.O. geschlagenem Mensch oder Roboter, der beim Absturz bei der \"Ratte\" ist."
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "pro Kompromat, das sie von Akteuren besitzt, die im selben Bereich und K.O. sind."
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "falls beim Absturz das Artefakt bei der \"Ratte\" ist."
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "falls beim Absturz der Koffer bei der \"Ratte\" ist."
+          },
+          "sub": []
+        }
+      ],
+      "notes": "Die \"Ratte\" kann gewinnen, obwohl sie schuldig ist."
+    },
+    "quirks": [
+      "Die \"Ratte\" ist ein Ding, das man (vor dem Bekennen) wie üblich \"aufnehmen\", \"ablegen\", \"werfen\" usw. darf.",
+      "Die \"Ratte\" beginnt kontaminiert. Man darf sie wie üblich \"dekontaminieren\" (und neu kontaminieren).",
+      "Die \"Ratte\" kann weder Dinge noch Daten besitzen.",
+      "Man kann die \"Ratte\" nicht \"angreifen\", sie kann auch nicht K.O. gehen.",
+      "Die \"Ratte\" kann gewinnen, obwohl sie schuldig ist.",
+      "Durch die Fähigkeit \"Paranoid\" ist die \"Ratte\" schwer zu beeinflussen.",
+      "Die \"Ratte\" kann nicht bestochen werden."
+    ],
+    "tips": [
+      "Das Artefakt ist im Physiklabor, der Koffer in den Wohnräumen.",
+      "Pass auf, dass du nicht vernichtet wirst oder in den Besitz eines Akteurs gelangst, der nicht entkommen kann.",
+      "Du selbst kannst nicht schuldig werden, darfst also andere nach Herzenslust K.O. schlagen lassen.",
+      "Versuche, beim Absturz in einem Bereich mit vielen Akteuren zu sein, die K.O. sind.",
+      "Deine \"Fähigkeit bei Bekennen\" verhindert, dass man dich in einem leeren Bereich oder im Weltraum zurücklässt.",
+      "Helme sind deine Feinde, entsorge so viele wie möglich.",
+      "Beachte, dass nur der aktivierte Akteur eine freie Aktion \"Aufnehmen\"/\"Ablegen\" bekommt und dass die \"Ratte\" das nicht nutzen kann."
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Mechanikerin",
+    "description": "abc",
+    "pronoums": "Sie/ihr",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "falls die \"Mechanikerin\" dein ZA ist und entkommt."
+    },
+    "influence_limit": 6,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Tunnelratte",
+        "description": "Darf durch Luftschächte \"gehen\".",
+        "type": "mobilitiy"
+      },
+      {
+        "name": "Zusammenflicken",
+        "description": "Darf als Aktion ihren Bereich oder 1 Roboter dort \"reparieren\".",
+        "type": "utility"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Fernwartung",
+        "description": "Solange die \"Mechanikerin\" gesund ist, agieren ihre Komplizen während ihrer Aktivierung, als ob sie die Fähigkeiten \"Zusammenflicken\" und \"Tunnelratte\" hätten.",
+        "type": "utility"
+      }
+    ],
+    "icon": "assets/images/icons/troubleshooter.png",
+    "image": "assets/images/portraits/troubleshooter.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Troubleshooter",
+          "location_name": "Replikatorraum",
+          "diagram": "assets/images/rooms/print_shop.png"
+        }
+      ],
+      "notes": "Legt den Greifarm an die Bugschleuse an. Die \"Mechanikerin\" beginnt die Partie mit 1 Keule."
+    },
+    "agenda": {
+      "description": "Tipptopp bis zum Schluss",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "falls die Antimaterie nicht scharfgeschaltet wurde."
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "falls Projekt X nicht freigesetzt wurde."
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "falls kein Bereich an Bord beschädigt ist."
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "pro gesundem Roboter"
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": ["Keine."],
+    "tips": [
+      "Deine \"Fähigkeit bei Bekennen\" ist sehr nützlich, um Bereiche durch Komplizen \"reparieren\" zu lassen.",
+      "Versuche, Akteure von der Brücke, dem Kältelabor und dem Magnetkäfig fernzuhalten, damit Projekt X nicht freikommt und die Antimaterie nicht scharf wird."
+    ],
+    "board_modifications": [
+      "Der Greifarm erlaubt jedem Akteur in der Bugschleuse die Bereichsaktion \"Greifen\".",
+      "Greifen: 1 Ding aus dem Weltraum aufnehmen oder 1 Akteur im Weltraum K.O. schlagen."
+    ]
+  }
+]
