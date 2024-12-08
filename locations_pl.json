@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1,
+    "name": "Wylot rufowy",
+    "diagram": "assets/images/rooms/aft_exahust.png",
+    "action": [
+      "Śluza"
+    ],
+    "type": "blue",
+    "light": false,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 2,
+    "name": "Kuchnia",
+    "diagram": "assets/images/rooms/kitchen.png",
+    "action": [
+      ""
+    ],
+    "type": "blue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 3,
+    "name": "Kwatery",
+    "diagram": "assets/images/rooms/quarters.png",
+    "action": [
+      ""
+    ],
+    "type": "blue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 4,
+    "name": "Strefa wypoczynku",
+    "diagram": "assets/images/rooms/rec_room.png",
+    "action": [
+      ""
+    ],
+    "type": "blue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 5,
+    "name": "Stacja bezpieczeństwa",
+    "diagram": "assets/images/rooms/security_station.png",
+    "action": [
+      "Akcja sterownicza",
+      "Kamery WŁ./WYŁ.",
+      "Wytwórz dowód"
+    ],
+    "type": "blue",
+    "light": true,
+    "energy": false,
+    "notes": "Jeśli uszkodzona, WYŁĄCZ kamery i zagłuszacze. Nie mogą zostać włączone z powrotem, dopóki nie zostanie naprawiona"
+  },
+  {
+    "id": 6,
+    "name": "Rozdrabniarka",
+    "diagram": "assets/images/rooms/shred_room.png",
+    "action": [
+      "Kopalnia danych: Podnieś KomproMat z dowolnego miejsca na pokładzie"
+    ],
+    "type": "blue",
+    "light": false,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 7,
+    "name": "Magazyn",
+    "diagram": "assets/images/rooms/storage.png",
+    "action": [
+      ""
+    ],
+    "type": "blue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 8,
+    "name": "Luksusowa kajuta",
+    "diagram": "assets/images/rooms/suite.png",
+    "action": [
+      ""
+    ],
+    "type": "blue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 9,
+    "name": "Ogród terapeutyczny",
+    "diagram": "assets/images/rooms/therapy_garden.png",
+    "action": [
+      "Medytuj (Tylko PG)"
+    ],
+    "type": "blue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 10,
+    "name": "Laboratorium biologiczne",
+    "diagram": "assets/images/rooms/bio_lab.png",
+    "action": [
+      "Wejscie tu powoduje Skażenie, chyba że laboratorium jest w ogniu",
+      "Wytwórz Sekret-X"
+    ],
+    "type": "darkBlue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 11,
+    "name": "Laboratorium chemiczne",
+    "diagram": "assets/images/rooms/chem_lab.png",
+    "action": [
+      "MWytwórz Bombę zapalającą"
+    ],
+    "type": "darkBlue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 12,
+    "name": "Laboratorium kriogeniczne",
+    "diagram": "assets/images/rooms/cryo_lab.png",
+    "action": [
+      "Uwolnij Projekt X (Tylko Oficer)"
+    ],
+    "type": "darkBlue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 13,
+    "name": "Wylot Przedni",
+    "diagram": "assets/images/rooms/forward_exhaust.png",
+    "action": [
+      "Śluza"
+    ],
+    "type": "darkBlue",
+    "light": false,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 14,
+    "name": "Główny komputer",
+    "diagram": "assets/images/rooms/mainframe.png",
+    "action": [
+      "Akcja sterownicza"
+    ],
+    "type": "darkBlue",
+    "light": true,
+    "energy": true,
+    "notes": ""
+  },
+  {
+    "id": 15,
+    "name": "Nanofabryka",
+    "diagram": "assets/images/rooms/nanofactory.png",
+    "action": [
+      "Wytwórz Nanożel"
+    ],
+    "type": "darkBlue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 16,
+    "name": "Laboratorium fizyczne",
+    "diagram": "assets/images/rooms/physics_lab.png",
+    "action": [
+      ""
+    ],
+    "type": "darkBlue",
+    "light": true,
+    "energy": false,
+    "notes": "Podczas fazy rozpatrzenia wszystkie znajdujące się tu Dane zostają skasowane"
+  },
+  {
+    "id": 17,
+    "name": "Drukarnia",
+    "diagram": "assets/images/rooms/print_shop.png",
+    "action": [
+      "Wytwórz Hełn, Broń obuchową lub (tylko oficer) Broń palną"
+    ],
+    "type": "darkBlue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 18,
+    "name": "Komora X",
+    "diagram": "assets/images/rooms/vault_x.png",
+    "action": [
+      ""
+    ],
+    "type": "darkBlue",
+    "light": true,
+    "energy": false,
+    "notes": "Jeśli uszkodzona, uwolnij Projekt X i aktywuj rozkaz opuszczenia statku"
+  },
+  {
+    "id": 19,
+    "name": "Śluza rufowa",
+    "diagram": "assets/images/rooms/aft_airlocks.png",
+    "action": [
+      "Śluza",
+      "Wystrzelenie z sektora"
+    ],
+    "type": "pink",
+    "light": false,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 20,
+    "name": "Węzeł rufowy",
+    "diagram": "assets/images/rooms/aft_hub.png",
+    "action": [
+      ""
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 21,
+    "name": "Tablica kontrolna",
+    "diagram": "assets/images/rooms/array_control.png",
+    "action": [
+      "Transmisja"
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 22,
+    "name": "Mostek",
+    "diagram": "assets/images/rooms/bridge.png",
+    "action": [
+      "Uwolnij Projekt X",
+      "Samozniszczenie",
+      "Rozkaz opuszczenia statku",
+      "Wystrzelenie z mostka"
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": "Tylko Oficer"
+  },
+  {
+    "id": 23,
+    "name": "Chwytak ładunku",
+    "diagram": "assets/images/rooms/cargo_claw.png",
+    "action": [
+      "Chwyt: Podnieś Przedmiot w Przestrzeni kosmicznej lub ogłusz postać w Przestrzeni kosmicznej"
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 24,
+    "name": "Śluza przednia",
+    "diagram": "assets/images/rooms/forward_airlocks.png",
+    "action": [
+      "Śluza"
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 25,
+    "name": "Węzeł przedni",
+    "diagram": "assets/images/rooms/forward_hub.png",
+    "action": [
+      ""
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 26,
+    "name": "Ogniwa paliwowe",
+    "diagram": "assets/images/rooms/fuel_cells.png",
+    "action": [
+      ""
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": true,
+    "notes": "Jeśli uszkodzone, umieść Pożar tu i w Zbiornikach"
+  },
+  {
+    "id": 27,
+    "name": "Uprawy hydroponiczne",
+    "diagram": "assets/images/rooms/hydroponics.png",
+    "action": [
+      ""
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 28,
+    "name": "Szatnia",
+    "diagram": "assets/images/rooms/locker_room.png",
+    "action": [
+      ""
+    ],
+    "type": "pink",
+    "light": false,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 29,
+    "name": "Warsztat",
+    "diagram": "assets/images/rooms/machine_shop.png",
+    "action": [
+      "Napraw Robota"
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 30,
+    "name": "Pułapka magnetyczna",
+    "diagram": "assets/images/rooms/magnetic_containmet.png",
+    "action": [
+      "Wyrzuć antymaterię"
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": "Podczas fazy rozpatrzenia wszystkie kostki wpływu na robotach trafiają na pole zdrady"
+  },
+  {
+    "id": 31,
+    "name": "Reaktor",
+    "diagram": "assets/images/rooms/reactor.png",
+    "action": [
+      ""
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": true,
+    "notes": "Nie można zniszczyć przy pomocy Broni obuchowej"
+  },
+  {
+    "id": 32,
+    "name": "Schron",
+    "diagram": "assets/images/rooms/storm_shelter.png",
+    "action": [
+      ""
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 33,
+    "name": "Zbiornik",
+    "diagram": "assets/images/rooms/tanks.png",
+    "action": [
+      "Dekontaminacja"
+    ],
+    "type": "pink",
+    "light": false,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 34,
+    "name": "Alcatraz",
+    "diagram": "assets/images/rooms/alcatraz.png",
+    "action": [
+      "Opóźnione wystrzelenie"
+    ],
+    "type": "green",
+    "light": true,
+    "energy": false,
+    "notes": "Aby wystrzelić, wymagany jest aktywny rozkaz opuszczenia statku"
+  },
+  {
+    "id": 35,
+    "name": "Hail Mary",
+    "diagram": "assets/images/rooms/hail_mary.png",
+    "action": [
+      "Opóźnione wystrzelenie"
+    ],
+    "type": "green",
+    "light": true,
+    "energy": false,
+    "notes": "Aby wystrzelić, wymagany jest aktywny rozkaz opuszczenia statku. Jeżeli Prawnik jest w grze, wszyscy przytomni pasażerowie muszą posiadać Umowę poufności"
+  },
+  {
+    "id": 36,
+    "name": "Houdini",
+    "diagram": "assets/images/rooms/houdini.png",
+    "action": [
+      "Opóźnione wystrzelenie"
+    ],
+    "type": "green",
+    "light": true,
+    "energy": false,
+    "notes": "Aby wystrzelić, wymagany jest aktywny rozkaz opuszczenia statku. Jeżeli Prawnik jest w grze, wszyscy przytomni pasażerowie muszą posiadać Umowę poufności"
+  },
+  {
+    "id": 37,
+    "name": "McQueen",
+    "diagram": "assets/images/rooms/mcqueen.png",
+    "action": [
+      "Opóźnione wystrzelenie"
+    ],
+    "type": "green",
+    "light": false,
+    "energy": false,
+    "notes": "Aby wystrzelić, wymagany jest aktywny rozkaz opuszczenia statku. Jeżeli Prawnik jest w grze, wszyscy przytomni pasażerowie muszą posiadać Umowę poufności"
+  },
+  {
+    "id": 38,
+    "name": "Kapsuła medyczna",
+    "diagram": "assets/images/rooms/medivac_pod.png",
+    "action": [
+      "Opóźnione wystrzelenie"
+    ],
+    "type": "green",
+    "light": true,
+    "energy": false,
+    "notes": "Aby wystrzelić, jej pasażerem musi być ogłuszony Człowiek. Nie jest wymagany aktywny rozkaz opuszczenia statku."
+  },
+  {
+    "id": 39,
+    "name": "Przestrzeń kosmiczna",
+    "diagram": "assets/images/rooms/outer_space.png",
+    "action": [
+      "Śluza"
+    ],
+    "type": "green",
+    "light": false,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 40,
+    "name": "Kapsuła awaryjna",
+    "diagram": "assets/images/rooms/panic_pod.png",
+    "action": [
+      "Opóźnione wystrzelenie"
+    ],
+    "type": "green",
+    "light": true,
+    "energy": false,
+    "notes": "Aby wystrzelić, wymagany jest aktywny rozkaz opuszczenia statku."
+  },
+  {
+    "id": 41,
+    "name": "Statek Piracki / Statek ratunkowy",
+    "diagram": "assets/images/rooms/pirate_ship.png",
+    "action": [
+      "Statek Piracki: Podczas punktacji dowolna postać posiadająca Walizkę w Przstrzeni kosmicznej ucieka",
+      "Statek Ratunkowy: Podczas punktacji dowolny Człowiek w Przestrzeni kosmicznej ucieka"
+    ],
+    "type": "green",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  }
+]
