@@ -1,0 +1,177 @@
+[
+  {
+    "name": "Mięsożerny eksperyment",
+    "subtitle": "Nieudana próba stworzenia jednostki bojowej",
+    "image": "assets/images/projects_x/carnivorous.png",
+    "setup": [
+      "Umieść Potwora w Komorze X."
+    ],
+    "abilities": [
+      {
+        "name": "Szczur tunelowy",
+        "description": "Może wykonywać kroki przez szyby wentylacyjne.",
+        "type": "mobility"
+      },
+      {
+        "name": "Czujny",
+        "description": "Nie może zostać zaatakowany w ciemnych sektorach.",
+        "type": "defensive"
+      }
+    ],
+    "instructions": [
+      "Na końcu każdej fazy rozpatrzenia musi ogłuszyć przytomnego, współdzielącego lokalizację Człowieka, jeśli to możliwe.",
+      "Jeśli żadnego nie ma, aktywny gracz musi zrobić Mięsożernym eksperymentem krok o 1 sektor w stronę najbliższego przytomnego Człowieka. W przypadku remisu aktywny gracz może wybrać, do którego sektora robi krok.",
+      "Mięsożerny eksperyment broni się jak Człowiek bez Hełmu i zostaje ogłuszony przez niebezpieczeństwa. Ma też Instynkt samozachowawczy – jeśli jedyny możliwy ruch prowadzi przez niebezpieczeństwo, nie porusza się."
+    ]
+  },
+  {
+    "name": "Rój bojowy",
+    "subtitle": "Zdalnie sterowane mordercze drony",
+    "image": "assets/images/projects_x/combat_swarm.png",
+    "setup": [
+      "Umieść Potwora w Komorze X",
+      "Umieść żeton kierowania rojem pod akcjami sterowniczymi."
+    ],
+    "abilities": [
+      {
+        "name": "Sprawność",
+        "description": "W ramach jednego kroku może poruszyć się o maks. 2 sektory. Może zrobić krok przez szyby wentylacyjne.",
+        "type": "mobility"
+      },
+      {
+        "name": "Prowizoryczna naprawa",
+        "description": "Jako akcja napraw współdzielący lokalizację uszkodzony sektor lub ogłuszonego Robota.",
+        "type": "utility"
+      }
+    ],
+    "instructions": [
+      "Rój bojowy jest kontrolowany przy pomocy akcji sterowniczej. Może tylko wykonywać kroki (w tym ciągnąć), atakować lub używać zdolności Prowizoryczna naprawa. Atakuje tak, jakby miał Broń palną.",
+      "Nie może zostać ogłuszony, chyba że wejdzie do nieuszkodzonej Pułapki magnetycznej, gdzie natychmiast zostaje ogłuszony.",
+      "Nie możesz stać się podejrzany, gdy wykonujesz akcje przy pomocy Roju bojowego.",
+      "Rój bojowy jest Robotem, może zostać naprawiony i ignoruje niebezpieczeństwa. Dla celów punktacji liczy się jako Robot."
+    ]
+  },
+  {
+    "name": "Promień smierci",
+    "subtitle": "W pełni działająca stacja bojowa",
+    "image": "assets/images/projects_x/death_ray.png",
+    "setup": [
+      "Umieść Promień śmierci w Tablicy kontrolnej."
+    ],
+    "abilities": [],
+    "instructions": [
+      "Promień śmierci może zostać wystrzelony przez dowolnego Człowieka lub Robota w Tablicy kontrolnej. Promień śmierci nie może zostać wystrzelony, jeśli Reaktor lub Tablica kontrolna są uszkodzone. Wystrzelenie Promienia śmierci uszkadza Reaktor.",
+      "Promień śmierci może strzelić w jeden cel. Celem może być Instytucja, Statek ratunkowy/piracki lub wystrzelona kapsuła. Wszystko obrane za cel przez Promień śmierci zostaje unicestwione i usunięte z gry wraz ze wszystkim, co się tam znajdowało.",
+      "•Winni gracze stają się podejrzani, jeśli Władze zostaną unicestwione. Użycie Promienia śmierci nie wzbudza podejrzeń."
+    ]
+  },
+  {
+    "name": "Zjawa entropiczna",
+    "subtitle": "Duch zbudowany z energii",
+    "image": "assets/images/projects_x/entropy_phantom.png",
+    "setup": [
+      "Umieść Potwora w Komorze X."
+    ],
+    "abilities": [
+      {
+        "name": "Szczur tunelowy",
+        "description": ": Może wykonywać kroki przez szyby wentylacyjne.",
+        "type": "mobility"
+      },
+      {
+        "name": "Eteryczny",
+        "description": "Może zrobić krok przez kłódki.",
+        "type": "mobility"
+      }
+    ],
+    "instructions": [
+      "Na końcu każdej fazy rozpatrzenia aktywny gracz musi przesunąć znacznik wpływu ze współdzielącej lokalizację postaci na pole zdrady, jeśli to możliwe (to coś pochłania twoje wspomnienia!).",
+      "Jeśli nie ma żadnych znaczników wpływu, aktywny gracz musi zrobić Zjawą entropiczną krok o 1 sektor w stronę Antymaterii, jeśli to możliwe. Jeśli współdzieli lokalizację z Antymaterią, uzbrój ją (jeśli jeszcze nie jest) i unicestwij Zjawę entropiczną. Jeśli Antymateria została unicestwiona, zamiast tego Zjawa entropiczna robi krok w stronę Pułapki magnetycznej.",
+      "Zjawa entropiczna nie może zostać ogłuszona.",
+      "Każde Dane współdzielące lokalizację ze Zjawą entropiczną zostają natychmiast skasowane."
+    ]
+  },
+  {
+    "name": "Szara maź",
+    "subtitle": "Rozrastający się nanośluz",
+    "image": "assets/images/projects_x/grey_go.png",
+    "setup": [
+      "Daj kartę Szarej mazi aktywnemu graczowi.",
+      "Umieść znacznik Szarej mazi w Komorze X oraz na danej karcie przy wartości 0, aby śledzić jej rozrost."
+    ],
+    "abilities": [],
+    "instructions": [
+      "Na końcu fazy rozpatrzenia gracza trzymającego tę kartę, umieść we wszystkich sektorach w zasięgu rozrostu. Szara maź wpływa na wszystkie postaci w sektorach w zasięgu jej rozrostu poprzez unicestwienie posiadanych przez nie Hełmów lub ogłuszanie ich, jeśli nie mają Hełmów.",
+      "Następnie, jeśli nie brakuje zasilania, podnieś wartość rozrostu o 1. Wszystkie sektory, które są oddalone od Komory X maksymalnie o tyle kroków, ile wynosi wartość rozrostu, znajdują się w zasięgu rozrostu Szarej mazi.",
+      "Szara maź rozrasta się przez kłódki, ale nie przez szyby wentylacyjne.",
+      "Jeśli rozrost osiągnie 5, przejdź do Upadku stacji."
+    ]
+  },
+  {
+    "name": "Robot zabójca",
+    "subtitle": "Nieustępliwy robomorderca",
+    "image": "assets/images/projects_x/robotic_assassin.png",
+    "setup": [
+      "Umieść Potwora w Komorze X.",
+      "Umieść żeton oznaczania celu pod akcjami sterowniczymi.",
+      "Aktywny gracz umieszcza na wybranym przytomnym pionku Człowieka lub Robota, który nie uciekł."
+    ],
+    "abilities": [
+      {
+        "name": "Ślepy szał",
+        "description": ": Może zrobić krok przez kłódki (co je usuwa).",
+        "type": "mobility"
+      },
+      {
+        "name": "Pancerz",
+        "description": "Nie może zostać zaatakowany przy pomocy Broni obuchowej.",
+        "type": "defensive"
+      }
+    ],
+    "instructions": [
+      "Akcja sterownicza Oznacz cel porusza na przytomny pionek Człowieka lub Robota, który nie uciekł.",
+      "Na końcu każdej fazy rozpatrzenia Robot zabójca musi ogłuszyć przytomnego, współdzielącego lokalizację Człowieka lub Robota, który ma na sobie Żeton celu",
+      "Jeśli żadnego nie ma, aktywny gracz musi zrobić Robotem zabójcą krok o 1 sektor w stronę najbliższego Człowieka lub Robota z Żetonem celu.",
+      "W przypadku remisu aktywny gracz wybiera, do którego sektora Robot zabójca robi krok.",
+      "Robot zabójca jest Robotem, może zostać naprawiony i ignoruje niebezpieczeństwa. Liczy się jako Robot dla celów punktacji.",
+      "Robot zabójca pozostanie w miejscu, kiedy współdzieli lokalizację z ogłuszonym Człowiekiem lub Robotem, który ma na sobie Żeton celu, lub kiedy Człowiek lub Robot, który ma na sobie Żeton celu, jest nieosiągalny. Nieosiągalne są np. Pasażerka na gapę na początku gry i postaci, które uciekły."
+    ]
+  },
+  {
+    "name": "Stabilny tunel czasoprzestrzenny",
+    "subtitle": "Portal do CERN",
+    "image": "assets/images/projects_x/stable_wormhole.png",
+    "setup": [
+      "Uszkodź Reaktor, jeśli jeszcze nie jest uszkodzony."
+    ],
+    "abilities": [],
+    "instructions": [
+      "Wszystkie Przedmioty i Postaci, które znajdują się w Komorze X lub wchodzą do Komory X, natychmiast uciekają.",
+      "Wszystko, co uciekło w ten sposób, współdzieli ze sobą lokalizację dla celów punktacji.",
+      "Jeśli Antymateria trafi do Stabilnego tunelu czasoprzestrzennego, unicestwia go oraz wszystko, co przez niego uciekło."
+    ]
+  },
+  {
+    "name": "Potworność z mackami",
+    "subtitle": "Hybryda zwierzęcia i rośliny z dużym apetytem",
+    "image": "assets/images/projects_x/tentacled_monstrosity.png",
+    "setup": [
+      "Umieść Potwora w Komorze X."
+    ],
+    "abilities": [
+      {
+        "name": "Ślepy szał",
+        "description": " Może zrobić krok przez kłódki (co je usuwa).",
+        "type": "mobility"
+      }
+    ],
+    "instructions": [
+      "Na końcu każdej fazy rozpatrzenia aktywny gracz wybiera współdzielącą lokalizację postać lub niebędący w niczyim posiadaniu Przedmiot, który zostanie pożarty (przesunięty na tę kartę). Pożarte postaci nie mogą wykonywać akcji ani nie można z nimi wchodzić w interakcję oraz zostają ogłuszone, jeśli są Człowiekiem bez Hełmu.",
+      "Jeśli nie ma żadnych współdzielących lokalizację postaci ani Przedmiotów, zamiast tego Potworność z mackami porusza 1 sąsiadującą postać lub niebędący w niczyim posiadaniu Przedmiot do swojego sektora.",
+      "Jeśli żadnych nie ma, aktywny gracz musi zrobić Potwornością z mackami krok o 1 sektor w stronę najbliższego niepożartego Człowieka (przytomnego lub ogłuszonego).",
+      "W przypadku remisu aktywny gracz wybiera, do którego sektora Potworność z mackami robi krok.",
+      "Potworność z mackami może zostać ogłuszona tylko przez pożar i ma Instynkt samozachowawczy. Jeśli zostanie ogłuszona, wszystkie pożarte Przedmioty i postaci należy umieścić w jej obecnym sektorze.",
+      "Postaci i Przedmioty znajdujące się wewnątrz Potworności z mackami są uznawane za współdzielące lokalizację. (Ma to znaczenie dla mocy ujawnienia Ryzykantki i celów Szczura telepaty)."
+    ]
+  }
+]

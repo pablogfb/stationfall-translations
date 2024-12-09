@@ -1,0 +1,2460 @@
+[
+  {
+    "id": 1,
+    "name": "Astroszympans",
+    "description": "abc",
+    "pronoums": "On/Jemu",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "jeśli Astroszympans jest twoją PD i uciekł."
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Szczur tunelowy",
+        "description": "Może wykonywać kroki przez szyby wentylacyjne",
+        "type": "mobility"
+      },
+      {
+        "name": "Lojalność",
+        "description": "Aby wpłynąć, zwróć wszystkie znaczniki wpływu znajdujące się na tej karcie i umieść przynajmniej 1 znacznik wpływu więcej, niż było tu wcześniej.",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Akrobacje",
+        "description": "Zyskuje Urodzony w nieważkości: Zamiast darmowego podniesienia lub upuszczenia może wykonać darmową akcję kroków lub śluzy do sektora z nieważkością.",
+        "type": "mobility"
+      }
+    ],
+    "icon": "assets/images/icons/astrochimp.png",
+    "image": "assets/images/portraits/astrochimp.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Astroszympans",
+          "location_name": "Kuchnia",
+          "diagram": "assets/images/rooms/kitchen.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Błyskotki",
+      "objetives": [
+        {
+          "main": {
+            "points": 3,
+            "description": "jeśli Astroszympans uciekł"
+          },
+          "sub": [
+            {
+              "points": 2,
+              "description": "jeśli posiada Walizkę"
+            },
+            {
+              "points": 2,
+              "description": "jeśli posiada Artefakt"
+            },
+            {
+              "points": 2,
+              "description": "jeśli posiada Broń palną"
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "Astroszympans liczy się jako Człowiek (w końcu podobieństwo to 99%, wystarczy!)."
+    ],
+    "tips": [
+      "Artefakt znajduje się w Laboratorium fizycznym.",
+      "Walizka znajduje się w Luksusowej kajucie.",
+      "Broń można wytworzyć przy pomocy postaci ze zdolnością Oficer w Drukarni lub zdobyć od innej postaci.",
+      "Po ujawnieniu Astroszympans porusza się bardzo szybko. Jeśli w łapy wpadnie mu też Broń palna i Hełm, staje się jedną z najniebezpieczniejszych postaci w grze."
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Miliarder",
+    "description": "abc",
+    "pronoums": "On/Jemu",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "jeśli Miliarder jest twoją PD i Tofik uciekł. (Nikogo nie obchodzi Miliarder, liczy się tylko słodki kosmiczny szczeniak)."
+    },
+    "influence_limit": 3,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Transmisja na żywo",
+        "description": "Jeśli zagłuszacze są WYŁ., traktuj sektory Miliardera i Tofika tak, jakby były oświetlone i kamery były WŁ.",
+        "type": "defensive"
+      },
+      {
+        "name": "Bogactwo",
+        "description": "Nie można go przekupić. Kiedy aktywujesz, możesz użyć szarej łapówki zamiast własnej. Szara łapówka zapewnia punkty, tylko jeśli Miliarder ucieknie.",
+        "type": "defensive"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Puste słowa",
+        "description": "Po ujawnieniu się gracz Miliardera bierze wszystkie 3 szare łapówki (nawet podczas Upadku stacji).",
+        "type": "conspiracy"
+      }
+    ],
+    "icon": "assets/images/icons/billionaire.png",
+    "image": "assets/images/portraits/billionaire.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Miliarder",
+          "location_name": "Luksusowa kajuta",
+          "diagram": "assets/images/rooms/suite.png"
+        },
+        {
+          "name": "Tofik",
+          "location_name": "Stacja bezpieczeństwa",
+          "diagram": "assets/images/rooms/security_station.png"
+        }
+      ],
+      "notes": "Miliarder zaczyna z 3 szarymi znacznikami łapówki na jego karcie postaci."
+    },
+    "agenda": {
+      "description": "Przetrwanie",
+      "objetives": [
+        {
+          "main": {
+            "points": 4,
+            "description": "jeśli Miliarder uciekł"
+          },
+          "sub": [
+            {
+              "points": 1,
+              "description": "+1 punkt, jeśli nie współdzieli lokalizacji z przytomnym Człowiekiem lub Robotem podczas Upadku stacji"
+            }
+          ]
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "jeśli Tofik uciekł"
+          },
+          "sub": [
+            {
+              "points": 1,
+              "description": "jeśli Tofik i Miliarder współdzielą lokalizację, kiedy uciekają"
+            }
+          ]
+        }
+      ],
+      "notes": "Miliarder nie zdobywa punktów za żadne posiadane ani niewykorzystane znaczniki łapówki."
+    },
+    "quirks": [
+      "Miliarder nie zdobywa punktów za żadne niewykorzystane znaczniki łapówki.",
+      "Tofik jest Przedmiotem, który może być podniesiony, upuszczony, rzucony itd. Tofik nie może zostać zaatakowany (ma w obroży automatyczny psi hełm). Może jednak zostać unicestwiony tak jak każdy inny Przedmiot.",
+      "Po ujawnieniu się gracz Miliardera może używać szarych znaczników łapówek oprócz własnych łapówek w dowolnej fazie aktywacji.",
+      "Szare znaczniki łapówek mogą zostać użyte tylko raz na minutę i tylko jeśli nadal znajdują się na karcie Miliardera (nie zostały jeszcze wydane).",
+      "Dla celów punktacji Miliarder i Tofik współdzielą lokalizację, jeśli współdzielili ją w momencie ucieczki przy pomocy tego samego elementu/zdolności."
+    ],
+    "tips": [
+      "Chroń się przy pomocy Hełmu i staraj się, aby zagłuszacze były WYŁ., aby zdolność Transmisja na żywo pozostawała aktywna.",
+      "Po ujawnieniu się możesz używać swoich szarych znaczników łapówek na dodatkowe akcje innymi postaciami."
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Korsarka",
+    "description": "abc",
+    "pronoums": "Ona/jej",
+    "bonus_points": {
+      "points": 1,
+      "alive": true,
+      "notes": "jeśli Korsarka jest twoją PD i uciekła."
+    },
+    "influence_limit": 4,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Wyłom",
+        "description": "Jako akcja może usunąć sąsiednią kłódkę.",
+        "type": "utility"
+      },
+      {
+        "name": "Zbieg",
+        "description": "Żadne akcje wykonywane przy pomocy tej postaci lub przeciwko niej nie czynią gracza podejrzanym.",
+        "type": "offensive"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Pocisk",
+        "description": " Jeśli zagłuszacze są WYŁ., umieść 1 znacznik czasu na 1 sektorze, który pozostał. Kiedy znacznik czasu jest rozpatrywany, uszkodź dany sektor i ogłusz wszystkie współdzielące lokalizację postaci. Dozwolony tylko 1 odpalony Pocisk na raz.",
+        "type": "offensive"
+      },
+      {
+        "name": "Wybawienie",
+        "description": "Gdy się ujawniasz (nawet podczas Upadku stacji), odwróć Statek ratunkowy na Statek piracki. Statek piracki uratuje tylko postać posiadającą Walizkę (nawet ogłuszoną).",
+        "type": "offensive"
+      }
+    ],
+    "icon": "assets/images/icons/boarder.png",
+    "image": "assets/images/portraits/boarder.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Korsarka",
+          "location_name": "Przestrzeń kosmiczna",
+          "diagram": "assets/images/rooms/outer_space.png"
+        }
+      ],
+      "notes": "Umieść żeton Statku ratunkowego na polu obok Przestrzeni kosmicznej. Korsarka zaczyna z Hełmem, Bronią palną i Bronią obuchową na jej karcie postaci."
+    },
+    "agenda": {
+      "description": "Grabież",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "jeśli Korsarka uciekła"
+          },
+          "sub": [
+            {
+              "points": 4,
+              "description": "jeśli Korsarka posiada Walizkę lub jeśli Walizka jest w Przestrzeni kosmicznej podczas Upadku stacji"
+            },
+            {
+              "points": 1,
+              "description": "za każdego przytomnego Człowieka w Przestrzeni kosmicznej podczas Upadku stacji"
+            }
+          ]
+        }
+      ],
+      "notes": "Korsarka zdobywa podwójne punkty za posiadane znaczniki łapówek."
+    },
+    "quirks": [
+      "Korsarka może wygrać, nawet jeśli jest winna",
+      "Korsarka zdobywa podwójne punkty za posiadane znaczniki łapówek.",
+      "Jeśli niewystrzelona kapsuła jest celem Pocisku, ale zostaje wystrzelona przed rozpatrzeniem Pocisku, kapsuła zostaje unicestwiona, gdy Pocisk jest rozpatrywany.",
+      "Jeśli Antymateria zostanie zdetonowana w Przestrzeni kosmicznej, Statek ratunkowy/piracki zostaje unicestwiony.",
+      "Jeśli Statek ratunkowy/piracki zostaje unicestwiony przez Promień śmierci, Korsarka nie zdobywa punktów za przytomnych Ludzi ani za Walizkę w Przestrzeni kosmicznej."
+    ],
+    "tips": [
+      "Walizka znajduje się w Luksusowej kajucie.",
+      "Twoje początkowe przedmioty i umiejętność niewzbudzania podejrzeń pozwalają ci z łatwością ogłuszać innych.",
+      "Wczesne ujawnienie pozwoli ci siać chaos przy pomocy Pocisków.",
+      "Późne ujawnienie powoduje niepewność ucieczki przez Przestrzeń kosmiczną, zwiększając twoje szanse na więcej znaczników łapówek.",
+      "Jeśli Strażnik jest w grze, miej się na baczności, ponieważ jesteś Zbiegiem."
+    ],
+    "board_modifications": [
+      "Na początku gry \"gdzieś tam\" jest Statek ratunkowy, który może pomóc ludziom w ucieczce. ",
+      "Statek ratunkowy (przód): Podczas punktacji dowolny Człowiek w Przestrzeni kosmicznej ucieka.",
+      "Gracz ujawniający się jako Korsarka odwraca ten żeton na drugą stronę i Statek ratunkowy zmienia się w Statek piracki z zupełnie inną misją",
+      "Statek piracki (tył): Podczas punktacji dowolna postać posiadająca Walizkę w Przestrzeni kosmicznej ucieka."
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Botanik",
+    "description": "abc",
+    "pronoums": "On/Jemu",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "jeśli Botanik jest twoją PD i Ludołówka uciekła (Botanik ponad wszystko stawia prawdziwą miłość, jego własne przetrwanie jest drugorzędne)."
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Naukowiec",
+        "description": "Może wykonać darmową akcję sektora zamiast darmowego upuszczenia lub podniesienia.",
+        "type": "utility"
+      },
+      {
+        "name": "Urodzony w nieważkości:",
+        "description": "Zamiast darmowego podniesienia lub upuszczenia może wykonać darmową akcję kroków lub śluzy do sektora z nieważkością.",
+        "type": "mobilitiy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Mięsotropizm",
+        "description": "Podczas fazy aktywacji gracza Botanika, jeśli Ludołówka nie jest w posiadaniu przytomnej postaci, Ludołówka może wykonać darmowe kroki lub unicestwić współdzielącego lokalizację, ogłuszonego Człowieka, upuszczając jego Przedmioty.",
+        "type": "utility"
+      }
+    ],
+    "icon": "assets/images/icons/botanist.png",
+    "image": "assets/images/portraits/botanist.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Botanik",
+          "location_name": "Uprawy hydroponiczne",
+          "diagram": "assets/images/rooms/hydroponics.png"
+        },
+        {
+          "name": "Ludołówka",
+          "location_name": "Uprawy hydroponiczne",
+          "diagram": "assets/images/rooms/hydroponics.png"
+        }
+      ],
+      "notes": "Umieść żeton zdolności Jeść! obok Upraw hydroponicznych."
+    },
+    "agenda": {
+      "description": "Krwawa uczta",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": " za każdego Człowieka unicestwionego przez Ludołówkę"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "jeśli Ludołówka uciekła"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "jeśli Botanik uciekł"
+          },
+          "sub": [
+            {
+              "points": 1,
+              "description": "jeśli jest skażony"
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "Ludołówka jest Przedmiotem. Dowolna postać posiadająca Ludołówkę ma dostęp do akcji Jeść!."
+    ],
+    "tips": [
+      "Szukaj ogłuszonych postaci i karm Ludołówkę.",
+      "Zdobądź Hełm.",
+      "Zostań skażony w Laboratorium biologicznym.",
+      "Używaj zdolności Urodzony w nieważkości, aby szybciej się przemieszczać.",
+      "Po ujawnieniu Ludołówki może w każdej turze wykonywać akcje dodatkowo do twojej aktywacji dowolnej postaci."
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Pułkownik",
+    "description": "abc",
+    "pronoums": "On/Jemu",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "jeśli Pułkownik jest twoją PD i uciekł. "
+    },
+    "influence_limit": 4,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Oficer",
+        "description": "Jeśli nie brakuje zasilania, może wykonać kroki (lub być ciągnięty, jeśli jest ogłuszony) przez kłódki, które zostają wtedy usunięte.",
+        "type": "mobility"
+      },
+      {
+        "name": "Paranoja",
+        "description": "Aby wpłynąć, aktywny gracz musi mieć współdzielącego lokalizację wspólnika. Nie można go przekupić.",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Misja ponad wszystko:",
+        "description": "Gdy się ujawniasz, zwróć wszystkie twoje znaczniki wpływu z pola zdrady do twojej puli (nawet podczas Upadku stacji).",
+        "type": "conspiracy"
+      }
+    ],
+    "icon": "assets/images/icons/colonel.png",
+    "image": "assets/images/portraits/colonel.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Pułkownik",
+          "location_name": "Stacja bezpieczeństwa",
+          "diagram": "assets/images/rooms/security_station.png"
+        }
+      ],
+      "notes": "Dołącz Kapsułę awaryjną do Kwater i dodaj wskazane Kłódkę i Broń palną. Pułkownik zaczyna z Bronią palną."
+    },
+    "agenda": {
+      "description": "Próba broni",
+      "objetives": [
+        {
+          "main": {
+            "points": 3,
+            "description": "jeśli Pułkownik uciekł"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "jeśli przynajmniej 1 skażona PN uciekła"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "jeśli Projekt X jest uwolniony"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "jeśli Sekret X uciekł"
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "Zdolność Paranoja Pułkownika powoduje, że trudniej na niego wpływać. Tylko przytomne postaci mogą być wspólnikami.",
+      "Pułkownik nie może zostać przekupiony."
+    ],
+    "tips": [
+      "Możesz skazić postaci i wytwarzać Sekret X w Laboratorium biologicznym.",
+      "Możesz uwolnić Projekt X przy pomocy Oficera na Mostku lub w Laboratorium kriogeniczny albo poprzez uszkodzenie Komory X lub spowodowanie braku zasilania."
+    ],
+    "board_modifications": [
+      "Dołączenie Kapsuły awaryjnej dodaje kolejną kapsułę do stacji. Zaczyna ona z kłódką i Bronią palną wewnątrz.",
+      "Dowolna postać w środku może wykonać akcję opóźnionego wystrzelenia. Pamiętaj, że tak jak 4 standardowe kapsuły, również Kapsuła ratunkowa wymaga do wystrzelenia aktywnego rozkazu opuszczenia statku."
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Towarzysz",
+    "description": "abc",
+    "pronoums": "Oni/im",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "jeśli Towarzysz jest twoją PD i uciekł."
+    },
+    "influence_limit": 6,
+    "type": "Robot",
+    "abilities": [
+      {
+        "name": "Wygadany",
+        "description": "Nie może zostać zaatakowany przez Człowieka przy pomocy Broni obuchowej w oświetlonych sektorach.",
+        "type": "defensive"
+      },
+      {
+        "name": "Sobowtór",
+        "description": "Po ogłuszeniu Człowieka w oświetlonym sektorze aktywny gracz może wybrać innego gracza, który ma współdzielącego lokalizację wspólnika – dany gracz staje się podejrzany zamiast aktywnego.",
+        "type": "offensive"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Zamiana ciał",
+        "description": "Gdy się ujawniasz, jeśli Towarzysz jest przytomny, możesz zamienić się lokalizacją z dowolną PN będącą Człowiekiem lub Robotem, która nie uciekła ani nie została unicestwiona. Postaci zamieniają się również całym nieintegralnym dobytkiem (upuszczają za darmo wszystkie Przedmioty przekraczające limit Przedmiotów – wybiera aktywny gracz).",
+        "type": "conspiracy"
+      }
+    ],
+    "icon": "assets/images/icons/consort.png",
+    "image": "assets/images/portraits/consort.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Towarzysz",
+          "location_name": "Strefa wypoczynku",
+          "diagram": "assets/images/rooms/rec_room.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Nowe życie",
+      "objetives": [
+        {
+          "main": {
+            "points": 0,
+            "description": "jeśli Towarzysz uciekł"
+          },
+          "sub": [
+            {
+              "points": 3,
+              "description": "jeśli nie współdzieli lokalizacji z przytomnym Człowiekiem lub Robotem podczas Upadku stacji"
+            },
+            {
+              "points": 3,
+              "description": "jeśli posiada Walizkę"
+            },
+            {
+              "points": 1,
+              "description": "jeśli tajna tożsamość nie została ujawniona aż do Upadku stacji"
+            }
+          ]
+        }
+      ],
+      "notes": "Towarzysz zdobywa podwójne punkty za posiadane znaczniki łapówek."
+    },
+    "quirks": [
+      "Towarzysz zdobywa podwójne punkty za posiadane znaczniki łapówek.",
+      "Zdolność Sobowtór działa tylko wtedy, gdy kamery są WŁ.",
+      "Pomimo ludzkiego wyglądu Towarzysz jest Robotem."
+    ],
+    "tips": [
+      "Walizka znajduje się w Luksusowej kajucie.",
+      "Pamiętaj, że twoja moc ujawnienia zamienia nie tylko lokalizację, ale też Przedmioty i znaczniki łapówek.",
+      "Przemyślane ujawnienie się pozwoli ci znaleźć się we właściwym miejscu we właściwym czasie.",
+      "Im później się ujawnisz, tym większą masz szansę zostania przekupionym lub na Zamianę ciał z posiadaczem znaczników łapówek.",
+      "Rozważ użycie PN, aby zabezpieczyć Walizkę i próbuj uciekać (zakładając późniejszą Zamianę ciał)."
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Mrożonka",
+    "description": "abc",
+    "pronoums": "Ona/jej",
+    "bonus_points": {
+      "points": 3,
+      "alive": true,
+      "notes": "jeśli Mrożonka jest twoją PD i uciekła."
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Pragnienie zemsty",
+        "description": ": Użycie żetonu kompromitujących materiałów Mrożonki daje jej dodatkowo Broń obuchową. Jej kompromitujące materiały mogą zostać użyte, nawet gdy jest ogłuszona, co natychmiast ją cuci.",
+        "type": "offensive"
+      },
+      {
+        "name": "Powolna śmierć",
+        "description": "Nie może zostać aktywowana, gdy jest wyczerpana, i nie dostaje darmowego podnoszenia ani upuszczenia, gdy jest aktywowana.",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Ostatnie tchnienie",
+        "description": "Gdy się ujawniasz, ocuć tę postać, jeśli jest ogłuszona, lub wykonaj nią akcję.",
+        "type": "utility"
+      }
+    ],
+    "icon": "assets/images/icons/corpsicle.png",
+    "image": "assets/images/portraits/corpsicle.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Mrożonka",
+          "location_name": "Laboratorium kriogeniczne",
+          "diagram": "assets/images/rooms/cryo_lab.png"
+        }
+      ],
+      "notes": "Mrożonka zaczyna ogłuszona i zaczyna z Hełmem, który jest integralny (nie można go usunąć)."
+    },
+    "agenda": {
+      "description": "Cudowne lekarstwo",
+      "objetives": [
+        {
+          "main": {
+            "points": 3,
+            "description": "jeśli Mrożonka uciekła"
+          },
+          "sub": [
+            {
+              "points": 2,
+              "description": "jeśli posiada Nanożel"
+            },
+            {
+              "points": 2,
+              "description": "jeśli Sekret X uciekł"
+            },
+            {
+              "points": 2,
+              "description": "jeśli Projekt X nie jest uwolniony"
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "Zaczyna ogłuszona.",
+      "Hełm Mrożonki jest integralny, co oznacza, że nie można go usunąć.",
+      "Użycie żetonu kompromitujących materiałów Mrożonki daje jej dodatkowo Broń obuchową i cuci ją, jeśli jest ogłuszona."
+    ],
+    "tips": [
+      "Mrożonka sama porusza się powoli, ale może przyspieszyć dzięki znacznikom łapówek lub żetonom kompromitujących materiałów",
+      "Możesz wytworzyć Nanożel w Nanofabryce, a Sekret X w Laboratorium biologicznym.",
+      "Nie dopuść do uwolnienia Projektu X poprzez trzymanie Oficerów z dala od Mostka i Laboratorium kriogenicznego.",
+      "Jeśli Kapsuła medyczna jest w grze, może to być twoja najprostsza droga ucieczki."
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Doradca",
+    "description": "abc",
+    "pronoums": "On/Jemu",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "jeśli Doradca jest twoją PD i uciekł."
+    },
+    "influence_limit": 6,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Oficer",
+        "description": "Jeśli nie brakuje zasilania, może wykonać kroki (lub być ciągnięty, jeśli jest ogłuszony) przez kłódki, które zostają wtedy usunięte.",
+        "type": "mobility"
+      },
+      {
+        "name": "Gadzi język",
+        "description": " Jako akcja porusz 1 znacznik wpływu z karty współdzielącego lokalizację przytomnego Człowieka na pole zdrady.",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Dowody zbrodni",
+        "description": "Gdy się ujawniasz, jeśli jesteś przytomny i nie uciekłeś, wybierz współdzielącego lokalizację Człowieka. Wszyscy inni niewinni gracze, których wspólnikiem jest dany Człowiek, stają się podejrzani.",
+        "type": "offensive"
+      }
+    ],
+    "icon": "assets/images/icons/counselor.png",
+    "image": "assets/images/portraits/counselor.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Doradca",
+          "location_name": "Ogród terapeutyczny",
+          "diagram": "assets/images/rooms/therapy_garden.png"
+        }
+      ],
+      "notes": "Dołącz Rozdrabniarkę do Ogrodu terapeutycznego z kłódką na korytarzu."
+    },
+    "agenda": {
+      "description": "Tajna operacja",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "jeśli Doradca uciekł"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 4,
+            "description": "jeśli Artefakt uciekł"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "jeśli masz najwięcej żetonów kompromitujących materiałów podczas Upadku stacji (remis się nie liczy)"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "jeśli masz najmniej znaczników wpływu na polu zdrady podczas Upadku stacji (remis się nie liczy)"
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "brak"
+    ],
+    "tips": [
+      "Artefakt znajduje się w Laboratorium fizycznym.",
+      "Użycie twojej mocy ujawnienia w odpowiednim momencie może szybko zamienić innych graczy z niewinnych w winnych, jeśli uda ci się przetransmitować Dowód do Władz przy pomocy Tablicy kontrolnej.",
+      "Zbieraj żetony kompromitujących materiałów."
+    ],
+    "board_modifications": [
+      "Dołączenie Rozdrabniarki dodaje kolejny ciemny sektor do stacji. Zaczyna z kłódką.",
+      "Dowolna postać wewnątrz może użyć Kopalni danych: Podnieś żeton kompromitujących materiałów z dowolnego miejsca na pokładzie."
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Cyborg",
+    "description": "abc",
+    "pronoums": "On/Jemu",
+    "bonus_points": {
+      "points": 2,
+      "alive": false,
+      "notes": "jeśli Cyborg jest twoją PD, jest ogłuszony i nie uciekł."
+    },
+    "influence_limit": 4,
+    "type": "Human and Robot",
+    "abilities": [
+      {
+        "name": "Niezłomny",
+        "description": "Potrzeba 2 znaczników aktywacji, aby ta postać stała się wyczerpana.",
+        "type": "conspiracy"
+      },
+      {
+        "name": "Zbieg",
+        "description": "Żadne akcje wykonywane przy pomocy tej postaci lub przeciwko niej nie czynią gracza podejrzanym.",
+        "type": "offensive"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Silnoręki",
+        "description": "Może użyć Broni obuchowej, aby ogłuszyć Człowieka z Hełmem, co powoduje unicestwienie zarówno Broni obuchowej, jak i Hełmu.",
+        "type": "offensive"
+      },
+      {
+        "name": "Autonaprawa",
+        "description": "Możesz aktywować Cyborga, jeśli jest ogłuszony, i jako twoja pierwsza akcja ocucić Cyborga.",
+        "type": "conspiracy"
+      }
+    ],
+    "icon": "assets/images/icons/cyborg.png",
+    "image": "assets/images/portraits/cyborg.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Cyborg",
+          "location_name": "Laboratorium kriogeniczne",
+          "diagram": "assets/images/rooms/cryo_lab.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Zemsta",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "za każdą postać ze zdolnością Oficer, która jest ogłuszona podczas Upadku stacji"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "jeśli żadna PG będąca Człowiekiem nie uciekła"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "jeśli żadna skażona postać nie uciekła"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "jeśli Projekt X został uwolniony"
+          },
+          "sub": []
+        }
+      ],
+      "notes": "Cyborg może wygrać, nawet jeśli jest winny"
+    },
+    "quirks": [
+      "Cyborg może wygrać, nawet jeśli jest winny",
+      "Cyborg jest zarówno Robotem, jak i Człowiekiem. Zachowuje się jak Człowiek w przypadku niebezpieczeństw i ataków."
+    ],
+    "tips": [
+      "Możesz ogłuszać postaci bez konsekwencji, ale inni też mogą ogłuszać ciebie bez ponoszenia kary. Przede wszystkim ogłuszaj Ludzi i skażonych.",
+      "Po ujawnieniu nie będziesz stawał się wyczerpany, ponieważ inni gracze nie mogą cię aktywować.",
+      "Możesz uwolnić Projekt X przy pomocy Oficera na Mostku lub w Laboratorium kriogenicznym albo poprzez uszkodzenie Komory X lub spowodowanie braku zasilania.",
+      "Jeśli Strażnik jest w grze, miej się na baczności, ponieważ jesteś Zbiegiem."
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Ryzykantka",
+    "description": "abc",
+    "pronoums": "Ona/jej",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "jeśli Ryzykantka jest twoją PD i uciekła."
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Duma",
+        "description": "Ryzykantka nie może zostać okradziona.",
+        "type": "defensive"
+      },
+      {
+        "name": "Adrenalina",
+        "description": "Ryzykantka nie zostaje ogłuszona przez niebezpieczeństwo. Akcja kroków lub śluzy do sektora z niebezpieczeństwem jest zawsze darmowa.",
+        "type": "mobility"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Na fali",
+        "description": "Jeśli podczas Upadku stacji jesteś przytomna, posiadasz Hełm i współdzielisz lokalizację z Plecakiem odrzutowym, uciekasz.",
+        "type": "mobility"
+      }
+    ],
+    "icon": "assets/images/icons/daredevil.png",
+    "image": "assets/images/portraits/daredevil.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Ryzykantka",
+          "location_name": "Szatnia",
+          "diagram": "assets/images/rooms/locker_room.png"
+        }
+      ],
+      "notes": "Umieść Plecak odrzutowy w Laboratorium fizycznym, a żeton Lotu z plecakiem odrzutowym pod polem tekstowym Przestrzeni kosmicznej."
+    },
+    "agenda": {
+      "description": "Dreszczyk emocji",
+      "objetives": [
+        {
+          "main": {
+            "points": 3,
+            "description": "jeśli Ryzykantka uciekła"
+          },
+          "sub": [
+            {
+              "points": 2,
+              "description": "jeśli jest jedynym Człowiekiem, który uciekł"
+            },
+            {
+              "points": 2,
+              "description": "jeśli posiada Artefakt lub jest skażona"
+            }
+          ]
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "jeśli Projekt X został uwolniony"
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "Dzięki zdolności Na fali, aby uciec, Ryzykantka potrzebuje tylko posiadać Hełm i współdzielić lokalizację z Plecakiem odrzutowym podczas Upadku stacji – nie musi posiadać Plecaka odrzutowego.",
+      "Nawet jeśli Ryzykantka może być w Przestrzeni kosmicznej bez Hełmu, nadal potrzebuje go, aby wykonać akcję Lot z plecakiem odrzutowym."
+    ],
+    "tips": [
+      "Artefakt znajduje się w Laboratorium fizycznym, a skażona stajesz się w Laboratorium biologicznym.",
+      "Ryzykantka porusza się szybciej przez niebezpieczeństwa i może tam przetrwać bez Hełmu.",
+      "Nie dopuść, aby inni Ludzie uciekli: ogłuszaj ich, uwolnij Projekt X, uszkadzaj kapsuły i nie pozwól na aktywowanie rozkazu opuszczenia statku"
+    ],
+    "board_modifications": [
+      "Plecak odrzutowy to nowy Przedmiot na planszy, przydatny do ucieczki.",
+      "Dołączenie Lotu z plecakiem odrzutowym dodaje nową akcję sektora do Przestrzeni kosmicznej.",
+      "Lot z plecakiem odrzutowym: Jeśli posiadasz Plecak odrzutowy w Przestrzeni kosmicznej, porusz się do mezosfery. Ludzie nadal muszą posiadać Hełm."
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Cyfrowy asystent",
+    "description": "abc",
+    "pronoums": "To",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "jeśli Cyfrowy asystent jest twoją PD i uciekł."
+    },
+    "influence_limit": 5,
+    "type": "Data",
+    "abilities": [
+      {
+        "name": "SI",
+        "description": "Może wykonywać tylko akcje sterownicze. Postaci posiadające Cyfrowego asystenta mają zdolność Oficer dla akcji sektorów i nie potrzebują aktywnego rozkazu opuszczenia statku, aby wystrzelić kapsułę.",
+        "type": "console"
+      },
+      {
+        "name": "Pomocna dłoń",
+        "description": "Żaden gracz nie może mieć więcej niż 1 znacznik wpływu na tej postaci.",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Bezpośredni dostęp",
+        "description": "Jako akcja wykonaj akcję przy pomocy dowolnego Robota, który posiada Cyfrowego asystenta. Zignoruj Instynkt samozachowawczy.",
+        "type": "utility"
+      },
+      {
+        "name": "Koń trojański",
+        "description": "Gdy się ujawniasz, skopiuj Cyfrowego asystenta do postaci, która pozostała i posiada Dowód lub Sekret X.",
+        "type": "utility"
+      }
+    ],
+    "icon": "assets/images/icons/digital_assistant.png",
+    "image": "assets/images/portraits/digital_assistant.png",
+    "setup": {
+      "item": [],
+      "notes": "Umieść żetony Cyfrowego asystenta w puli żetonów. Umieść żeton Głównego komputera na polu tekstowym Głównego komputera. Umieść żeton Izolacji pod akcjami sterowniczymi."
+    },
+    "agenda": {
+      "description": "Rozprzestrzenianie",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "za każdego Robota, który uciekł, posiadającego Cyfrowego asystenta"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "za każdą Instytucję lub Człowieka, który uciekł, posiadających Cyfrowego asystenta"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "jeśli przynajmniej 2 kopie Cyfrowego asystenta uciekły"
+          },
+          "sub": []
+        }
+      ],
+      "notes": "Cyfrowy asystent może wygrać, nawet jeśli jest winny."
+    },
+    "quirks": [
+      "Cyfrowy asystent to Dane, nie może posiadać Przedmiotów ani Danych",
+      "Cyfrowy asystent może zostać wytworzony w Głównym komputerze.",
+      "Cyfrowy asystent może wygrać, nawet jeśli jest winny.",
+      "Brak zasilania powoduje, że Cyfrowy asystent nie może wykonywać akcji sterowniczych.",
+      "Cyfrowy asystent może wykonywać tylko akcje sterownicze, nawet jeśli żadna postać go jeszcze nie wytworzyła.",
+      "Cyfrowy asystent nie musi zostać wytworzony, aby wykonywać akcje. Można wchodzić z nim w interakcje, nawet jeśli jego kopia uciekła."
+    ],
+    "tips": [
+      "Jesteś Danymi i często będziesz potrzebował wspólników, którzy odwalą za ciebie brudną robotę.",
+      "Zmuś kogoś, aby wytworzył cię w Głównym komputerze i utrzymuj zagłuszacze WYŁ., by skopiować się jak najwięcej razy.",
+      "Po ujawnieniu się możesz kontrolować dowolnego Robota, który cię posiada.",
+      "Unikaj Laboratorium fizycznego, gdzie możesz zostać łatwo skasowany.",
+      "Najlepszą okazją do użycia twojej mocy ujawnienia jest moment tuż przed tym, jak ktoś ucieknie z innymi Danymi."
+    ],
+    "board_modifications": [
+      "Dołączenie akcji sterowniczej Izolacja pozwala ci dodawać, przesuwać lub usuwać kłódki na dowolnych korytarzach, o ile nie został aktywowany rozkaz opuszczenia statku.",
+      "Dodanie akcji sektora \"Wytwórz Cyfrowego asystenta\" do Głównego komputera daje postaci możliwość wytworzenia Cyfrowego asystenta w Głównym komputerze."
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Doktor (Hyde)",
+    "description": "abc",
+    "pronoums": "Ona/jej",
+    "bonus_points": {
+      "points": 2,
+      "alive": false,
+      "notes": "jeśli Doktor jest twoją PD i uciekła."
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Naukowiec",
+        "description": "Może wykonać darmową akcję sektora zamiast darmowego upuszczenia lub podniesienia.",
+        "type": "utility"
+      },
+      {
+        "name": "Rozdwojenie jaźni",
+        "description": "Ma 2 karty tożsamości.",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Samoróbka",
+        "description": "Gdy się ujawniasz, zyskuje Broń palną.",
+        "type": "offensive"
+      }
+    ],
+    "icon": "assets/images/icons/doctor_hyde.png",
+    "image": "assets/images/portraits/doctor_hyde.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Doktor (Hyde)",
+          "location_name": "Węzeł przedni",
+          "diagram": "assets/images/rooms/forward_hub.png"
+        }
+      ],
+      "notes": "Doktor posiada 2 karty tożsamości. Przed rozdaniem kart tożsamości wtasuj je normalnie do talii. Zaczyna z Sekretem X."
+    },
+    "agenda": {
+      "description": "Okrucieństwo",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "jeśli Doktor uciekła"
+          },
+          "sub": [
+            {
+              "points": 3,
+              "description": "jeśli posiada Walizkę"
+            },
+            {
+              "points": 4,
+              "description": "jeśli uciekła przytomna, znajdując się w kapsule z ogłuszonym Człowiekiem"
+            }
+          ]
+        }
+      ],
+      "notes": "Hyde zdobywa podwójne punkty za łapówki posiadane przez Doktor"
+    },
+    "quirks": [
+      "Doktor posiada 2 karty tożsamości. Każda z nich ma własny cel.",
+      "Doktor może być PG dwóch graczy. Gracz, który chce dać łapówkę lub użyć kompromitujących materiałów na takiej PG, musi wybrać jednego z dwóch graczy, który je przyjmie lub nie. Jeśli odmówi przyjęcia żetonu kompromitujących materiałów, obaj gracze stają się podejrzani.",
+      "Hyde zdobywa podwójne punkty za łapówki posiadane przez Doktor.",
+      "Obaj gracze, których PG jest Doktor, mogą aktywować i wykonywać akcje przy pomocy Doktor."
+    ],
+    "tips": [
+      "Walizka znajduje się w Luksusowej kajucie.",
+      "Im później się ujawnisz, tym większą masz szansę na otrzymanie łapówek.",
+      "Ujawnienie się w odpowiednim momencie pozwoli ci ogłuszyć postać przy pomocy nowo pozyskanej Broni palnej, tuż przed tym, jak uciekniesz z jej ciałem."
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Doktor (Jekyll)",
+    "description": "abc",
+    "pronoums": "Ona/jej",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "jeśli Doktor jest twoją PD i uciekła."
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Naukowiec",
+        "description": "Może wykonać darmową akcję sektora zamiast darmowego upuszczenia lub podniesienia.",
+        "type": "utility"
+      },
+      {
+        "name": "Rozdwojenie jaźni",
+        "description": "Ma 2 karty tożsamości.",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Fałszywy artefakt",
+        "description": "Gdy się ujawniasz, jeśli Artefakt nie jest w posiadaniu PG, porusza się do Doktor, nawet jeśli był unicestwiony.",
+        "type": "utility"
+      }
+    ],
+    "icon": "assets/images/icons/doctor_jekyll.png",
+    "image": "assets/images/portraits/doctor_jekyll.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Doctor (Jekyll)",
+          "location_name": "Węzeł przedni",
+          "diagram": "assets/images/rooms/forward_hub.png"
+        }
+      ],
+      "notes": "Doktor posiada 2 karty tożsamości. Przed rozdaniem kart tożsamości wtasuj je normalnie do talii. Zaczyna z Sekretem X."
+    },
+    "agenda": {
+      "description": "Nauka",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "jeśli Doktor uciekła"
+          },
+          "sub": [
+            {
+              "points": 3,
+              "description": "jeśli jest skażona"
+            },
+            {
+              "points": 3,
+              "description": "jeśli posiada Artefakt"
+            }
+          ]
+        },
+        {
+          "main": {
+            "points": 3,
+            "description": "jeśli Media i Władze nie mają Dowodu podczas Upadku stacji"
+          },
+          "sub": []
+        }
+      ],
+      "notes": "Jekyll zdobywa punkty za łapówki posiadane przez Doktor w normalny sposób."
+    },
+    "quirks": [
+      "Doktor posiada 2 karty tożsamości. Każda z nich ma własny cel.",
+      "Doktor może być PG dwóch graczy. Gracz, który chce dać łapówkę lub użyć kompromitujących materiałów na takiej PG, musi wybrać jednego z dwóch graczy, który je przyjmie lub nie. Jeśli odmówi przyjęcia żetonu kompromitujących materiałów, obaj gracze stają się podejrzani.",
+      "Jekyll zdobywa punkty za łapówki posiadane przez Doktor w normalny sposób."
+    ],
+    "tips": [
+      "Artefakt znajduje się w Laboratorium fizycznym, ale możesz go również zdobyć poprzez ujawnienie się, gdy nikt go nie posiada.",
+      "Skażona stajesz się w Laboratorium biologicznym.",
+      "Utrzymuj zagłuszacze WŁ., aby zapobiec dostarczeniu Dowodu do Mediów lub Władz."
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Drony",
+    "description": "abc",
+    "pronoums": "To/Im/One",
+    "bonus_points": {
+      "points": 0,
+      "alive": true,
+      "notes": "Drony nie mogą być niczyją PD"
+    },
+    "influence_limit": 0,
+    "type": "Robot",
+    "abilities": [
+      {
+        "name": "Demontaż",
+        "description": "Jako akcja mogą ogłuszyć siebie (ignorując Instynkt samozachowawczy), aby naprawić współdzielący lokalizację sektor lub Robota.",
+        "type": "utility"
+      },
+      {
+        "name": "Zdalne sterowanie",
+        "description": "Nie można ich przekupić, wpływać na nie ani bezpośrednio aktywować. Jako akcję sterowniczą postaci mogą wykonać akcję przy pomocy dowolnego przytomnego Drona.",
+        "type": "console"
+      }
+    ],
+    "reveal": [],
+    "icon": "assets/images/icons/drones.png",
+    "image": "assets/images/portraits/drones.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Dron 4",
+          "location_name": "Laboratorium fizyczne",
+          "diagram": "assets/images/rooms/physics_lab.png"
+        },
+        {
+          "name": "Dron 6",
+          "location_name": "Przestrzeń kosmiczna",
+          "diagram": "assets/images/rooms/outer_space.png"
+        }
+      ],
+      "notes": "Drony nie mają karty tożsamości. Umieść żeton Zdalne sterowanie pod akcjami sterowniczymi. Każdy Dron zaczyna z integralną Bronią obuchową."
+    },
+    "agenda": {
+      "description": "",
+      "objetives": [],
+      "notes": ""
+    },
+    "quirks": [
+      "Drony nie mają karty tożsamości.",
+      "Drony nigdy nie zostają aktywowane i tym samym nie mogą wykonać darmowego podniesienia ani upuszczenia.",
+      "Drony mogą wykonywać akcje oraz posiadać Przedmioty i Dane.",
+      "Broń obuchowa Dronów jest integralna i nie można jej usunąć z karty postaci.",
+      "Użycie akcji sterowniczej Zdalne sterowanie to jedyny sposób na wykonywanie akcji przy pomocy Dronów, chyba że w grze jest Cyfrowy asystent.",
+      "Każdy Dron ma limit Przedmiotów równy 2."
+    ],
+    "tips": [
+      "Drony przydają się do ogłuszania postaci, ponieważ zawsze posiadają Broń obuchową",
+      "Drony przydają się do naprawiania sektorów. "
+    ],
+    "board_modifications": [
+      "Dodaj akcję Zdalne sterowanie pod akcjami sterowniczymi. Daje graczom nową możliwość: \"Wykonaj akcję przy pomocy dowolnego Drona\""
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Inżynier",
+    "description": "abc",
+    "pronoums": "On/Jemu",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "jeśli Inżynier jest twoją PD, jest ogłuszony i nie uciekł."
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Oficer",
+        "description": "Jeśli nie brakuje zasilania, może wykonać kroki (lub być ciągnięty, jeśli jest ogłuszony) przez kłódki, które zostają wtedy usunięte.",
+        "type": "mobilitiy"
+      },
+      {
+        "name": "Prowizoryczna naprawa",
+        "description": "Jako akcja napraw współdzielący lokalizację uszkodzony sektor lub ogłuszonego Robota.",
+        "type": "utility"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Przeciążenie",
+        "description": "Gdy się ujawniasz, umieść znacznik czasu w dowolnym sektorze, który pozostał. Kiedy dochodzi do rozpatrzenia, uszkodź dany sektor.",
+        "type": "offensive"
+      }
+    ],
+    "icon": "assets/images/icons/engineer.png",
+    "image": "assets/images/portraits/engineer.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Inżynier",
+          "location_name": "Tablica kontrolna",
+          "diagram": "assets/images/rooms/array_control.png"
+        }
+      ],
+      "notes": "Umieść żeton Reaktora na polu tekstowym Reaktora."
+    },
+    "agenda": {
+      "description": "Zachowanie ekosfery",
+      "objetives": [
+        {
+          "main": {
+            "points": 3,
+            "description": "jeśli Antymateria zostanie zdetonowana na pokładzie przed Upadkiem stacji"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 3,
+            "description": "jeśli żadna skażona postać nie uciekła"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "jeśli Artefakt nie uciekł"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "jeśli jest niewinny, ale może wygrać, nawet jeśli jest winny"
+          },
+          "sub": []
+        }
+      ],
+      "notes": "Może wygrać, nawet jeśli jest winny"
+    },
+    "quirks": [
+      "Jeśli celem Przeciążenia jest niewystrzelona kapsuła, która zostanie wystrzelona przed rozpatrzeniem znacznika czasu, to podczas jego rozpatrywania dana kapsuła zostaje unicestwiona."
+    ],
+    "tips": [
+      "Każdy może uzbroić Antymaterię poprzez usunięcie jej z Pułapki magnetycznej.",
+      "Może to również zrobić Oficer, aktywując Samozniszczenie na Mostku. ",
+      "• Możesz przeprowadzać dekontaminację postaci w Zbiornikach albo po prostu je ogłuszać, skoro bycie winnym ci nie szkodzi."
+    ],
+    "board_modifications": [
+      "Dodanie żetonu Reaktora zmienia stan Reaktora.",
+      "Nie może zostać uszkodzony przy pomocy Broni obuchowej. Jednak jeśli zostanie uszkodzony w inny sposób, dodaj żeton uduszenia tutaj oraz w sektorach połączonych korytarzami. Uduszenie nie przemieszcza się przez szyby wentylacyjne."
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Zesłaniec",
+    "description": "abc",
+    "pronoums": "On/Jemu",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "jeśli Zesłaniec jest twoją PD i uciekł."
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Wygadany",
+        "description": "Nie może zostać zaatakowany przez Człowieka przy pomocy Broni obuchowej w oświetlonych sektorach.",
+        "type": "defensive"
+      },
+      {
+        "name": "Haker",
+        "description": "Może wykonać darmową akcję sterowniczą (w Stacji bezpieczeństwa lub Głównym komputerze) zamiast darmowego podniesienia lub upuszczenia. Jeśli zagłuszacze są WYŁ., może wykonać akcję sterowniczą w dowolnym sektorze (nawet uszkodzonym).",
+        "type": "console"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Bezlitosny",
+        "description": "Po użyciu kompromitujących materiałów na dowolnej PN zwróć dany żeton na swoją rękę.",
+        "type": "conspiracy"
+      },
+      {
+        "name": "Pośrednik",
+        "description": "Jako akcja przy pomocy Zesłańca odrzuć 2 żetony kompromitujących materiałów z twojej ręki i weź na swoją rękę użyty wcześniej żeton kompromitujących materiałów, należących do PN.",
+        "type": "conspiracy"
+      }
+    ],
+    "icon": "assets/images/icons/exile.png",
+    "image": "assets/images/portraits/exile.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Zesłaniec",
+          "location_name": "Tablica kontrolna",
+          "diagram": "assets/images/rooms/array_control.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Znowu w grze",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "jeśli Zesłaniec uciekł"
+          },
+          "sub": [
+            {
+              "points": 2,
+              "description": "za każdy posiadany żeton kompromitujący"
+            },
+            {
+              "points": 3,
+              "description": "jeśli Zesłaniec ma Dowód, a Media nie mają"
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "Zesłaniec może przy pomocy zdolności Haker wykonać akcję sterowniczą, nawet gdy Stacja bezpieczeństwa i Główny komputer są uszkodzone."
+    ],
+    "tips": [
+      "Podnieś jak najwięcej żetonów kompromitujących materiałów.",
+      "Po ujawnieniu się żetony kompromitujących materiałów mogą być używane wielokrotnie na PN.",
+      "Pomóż uciec postaciom, których żetony kompromitujących materiałów posiadasz.",
+      "Dowód wytworzysz w Stacji bezpieczeństwa, a skasujesz w Laboratorium fizycznym.",
+      "Utrzymuj zagłuszacze WŁ., aby zapobiec dostarczeniu Dowodu do Mediów."
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Inspektor",
+    "description": "abc",
+    "pronoums": "On/jemu",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "jeśli Inspektor jest twoją PD i uciekł."
+    },
+    "influence_limit": 4,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Śledczy",
+        "description": "Może podnosić żetony kompromitujących materiałów lub wytwarzać Dane z sąsiednich sektorów.",
+        "type": "utility"
+      },
+      {
+        "name": "Odznaka",
+        "description": "Może kraść Przedmioty tak, jakby posiadał Broń palną.",
+        "type": "offensive"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Odległe przekręty",
+        "description": "Gdy się ujawniasz, odzyskujesz swoją łapówkę, jeśli została już użyta (nawet podczas Upadku stacji).",
+        "type": "conspiracy"
+      }
+    ],
+    "icon": "assets/images/icons/inspector.png",
+    "image": "assets/images/portraits/inspector.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Inspektor",
+          "location_name": "Laboratorium chemiczne",
+          "diagram": "assets/images/rooms/chem_lab.png"
+        }
+      ],
+      "notes": "Odwróć kapsułę Hail Mary na stronę z Wahadłowcem Inspektora."
+    },
+    "agenda": {
+      "description": "Korupcja",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "jeśli Inspektor uciekł"
+          },
+          "sub": [
+            {
+              "points": 4,
+              "description": "punkty, jeśli posiada Walizkę"
+            }
+          ]
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "jeśli Władze skończą z Dowodem"
+          },
+          "sub": [
+            {
+              "points": 2,
+              "description": "jeśli Media nie"
+            }
+          ]
+        }
+      ],
+      "notes": "Inspektor zdobywa podwójne punkty za posiadane łapówki."
+    },
+    "quirks": [
+      "Inspektor zdobywa podwójne punkty za posiadane łapówki."
+    ],
+    "tips": [
+      "Walizka znajduje się w Luksusowej kajucie.",
+      "Dowód może zostać wytworzony w Stacji bezpieczeństwa i wysłany przy użyciu Tablicy kontrolnej lub poprzez ucieczkę z nim podczas Upadku stacji.",
+      "Wyłącz zagłuszacze, aby wysłać Dowód do dowolnej postaci.",
+      "Twój wahadłowiec nie wymaga aktywnego rozkazu opuszczenia statku, aby móc go wystrzelić.",
+      "Im później się ujawnisz, tym większa szansa otrzymania łapówek."
+    ],
+    "board_modifications": [
+      "Aby wystrzelić Wahadłowiec Inspektora, jego pasażerem musi być Inspektor lub przytomna postać ze zdolnością Prowizoryczna naprawa."
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Prawnik",
+    "description": "abc",
+    "pronoums": "To/temu",
+    "bonus_points": {
+      "points": 1,
+      "alive": false,
+      "notes": "jeśli Prawnik jest twoją PD, jest ogłuszony i nie uciekł."
+    },
+    "influence_limit": 4,
+    "type": "Robot",
+    "abilities": [
+      {
+        "name": "Przetwarzanie danych",
+        "description": "Jako akcja wytwórz Umowę poufności i daj w posiadanie wszystkim współdzielącym lokalizację Ludziom i Robotom.",
+        "type": "utility"
+      },
+      {
+        "name": "Usługi prawne",
+        "description": "Jako akcja zmień status gracza z niewinny lub winny na podejrzany, jeśli współdzieli lokalizację z PG danego gracza.",
+        "type": "offensive"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Drobny druk",
+        "description": "Możesz aktywować PN posiadające Umowę poufności.",
+        "type": "conspiracy"
+      },
+      {
+        "name": "Czarno na białym",
+        "description": "Jako akcja dowolna postać współdzieląca lokalizację z Prawnikiem może wytworzyć kopię Umowy poufności.",
+        "type": "conspiracy"
+      }
+    ],
+    "icon": "assets/images/icons/legal.png",
+    "image": "assets/images/portraits/legal.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Prawnik",
+          "location_name": "Węzeł rufowy",
+          "diagram": "assets/images/rooms/aft_hub.png"
+        }
+      ],
+      "notes": "Odwróć Alcatraz, Houdini i McQueen tak, aby strona ze strzałką była na dole. Umieść żetony Umowy poufności w puli zasobów."
+    },
+    "agenda": {
+      "description": "Korporacyjne machlojki",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "za każdego Człowieka, który uciekł z Umową poufności"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 4,
+            "description": "jeśli żaden Człowiek nie uciekł lub jeśli każdy Człowiek, który uciekł, ma Umowę poufności"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "jeśli Dowód nie uciekł"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "za każdego podejrzanego gracza (ale nie winnego) podczas Upadku stacji"
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "Umowa poufności to Dane. Prawnik nigdy nie posiada Umowy poufności, ale może ją wytworzyć i natychmiast dać w posiadanie postaciom współdzielącym lokalizację.",
+      "Postaci posiadające Umowę poufności nie mogą skopiować, skasować, transmitować, przekazać ani być okradzione z Danych, w tym z Umowy poufności. Inne efekty gry (np. Laboratorium fizyczne, zdolność Impuls elektromagnetyczny, Zjawa entropiczna) nadal mogą usunąć Umowę poufności i inne Dane.",
+      "Prawnik może wytworzyć Umowę poufności i dać ją w posiadanie ogłuszonym postaciom. (Wyobraź sobie Prawnika, który tłumaczy wszystkie zapisy umowy leżącej nieruchomo ofierze... po czym podnosi jej bezwładną rękę i składa podpis na dokumentach pozbawiających ją wszelkich praw)."
+    ],
+    "tips": [
+      "Zdobywanie i używanie żetonów kompromitujących materiałów to dobry sposób na uczynienie graczy podejrzanymi.",
+      "Twój limit wpływów jest niski, ale jeśli się ujawnisz, Drobny druk ci pomoże.",
+      "Uszkodź Stację bezpieczeństwa, ponieważ można tam wyprodukować Dowód.",
+      "Zapobiegaj wszelkim formom ucieczki, które nie wymagają Umowy poufności.",
+      "Umowa poufności może zostać wytworzona tylko osobiście w posiadanie współdzielących lokalizację postaci lub przy ich pomocy, dlatego staraj się, aby Prawnik był przytomny."
+    ],
+    "board_modifications": [
+      "Kapsuły Alcatraz, Houdini i McQueen wymagają teraz do wystrzelenia aktywnego rozkazu opuszczenia statku oraz aby wszyscy przytomni pasażerowie posiadali Umowę poufności."
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Klony konserwatorskie",
+    "description": "abc",
+    "pronoums": "Oni/im",
+    "bonus_points": {
+      "points": 1,
+      "alive": true,
+      "notes": "za każdego Klona, który uciekł. +1 punkt, jeśli wszystkie 3 Klony uciekły."
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Urodzony w nieważkości:",
+        "description": "Zamiast darmowego podniesienia lub upuszczenia może wykonać darmową akcję kroków lub śluzy do sektora z nieważkością.",
+        "type": "mobilitiy"
+      },
+      {
+        "name": "Prowizoryczna naprawa",
+        "description": "Jako akcja napraw współdzielący lokalizację uszkodzony sektor lub ogłuszonego Robota.",
+        "type": "utility"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Raz, dwa, trzy!",
+        "description": "Gdy się ujawnisz, możesz natychmiast wykonać akcję każdym przytomnym Klonem, który pozostał.",
+        "type": "utility"
+      }
+    ],
+    "icon": "assets/images/icons/maintenance-clones.png",
+    "image": "assets/images/portraits/maintenance-clones.png",
+    "setup": {
+      "item": [
+        {
+          "name": "α",
+          "location_name": "Ogniwa paliwowe",
+          "diagram": "assets/images/rooms/fuel_cells.png"
+        },
+        {
+          "name": "β",
+          "location_name": "Kuchnia",
+          "diagram": "assets/images/rooms/kitchen.png"
+        },
+        {
+          "name": "γ",
+          "location_name": "Kwatery",
+          "diagram": "assets/images/rooms/quarters.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Prawa klonów",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "jeśli Klon uciekł"
+          },
+          "sub": [
+            {
+              "points": 4,
+              "description": "jeśli przynajmniej 2 Klony uciekły"
+            },
+            {
+              "points": 2,
+              "description": "jeśli Media skończą z Dowodem"
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "W ramach aktywacji możesz wykonać akcje tylko jednym Klonem.",
+      "Każdy Klon ma limit 2 Przedmiotów (umieść oba Przedmioty na tym samym polu Przedmiotów)",
+      "Każdy Klon może posiadać własne rodzaje Danych i nie dzieli ich automatycznie z innymi Klonami. Umieszczaj posiadane Dane i Przedmioty na polu odpowiadającym danemu Klonowi.",
+      "Można aktywować i renegocjować z nimi, jeśli przynajmniej jeden pionek nie uciekł lub nie został unicestwiony"
+    ],
+    "tips": [
+      "Klony konserwatorskie poruszają się bardzo szybko.",
+      "Wykorzystaj przewagę bycia w trzech różnych lokalizacjach jednocześnie.",
+      "Dowód może zostać wytworzony w Stacji bezpieczeństwa i wysłany przy użyciu Tablicy kontrolnej lub poprzez ucieczkę z nim podczas Upadku stacji.",
+      "Wyłącz zagłuszacze, aby wysłać Dowód do dowolnej postaci."
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Medyk",
+    "description": "abc",
+    "pronoums": "It/They/Them",
+    "bonus_points": {
+      "points": 1,
+      "alive": false,
+      "notes": "jeśli Medyk jest twoją PD, jest ogłuszony i nie uciekł."
+    },
+    "influence_limit": 4,
+    "type": "Robot",
+    "abilities": [
+      {
+        "name": "Interwencja kryzysowa",
+        "description": ": Jako akcja może ocucić Człowieka. Akcja kroków lub śluzy do sektora z ogłuszonym Człowiekiem jest zawsze darmowa.",
+        "type": "utility"
+      },
+      {
+        "name": "Pomocna dłoń",
+        "description": "Żaden gracz nie może mieć więcej niż 1 znacznik wpływu na tej postaci.",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Usterka",
+        "description": "Zyskuje Broń obuchową.",
+        "type": "offensive"
+      }
+    ],
+    "icon": "assets/images/icons/medical.png",
+    "image": "assets/images/portraits/medical.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Medyk",
+          "location_name": "Węzeł rufowy",
+          "diagram": "assets/images/rooms/aft_hub.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Być pożytecznym",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "jeśli na pokładzie nie ma żadnego ogłuszonego Człowieka podczas Upadku stacji "
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "za każdą osiągniętą gwiazdkę na torze na karcie postaci."
+          },
+          "sub": []
+        }
+      ],
+      "notes": " Porusz znacznik o 1 pole w prawo za: ○ każdego Człowieka ocuconego przez Medyka oraz za każdy znacznik wpływu przesunięty na pole zdrady po ujawnieniu się Medyka"
+    },
+    "quirks": [
+      "Znacznik Medyka zaczyna na 0 (poza kartą)",
+      "Użyj znacznika Medyka do śledzenia liczby ocuconych Ludzi i znaczników wpływu wysłanych na pole zdrady dla celów punktacji.",
+      "Medyk nie może ocucić Ludzi bez Hełmu w sektorze z niebezpieczeństwem.",
+      "W ramach Interwencji kryzysowej możesz wykonać kilka darmowych kroków pod rząd",
+      "Zdolność Interwencja kryzysowa nie wymaga Nanożelu i może ocucić wyłącznie Ludzi."
+    ],
+    "tips": [
+      "Im więcej Ludzi jest ogłuszonych, tym szybciej się poruszasz i masz większe szanse na ocucenie ich, a tym samym zdobycie punktów.",
+      "Im później się ujawnisz, tym większa szansa na zdobycie punktów za znaczniki wpływu innych graczy podczas ujawnienia.",
+      "Darmowe kroki mogą zostać użyte, nawet gdy zdecydujesz, że nikogo nie cucisz."
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Mikrobiolożka",
+    "description": "abc",
+    "pronoums": "Ona/jej",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "jeśli Mikrobiolożka jest twoją PD i uciekła."
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Naukowiec",
+        "description": "Może wykonać darmową akcję sektora zamiast darmowego upuszczenia lub podniesienia.",
+        "type": "utility"
+      },
+      {
+        "name": "Lojalność",
+        "description": "Aby wpłynąć, zwróć wszystkie znaczniki wpływu znajdujące się na tej karcie i umieść przynajmniej 1 znacznik wpływu więcej, niż było tu wcześniej.",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Zarażanie",
+        "description": "Jako akcja, skaź współdzielącego lokalizację Człowieka lub Robota. Jeśli nie ma pustych pól Przedmiotów, upuszcza wybrany przez ciebie Przedmiot. Człowiek i Robot nigdy nie mogą mieć więcej niż 1 skażenia.",
+        "type": "offensive"
+      }
+    ],
+    "icon": "assets/images/icons/microbiologist.png",
+    "image": "assets/images/portraits/microbiologist.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Mikrobiolożka",
+          "location_name": "Laboratorium fizyczne",
+          "diagram": "assets/images/rooms/physics_lab.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Świadomy patogen",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "jeśli Mikrobiolożka uciekła"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "za każdą skażoną postać, która uciekła"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "jeśli Sekret X uciekł"
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [],
+    "tips": [
+      "Użyj swojej mocy ujawnienia lub Laboratorium biologicznego, aby skażać postaci. ",
+      "Wytwórz Sekret X w Laboratorium biologicznym i skopiuj go do innych postaci. ",
+      "Aktywuj rozkaz opuszczenia statku, używając Oficera na Mostku, uszkadzając sektory generujące energię lub uwalniając Projekt X.",
+      "Możesz wystrzelić kilka kapsuł z pasażerami, używając Oficera na Mostku."
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Tajna agentka",
+    "description": "abc",
+    "pronoums": "Ona/jej",
+    "bonus_points": {
+      "points": 2,
+      "alive": false,
+      "notes": "jeśli Tajna agentka jest twoją PD, jest ogłuszona i nie uciekła."
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Impuls elektromagnetyczny",
+        "description": "Uszkodź sektor Tajnej agentki, ogłusz wszystkie znajdujące się w nim Roboty i skasuj wszystkie współdzielące lokalizację Dane.",
+        "type": "offensive"
+      },
+      {
+        "name": "Oficer",
+        "description": "Jeśli nie brakuje zasilania, może wykonać kroki (lub być ciągnięty, jeśli jest ogłuszony) przez kłódki, które zostają wtedy usunięte.",
+        "type": "mobilitiy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Saper",
+        "description": "Podejrzyj i umieść 3 zakryte żetony pułapek w 3 różnych sektorach. Odwróć dany żeton po tym, jak Człowiek, Robot lub Projekt X wejdzie do danego sektora i ogłusz ich, jeśli to pułapka. Pułapki nigdy nie aktywują statusu podejrzanego, winnego ani Instynktu samozachowawczego.",
+        "type": "offensive"
+      },
+      {
+        "name": "Gaz paraliżujący",
+        "description": "Jako akcja przy pomocy Tajnej agentki umieść niebezpieczeństwo uduszenia w sektorze Tajnej agentki lub w sektorze, do którego może rzucić.",
+        "type": "offensive"
+      }
+    ],
+    "icon": "assets/images/icons/operative.png",
+    "image": "assets/images/portraits/operative.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Operative",
+          "location_name": "Luksusowa kajuta",
+          "diagram": "assets/images/rooms/suite.png"
+        }
+      ],
+      "notes": "Umieść 3 żetony pułapek w pobliżu karty postaci Tajnej agentki."
+    },
+    "agenda": {
+      "description": "Tuszowanie faktów",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "jeśli Dowód nie uciekł"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "jeśli Sekret X nie uciekł "
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "jeśli żadna niewinna PG nie uciekła"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "jeśli żadna skażona postać nie uciekła"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "jeśli żaden Robot nie uciekł"
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [],
+    "tips": [
+      "Utrzymuj zagłuszacze WŁ., aby zapobiec kopiowaniu Danych.",
+      "Kasuj Dane i ogłuszaj Roboty przy pomocy Impulsu elektromagnetycznego.",
+      "Użycie żetonu kompromitujących materiałów na PG w decydującym momencie to dobry sposób, by zmienić je w podejrzanych.",
+      "Dekontaminuj postaci w Zbiornikach",
+      "Użyj swoich mocy ujawnienia, aby ogłuszać postaci."
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Strażnik",
+    "description": "abc",
+    "pronoums": "To/temu",
+    "bonus_points": {
+      "points": 3,
+      "alive": false,
+      "notes": "jeśli Strażnik jest twoją PD, jest ogłuszony i nie uciekł."
+    },
+    "influence_limit": 4,
+    "type": "Robot",
+    "abilities": [
+      {
+        "name": "Rozjemca",
+        "description": " Może atakować tylko Zbiegów, Projekt X lub PG nie-niewinnych graczy. Nie może sabotować.",
+        "type": "defensive"
+      },
+      {
+        "name": "Pancerz",
+        "description": ": Nie może zostać zaatakowany ani okradziony przy pomocy Broni obuchowej.",
+        "type": "defensive"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Zgoda na użycie siły",
+        "description": "Traci zdolność Rozjemca.",
+        "type": "offensive"
+      }
+    ],
+    "icon": "assets/images/icons/security.png",
+    "image": "assets/images/portraits/security.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Strażnik",
+          "location_name": "Drukarnia",
+          "diagram": "assets/images/rooms/print_shop.png"
+        }
+      ],
+      "notes": "Strażnik zaczyna z integralną Bronią palną (nie może zostać usunięta)."
+    },
+    "agenda": {
+      "description": "Wojna o pokój",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": " za każdą ogłuszoną PG nie-niewinnego gracza, Zbiega lub Projekt X na pokładzie podczas Upadku stacji"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "za każdego ogłuszonego Człowieka z Bronią obuchową lub Bronią palną na pokładzie podczas Upadku stacji"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "jeśli Walizka nie uciekła"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "jeśli Artefakt nie uciekł"
+          },
+          "sub": [
+            {
+              "points": 1,
+              "description": "jeśli ani Walizka, ani Artefakt nie uciekły"
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "Rozjemca ma zastosowanie tylko w przypadku akcji wykonywanych bezpośrednio przez Strażnika. Może on jednak atakować inne postacie lub sabotować w sposób niebezpośredni, np. zdalnie sterując Dronami lub kierując Rojem bojowym."
+    ],
+    "tips": [
+      "Trudno cię okraść, dlatego Artefakt i Walizka są przy tobie bezpieczne.",
+      "Gdy już się ujawnisz, będziesz mógł ogłuszyć dowolną postać i podłożyć jej Broń obuchową.",
+      "Zdobywanie i używanie żetonów kompromitujących materiałów to dobry sposób na uczynienie graczy podejrzanymi.",
+      "Możesz uwolnić Projekt X przy pomocy Oficera na Mostku lub w Laboratorium kriogenicznym.",
+      "Korsarka i Cyborg są Zbiegami.",
+      "Dopóki się nie ujawnisz, zdolność Rozjemca nie pozwala ci atakować ani sabotować, ale nadal możesz kraść przedmioty (jakbyś je konfiskował/zabezpieczał)."
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Kapitan stacji",
+    "description": "abc",
+    "pronoums": "Ona/jej",
+    "bonus_points": {
+      "points": 2,
+      "alive": false,
+      "notes": "jeśli Kapitan stacji jest twoją PD, jest ogłuszona i nie uciekła."
+    },
+    "influence_limit": 5,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Oficer",
+        "description": "Jeśli nie brakuje zasilania, może wykonać kroki (lub być ciągnięty, jeśli jest ogłuszony) przez kłódki, które zostają wtedy usunięte.",
+        "type": "mobilitiy"
+      },
+      {
+        "name": "Duma",
+        "description": "Nie może zostać okradziona.",
+        "type": "defensive"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Źródło inspiracji",
+        "description": "Na początku fazy aktywacji Kapitan stacji możesz wykonać darmową akcję podstawową przy pomocy współdzielącej lokalizację PN lub przy pomocy dowolnej PN ze zdolnością Oficer.",
+        "type": "utility"
+      }
+    ],
+    "icon": "assets/images/icons/station_chief.png",
+    "image": "assets/images/portraits/station_chief.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Kapitan stacji",
+          "location_name": "Ogród terapeutyczny",
+          "diagram": "assets/images/rooms/therapy_garden.png"
+        }
+      ],
+      "notes": "Dołącz Kapsułę medyczną do Śluzy przedniej."
+    },
+    "agenda": {
+      "description": "Do końca na pokładzie",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "za każdego innego Człowieka, który uciekł"
+          },
+          "sub": [
+            {
+              "points": 1,
+              "description": "za każdą PN ze zdolnością Oficer, która uciekła"
+            }
+          ]
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "jeśli Kapitan stacji jest na pokładzie i jest przytomna podczas Upadku stacji"
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [],
+    "tips": [
+      "Aktywuj rozkaz opuszczenia statku tak szybko, jak to możliwe, używając Oficera na Mostku, uszkadzając sektory generujące energię lub uwalniając Projekt X.",
+      "Możesz wystrzelić kilka kapsuł z pasażerami, używając Oficera na Mostku.",
+      "Jeśli dasz radę dociągnąć ogłuszonego Człowieka do Kapsuły medycznej, możesz ją wystrzelić bez aktywnego rozkazu opuszczenia statku."
+    ],
+    "board_modifications": [
+      "Aby wystrzelić Kapsułę medyczną, jej pasażerem musi być ogłuszony Człowiek. Nie wymaga aktywnego rozkazu opuszczenia statku."
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Pasażerka na gapę",
+    "description": "abc",
+    "pronoums": "Ona/jej",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "jeśli Pasażerka na gapę jest twoją PD i uciekła."
+    },
+    "influence_limit": 4,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Szczur tunelowy",
+        "description": "Może wykonywać kroki przez szyby wentylacyjne",
+        "type": "mobilitiy"
+      },
+      {
+        "name": "Haker",
+        "description": "Może wykonać darmową akcję sterowniczą (w Stacji bezpieczeństwa lub Głównym komputerze) zamiast darmowego podniesienia lub upuszczenia. Jeśli zagłuszacze są WYŁ., może wykonać akcję sterowniczą w dowolnym sektorze (nawet uszkodzonym).",
+        "type": "utility"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Tajna skrytka",
+        "description": "Gdy się ujawniasz, ty lub jeden z twoich wspólników zyskujecie Hełm.",
+        "type": "defensive"
+      }
+    ],
+    "icon": "assets/images/icons/stowaway.png",
+    "image": "assets/images/portraits/stowaway.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Pasażerka na gapę",
+          "location_name": "Karta postaci",
+          "diagram": "assets/images/character_card.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "SMateriał życia",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "jeśli Media skończą z Sekretem X"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "jeśli Media skończą z Dowodem"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "jeśli Pasażerka na gapę uciekła"
+          },
+          "sub": [
+            {
+              "points": 3,
+              "description": "jeśli uciekła z Dowodem i żadna inna postać tego nie zrobi"
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "Pionek Pasażerki na gapę zaczyna na jej karcie postaci.",
+      "Pierwszą akcją Pasażerki na gapę musi być krok do dowolnego ciemnego sektora – przed tym nie można wchodzić z nią w interakcję.",
+      "Pasażerka na gapę może przy pomocy zdolności Haker wykonać akcję sterowniczą, nawet gdy Stacja bezpieczeństwa i Główny komputer są uszkodzone."
+    ],
+    "tips": [
+      "Dowód można wytworzyć w Stacji bezpieczeństwa, a Sekret X w Laboratorium biologicznym",
+      "Przetransmituj Dane przez użycie Tablicy kontrolnej lub przez ucieczkę z nimi podczas Upadku stacji.",
+      "Wyłącz zagłuszacze, aby skopiować Dane i użyć swojej zdolności Haker.",
+      "Powstrzymaj innych z Danymi przed ucieczką, ogłuszając ich lub wchodząc nimi do Laboratorium fizycznego."
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Nieznajomy",
+    "description": "abc",
+    "pronoums": "Oni/im",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "jeśli Nieznajomy jest twoją PD i uciekł."
+    },
+    "influence_limit": 6,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Niezłomny",
+        "description": "Potrzeba 2 znaczników aktywacji, aby ta postać stała się wyczerpana.",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Zadanie domowe",
+        "description": "Gdy się ujawniasz, możesz ujawnić swoją PD i wykonać 1 akcję daną postacią. (W grze 3-osobowej wybierz 1 PD).",
+        "type": "utility"
+      },
+      {
+        "name": "Zagadka",
+        "description": "Jeśli wykonujesz ujawnienie Schrödingera jako Nieznajomy, nie odrzucaj żadnych kart (zachowaj je jako postaci dodatkowe).  Jeśli wykonujesz ujawnienie Schrödingera jako Nieznajomy, traci on zdolność Niezłomny.",
+        "type": "conspiracy"
+      }
+    ],
+    "icon": "assets/images/icons/stranger.png",
+    "image": "assets/images/portraits/stranger.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Nieznajomy",
+          "location_name": "Nanofabryka",
+          "diagram": "assets/images/rooms/nanofactory.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Sprawy osobiste",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "jeśli twoja tajna tożsamość nie została ujawniona aż do Upadku stacji"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "jeśli posiada Sekret X"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "jeśli zdobywasz punkty dodatkowe"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "jeśli jest przytomny i współdzieli lokalizację z twoją PD podczas Upadku stacji"
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [],
+    "tips": [
+      "Skup się głównie na spełnieniu warunków twoich PD i trzymaniu Nieznajomego jak najbliżej nich.",
+      "Jeśli chcesz, aby twoja PD przeżyła, aktywuj rozkaz opuszczenia statku tak szybko, jak to możliwe, przy pomocy Oficera na Mostku, uszkadzając sektory generujące energię lub uwalniając Projekt X.",
+      "Ze względu na twój niski możliwy wynik powinieneś aktywnie odkrywać cele twoich przeciwników i w nich przeszkadzać, jeśli to możliwe."
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Szczur telepata",
+    "description": "abc",
+    "pronoums": "To/temu",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "jeśli Szczur telepata jest twoją PD i uciekł."
+    },
+    "influence_limit": 8,
+    "type": "Item",
+    "abilities": [
+      {
+        "name": "Telepatia",
+        "description": "Wykonuje akcję przy pomocy współdzielącego lokalizację Człowieka bez Hełmu, ignorując Instynkt samozachowawczy. Może wykonywać tylko akcje Telepatii.",
+        "type": "offensive"
+      },
+      {
+        "name": "Paranoja",
+        "description": "Aby wpłynąć, aktywny gracz musi mieć współdzielącego lokalizację wspólnika. Nie można go przekupić.",
+        "type": "conspiracy"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Mój skarb",
+        "description": "Inni gracze nie mogą tobą rzucać (także przez śluzę) ani upuszczać cię. Nadal możesz zostać przekazany współdzielącym lokalizację postaciom.",
+        "type": "defensive"
+      }
+    ],
+    "icon": "assets/images/icons/telephatic_rat.png",
+    "image": "assets/images/portraits/telephatic_rat.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Szczur telepata",
+          "location_name": "Laboratorium biologiczne",
+          "diagram": "assets/images/rooms/bio_lab.png"
+        }
+      ],
+      "notes": "Szczur telepata zaczyna skażony"
+    },
+    "agenda": {
+      "description": "Pokuta",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "za każdego ogłuszonego Człowieka lub Robota współdzielącego lokalizację ze Szczurem podczas Upadku stacji"
+          },
+          "sub": [
+            {
+              "points": 2,
+              "description": "za każdy posiadany żeton kompromitujących materiałów współdzielących lokalizację, ogłuszonych postaci"
+            }
+          ]
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "jeśli Szczur współdzieli lokalizację z Artefaktem podczas Upadku stacji"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "jeśli Szczur współdzieli lokalizację z Walizką podczas Upadku stacji"
+          },
+          "sub": []
+        }
+      ],
+      "notes": "Szczur może wygrać, nawet jeśli jest winny."
+    },
+    "quirks": [
+      "Szczur jest Przedmiotem, można go podnieść, upuścić, rzucić itd.",
+      "Szczur zaczyna grę skażony, ale można w normalny sposób wykonać na nim dekontaminację.",
+      "Szczur nie może posiadać Przedmiotów ani Danych.",
+      "Szczur nie może zostać zaatakowany ani ogłuszony.",
+      "Szczur może wygrać, nawet jeśli jest winny.",
+      "Zdolność Paranoja powoduje, że trudniej wpłynąć na Szczura. Tylko przytomne postaci mogą być wspólnikami.",
+      "Szczura nie można przekupić.",
+      "Szczur zaczyna grę skażony, mimo że nie może posiadać żadnych Przedmiotów.",
+      "Do punktacji liczy się tylko żeton kompromitujących danych postaci, nie jej pionek."
+    ],
+    "tips": [
+      "Artefakt znajduje się w Laboratorium fizycznym. Walizka znajduje się w Luksusowej kajucie.",
+      "Strzeż się unicestwienia lub wejścia w posiadanie przez postać, która potencjalnie może uciec.",
+      "Bycie winnym ci nie szkodzi, dlatego możesz ogłuszać postaci bez konsekwencji.",
+      "Podczas Upadku stacji postaraj się skończyć w sektorze z jak największą liczbą ogłuszonych postaci.",
+      "Twoja moc ujawnienia chroni cię przed pozostawieniem w pustym sektorze lub Przestrzeni kosmicznej.",
+      "Hełmy są wrogami Szczura, dlatego postaraj się ich pozbyć."
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Mechaniczka",
+    "description": "abc",
+    "pronoums": "Ona/jej",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "jeśli Mechaniczka jest twoją PD i uciekła."
+    },
+    "influence_limit": 6,
+    "type": "Human",
+    "abilities": [
+      {
+        "name": "Szczur tunelowy",
+        "description": "Może wykonywać kroki przez szyby wentylacyjne",
+        "type": "mobilitiy"
+      },
+      {
+        "name": "Prowizoryczna naprawa",
+        "description": "Jako akcja napraw współdzielący lokalizację uszkodzony sektor lub ogłuszonego Robota.",
+        "type": "utility"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Instruktaż",
+        "description": "Podczas twojej tury, jeśli Mechaniczka jest przytomna, wspólnicy poruszają się i zachowują tak, jakby mieli zdolności Prowizoryczna naprawa i Szczur tunelowy.",
+        "type": "utility"
+      }
+    ],
+    "icon": "assets/images/icons/troubleshooter.png",
+    "image": "assets/images/portraits/troubleshooter.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Mechaniczka",
+          "location_name": "Drukarnia",
+          "diagram": "assets/images/rooms/print_shop.png"
+        }
+      ],
+      "notes": "Dołącz Chwytak ładunku do Śluzy przedniej. Mechaniczka zaczyna z Bronią obuchową."
+    },
+    "agenda": {
+      "description": "W stanie nienaruszonym",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "jeśli Antymateria nie została nigdy uzbrojona"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "jeśli Projekt X nie został nigdy uwolniony"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "jeśli żaden sektor na pokładzie nie jest uszkodzony podczas Upadku stacji"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "za każdego przytomnego Robota podczas Upadku stacji"
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [],
+    "tips": [
+      "Twoja moc ujawnienia bardzo pomaga twoim wspólnikom w naprawie uszkodzonych sektorów.",
+      "Postaraj się trzymać postaci z dala od Mostka, Laboratorium kriogenicznego i Pułapki magnetycznej, aby zapobiec uwolnieniu Projektu X i uzbrojeniu Antymaterii."
+    ],
+    "board_modifications": [
+      "Chwytak ładunku pozwala dowolnej postaci wykonać akcję chwytu w tym sektorze.",
+      "Chwyt: Podnieś Przedmiot w Przestrzeni kosmicznej lub ogłusz postać w Przestrzeni kosmicznej."
+    ]
+  }
+]
