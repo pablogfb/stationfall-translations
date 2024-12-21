@@ -35,7 +35,7 @@
     "setup": {
       "item": [
         {
-          "name": "Astrochimp",
+          "name": "Afftronaut",
           "location_name": "Küche",
           "diagram": "assets/images/rooms/kitchen.png"
         }
@@ -117,7 +117,7 @@
     "setup": {
       "item": [
         {
-          "name": "Billionaire",
+          "name": "Milliardär",
           "location_name": "Wohnräume",
           "diagram": "assets/images/rooms/suite.png"
         },
@@ -214,7 +214,7 @@
     "setup": {
       "item": [
         {
-          "name": "Boarder",
+          "name": "Piratin",
           "location_name": "Weltraum",
           "diagram": "assets/images/rooms/outer_space.png"
         }
@@ -299,7 +299,7 @@
     "setup": {
       "item": [
         {
-          "name": "Botanist",
+          "name": "Botaniker",
           "location_name": "Gewächshaus",
           "diagram": "assets/images/rooms/hydroponics.png"
         },
@@ -393,7 +393,7 @@
     "setup": {
       "item": [
         {
-          "name": "Colonel",
+          "name": "Oberst",
           "location_name": "Sicherheitszentrale",
           "diagram": "assets/images/rooms/security_station.png"
         }
@@ -483,7 +483,7 @@
     "setup": {
       "item": [
         {
-          "name": "Consort",
+          "name": "Escort",
           "location_name": "Aufenthaltsraum",
           "diagram": "assets/images/rooms/rec_room.png"
         }
@@ -567,7 +567,7 @@
     "setup": {
       "item": [
         {
-          "name": "Corpsicle",
+          "name": "Siechlinde",
           "location_name": "Kältelabor",
           "diagram": "assets/images/rooms/cryo_lab.png"
         }
@@ -657,7 +657,7 @@
     "setup": {
       "item": [
         {
-          "name": "Counselor",
+          "name": "Anwalt",
           "location_name": "Heilgarten",
           "diagram": "assets/images/rooms/therapy_garden.png"
         }
@@ -843,7 +843,7 @@
     "setup": {
       "item": [
         {
-          "name": "Daredevil",
+          "name": "Draufgängerin",
           "location_name": "Umkleideraum",
           "diagram": "assets/images/rooms/locker_room.png"
         }
@@ -1018,7 +1018,7 @@
     "setup": {
       "item": [
         {
-          "name": "Doctor (Hyde)",
+          "name": "Doktorin (Hyde)",
           "location_name": "Bugzentrale",
           "diagram": "assets/images/rooms/forward_hub.png"
         }
@@ -1098,7 +1098,7 @@
     "setup": {
       "item": [
         {
-          "name": "Doctor (Jekyll)",
+          "name": "Doktorin (Jekyll)",
           "location_name": "Bugzentrale",
           "diagram": "assets/images/rooms/forward_hub.png"
         }
@@ -1179,12 +1179,12 @@
     "setup": {
       "item": [
         {
-          "name": "Drone 4",
+          "name": "Drohne 4",
           "location_name": "Physiklabor",
           "diagram": "assets/images/rooms/physics_lab.png"
         },
         {
-          "name": "Drone 6",
+          "name": "Drohne 6",
           "location_name": "Weltraum",
           "diagram": "assets/images/rooms/outer_space.png"
         }
@@ -1248,7 +1248,7 @@
     "setup": {
       "item": [
         {
-          "name": "Engineer",
+          "name": "Ingenieur",
           "location_name": "Antennensteuerung",
           "diagram": "assets/images/rooms/array_control.png"
         }
@@ -1343,7 +1343,7 @@
     "setup": {
       "item": [
         {
-          "name": "Exile",
+          "name": "Verbannter",
           "location_name": "Antennensteuerung",
           "diagram": "assets/images/rooms/array_control.png"
         }
@@ -1422,7 +1422,7 @@
     "setup": {
       "item": [
         {
-          "name": "Inspector",
+          "name": "Inspektore",
           "location_name": "Chemielabor",
           "diagram": "assets/images/rooms/chem_lab.png"
         }
@@ -1514,7 +1514,7 @@
     "setup": {
       "item": [
         {
-          "name": "Legal",
+          "name": "Juribot",
           "location_name": "Heckzentrale",
           "diagram": "assets/images/rooms/aft_hub.png"
         }
@@ -1698,7 +1698,7 @@
     "setup": {
       "item": [
         {
-          "name": "Medical",
+          "name": "Medibot",
           "location_name": "Heckzentrale",
           "diagram": "assets/images/rooms/aft_hub.png"
         }
@@ -1776,7 +1776,7 @@
     "setup": {
       "item": [
         {
-          "name": "Microbiologist",
+          "name": "Mikrobiologin",
           "location_name": "Physiklabor",
           "diagram": "assets/images/rooms/physics_lab.png"
         }
@@ -1862,7 +1862,7 @@
     "setup": {
       "item": [
         {
-          "name": "Operative",
+          "name": "Agentin",
           "location_name": "Wohnräume",
           "diagram": "assets/images/rooms/suite.png"
         }
@@ -1959,7 +1959,7 @@
     "setup": {
       "item": [
         {
-          "name": "Security",
+          "name": "Wächter",
           "location_name": "Replikatorraum",
           "diagram": "assets/images/rooms/print_shop.png"
         }
@@ -2056,7 +2056,7 @@
     "setup": {
       "item": [
         {
-          "name": "Station Chief",
+          "name": "Kommandantin",
           "location_name": "Heilgarten",
           "diagram": "assets/images/rooms/therapy_garden.png"
         }
@@ -2134,7 +2134,7 @@
     "setup": {
       "item": [
         {
-          "name": "Stowaway",
+          "name": "Blinde Passagierin",
           "location_name": "Akteurkarte",
           "diagram": "assets/images/character_card.png"
         }
@@ -2223,7 +2223,7 @@
     "setup": {
       "item": [
         {
-          "name": "Stranger",
+          "name": "Enigma",
           "location_name": "Nanofabrik",
           "diagram": "assets/images/rooms/nanofactory.png"
         }
@@ -2276,7 +2276,7 @@
   },
   {
     "id": 27,
-    "name": "Relepathische Ratte",
+    "name": "Telepathische Ratte",
     "description": "abc",
     "pronoums": "Es/ihm",
     "bonus_points": {
@@ -2310,7 +2310,7 @@
     "setup": {
       "item": [
         {
-          "name": "Telepathic Rat",
+          "name": "Telepathische Ratte",
           "location_name": "Biolabor",
           "diagram": "assets/images/rooms/bio_lab.png"
         }
@@ -2409,7 +2409,7 @@
     "setup": {
       "item": [
         {
-          "name": "Troubleshooter",
+          "name": "Mechanikerin",
           "location_name": "Replikatorraum",
           "diagram": "assets/images/rooms/print_shop.png"
         }
