@@ -648,7 +648,7 @@
     "reveal": [
       {
         "name": "Bezeugtes Geständnis",
-        "description": "Falls beim Bekennen gesund: Wählt 1 Mensch im selben Bereich. Alle, die diesen Akteur zum Komplizen haben, werden verdächtig.",
+        "description": "Falls beim Bekennen gesund: Wählt 1 Mensch im selben Bereich. Alle anderen, die diesen Akteur zum Komplizen haben, werden verdächtig.",
         "type": "offensive"
       }
     ],
@@ -772,7 +772,7 @@
         {
           "main": {
             "points": 2,
-            "description": "falls kein Mensch entkommt."
+            "description": "falls kein menschlicher BA entkommt."
           },
           "sub": []
         },
