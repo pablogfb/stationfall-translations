@@ -132,7 +132,7 @@
     ],
     "instructions": [
       "Die Konsolenaktion \"Ziel markieren\" versetzt den Zielmarker zu einem anderen gesunden Menschen oder Roboter, der nicht entkommen ist.",
-      "Am Ende jedes Ereignisschritts: Falls der Akteur mit dem Zielmarker beim \"Robomörder\" ist, vernichtet das Monster diesen Akteur.",
+      "Am Ende jedes Ereignisschritts: Falls der Akteur mit dem Zielmarker beim \"Robomörder\" ist, schlägt das Monster diesen Akteur K.O.",
       "Andernfalls bewegt die aktive Person den \"Robomörder\" um 1 Bereich dichter zu dem Akteur, der den Zielmarker hat.",
       "Bei gleichwertigen Optionen entscheidet die aktive Person.",
       "Der \"Robomörder\" gilt in jeder Hinsicht als Roboter, auch in der Wertung. Er ignoriert Gefahren."
@@ -149,7 +149,7 @@
     ],
     "instructions": [
       "Alle Akteure und Dinge, die im X-Kabinett sind oder es betreten, entkommen sofort. Dinge, die auf diese Weise entkommen, gelten für die Wertung als \"bei dem Akteur\".",
-      "Sollte die Antimaterie in das \"Stabile Wurmloch\" kommen, eliminiert sie das \"Wurmloch\" und alles, was dadurch entkommen ist."
+      "Sollte die Antimaterie in das \"Stabile Wurmloch\" kommen, vernichtet sie das \"Wurmloch\" und alles, was dadurch entkommen ist."
     ]
   },
   {
