@@ -1,0 +1,504 @@
+[
+  {
+    "id": 1,
+    "name": "Ventilo arrière",
+    "diagram": "assets/images/rooms/aft_exahust.png",
+    "action": [
+      ""
+    ],
+    "type": "blue",
+    "light": false,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 2,
+    "name": "Cuisine",
+    "diagram": "assets/images/rooms/kitchen.png",
+    "action": [
+      ""
+    ],
+    "type": "blue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 3,
+    "name": "Quartiers",
+    "diagram": "assets/images/rooms/quarters.png",
+    "action": [
+      "Zone de lancement"
+    ],
+    "type": "blue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 4,
+    "name": "Salle des jeux",
+    "diagram": "assets/images/rooms/rec_room.png",
+    "action": [
+      ""
+    ],
+    "type": "blue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 5,
+    "name": "PC de sécurité",
+    "diagram": "assets/images/rooms/security_station.png",
+    "action": [
+      "Action de pupitre",
+      "Cameras ON/OFF",
+      "Fabrication de Preuve"
+    ],
+    "type": "blue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 6,
+    "name": "Déchiqueteuse",
+    "diagram": "assets/images/rooms/shred_room.png",
+    "action": [
+      "Mine d'infos: Prendre un Kompromat n'importe où sur le plateau"
+    ],
+    "type": "blue",
+    "light": false,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 7,
+    "name": "Entrepôt",
+    "diagram": "assets/images/rooms/storage.png",
+    "action": [
+      ""
+    ],
+    "type": "blue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 8,
+    "name": "Suite de luxe",
+    "diagram": "assets/images/rooms/suite.png",
+    "action": [
+      ""
+    ],
+    "type": "blue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 9,
+    "name": "Jardin Zen",
+    "diagram": "assets/images/rooms/therapy_garden.png",
+    "action": [
+      "Mediter (PJ uniquement)"
+    ],
+    "type": "blue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 10,
+    "name": "Labo de biologie",
+    "diagram": "assets/images/rooms/bio_lab.png",
+    "action": [
+      "Entrer ici donne une Contamiation sauf si le Labo est Endommagé",
+      "Fabrication de preuve du Projet-X"
+    ],
+    "type": "darkBlue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 11,
+    "name": "Labo de chimie",
+    "diagram": "assets/images/rooms/chem_lab.png",
+    "action": [
+      "Fabrication de Grenade"
+    ],
+    "type": "darkBlue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 12,
+    "name": "Cryogénie",
+    "diagram": "assets/images/rooms/cryo_lab.png",
+    "action": [
+      "Libérer le Projet X (Fonctionnaires uniquement)"
+    ],
+    "type": "darkBlue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 13,
+    "name": "Ventilo avant",
+    "diagram": "assets/images/rooms/forward_exhaust.png",
+    "action": [
+      "Airlock"
+    ],
+    "type": "darkBlue",
+    "light": false,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 14,
+    "name": "Unité centrale",
+    "diagram": "assets/images/rooms/mainframe.png",
+    "action": [
+      "Action de pupitre"
+    ],
+    "type": "darkBlue",
+    "light": true,
+    "energy": true,
+    "notes": ""
+  },
+  {
+    "id": 15,
+    "name": "Usine Nano",
+    "diagram": "assets/images/rooms/nanofactory.png",
+    "action": [
+      "Fabrication de Nanogel"
+    ],
+    "type": "darkBlue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 16,
+    "name": "Laboratoire",
+    "diagram": "assets/images/rooms/physics_lab.png",
+    "action": [
+      "A chacune des Résolutions, tous les data présents ici sont Éffacés"
+    ],
+    "type": "darkBlue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 17,
+    "name": "Fab lab",
+    "diagram": "assets/images/rooms/print_shop.png",
+    "action": [
+      "Fabrication de Casque, de Matraque ou de Pistolet (Fonctionnaires uniquement pour le Pistolet)"
+    ],
+    "type": "darkBlue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 18,
+    "name": "Coffre-X",
+    "diagram": "assets/images/rooms/vault_x.png",
+    "action": [
+      "si Endommagé, libérer le Projet X et déclencher l'Évacuation d'Urgence"
+    ],
+    "type": "darkBlue",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 19,
+    "name": "SAS arrière",
+    "diagram": "assets/images/rooms/aft_airlocks.png",
+    "action": [
+      "SAS",
+      "Zone de lancement"
+    ],
+    "type": "pink",
+    "light": false,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 20,
+    "name": "Hub arrière",
+    "diagram": "assets/images/rooms/aft_hub.png",
+    "action": [
+      ""
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 21,
+    "name": "Tableau de contrôle",
+    "diagram": "assets/images/rooms/array_control.png",
+    "action": [
+      "Transmettre"
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 22,
+    "name": "Passerelle",
+    "diagram": "assets/images/rooms/bridge.png",
+    "action": [
+      "Libérer le Projet X",
+      "Auto-Destruction",
+      "Évacuation d'Urgence",
+      "Zone de lancement"
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": "Fonctionnaires uniquement"
+  },
+  {
+    "id": 23,
+    "name": "Grappin de fret",
+    "diagram": "assets/images/rooms/cargo_claw.png",
+    "action": [
+      "Pince: Ramasser un objet dans l'Espace, ou Abattre un Personnage dans l'Espace"
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },  
+  {
+    "id": 24,
+    "name": "SAS avant",
+    "diagram": "assets/images/rooms/f	orward_airlocks.png",
+    "action": [
+      "SAS"
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 25,
+    "name": "Hub avant",
+    "diagram": "assets/images/rooms/forward_hub.png",
+    "action": [
+      ""
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 26,
+    "name": "Piles à combustible",
+    "diagram": "assets/images/rooms/fuel_cells.png",
+    "action": [
+      "si Endommagé, placez un Départ de feu ici et dans les Cuves"
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": true,
+    "notes": ""
+  },
+  {
+    "id": 27,
+    "name": "Hydroponie",
+    "diagram": "assets/images/rooms/hydroponics.png",
+    "action": [
+      ""
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 28,
+    "name": "Vestiaires",
+    "diagram": "assets/images/rooms/locker_room.png",
+    "action": [
+      ""
+    ],
+    "type": "pink",
+    "light": false,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 29,
+    "name": "Atelier méca",
+    "diagram": "assets/images/rooms/machine_shop.png",
+    "action": [
+      "Réparer un Robot"
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 30,
+    "name": "Chambre de confinement",
+    "diagram": "assets/images/rooms/magnetic_containmet.png",
+    "action": [
+      "Expulser l'Antimatière"
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": "A chacune des Résolutions, tous les Cubes d'influence des Robots présents ici sont perdus par Traîtrise"
+  },
+  {
+    "id": 31,
+    "name": "Réacteur",
+    "diagram": "assets/images/rooms/reactor.png",
+    "action": [
+      ""
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": true,
+    "notes": "Ne peut pas être Endommagé par une Matraque. Si Endommagé, placez une Fuite de gaz ici et dans chaque Lieu adjacent"
+  },
+  {
+    "id": 32,
+    "name": "Abri tempête",
+    "diagram": "assets/images/rooms/storm_shelter.png",
+    "action": [
+      ""
+    ],
+    "type": "pink",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 33,
+    "name": "Cuves",
+    "diagram": "assets/images/rooms/tanks.png",
+    "action": [
+      "Décontamination"
+    ],
+    "type": "pink",
+    "light": false,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 34,
+    "name": "Alcatraz",
+    "diagram": "assets/images/rooms/alcatraz.png",
+    "action": [
+      "Lancement Planifié"
+    ],
+    "type": "green",
+    "light": true,
+    "energy": false,
+    "notes": "Nécessite l'Évacuation d'Urgence pour lancer. Si le Robot Juriste est en jeu, tous les occupants Vivants doivent avoir une Clause de Confidentialité pour lancer"
+  },
+  {
+    "id": 35,
+    "name": "Ave MAria",
+    "diagram": "assets/images/rooms/hail_mary.png",
+    "action": [
+      "Lancement Planifié"
+    ],
+    "type": "green",
+    "light": true,
+    "energy": false,
+    "notes": "Nécessite l'Évacuation d'Urgence pour lancer. Si le Robot Juriste est en jeu, tous les occupants Vivants doivent avoir une Clause de Confidentialité pour lancer"
+  },
+  {
+    "id": 36,
+    "name": "Houdini",
+    "diagram": "assets/images/rooms/houdini.png",
+    "action": [
+      "Lancement Planifié"
+    ],
+    "type": "green",
+    "light": true,
+    "energy": false,
+    "notes": "Nécessite l'Évacuation d'Urgence pour lancer. Si le Robot Juriste est en jeu, tous les occupants Vivants doivent avoir une Clause de Confidentialité pour lancer"
+  },
+  {
+    "id": 37,
+    "name": "McQueen",
+    "diagram": "assets/images/rooms/mcqueen.png",
+    "action": [
+      "Lancement Planifié"
+    ],
+    "type": "green",
+    "light": false,
+    "energy": false,
+    "notes": "Nécessite l'Évacuation d'Urgence pour lancer. Si le Robot Juriste est en jeu, tous les occupants Vivants doivent avoir une Clause de Confidentialité pour lancer"
+  },
+  {
+    "id": 38,
+    "name": "Pod Médical",
+    "diagram": "assets/images/rooms/medivac_pod.png",
+    "action": [
+      "Lancement Planifié"
+    ],
+    "type": "green",
+    "light": true,
+    "energy": false,
+    "notes": "Peut être lancé si occupé par un Humain Abattu. L'Évacuation d'Urgence n'est pas requise pour lancer"
+  },
+  {
+    "id": 39,
+    "name": "dans l'Espace",
+    "diagram": "assets/images/rooms/outer_space.png",
+    "action": [
+      "SAS"
+    ],
+    "type": "green",
+    "light": false,
+    "energy": false,
+    "notes": ""
+  },
+  {
+    "id": 40,
+    "name": "Panic Pod",
+    "diagram": "assets/images/rooms/panic_pod.png",
+    "action": [
+      "Lancement Planifié"
+    ],
+    "type": "green",
+    "light": true,
+    "energy": false,
+    "notes": "Nécessite l'Évacuation d'Urgence pour lancer"
+  },
+  {
+    "id": 41,
+    "name": "Vaisseau Pirate / Vaisseau de Secours",
+    "diagram": "assets/images/rooms/pirate_ship.png",
+    "action": [
+      "Vaisseau Pirate : Lors du décompte, le personnage qui Possède l'Attaché Case est considéré comme Échappé",
+      "Vaisseau de Secours : Lors du décompte, tout personnage Humain dans l'Espace est considéré comme Échappé"
+    ],
+    "type": "green",
+    "light": true,
+    "energy": false,
+    "notes": ""
+  }
+  
+ 
+  ]
