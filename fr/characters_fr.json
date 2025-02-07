@@ -1,0 +1,2409 @@
+[
+  {
+    "id": 1,
+    "name": "Le Cosmo-singe",
+    "description": "abc",
+    "pronoums": "Il",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "si le Cosmo-singe est votre Personnage Bonus et finit Échappé"
+    },
+    "influence_limit": 5,
+    "type": "Humain",
+    "abilities": [
+      {
+        "name": "Rat d'égoûts",
+        "description": "Peut se déplacer par les Conduits d'aération.",
+        "type": "mobilité"
+      },
+      {
+        "name": "Loyal",
+        "description": "Pour Influencer, renvoyer tous les cubes d'influence déjà sur lui, et y placer au moins un de + que leur nombre.",
+        "type": "conspiration"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Acrobaties",
+        "description": "Obtient \"Né en Zéro-G\" : Comme action gratuite, peut entrer dans un Lieu en Apesanteur à la place de Lâcher/Ramasser.",
+        "type": "mobilité"
+      }
+    ],
+    "icon": "assets/images/icons/astrochimp.png",
+    "image": "assets/images/portraits/astrochimp.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Le Cosmo-singe",
+          "location_name": "Cuisine",
+          "diagram": "assets/images/rooms/kitchen.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Tout ce qui brille",
+      "objetives": [
+        {
+          "main": {
+            "points": 3,
+            "description": "si le Cosmo-singe finit Échappé"
+          },
+          "sub": [
+            {
+              "points": 2,
+              "description": "s'il Possède l'Attaché Case"
+            },
+            {
+              "points": 2,
+              "description": "s'il Possède l'Artefact"
+            },
+            {
+              "points": 2,
+              "description": "s'il Possède un Pistolet"
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "Le Cosmo-singe est considéré comme un Humain (après tout, il a 99% d'ADN en commun avec l'homme!)"
+    ],
+    "tips": [
+      "L'Artefact est au Laboratoire et l'Attaché Case est dans la Suite de Luxe",
+      "Un Fonctionnaire peut fabriquer un Pistolet au Fab Lab, ou il peut être obtenu grâce à un autre Personnage",
+      "Le Cosmo-Singe se déplace rapidement grâce à ses compétences \"Rat d'égoûts\" et \"Né en zéro-G\""
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 2,
+    "name": "le Milliardaire",
+    "description": "abc",
+    "pronoums": "Il",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "si Fletcher s'Échappe. (Tout le monde s'en tamponne du Milliardaire en fait, le public aime seulement son mignon bichon de l'espace.)"
+    },
+    "influence_limit": 3,
+    "type": "Humain",
+    "abilities": [
+      {
+        "name": "En direct-live ",
+        "description": "Si les Brouilleurs sont éteints, les Lieux du Milliardaire et de Fletcher sont toujours considérés comme Éclairés avec les Caméras allumées.",
+        "type": "défense"
+      },
+      {
+        "name": "Riche",
+        "description": "N'accepte pas les Bakchich. En activant le Milliardaire on peut utiliser un Bakchich Gris. Les Bakchich Gris ne donnent des PV que si le Milliardaire s'Échappe.",
+        "type": "défense"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Fausses promesses",
+        "description": "À la Révélation, gagnez et/ou récupérez les 3 Bakchich Gris",
+        "type": "conspiration"
+      }
+    ],
+    "icon": "assets/images/icons/billionaire.png",
+    "image": "assets/images/portraits/billionaire.png",
+    "setup": {
+      "item": [
+        {
+          "name": "le Milliardaire",
+          "location_name": "Suite de Luxe",
+          "diagram": "assets/images/rooms/suite.png"
+        },
+        {
+          "name": "Fletcher",
+          "location_name": "PC de Sécurité",
+          "diagram": "assets/images/rooms/security_station.png"
+        }
+      ],
+      "notes": "le Milliardaire commence avec les 3 Bakchich Gris posés sur sa carte"
+    },
+    "agenda": {
+      "description": "S'en sortir vivant",
+      "objetives": [
+        {
+          "main": {
+            "points": 4,
+            "description": "Si le Milliardaire finit Échappé"
+          },
+          "sub": [
+            {
+              "points": 1,
+              "description": "s'il n'y a ni Robots ni Humains Vivants dans son Lieu lors du Crash de la station"
+            }
+          ]
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "Si Fletcher finit Échappé"
+          },
+          "sub": [
+            {
+              "points": 1,
+              "description": "Si le Milliardaire et Fletcher finissent Échappés dans le même Lieu"
+            }
+          ]
+        }
+      ],
+      "notes": "Le Milliardaire ne gagne aucun point pour les Bakchich en sa possession"
+    },
+    "quirks": [
+      "Le Milliardaire ne gagne aucun point pour les Bakchich en sa possession",
+      "Fletcher est un objet qu'on peut Donner, Ramasser, Lâcher, Lancer etc... Fletcher ne peut pas être Attaqué ni Abattu (il a un casque spatial rétractable). Mais Fletcher peut être Détruit de la même manière que tout Objet",
+      "Les Bakchich Gris ne peuvent être utilisés que s'ils proviennent de la carte du Milliardaire, et non s'ils ont déjà été distribués ailleurs",
+      "Le Milliardaire et Fletcher sont considérés sur le même Lieu lors du décompte final, s'ils étaient sur le même lieu au moment où ils s'Échappent en utilisant le même moyen"
+    ],
+    "tips": [
+      "Protégez-vous avec un Casque et essayez de garder les Brouilleurs éteints pour pouvoir rester \"en direct-live\" ",
+      "Après votre Révélation vous pouvez utiliser les Bakchich gris pour bénéficier d'actions bonus via les autres Personnages. "
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 3,
+    "name": "la Pirate de l'Espace",
+    "description": "abc",
+    "pronoums": "Elle",
+    "bonus_points": {
+      "points": 1,
+      "alive": true,
+      "notes": "si la Pirate de l'Espace est votre Personnage Bonus et finit Échappée"
+    },
+    "influence_limit": 4,
+    "type": "Humaine",
+    "abilities": [
+      {
+        "name": "Effraction",
+        "description": "Pour une action, elle peut retirer un Verrou adjacent.",
+        "type": "utilitaire"
+      },
+      {
+        "name": "Fugitive",
+        "description": "Aucune action effectuée avec ou contre ce personnage ne rendra le joueur Suspect.",
+        "type": "offensif"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Missiles",
+        "description": "Si les Brouilleurs sont éteints, en tant qu'action placez 1 Marqueur Temps sur un Lieu non-échappé. Quand ce Marqueur sera résolu, Endommagez ce lieu et Abattez tous les Personnages présents. Le vaisseau de la Pirate ne peut envoyer qu'un seul Missile à la fois.",
+        "type": "offensif"
+      },
+      {
+        "name": "Extraction",
+        "description": "À la Révélation (y compris lors du Crash de la station), retournez le Vaisseau de Secours sur sa face \"Vaisseau Pirate\". Ce dernier ne secourt que le Personnage (même Abattu) Possédant l'Attaché Case",
+        "type": "offensif"
+      }
+    ],
+    "icon": "assets/images/icons/boarder.png",
+    "image": "assets/images/portraits/boarder.png",
+    "setup": {
+      "item": [
+        {
+          "name": "la Pirate de l'Espace",
+          "location_name": "dans l'Espace",
+          "diagram": "assets/images/rooms/outer_space.png"
+        }
+      ],
+      "notes": "Placez le Vaisseau de Secours à coté de la case \"dans l'Espace\". La Pirate de l'Espace commence avec un Casque, une Matraque et un Pistolet sur sa carte"
+    },
+    "agenda": {
+      "description": "Tout rafler",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "Si la Pirate de l'Espace finit Échappée"
+          },
+          "sub": [
+            {
+              "points": 4,
+              "description": "Si elle est en Possession de l'Attaché Case, ou que ce dernier est dans l'Espace lors du Crash de la station"
+            },
+            {
+              "points": 1,
+              "description": "pour chaque Humain Vivant dans l'Espace lors du Crash de la station"
+            }
+          ]
+        }
+      ],
+      "notes": "La Pirate de l'Espace gagne 2 points pour chaque Bakchich en sa possession"
+    },
+    "quirks": [
+      "La Pirate de l'Espace peut gagner même en étant Coupable",
+      "La Pirate de l'Espace gagne 2 points pour chaque Bakchich en sa possession",
+      "Si une navette est visée par les Missiles avant son éjection et qu'elle est lancée durant le même tour, la navette explosera dans la Mésosphère lors de la résolution du Marqueur Temps"
+    ],
+    "tips": [
+      "L'Attaché Case est dans la Suite de Luxe",
+      "Vos objets de départ et votre indifférence à la Culpabilité vous permettent d'Abattre les autres facilement",
+      "Une révélation rapide vous dote de vos Missiles dévastateurs",
+      "une révélation tardive maintient un doute sur la possibilité de s'Échapper en étant dans l'Espace, ce qui peut vous apporter des Bakchich",
+      "Faites attention si le Robot Vigile participe au jeu, car vous êtes une Fugitive"
+    ],
+    "board_modifications": [
+      "Au début de la partie il y a un Vaisseau de Secours \"quelque part\" qui peut aider les êtres humains à survivre",
+      "Vaisseau de Secours (recto) - Lors du décompte, tout personnage Humain dans l'Espace est considéré comme Échappé",
+      "Si un joueur se révèle comme étant la Pirate de l'Espace, retournez le vaisseau de Secours qui s'avère être en réalité le Vaisseau pirate, ayant un tout autre objectif...",
+      "Vaisseau Pirate (verso) -  Lors du décompte, le Personnage qui Possède l'Attaché Case est considéré comme Échappé"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "le Botaniste",
+    "description": "abc",
+    "pronoums": "Il",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "si le Botaniste est votre Personnage Bonus et que Fang Moss finit Échappée (aucuns points si le Botaniste s'Échappe)."
+    },
+    "influence_limit": 5,
+    "type": "Humain",
+    "abilities": [
+      {
+        "name": "Scientifique",
+        "description": "Comme action gratuite, peut faire une action de Lieu à la place d'une action Lâcher/Ramasser.",
+        "type": "utilitaire"
+      },
+      {
+        "name": "Né en Zéro-G",
+        "description": "Comme action gratuite, peut entrer dans un Lieu en Apesanteur à la place de Lâcher/Ramasser.",
+        "type": "mobilité"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Créationnisme",
+        "description": "Pendant la phase d'Activation du Joueur du Botaniste, si aucun Personnage Vivant ne Possède Fang Moss, elle peut se déplacer 1 fois ou Détruire un personnage Abattu sur son Lieu (elle le dévore). Celui-ci Lâche tous ses objets ",
+        "type": "utilitaire"
+      }
+    ],
+    "icon": "assets/images/icons/botanist.png",
+    "image": "assets/images/portraits/botanist.png",
+    "setup": {
+      "item": [
+        {
+          "name": "le Botaniste",
+          "location_name": "Hydroponie",
+          "diagram": "assets/images/rooms/hydroponics.png"
+        },
+        {
+          "name": "Fang Moss",
+          "location_name": "Hydroponie",
+          "diagram": "assets/images/rooms/hydroponics.png"
+        }
+      ],
+      "notes": "Placer le jeton d'action \"j'ai faim !\" à cote du plateau de jeu, près du Lieu Hydroponie"
+    },
+    "agenda": {
+      "description": "Plante carnivore",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "pour chaque Humain Détruit par Fang Moss"
+          },
+          "sub": []  
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "si Fang Moss finit Échappée"
+          },
+          "sub": []  
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "si le Botaniste finit Échappé"
+          },
+          "sub": [
+            {
+              "points": 1,
+              "description": "s'il est Contaminé"
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "Fang Moss est un objet. Le joueur qui Possède Fang Moss obtient l'action décrite sur le jeton \"J'ai Faim !\" "
+      ],
+    "tips": [
+      "Traquez les personnages Abattus pour nourrir Fang Moss", 
+      "Équipez-vous d'un Casque. Attrapez la Contamination dans le Labo de Biologie ", 
+      "Utilisez \"Né en zéro-G\" pour gagner en mobilité ", 
+      "Après la Révélation, essayez que personne ne Possède Fang Moss, pour lui faire réaliser des actions en plus des vôtres "
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 5,
+    "name": "le Colonel",
+    "description": "abc",
+    "pronoums": "Il",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "si le Colonel est votre Personnage Bonus et finit Échappé"
+    },
+    "influence_limit": 4,
+    "type": "Humain",
+    "abilities": [
+      {
+        "name": "Fonctionnaire",
+        "description": "Sauf pendant le Blackout, peut passer (ou être trainé si Abattu) à travers les Verrous, qui sont alors retirés.",
+        "type": "mobilité"
+      },
+      {
+        "name": "Paranoïaque",
+        "description": "Le joueur actif doit avoir un Conspirateur sur le même Lieu pour pouvoir influencer ce personnage. N'accepte pas les Bakchich.",
+        "type": "conspiration"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "La mission d'abord",
+        "description": "À la Révélation, récupérez dans votre réserve tous vos Cubes d'Influence ayant été perdus par Traîtrise.",
+        "type": "conspiration"
+      }
+    ],
+    "icon": "assets/images/icons/colonel.png",
+    "image": "assets/images/portraits/colonel.png",
+    "setup": {
+      "item": [
+        {
+          "name": "le Colonel",
+          "location_name": "PC de sécurité",
+          "diagram": "assets/images/rooms/security_station.png"
+        }
+      ],
+      "notes": "Placer le Panic Pod dans les Quartiers, avec son Verrou et son Pistolet. Le Colonel commence avec un Pistolet"
+    },
+    "agenda": {
+      "description": "Armes testées sur le terrain",
+      "objetives": [
+        {
+          "main": {
+            "points": 3,
+            "description": "si le Colonel finit Échappé"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "si au moins 1 PNJ Contaminé finit Échappé"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "Si le Projet X est libéré"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "Si le Secret X finit Échappé"
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "La paranoïa du Colonel le rend difficile à Influencer",
+      "Le Colonel n'accepte pas les Bakchich"
+      ],
+    "tips": [
+      "Vous pouvez Contaminer les Personnages et Fabriquer le Secret X au Labo de Biologie ",
+      "En tant que Fonctionnaire vous pouvez libérer le Projet X sur la Passerelle ou en Cryogénie, ou bien en Endommageant le Coffre-X, ou en provoquant le Blackout "
+    ],
+    "board_modifications": [
+      "La présence du Panic Pod rajoute une navette pour s'Échapper. Elle commence Verrouillée, avec un Pistolet à l'intérieur", 
+      "Tout Personnage à l'intérieur du Panic Pod peut utiliser son action de Lancement Planifié. A l'instar des 4 autres navettes toutefois, cela nécessite l'Évacuation d'Urgence"]
+  },
+  {
+    "id": 6,
+    "name": "L'Époux.se Modèle",
+    "description": "abc",
+    "pronoums": "Iel",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "si l'Époux.se Modèle est votre Personnage Bonus et finit Échappé.e"
+    },
+    "influence_limit": 6,
+    "type": "Robot",
+    "abilities": [
+      {
+        "name": "Embobineur",
+        "description": "Ne peux pas être Attaqué par un Humain avec une Matraque dans un Lieu Éclairé.",
+        "type": "defensif"
+      },
+      {
+        "name": "Double Visage",
+        "description": "Après avoir Abattu un Humain dans un Lieu Éclairé, le Joueur actif peut choisir un autre Joueur ayant un Conspirateur sur le même Lieu, qui devient Suspect à sa place. ",
+        "type": "offensif"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Fin de l'illusion",
+        "description": "À la Révélation, si l'Époux.se Modèle est Vivant.e, iel peut échanger sa position avec un PNJ (Humain ou Robot) qui n'est ni Échappé ni Détruit. Ces Personnages échangent aussi toutes leurs Possessions sauf les Intégrées (le joueur actif choisi quels objets en excés il peut Lâcher gratuitement)",
+        "type": "conspiration"
+      }
+    ],
+    "icon": "assets/images/icons/consort.png",
+    "image": "assets/images/portraits/consort.png",
+    "setup": {
+      "item": [
+        {
+          "name": "l'Époux.se Modèle",
+          "location_name": "Salle des Jeux",
+          "diagram": "assets/images/rooms/rec_room.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Nouveau départ",
+      "objetives": [
+        {
+          "main": {
+            "points": 0,
+            "description": "si l'Époux.se Modèle finit Échappé.e"
+          },
+          "sub": [
+            {
+              "points": 3,
+              "description": "s'il n'y a aucun Humain ni Robot Vivant sur son Lieu lors du Crash de la Station"
+            },
+            {
+              "points": 3,
+              "description": "s'iel Possède l'Attaché Case"
+            },
+            {
+              "points": 1,
+              "description": "si son identité reste secrète jusqu'au Crash de la Station"
+            }
+          ]
+        }
+      ],
+      "notes": "L'Époux.se Modèle gagne 2 points pour chaque Bakchich en sa possession"
+    },
+    "quirks": [
+      "L'Époux.se Modèle gagne 2 points pour chaque Bakchich en sa possession",
+      "En dépit des apparences, l'Époux.se Modèle est un.e robot."
+      ],
+    "tips": [
+      "L'attaché Case est dans la Suite de Luxe",
+      "Souvenez-vous que votre pouvoir de Révélation permet d'échanger les Objets et les Bakchich, en plus d'échanger les Lieux",
+      "Une Révélation tardive bien préparée peut vous amener au bon endroit, au bon moment",
+      "Plus vous attendez, plus avez de chances d'obtenir des Bakchich",
+      "Envisagez d'utiliser un PNJ pour sécuriser l'Attaché Case et l'amener vers une sortie (en prévision d'une Fin de l'illusion tardive) "
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 7,
+    "name": "La Cryo-Mamie",
+    "description": "abc",
+    "pronoums": "Elle",
+    "bonus_points": {
+      "points": 3,
+      "alive": true,
+      "notes": "si la Cryo-Mamie est votre Personnage Bonus et finit Échappée"
+    },
+    "influence_limit": 5,
+    "type": "Humaine",
+    "abilities": [
+      {
+        "name": "Vengeresse",
+        "description": "La Cryo-Mamie obtient une Matraque si on utilise son Kompromat. Son Kompromat peut être utilisé même si elle Abattue, et cela la Ravive tout de suite.",
+        "type": "offensif"
+      },
+      {
+        "name": "Mourante",
+        "description": "Ne peut pas être Activée quand elle est Épuisée, et ne dispose pas de l'action gratuite Lâcher/Ramasser.",
+        "type": "conspiration"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Dernier sursaut",
+        "description": "À la Révélation, elle se Ravive si elle était Abattue, puis elle réalise une action.",
+        "type": "utilitaire"
+      }
+    ],
+    "icon": "assets/images/icons/corpsicle.png",
+    "image": "assets/images/portraits/corpsicle.png",
+    "setup": {
+      "item": [
+        {
+          "name": "la Cryo-Mamie",
+          "location_name": "Cryogénie",
+          "diagram": "assets/images/rooms/cryo_lab.png"
+        }
+      ],
+      "notes": "La Cryo-Mamie commence le jeu en étant Abattue, et avec un Casque qui est Intégré (il ne peut lui être enlevé)"
+    },
+    "agenda": {
+      "description": "Remède miracle",
+      "objetives": [
+        {
+          "main": {
+            "points": 3,
+            "description": "si la Cryo-Mamie finit Échappée"
+          },
+          "sub": [
+            {
+              "points": 2,
+              "description": "si elle Possède le Nanogel"
+            },
+            {
+              "points": 2,
+              "description": "si le Secret X finit Échappé"
+            },
+            {
+              "points": 2,
+              "description": "si le projet X n'a pas été libéré"
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "La Cryo-Mamie commence en étant Abattue",
+      "Le Casque de la Cryo-Mamie est Intégré, il ne peut donc pas lui être enlevé",
+      "Utiliser son Kompromat la dote d'une Matraque et lui permet de se Raviver si elle était Abattue"
+    ],
+    "tips": [
+      "La Cryo-Mamie se déplace lentement par elle-même, mais elle peut aller plus vite grâce à son Kompromat et aux Bakchich",
+      "Vous pouvez Fabriquer le Nanogel à l'Usine Nano et Fabriquer le Secret X au Labo de Biologie",
+      "Prévenez la libération du Projet X en tenant les Fonctionnaires loin de la Passerelle et de la Cryogénie ",
+      "Le Pod Médical, s'il est en jeu, constitue votre Échappatoire le plus facile "
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 8,
+    "name": "Le Conseiller Occulte",
+    "description": "abc",
+    "pronoums": "il",
+    "bonus_points": {
+      "points": 3,
+      "alive": true,
+      "notes": "si le Conseiller Occulte est votre Personnage Bonus et finit Échappé."
+    },
+    "influence_limit": 6,
+    "type": "Humain",
+    "abilities": [
+      {
+        "name": "Fonctionnaire",
+        "description": "Sauf pendant le Blackout, peut passer (ou être trainé si Abattu) à travers les Verrous, qui sont alors retirés.",
+        "type": "mobilité"
+      },
+      {
+        "name": "Manipulateur",
+        "description": "Pour une action, il fait perdre par Traîtrise un Cube d'Influence de la carte d'un Humain Vivant situé sur son lieu.",
+        "type": "conspiration"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Aveux enregistrés",
+        "description": "À la Révélation, si vous êtes Vivant choisissez un Humain présent sur votre Lieu. Tous les autre joueurs Innocents qui ont cet Humain parmi leurs conspirateurs deviennent Suspects",
+        "type": "offensif"
+      }
+    ],
+    "icon": "assets/images/icons/counselor.png",
+    "image": "assets/images/portraits/counselor.png",
+    "setup": {
+      "item": [
+        {
+          "name": "le Conseiller Occulte",
+          "location_name": "Jardin Zen",
+          "diagram": "assets/images/rooms/therapy_garden.png"
+        }
+      ],
+      "notes": "Placez la Déchiqueteuse reliée au Jardin Zen, avec un Verrou entre les deux"
+    },
+    "agenda": {
+      "description": "Garder ses secrets",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "si le Conseiller Occulte finit Échappé"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 4,
+            "description": "si l'Artefact finit Échappé"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "Si vous avez plus de Kompromat que les autres joueurs lors du Crash de la station"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "Si vous avez le moins de Cubes d'Influence perdus par Traîtrise lors du Crash de la station"
+          },
+          "sub": []
+        }
+        
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "aucuns"
+    ],
+    "tips": [
+      "L'Artefact est dans le Laboratoire",
+      "Un usage bien planifié de votre pouvoir de Révélation peut rapidement faire passer les autres Joueurs d'Innocents à Coupables, en Transmettant les Preuves aux Autorités au Tableau de Contrôle",
+      "Prenez les Kompromats"
+    ],
+    "board_modifications": [
+      "La présence de la Déchiqueteuse ajoute un Lieu Sombre dans la station. Ce lieu commence Verrouillé",
+      "N'importe quel Personnage à la Déchiqueteuse peut se servir de son action de Lieu pour prendre un Kompromat n'importe où sur le plateau"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Le Cyborg",
+    "description": "abc",
+    "pronoums": "Il",
+    "bonus_points": {
+      "points": 2,
+      "alive": false,
+      "notes": "si le Cyborg est votre Personnage Bonus et qu'il finit Abattu et non-Échappé lors du Crash de la station"
+    },
+    "influence_limit": 4,
+    "type": "Humain et Robot",
+    "abilities": [
+      {
+        "name": "Surnaturel",
+        "description": "Il faut deux disques d'Activation sur sa carte pour que ce personnage devienne Épuisé.",
+        "type": "conspiration"
+      },
+      {
+        "name": "Fugitive",
+        "description": "Aucune action effectuée avec ou contre ce personnage ne rendra le joueur Suspect.",
+        "type": "offensif"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Violent",
+        "description": "Peut utiliser une Matraque pour Abattre un Humain même s'il porte un Casque, mais cela Détruit la Matraque et le Casque",
+        "type": "offensif"
+      },
+      {
+        "name": "Auto-Réparation",
+        "description": "Vous pouvez Activer le Cyborg même quand il est Abattu, en le Ravivant en tant que 1ère Action",
+        "type": "conspiration"
+      }
+    ],
+    "icon": "assets/images/icons/cyborg.png",
+    "image": "assets/images/portraits/cyborg.png",
+    "setup": {
+      "item": [
+        {
+          "name": "le Cyborg",
+          "location_name": "Cryogénie",
+          "diagram": "assets/images/rooms/cryo_lab.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Vengeance",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "Pour tout Personnage avec la capacité \"Fonctionnaire\" qui finit Abattu lors du Crash de la station"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "Si aucun PJ Humain ne finit Échappé"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "Si aucun Personnage Contaminé ne finit Échappé"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "Si le Projet X a été libéré"
+          },
+          "sub": []
+        }
+       
+      ],
+      "notes": "Le Cyborg peut gagner même en étant Coupable"
+    },
+    "quirks": [
+      "Le Cyborg peut gagner même en étant Coupable",
+      "Le Cyborg est à la fois un Humain et un Robot, il agit comme un Humain lors des Attaques et en ce qui concerne les Risques"
+    ],
+    "tips": [
+      "Vous pouvez Abattre les autres sans risque, mais ils peuvent faire de même avec vous. Abattez en priorité les Humains Contaminés",
+      "Une fois Révélé vous ne serez plus jamais Épuisé car les autres Joueurs ne peuvent plus vous activer ",
+      "Vous pouvez libérer le Projet X en utilisant un Fonctionnaire en Cryogénie ou sur la Passerelle, ou bien en Endommageant le Coffre-X, ou en provoquant le Blackout",
+      "Faites attention si le Robot Vigile participe au jeu, car vous êtes un Fugitif"
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 10,
+    "name": "La Casse-Cou",
+    "description": "abc",
+    "pronoums": "Elle",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "si la Casse-Cou est votre Personnage Bonus et finit Échappée"
+    },
+    "influence_limit": 5,
+    "type": "Humaine",
+    "abilities": [
+      {
+        "name": "Fière",
+        "description": "Ne peut pas être Braquée.",
+        "type": "defensif"
+      },
+      {
+        "name": "Adrénaline",
+        "description": "La Casse-Cou n'est pas Abattue par les Risques. Entrer dans un Lieu qui contient un Risque (y compris par un Sas) est toujours une Action gratuite.",
+        "type": "mobilité"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Apothéose",
+        "description": "Si vous êtes Vivante, possédez un Casque et êtes dans le même Lieu que le Jet Pack lors du Crash de la station, vous vous Échappez",
+        "type": "mobilité"
+      }
+    ],
+    "icon": "assets/images/icons/daredevil.png",
+    "image": "assets/images/portraits/daredevil.png",
+    "setup": {
+      "item": [
+        {
+          "name": "la Casse-Cou",
+          "location_name": "Vestiaires",
+          "diagram": "assets/images/rooms/locker_room.png"
+        }
+      ],
+      "notes": "Placer le jeton \"Évacuation en Jet Pack\" sous la case \"dans l'espace\". Placer le Jet Pack au Laboratoire."
+    },
+    "agenda": {
+      "description": "Le grand frisson",
+      "objetives": [
+        {
+          "main": {
+            "points": 3,
+            "description": "si la Casse-Cou finit Échappée"
+          },
+          "sub": [
+            {
+              "points": 2,
+              "description": "si vous êtes le seul Personnage Humain qui finit Échappé"
+            },
+            {
+              "points": 2,
+              "description": "si vous finissez en Possession de l'Artefact, ou en étant Contaminée"
+            }
+          ]
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "Si le Projet X a été libéré"
+          },
+          "sub": []
+        }       
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "Grâce à l\"apothéose\", la Casse-Cou a seulement besoin de Posséder un Casque et de finir sur le même Lieu que le Jet Pack pour s'Échapper. Elle n'a pas besoin d'avoir le Jet Pack en sa Possession",
+      "Même si la Casse-Cou n'a pas besoin d'un Casque pour aller dans l'Espace, elle doit en avoir un en sa Possession pour réaliser l'action \"Évacuation en Jet Pack\" "
+    ],
+    "tips": [
+      "L'Artefact est au Laboratoire et la Contamination s'attrape dans le Labo de Biologie",
+      "La Casse-cou se déplace plus vite à travers les zones à Risque, et elle y survit même sans Casque",
+      "Empêchez les autres Humains de s'Échapper en les Abattant, en libérant le Projet X, en Endommageant les Pods ou en empêchant l'Évacuation d'Urgence "
+    ],
+    "board_modifications": [
+      "Le Jet Pack est ajouté sur le plateau: il offre une nouvelle manière de s'Échapper.",
+      "Le jeton \"Évacuation en Jet Pack\" offre une nouvelle action à réaliser \"dans l'Espace\" ",
+      "\"Évacuation en Jet Pack\" : Un Personnage qui a le Jet Pack en sa Possession en étant \"dans l'Espace\", finit Échappé. Si c'est un Humain, il a toujours besoin de Posséder aussi un Casque"]
+
+  },
+  {
+    "id": 11,
+    "name": "L'Asssistant Numérique",
+    "description": "abc",
+    "pronoums": "Il",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "si l'Assistant Numérique est votre Personnage Bonus et finit Échappé"
+    },
+    "influence_limit": 5,
+    "type": "Data",
+    "abilities": [
+      {
+        "name": "I.A.",
+        "description": "Ne peut que faire des actions de Pupitre. Les Personnages qui possèdent l'Assistant Numérique en tant que Data sont considérés comme étant des \"Fonctionnaires\" pour les actions de Lieux, et comme ayant \"l'Évacuation d'Urgence\" lorsqu'ils veulent Lancer les Pods.",
+        "type": "pupitre"
+      },
+      {
+        "name": "Serviable",
+        "description": "Aucun joueur ne peut avoir plus d'un seul Cube d'Influence sur ce Personnage.",
+        "type": "conspiration"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Accès SuperUtilisateur",
+        "description": "Pour une action, réalisez une action avec un Robot qui possède le Data Assistant Numérique. Ignorez son Instinct de Survie",
+        "type": "utilitaire"
+      },
+      {
+        "name": "Cheval de Troie",
+        "description": "À la Révélation, Copier le Data de l'Assistant Numérique sur chaque Personnage non-échappé qui possède une Preuve ou le Secret X",
+        "type": "utilitaire"
+      }
+    ],
+    "icon": "assets/images/icons/digital_assistant.png",
+    "image": "assets/images/portraits/digital_assistant.png",
+    "setup": {
+      "item": [
+      ],
+      "notes": "Recouvrez l'action de l'Unité Centrale par le jeton d'action de Lieu \"Unité Centrale\". Placez le bandeau \"Vérrouillage\" parmi les actions de Pupitre."
+    },
+    "agenda": {
+      "description": "Prolifération virale",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "pour chaque Robot qui finit Échappé en ayant le Data de l'Assistant Numérique"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "pour chaque Hors-Site ou Humain en Possession du Data de l'Assistant Numérique"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "si au moins 2 occurences du Data de l'Assistant Numérique parviennent à s'Échapper"
+          },
+          "sub": []
+        }
+       
+      ],
+      "notes": "L'assistant Numérique peut gagner même en étant Coupable"
+    },
+    "quirks": [
+      "L'assistant Numérique est du Data, il ne peut Posséder ni objets ni Data",
+      "L'assistant Numérique peut être Fabriqué à l'Unité Centrale ",
+      "L'assistant Numérique peut gagner même en étant Coupable",
+      "Le Blackout empêche l'Assistant Numérique de réaliser des actions de Pupitre",
+      "L'assistant Numérique ne peut qu'effectuer des actions de Pupitre, et il peut le faire y compris avant qu'un Personnage ne Fabrique son Data"
+    ],
+    "tips": [
+      "Vous êtes du Data, donc vous aurez souvent besoin de vos Conspirateurs pour faire votre sale boulot",
+      "Amenez quelqu'un à vous Fabriquer à l'Unité Centrale, et gardez les Brouilleurs éteints pour vous Dupliquer sur autant de Personnages que possible",
+      "Après votre Révélation vous pouvez contrôler tous les Robots qui vous Possèdent en eux",
+      "Endommagez le Laboratoire pour éviter de vous faire Éffacer",
+      "Un bon moment pour vous Révéler peut être juste avant que quelqu'un ne s'Échappe avec un autre type de Data"
+    ],
+    "board_modifications": [
+      "L'action de Pupitre \"Vérrouillage\" vous permet d'ajouter, de déplacer ou de retirer un Verrou dans n'importe quel couloir, tant que l'Évacuation d'Urgence n'est pas déclenchée",
+      "L'ajout du jeton d'action de Lieu \"Unité Centrale\" donne à tous les Personnages la capacité de Fabriquer le Data de l'Asssistant Numérique"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "La Docteur (Hyde)",
+    "description": "abc",
+    "pronoums": "Elle",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "si la Docteur est votre Personnage Bonus et finit Échappée "
+    },
+    "influence_limit": 5,
+    "type": "Humaine",
+    "abilities": [
+      {
+        "name": "Scientifique",
+        "description": "Comme action gratuite, peut faire une action de Lieu à la place d'une action Lâcher/Ramasser.",
+        "type": "utilitaire"
+      },
+      {
+        "name": "Schyzophrène",
+        "description": "Ce personnage a deux Cartes d'identité différentes.",
+        "type": "conspiration"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Pistolet caché",
+        "description": "À la Révélation, la Docteur Hyde gagne un Pistolet dans ses Possessions",
+        "type": "offensif"
+      }
+    ],
+    "icon": "assets/images/icons/doctor_hyde.png",
+    "image": "assets/images/portraits/doctor_hyde.png",
+    "setup": {
+      "item": [
+        {
+          "name": "la Docteur (Hyde)",
+          "location_name": "Hub Avant",
+          "diagram": "assets/images/rooms/forward_hub.png"
+        }
+      ],
+      "notes": "La Docteur a 2 cartes d'identité, mélangez-les toutes les 2 avant de distribuer les Cartes d'identité aux Joueurs. Elle commence avec le Secret X"
+    },
+    "agenda": {
+      "description": "Cruauté",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "si la Docteur finit Échappée"
+          },
+          "sub": [{
+            "points": 3,
+            "description": "si elle Possède l'Attaché Case"
+          },
+          {
+            "points": 4,
+            "description": "si elle finit Échappée et Vivante dans un Pod avec un Humain Abattu"
+          }]
+        }
+      ],
+      "notes": "Hyde gagne 2 points pour chaque Bakchich en sa possession"
+    },
+    "quirks": [
+      "La Docteur a 2 Cartes d'identité, chacune ayant ses propres objectifs",
+      "La Docteur peut devenir le PJ de deux Joueurs. Un Joueur qui essaye de jouer un Bakchich ou un Kompromat dans ce cas de figure, doit choisir l'un des deux Joueurs qui décide alors tout seul s'il accepte ou refuse. Les deux Joueurs partageant l'identité de la Docteur deviennent Suspects si le Joueur ainsi sollicité refuse",
+      "Hyde gagne 2 points pour chaque Bakchich en sa possession",
+      "Les deux Joueurs qui ont la Docteur comme PJ peuvent l'activer et agir avec elle"
+    ],
+    "tips": [
+      "L'attaché Case est dans la Suite",
+      "Plus vous vous Révélerez tard, plus vous aurez de chances d'obtenir des Bakchich",
+      "Un bon timing de Révélation peut vous permettre d'Abattre un Personnage avec votre Pistolet caché, juste avant de vous Échapper avec son corps"
+    ],
+    "board_modifications": [""]
+  },  
+  {
+    "id": 13,
+    "name": "La Docteur (Jekyll)",
+    "description": "abc",
+    "pronoums": "Elle",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "si la Docteur est votre Personnage Bonus et finit Échappée."
+    },
+    "influence_limit": 5,
+    "type": "Humaine",
+    "abilities": [
+      {
+        "name": "Scientifique",
+        "description": "Comme action gratuite, peut faire une action de Lieu à la place d'une action Lâcher/Ramasser.",
+        "type": "utilitaire"
+      },
+      {
+        "name": "Schyzophrène",
+        "description": "Ce personnage a deux Cartes d'identité différentes.",
+        "type": "conspiration"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Faux Artefact",
+        "description": "À la Révélation, la Docteur reçoit l'Artefact (même si il était Détruit), sauf si un PJ l'avait déjà en sa Possession",
+        "type": "utilitaire"
+      }
+    ],
+    "icon": "assets/images/icons/doctor_jekyll.png",
+    "image": "assets/images/portraits/doctor_jekyll.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Doctor (Jekyll)",
+          "location_name": "Hub Avant",
+          "diagram": "assets/images/rooms/forward_hub.png"
+        }
+      ],
+      "notes": "La Docteur a 2 Cartes d'identité, mélangez-les toutes les 2 avant de distribuer les Cartes d'identité aux Joueurs. Elle commence avec le Secret X"
+    },
+    "agenda": {
+      "description": "Pour la science",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "si la Docteur finit Échappée"
+          },
+          "sub": [
+            {
+              "points": 3,
+              "description": "si elle est Contaminée"
+            },
+            {
+              "points": 3,
+              "description": "si elle est en Possession de l'Artefact"
+            }
+          ]
+        },
+        {
+          "main": {
+            "points": 3,
+            "description": "si ni les Autorités ni les Médias ne Possèdent de Preuves lors du Crash de la station"
+          },
+          "sub": []
+        }
+      ],
+      "notes": "Jekyll gagne 1 seul point pour chaque Bakchich en sa possession"
+    },
+    "quirks": [
+      "La Docteur a 2 Cartes d'identité, chacune ayant ses propres objectifs",
+      "La Docteur peut devenir le PJ de deux Joueurs. Un Joueur qui essaye de jouer un Bakchich ou un Kompromat dans ce cas de figure, doit choisir l'un des deux Joueurs qui décide alors tout seul s'il accepte ou refuse. Les deux Joueurs partageant l'identité de la Docteur deviennent Suspects si le Joueur ainsi sollicité refuse",
+      "Jekyll gagne 1 seul point pour chaque Bakchich en sa possession",
+      "Les deux Joueurs qui ont la Docteur comme PJ peuvent l'activer et agir avec elle"
+    ],
+    "tips": [
+      "L'Artefact est au Laboratoire, mais vous pouvez l'obtenir en vous révélant alors qu'aucun PJ ne le Possède",
+      "Devenez Contaminée au Labo de Biologie",
+      "Gardez les Brouilleurs allumés pour empêcher les Preuves d'atteindre facilement les Autorités et les Médias"
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 14,
+    "name": "Les Drones",
+    "description": "abc",
+    "pronoums": "Ils",
+    "bonus_points": {
+      "points": 0,
+      "alive": true,
+      "notes": "les Drones ne peuvent pas être les Personnages Bonus de personne"
+    },
+    "influence_limit": 0,
+    "type": "Robot",
+    "abilities": [
+      {
+        "name": "Démantèlement",
+        "description": "Pour une action, un Drone peut s'Abattre lui-même pour Réparer son Lieu, ou un Robot sur son Lieu.",
+        "type": "utilitaire"
+      },
+      {
+        "name": "Contrôle à distance",
+        "description": "N'accepte pas les Bakchich, ne peut pas être influencé ni Activé. Avec une action de Pupitre, les Personnages peuvent réaliser une action avec un Drone qui n'est pas Abattu. ",
+        "type": "pupitre"
+      }
+    ],
+    "reveal": [
+
+    ],
+    "icon": "assets/images/icons/drones.png",
+    "image": "assets/images/portraits/drones.png",
+    "setup": {
+      "item": [
+        {
+          "name": "Drone 4",
+          "location_name": "Laboratoire",
+          "diagram": "assets/images/rooms/physics_lab.png"
+        },
+        {
+          "name": "Drone 6",
+          "location_name": "Dans l'Espace",
+          "diagram": "assets/images/rooms/outer_space.png"
+        }
+      ],
+      "notes": " Les Drones n'ont pas de Carte d'identité. Placez le bandeau \"Contrôle à distance\" parmi les actions de Pupitre. Chaque Drone commence avec une Matraque Intégrée"
+    },
+    "agenda": {
+      "description": "",
+      "objetives": [
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "Les Drones n'ont pas de Carte d'identité",
+      "Les Drones ne sont jamais Activés, et donc n'ont pas d'action gratuite Lâcher/Ramasser",
+      "Les Drones peuvent réaliser des actions et posséder des Objets ou du Data",
+      "Les Matraques en Possession des Drones sont Intégrés : elles ne peuvent pas leur être enlevées",
+      "Utiliser l'action de Pupitre \"Contrôle à distance\" est le seul moyen d'agir avec les Drones. Sauf si l'Assistant Numérique participe au jeu."
+    ],
+    "tips": [
+      "Les Drones sont un moyen utile d'Abattre les Personnages, puisqu'ils possèdent toujours une Matraque",
+      "Les Drones permettent de Réparer les Lieux"
+    ],
+    "board_modifications": Placez le bandeau \"Contrôle à distance\" parmi les actions de Pupitre, ce qui donne aux Personnages le moyen d'agir avec un Drone
+  },
+  {
+    "id": 15,
+    "name": "L'Ingénieur",
+    "description": "abc",
+    "pronoums": "Il",
+    "bonus_points": {
+      "points": 2,
+      "alive": false,
+      "notes": "si l'Ingénieur est votre Personnage Bonus et qu'il finit Abattu et non-Échappé lors du Crash de la station"
+    },
+    "influence_limit": 5,
+    "type": "Humain",
+    "abilities": [
+      {
+        "name": "Fonctionnaire",
+        "description": "Sauf pendant le Blackout, peut passer (ou être trainé si Abattu) à travers les Verrous, qui sont alors retirés.",
+        "type": "mobilité"
+      },
+      {
+        "name": "Outils de fortune",
+        "description": "Pour une action, peut réparer son lieu s'il est Endommagé, ou un Robot Abattu situé sur son Lieu.",
+        "type": "utilitaire"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Surcharge",
+        "description": "À la Révélation, placez un Marqueur Temps dans n'importe que Lieu non-échappé. Quand il se résoud, Endommagez ce Lieu",
+        "type": "offensif"
+      }
+    ],
+    "icon": "assets/images/icons/engineer.png",
+    "image": "assets/images/portraits/engineer.png",
+    "setup": {
+      "item": [
+        {
+          "name": "l'Ingénieur",
+          "location_name": "Tableau de Contrôle",
+          "diagram": "assets/images/rooms/array_control.png"
+        }
+      ],
+      "notes": "Recouvrer l'emplacement d'action du Réacteur avec le jeton \"Réacteur\" "
+    },
+    "agenda": {
+      "description": "Préserver l'écosphère",
+      "objetives": [
+        {
+          "main": {
+            "points": 3,
+            "description": "si l'Antimatière explose à Bord avant le Crash de la station"
+          },
+          "sub": [
+          ]
+        },
+        {
+          "main": {
+            "points": 3,
+            "description": "si aucun Personnage Contaminé ne finit Échappé"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "si l'Artefact ne finit pas Échappé"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "si le joueur finit Innocent, bien qu'il puisse gagner en étant Coupable"
+          },
+          "sub": []
+        }
+      ],
+      "notes": "L'Ingénieur peut gagner en étant Coupable"
+    },
+    "quirks": [
+      "Si un Pod visé par la Surcharge est lancé avant que le Marqueur Temps ne soit résolu, il est Détruit lorsque le Marqueur se résoud"
+    ],
+    "tips": [
+      "N'importe qui peut armer l'Antimatière en la sortant de la Chambre de Confinement",
+      "Les Fonctionnaires peuvent armer l'Antimatière en déclenchant l'auto-destruction depuis la Passerelle",
+      "Vous pouvez Décontaminer les personnages dans les Cuves, ou juste les Abattre sans craindre de devenir Coupable"
+    ],
+    "board_modifications": [
+      "L'ajout du jeton \"Réacteur\" modifie l'état de ce Lieu",
+      "Le Réacteur ne peut plus être Endommagé avec une simple Matraque. Par contre s'il est Endommagé par un autre moyen, il faut y placer un Risque \"Fuite de gaz\" ainsi que dans les lieux qui lui sont adjacents par des couloirs (et non par les Conduits d'aération)"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "L'Espion Cramé",
+    "description": "abc",
+    "pronoums": "Il",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "si l'Espion Cramé est votre Personnage Bonus et finit Échappé"
+    },
+    "influence_limit": 5,
+    "type": "Humain",
+    "abilities": [
+      {
+        "name": "Embobineur",
+        "description": "Ne peux pas être Attaqué par un Humain avec une Matraque dans un Lieu Éclairé.",
+        "type": "defensif"
+      },
+      {
+        "name": "Hackeur",
+        "description": "Comme action gratuite, peut faire une action de Pupitre à la place de Lâcher/Ramasser. Si les Brouilleurs sont éteints, peut faire une action de Pupitre en tout Lieu.",
+        "type": "pupitre"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Tirer les vers du nez",
+        "description": "Après avoir utilisé le Kompromat d'un PNJ, reprenez-le en main",
+        "type": "conspiration"
+      },
+      {
+        "name": "Technique d'espionnage",
+        "description": "En tant qu'action, défaussez deux Kompromats de votre main et récupérez en main le Kompromat déjà utilisé d'un PNJ.",
+        "type": "conspiration"
+      }
+    ],
+    "icon": "assets/images/icons/exile.png",
+    "image": "assets/images/portraits/exile.png",
+    "setup": {
+      "item": [
+        {
+          "name": "l'Espion Cramé",
+          "location_name": "Tableau de Contrôle",
+          "diagram": "assets/images/rooms/array_control.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Revenir dans le Game",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "si l'Espion Cramé finit Échappé"
+          },
+          "sub": [ 
+            {
+            "points": 2,
+            "description": "pour chaque Kompromat qu'il Possède de Personnages qui se sont Échappés"
+            },
+            {
+              "points": 3,
+              "description": "si l'Espion Cramé Possède des Preuves et que les Médias n'en ont pas"
+              }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      ""
+    ],
+    "tips": [
+      "Ramassez autant de Kompromats que possible",
+      "Après votre Révélation, les Kompromats peuvent être utilisés plusieurs fois sur les PNJ",
+      "Aidez les Personnages dont vous avez le Kompromat à s'Échapper",
+      "Les Preuves peuvent être Fabriquées au PC de Sécuritée, et Détruites au Laboratoire",
+      "Gardez les Brouilleurs allumés pour empêcher les Preuves de parvenir aux Médias"
+    ],
+    "board_modifications": [
+      ""
+    ]
+  },
+  {
+    "id": 17,
+    "name": "L'Inspection",
+    "description": "abc",
+    "pronoums": "Iel",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "si l'Inspection est votre Personnage Bonus et finit Échappé.e"
+    },
+    "influence_limit": 4,
+    "type": "Humain.e",
+    "abilities": [
+      {
+        "name": "Enquête",
+        "description": "Peut Ramasser des Kompromats ou Fabriquer du Data depuis les Lieux adjacents.",
+        "type": "utilitaire"
+      },
+      {
+        "name": "Insigne",
+        "description": "Peut Braquer les objets comme s'iel était en Possession d'un Pistolet.",
+        "type": "offensif"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Combines offshore",
+        "description": "À la Révélation, récupérez votre Bakchich s'il avait été utilisé",
+        "type": "conspiration"
+      }
+    ],
+    "icon": "assets/images/icons/inspector.png",
+    "image": "assets/images/portraits/inspector.png",
+    "setup": {
+      "item": [
+        {
+          "name": "l'Inspection",
+          "location_name": "Labo de Chimie",
+          "diagram": "assets/images/rooms/chem_lab.png"
+        }
+      ],
+      "notes": "Retourner le Pod \"Ave Maria\" sur sa face \"Navette de l'Inspection\" "
+    },
+    "agenda": {
+      "description": "Corruption",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "si l'Inspection finit Échappé.e"
+          },
+          "sub": [
+            {
+            "points": 4,
+            "description": "si iel Possède l'Attaché Case"
+            }
+          ]
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "si les Autorités finissent avec une Preuve"
+          },
+          "sub": [
+            {
+            "points": 2,
+            "description": "si les Médias finissent sans la Preuve"
+            }
+          ]
+        }
+      ],
+      "notes": "L'Inspection gagne 2 points pour chaque Bakchich en sa possession"
+    },
+    "quirks": [
+      "L'Inspection gagne 2 points pour chaque Bakchich en sa possession"
+    ],
+    "tips": [
+      "L'Attaché Case est dans la Suite de Luxe",
+      "On peut Fabriquer une Preuve au PC de Sécurité et l'envoyer via le Tableau de Contrôle, ou bien finir Échappé.e avec elle lors du Crash de la station",
+      "Gardez les Brouilleurs éteints pour envoyer la Preuve à qui vous voulez",
+      "Votre navette n'a pas besoin de l'Évacuation d'Urgence pour être Lancée",
+      "Plus vous vous Révélez tard, plus vous avez de chances d'obtenir des Bakchich"
+    ],
+    "board_modifications": [
+      "Pour pouvoir être Lancée, la Navette de L'inspection doit être occupée par l'Inspection, ou un Humain Vivant possédant les \"Outils de Fortune\" "]
+  },
+  {
+    "id": 18,
+    "name": "Le Robot Juriste",
+    "description": "abc",
+    "pronoums": "Il",
+    "bonus_points": {
+      "points": 1,
+      "alive": false,
+      "notes": "si le Robot Juriste est votre Personnage Bonus et qu'il finit Abattu et non-Échappé lors du Crash de la station"
+    },
+    "influence_limit": 4,
+    "type": "Robot",
+    "abilities": [
+      {
+        "name": "Huissier de justice",
+        "description": "Pour une action, Fabrique une Clause de Confidentialité dans les Possessions de tous les Humains ou Robots présents sur son Lieu. ",
+        "type": "utilitaire"
+      },
+      {
+        "name": "Prends un avocat !",
+        "description": "Pour une action, change le statut d'un Joueur dont le PJ est sur le Lieu, de Coupable ou Innocent à Suspect.",
+        "type": "offensif"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "C'était écrit en bas de page",
+        "description": "Vous pouvez Activer les PNJ qui possèdent une Clause de Confidentialité",
+        "type": "conspiration"
+      },
+      {
+        "name": "Copie certifiée",
+        "description": "En tant qu'action, tout personnage sur le Lieu du robot juriste peut se Fabriquer une copie de la Clause de Confidentialité",
+        "type": "conspiration"
+      }
+    ],
+    "icon": "assets/images/icons/legal.png",
+    "image": "assets/images/portraits/legal.png",
+    "setup": {
+      "item": [
+        {
+          "name": "le Robot Juriste",
+          "location_name": "Hub Arrière",
+          "diagram": "assets/images/rooms/aft_hub.png"
+        }
+      ],
+      "notes": "Retourner Alcatraz, Houdini, et McQueen sur leur face sans la flèche. Utiliser les jetons Data de la Clause de Confidentialité durant cette partie"
+    },
+    "agenda": {
+      "description": "Limiter la responsabilité de la Compagnie",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "pour chaque Humain qui finit Échappé avec une Clause de Confidentialité"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 4,
+            "description": "si aucun Humain ne finit Échappé, ou si tous les Humains qui finissent Échappés ont une Clause de Confidentialité"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "si les Preuves ne finissent pas Échappées"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "pour chaque PJ Suspect (pas Coupable) lors du Crash de la station"
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "La Clause de Confidentialité est du Data. Le Robot Juriste ne la Possède pas, mais peut la Fabriquer dans les Possessions des Personnages présents sur son Lieu",
+      "Les Personnages qui Possèdent une Clause de Confidentialité ne peuvent plus Copier, Effacer, Transmettre, Livrer ou se faire Braquer du Data",
+      "Le Robot Juriste peut Fabriquer une Clause de Confidentialité, y compris sur les Personnages Abattus (Visualisez-le expliquer tous les termes du contrat à une victime inconsciente... avant de lui soulever la main pour apposer ses empreintes inertes sur ce joli contrat, par-lequel le défunt s'engage à ne pas dévoiler les manquements de la Compagnie)"
+    ],
+    "tips": [
+      "Acquérir et utiliser les Kompromats est un bon moyen de créer des Suspects",
+      "Votre limite d'influence est basse, mais \"c'était écrit en bas de page\" vous aidera si vous vous Révélez",
+      "Endommagez le PC de Sécurité pour éviter la fabrication de Preuves",
+      "Empêchez toute forme d'Échappatoire qui ne nécessiterait pas de Clause de Confidentialité",
+      "La Clause de Confidentialité ne peut être que personnellement Fabriquée sur, ou avec des Personnages présents sur le Lieu, donc essayez de garder le Robot Juriste Vivant"
+    ],
+    "board_modifications": [
+      "Lancer les Pods Alcatraz, Houdini, et McQueen nécessite maintenant l'Évacuation d'Urgence, et aussi que tous les occupants Vivants possèdent une Clause de Confidentialité"]
+  },
+  {
+    "id": 19,
+    "name": "Les Clones d'entretien",
+    "description": "abc",
+    "pronoums": "Ils",
+    "bonus_points": {
+      "points": 1,
+      "alive": true,
+      "notes": " pour chaque Clone qui finit Échappé. +1 si les 3 finissent Échappés"
+    },
+    "influence_limit": 5,
+    "type": "Humains",
+    "abilities": [
+      {
+        "name": "Né en Zéro-G",
+        "description": "Comme action gratuite, peut entrer dans un Lieu en Apesanteur à la place de Lâcher/Ramasser.",
+        "type": "mobilité"
+      },
+      {
+        "name": "Outils de fortune",
+        "description": "Pour une action, peut réparer son lieu s'il est Endommagé, ou un Robot Abattu situé sur son Lieu.",
+        "type": "utilitaire"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "hop hop hop",
+        "description": "À la révélation, vous pouvez immédiatement réaliser une action avec chaque Clone Vivant et non-Échappé.",
+        "type": "utilitaire"
+      }
+    ],
+    "icon": "assets/images/icons/maintenance-clones.png",
+    "image": "assets/images/portraits/maintenance-clones.png",
+    "setup": {
+      "item": [
+        {
+          "name": "α",
+          "location_name": "Piles à Combustible",
+          "diagram": "assets/images/rooms/fuel_cells.png"
+        },
+        {
+          "name": "β",
+          "location_name": "Cuisine",
+          "diagram": "assets/images/rooms/kitchen.png"
+        },
+        {
+          "name": "γ",
+          "location_name": "Quartiers",
+          "diagram": "assets/images/rooms/quarters.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Le monde doit savoir qu'on existe",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "si un Clone finit Échappé"
+          },
+          "sub": [
+            {
+            "points": 4,
+            "description": "si au moins 2 Clones finissent Échappés"
+            },
+            {
+            "points": 2,
+            "description": "si les Médias finissent avec une Preuve"
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "Lorsque vous activez les Clones d'entretien, vous pouvez effectuer vos actions avec un seul Clone par tour",
+      "Chaque Clone peut Posséder ses propres objets et Data, et ne les partage pas automatiquement avec les deux autres. Placez les Possessions de chacun dans ses propres emplacements Objet et Data",
+      "Chaque Clone peut Posséder 2 objets (empiler ces 2 objets sur le même emplacement)",
+      "ce Personnage peut être Activé ou Renégocié tant qu'il reste au moins 1 Clone qui ne soit ni Échappé ni Détruit"
+    ],
+    "tips": [
+      "Les Clones d'entretien peuvent se déplacer très vite",
+      "Profitez du fait d'être dans trois endroits différents",
+      "La Preuve peut être Fabriquée au PC de Sécurité et Transmise via le Tableau de Contrôle, ou bien en s"Échappant avec elle lors du Crash de la station",
+      "Éteignez les Brouilleurs pour pouvoir envoyer la Preuve à n'importe quel Personnage. "
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 20,
+    "name": "Le Robot Sauveteur",
+    "description": "abc",
+    "pronoums": "Il",
+    "bonus_points": {
+      "points": 1,
+      "alive": false,
+      "notes": " si le Robot Sauveteur est votre Personnage Bonus et qu'il finit Abattu et non-Échappé lors du Crash de la station"
+    },
+    "influence_limit": 4,
+    "type": "Robot",
+    "abilities": [
+      {
+        "name": "Réanimation",
+        "description": "En tant qu'action, peut Raviver un Humain. Pénétrer dans un Lieu (même via un Sas) avec un Humain Abattu est toujours gratuit.",
+        "type": "utilitaire"
+      },
+      {
+        "name": "Serviable",
+        "description": "Aucun joueur ne peut avoir plus d'un seul Cube d'Influence sur ce Personnage.",
+        "type": "conspiration"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Détraqué",
+        "description": "Gagnez une Matraque dans vos Possessions",
+        "type": "offensif"
+      }
+    ],
+    "icon": "assets/images/icons/medical.png",
+    "image": "assets/images/portraits/medical.png",
+    "setup": {
+      "item": [
+        {
+          "name": "le Robot Sauveteur",
+          "location_name": "Hub Arrière",
+          "diagram": "assets/images/rooms/aft_hub.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Je suis utile",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "s'il n'y a aucun Humain Abattu à bord lors du Crash de la station"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "pour chaque étoile atteinte sur la piste située sur sa carte Personnage"
+          },
+          "sub": []
+        }
+      ],
+      "notes": "Avancer la piste d'une case pour chaque Humain Ravivé par le Robot Sauveteur, et pour chaque Cube d'influence envoyé en Traîtrise lors de sa Révélation"
+    },
+    "quirks": [
+      "Utilisez le marqueur de la piste pour comptabiliser chaque Humain Ravivé par le Robot Sauveteur et chaque Cube d'influence envoyé en Traîtrise lors de sa Révélation",
+      "Le marqueur de la piste commence à 0",
+      "Le Robot Sauveteur ne peut pas Raviver un Humain sans Casque dans un Lieu contenant un Risque",
+      "Les déplacements gratuits obtenus par \"Réanimation\" peuvent être chaînés sans limite "
+    ],
+    "tips": [
+      "Le plus il y a d'Humains Abattus, le plus vite vous vous déplacez et avez de chances de les Raviver pour marquer des points",
+      "Plus vous attendez pour vous Révéler, plus vous avez de chances de gagner des points grâce aux Cubes d'influence des autres Joueurs",
+      "Vous pouvez utiliser vos déplacements gratuits même sans Raviver l'Humain Abattu"
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 21,
+    "name": "La Microbiologiste",
+    "description": "abc",
+    "pronoums": "Elle",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": " si la Microbiologiste est votre Personnage Bonus et finit Échappée "
+    },
+    "influence_limit": 5,
+    "type": "Humaine",
+    "abilities": [
+      {
+        "name": "Scientifique",
+        "description": "Comme action gratuite, peut faire une action de Lieu à la place d'une action Lâcher/Ramasser.",
+        "type": "utilitaire"
+      },
+      {
+        "name": "Loyal",
+        "description": "Pour Influencer, renvoyer tous les cubes d'influence déjà sur lui, et y placer au moins un de + que leur nombre.",
+        "type": "conspiration"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Inoculer",
+        "description": "En tant qu'action, Contamine un Humain ou un Robot sur son Lieu. S'ils n'ont pas d'emplacement d'objet vide, ils Lâchent un objet de votre choix. Chaque Personnage ne peut avoir qu'une seul Contamination",
+        "type": "offensif"
+      }
+    ],
+    "icon": "assets/images/icons/microbiologist.png",
+    "image": "assets/images/portraits/microbiologist.png",
+    "setup": {
+      "item": [
+        {
+          "name": "la Microbiologiste",
+          "location_name": "Laboratoire",
+          "diagram": "assets/images/rooms/physics_lab.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Mon virus vivra",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "si la Microbiologiste finit Échappée "
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "pour chaque Personnage Contaminé qui finit Échappé "
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "si le Secret X finit Échappé"
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [],
+    "tips": [
+      "Utilisez votre capacité de révélation ou le Labo de Biologie pour Contaminer les Personnages",
+      "Fabriquez le Secret X au Labo de Biologie, et Dupliquez-le",
+      "Déclenchez l'évacuation d'urgence grâce à un Fonctionnaire sur la Passerelle, en Endommageant les Lieux ayant une Alimentation Électrique ou en libérant le Projet X",
+      "Vous pouvez Lancer plusieurs Pods à la fois depuis la Passerelle, avec un Fonctionnaire"
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 22,
+    "name": "La Nettoyeuse",
+    "description": "abc",
+    "pronoums": "Elle",
+    "bonus_points": {
+      "points": 2,
+      "alive": false,
+      "notes": " si la Nettoyeuse est votre Personnage Bonus et qu'elle finit Abattue et non-Échappée lors du Crash de la station"
+    },
+    "influence_limit": 5,
+    "type": "Humaine",
+    "abilities": [
+      {
+        "name": "I.E.M.(Impulsion Électro-Magnétique)",
+        "description": "Cette action Endommage le Lieu de la Nettoyeuse, Abat tous les Robots qui s'y trouvent et Éfface tous les Data présents",
+        "type": "offensif"
+      },
+      {
+        "name": "Fonctionnaire",
+        "description": "Sauf pendant le Blackout, peut passer (ou être trainé si Abattu) à travers les Verrous, qui sont alors retirés.",
+        "type": "mobilité"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Mine antipersonnel",
+        "description": "Regardez puis placez les 3 marqueurs Piège, faces cachées dans 3 Lieux différents. Retournez un Piège quand un Personnage ou le Projet X entre dans son Lieu, et Abattez-le si le Piège est bien une mine. Les mines ne rendent pas Suspect, Coupable et contournent l'Instinct de Survie",
+        "type": "offensif"
+      },
+      {
+        "name": "Nerve Gas Grenades",
+        "description": "En tant qu'action avec la Nettoyeuse, placez une Fuite de Gaz dans son Lieu ou dans un Lieu vers lequel elle peut Lancer",
+        "type": "offensif"
+      }
+    ],
+    "icon": "assets/images/icons/operative.png",
+    "image": "assets/images/portraits/operative.png",
+    "setup": {
+      "item": [
+        {
+          "name": "la Nettoyeuse",
+          "location_name": "Suite de luxe",
+          "diagram": "assets/images/rooms/suite.png"
+        }
+      ],
+      "notes": "Placez les 3 marqueurs Piège à coté de la carte Personnage de la Nettoyeuse"
+    },
+    "agenda": {
+      "description": "Maquiller les preuves",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "si aucune Preuve ne finit Échappée"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "si le Secret X ne finit Échappé"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "si aucun PJ Innocent ne finit Échappé"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "si aucun Personnage Contaminé ne finit Échappé"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "si aucun Robot ne finit Échappé"
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [],
+    "tips": [
+      "Gardez les Brouilleurs allumés pour éviter la duplication du Data. ",
+      "Effacez le Data et Abattez les Robots grâce à l'I.E.M.",
+      "Utiliser les Kompromat sur les PJ au bon moment est un moyen efficace pour les rendre Suspects",
+      "Vous pouvez décontaminer les Personnages dans les Cuves",
+      "Utilisez vos pouvoirs de Révélation pour Abattre des Personnages"
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 23,
+    "name": "Le Robot Vigile",
+    "description": "abc",
+    "pronoums": "It",
+    "bonus_points": {
+      "points": 3,
+      "alive": false,
+      "notes": "si le Robot Vigile est votre Personnage Bonus et qu'il finit Abattu et non-Échappé lors du Crash de la station"
+    },
+    "influence_limit": 4,
+    "type": "Robot",
+    "abilities": [
+      {
+        "name": "Pacificateur",
+        "description": "Ne peut Attaquer que les Personnages fugitifs, le Projet X, ou les PJ de joueurs non-Innocents. Ne peut pas Endommager les Lieux",
+        "type": "defensif"
+      },
+      {
+        "name": "Cuirassé",
+        "description": "Ne peut pas être attaqué par des Matraques",
+        "type": "defensif"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Usage de la force autorisé",
+        "description": "Perdez votre capacité \"Pacificateur\" ",
+        "type": "offensif"
+      }
+    ],
+    "icon": "assets/images/icons/security.png",
+    "image": "assets/images/portraits/security.png",
+    "setup": {
+      "item": [
+        {
+          "name": "le Robot Vigile",
+          "location_name": "Fab Lab",
+          "diagram": "assets/images/rooms/print_shop.png"
+        }
+      ],
+      "notes": "Le Robot Vigile Possède dès le début un Pistolet Intégré (qui ne peut lui être enlevé)"
+    },
+    "agenda": {
+      "description": "Maintenir la paix (par les armes)",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "par PJ non-Innocent, Fugitif ou Projet X qui finit Abattu et à Bord lors du Crash de la station"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "par Humain Abattu ayant une Matraque ou un Pistolet, et à Bord lors du Crash de la station"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "si l'Attaché Case ne finit pas Échappé"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "si l'Artefact ne finit pas Échappé"
+          },
+          "sub": [{
+            "points": 1,
+            "description": "si à la fois l'Attaché Case et l'Artefact ne finissent pas Échappés"
+          }]
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [],
+    "tips": [
+      "Vous êtes difficile à Braquer donc l'Attaché Case et l'Artefact sont en sécurité avec vous",
+      "Une fois Révélé vous pouvez Abattre n'importe quel Personnage, puis Lâcher une Matraque sur lui",
+      "Obtenir et utiliser des Kompromat est un bon moyen de rendre les Joueurs Suspects",
+      "Vous pouvez libérer le Projet X sur la Passerelle ou en Cryogénie, avec un Fonctionnaire",
+      "Le Cyborg et la Pirate de l'Espace sont des fugitifs",
+      "Jusqu'à votre Révélation, votre capacité \"Pacificateur\" vous empêche d'Attaquer ou d'Endommager, mais pas de Braquer (vous confisquez des objets pour les sécuriser)"
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 24,
+    "name": "La Capitaine",
+    "description": "abc",
+    "pronoums": "Elle",
+    "bonus_points": {
+      "points": 2,
+      "alive": false,
+      "notes": "si la Capitaine est votre Personnage Bonus et qu'elle finit Abattue et non-Échappée lors du Crash de la station"
+    },
+    "influence_limit": 5,
+    "type": "Humaine",
+    "abilities": [
+      {
+        "name": "Fonctionnaire",
+        "description": "Sauf pendant le Blackout, peut passer (ou être trainé si Abattu) à travers les Verrous, qui sont alors retirés.",
+        "type": "mobilité"
+      },
+      {
+        "name": "Fière",
+        "description": "Ne peut pas être Braquée.",
+        "type": "defensif"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Présence énergique",
+        "description": "Au début de la Phase d'Activation de la Capitaine, vous pouvez réaliser une action basique gratuite avec un PNJ du même Lieu, ou un PNJ Fonctionnaire situé n'importe où",
+        "type": "utilitaire"
+      }
+    ],
+    "icon": "assets/images/icons/station_chief.png",
+    "image": "assets/images/portraits/station_chief.png",
+    "setup": {
+      "item": [
+        {
+          "name": "la Capitaine",
+          "location_name": "Jardin Zen",
+          "diagram": "assets/images/rooms/therapy_garden.png"
+        }
+      ],
+      "notes": "Connecter le Pod Médical au Sas Avant"
+    },
+    "agenda": {
+      "description": "Couler avec le navire",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "pour chaque autre Humain qui finit Échappé"
+          },
+          "sub": [{
+            "points": 1,
+            "description": "par PNJ qualifié de Fonctionnaire quifinit Échappé"
+          }]
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": " si la Capitaine est à Bord et Vivante lors du Crash de la station"
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [],
+    "tips": [
+      "Déclenchez l'Évacuation d'Urgence aussi vite que possible grâce à un Fonctionnaire sur la Passerelle, en Endommageant les Lieux d'Alimentation Électrique ou en libérant le Projet X",
+      "Vous pouvez lancer plusieurs Pods depuis la passerelle avec un fonctionnaire",
+      "Si vous Trainez un Humain Abattu avec vous dans le Pod Médical, vous pouvez le lancer sans l'Évacuation d'Urgence"
+    ],
+    "board_modifications": ["Le Pod Médical doit seulement être occupé par un Humain Abattu pour pouvoir être Lancé. L'Évacuation d'Urgence n'est pas requise"]
+  },
+  {
+    "id": 25,
+    "name": "La Clandé",
+    "description": "abc",
+    "pronoums": "Elle",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "si la Clandé est votre Personnage Bonus et finit Échappée"
+    },
+    "influence_limit": 4,
+    "type": "Humaine",
+    "abilities": [
+      {
+        "name": "Rat d'égoûts",
+        "description": "Peut se déplacer par les Conduits d'aération.",
+        "type": "mobilité"
+      },
+      {
+        "name": "Hackeur",
+        "description": "Comme action gratuite, peut faire une action de Pupitre à la place de Lâcher/Ramasser. Si les Brouilleurs sont éteints, peut faire une action de Pupitre en tout Lieu.",
+        "type": "pupitre"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Planque secrète",
+        "description": "À la révélation, vous ou l'un de vos Conspirateurs gagne un Casque",
+        "type": "defensif"
+      }
+    ],
+    "icon": "assets/images/icons/stowaway.png",
+    "image": "assets/images/portraits/stowaway.png",
+    "setup": {
+      "item": [
+        {
+          "name": "la Clandé",
+          "location_name": "Carte Personnage",
+          "diagram": "assets/images/character_card.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "Le scoop du siècle",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "si les Médias finissent avec le Secret X"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "si les Médias finissent avec une Preuve"
+          },
+          "sub": []
+        },        {
+          "main": {
+            "points": 2,
+            "description": "si la Clandé finit Échappée"
+          },
+          "sub": [{
+            "points": 3,
+            "description": "si elle Possède une Preuve et aucun autre Personnage ne finit Échappé avec une Preuve"
+          }]
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [
+      "La fugurine de la Clandé commence la partie sur sa carte Personnage",
+      "La toute première action de la Clandé doit être de pénétrer dans un Endroit Sombre ; rien ni personne ne peut intéragir avec elle avant cela"
+    ],
+    "tips": [
+      "La preuve peut être Fabriquée au PC de Sécurité, et le Secret X au Labo de Biologie",
+      "Transmettez du Data via le Tableau de Contrôle ou en vous Échappant avec lors du Crash de la station",
+      "Éteignez les Brouilleurs pour Dupliquer le Data et bénéficier de votre capacité de Hackeuse. ",
+      "Empêchez les autres possesseurs de Data de s'Échapper en les Abattant ou en les faisant entrer dans le Laboratoire."
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 26,
+    "name": "L'Étranger.e",
+    "description": "abc",
+    "pronoums": "Iel",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "si l'Étranger.e est votre Personnage Bonus et finit Échappé.e"
+    },
+    "influence_limit": 6,
+    "type": "Humain.e",
+    "abilities": [
+      {
+        "name": "Surnaturel",
+        "description": "Il faut deux disques d'Activation sur sa carte pour que ce personnage devienne Épuisé.",
+        "type": "conspiration"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Au travail",
+        "description": "À la Révélation, vous pouvez révéler votre Personnage Bonus et réaliser une action avec",
+        "type": "utilitaire"
+      },
+      {
+        "name": "Mystère",
+        "description": "Si vous révélez l'Étranger.e par Schrödinger, ne défaussez aucunes cartes (gardez-les en Persos bonus).  YYY Si vous révélez l'Étranger.e par Schrödinger vous perdez \"Surnaturel\" ",
+        "type": "conspiration"
+      }
+    ],
+    "icon": "assets/images/icons/stranger.png",
+    "image": "assets/images/portraits/stranger.png",
+    "setup": {
+      "item": [
+        {
+          "name": "l'Étranger.e",
+          "location_name": "Usine Nano",
+          "diagram": "assets/images/rooms/nanofactory.png"
+        }
+      ],
+      "notes": ""
+    },
+    "agenda": {
+      "description": "C'est une affaire personnelle",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": "si votre identité secrète n'est pas Révélée jusqu'au Crash de la station"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "si vous finissez en Possession du Secret X"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "si vous comptabilisez des points Bonus"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "si votre Personnage Bonus et vous êtes sur le même Lieu lors du Crash de la station "
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [],
+    "tips": [
+      "Concentrez-vous surtout sur la condition de votre personnage Bonus, et gardez l'Étranger.e pas loin",
+      "Si vous avez besoin que votre Personnage Bonus survive, déclenchez l'Évacuation d'Urgence aussi vite que possible grâce à un Fonctionnaire sur la Passerelle, en Endommageant les Lieux d'Alimentation Électrique ou en libérant le Projet X",
+      "Etant donné votre limite assez faible de points de victoire, vous devriez tenter de deviner les plans de vos adversaires et les bloquer au maximum"
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 27,
+    "name": "Le rat Télépathe",
+    "description": "abc",
+    "pronoums": "Il",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "si le rat Télépathe est votre Personnage Bonus et finit Échappé"
+    },
+    "influence_limit": 8,
+    "type": "Objet",
+    "abilities": [
+      {
+        "name": "Télépathie",
+        "description": "Réaliser une action avec un Humain sans Casque du même lieu, en ignorant l'Instinct de Survie. Télépathie est la seule action possible du Rat Télépathe",
+        "type": "offensif"
+      },
+      {
+        "name": "Paranoïaque",
+        "description": "Le joueur actif doit avoir un Conspirateur sur le même Lieu pour pouvoir influencer ce personnage. N'accepte pas les Bakchich",
+        "type": "conspiration"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Mon précieux",
+        "description": "Les autres Joueurs ne peuvent plus vous Jeter, vous Lâcher ou vous Évacuer dans un Sas. Vous pouvez toujours être Donné à un Personnage sur le même Lieu",
+        "type": "defensif"
+      }
+    ],
+    "icon": "assets/images/icons/telephatic_rat.png",
+    "image": "assets/images/portraits/telephatic_rat.png",
+    "setup": {
+      "item": [
+        {
+          "name": "le rat Télépathe",
+          "location_name": "Labo de Biologie",
+          "diagram": "assets/images/rooms/bio_lab.png"
+        }
+      ],
+      "notes": "Le rat Télépathe commence en étant Contaminé"
+    },
+    "agenda": {
+      "description": "Punition",
+      "objetives": [
+        {
+          "main": {
+            "points": 1,
+            "description": " pour chaque Humain ou Robot Abattu sur son Lieu lors du Crash de la station"
+          },
+          "sub": [
+            {
+              "points": 2,
+              "description": "pour chaque Kompromat de Personnage Abattu sur son Lieu"
+            }
+          ]
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "si le Rat Télépathe et l'Artefact sont sur le même Lieu lors du Crash de la station"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "si le Rat Télépathe et l'Attaché Case sont sur le même Lieu lors du Crash de la station"
+          },
+          "sub": []
+        }
+      ],
+      "notes": "Le Rat Télépathe peut gagner même en étant Coupable"
+    },
+    "quirks": [
+      "Le Rat Télépathe est un objet qu'on peut Donner, Ramasser, Lâcher, Lancer etc... ",
+      "Le rat Télépathe commence en étant Contaminé, mais peut être Décontaminé (puis Recontaminé) normalement",
+      "Le Rat Télépathe ne peut posséder ni Objets ni Data",
+      "Le Rat Télépathe ne peut pas être Attaqué et ne peut jamais être Abattu",
+      "Le Rat Télépathe peut gagner même en étant Coupable",
+      "La paranoïa du Rat le rend difficile à Influencer",
+      "Le Rat n'accepte pas les Bakchich",
+      "Le rat Télépathe commence en étant Contaminé, quand bien même il ne peut Posséder d'objets"
+    ],
+    "tips": [
+      "L'Artefact est au Laboratoire et l'Attaché Case est dans la Suite de Luxe",
+      "Veillez à ne pas être Détruit, et à éviter d'être en Possession d'un Personnage susceptible de s'Échapper",
+      "Vous pouvez Abattre quiconque puisque vous ignorez la Culpabilité",
+      "Essayez d'être dans un Lieu avec beaucoup de personnages Abattus lors du Crash de la station",
+      "Votre pouvoir de révélation vous permet de ne pas finir dans l'espace, ou seul dans un Lieu",
+      "Les casques sont les ennemis du Rat : tâchez de les rendre indisponibles"
+    ],
+    "board_modifications": [""]
+  },
+  {
+    "id": 28,
+    "name": "La Mécano",
+    "description": "abc",
+    "pronoums": "Elle",
+    "bonus_points": {
+      "points": 2,
+      "alive": true,
+      "notes": "si la Mécano est votre Personnage Bonus et finit Échappée"
+    },
+    "influence_limit": 6,
+    "type": "Humaine",
+    "abilities": [
+      {
+        "name": "Rat d'égoûts",
+        "description": "Peut se déplacer par les Conduits d'aération.",
+        "type": "mobilité"
+      },
+      {
+        "name": "Outils de fortune",
+        "description": "Pour une action, peut réparer son lieu s'il est Endommagé, ou un Robot Abattu situé sur son Lieu.",
+        "type": "utilitaire"
+      }
+    ],
+    "reveal": [
+      {
+        "name": "Suivez ma voix",
+        "description": "Durant votre tour, si la Mécano est Vivante, vos Conspirateurs se déplacent et agissent comme s'ils avaient Outils de Fortune et Rat d'Égoûts. ",
+        "type": "utilitaire"
+      }
+    ],
+    "icon": "assets/images/icons/troubleshooter.png",
+    "image": "assets/images/portraits/troubleshooter.png",
+    "setup": {
+      "item": [
+        {
+          "name": "la Mécano",
+          "location_name": "Fab Lab",
+          "diagram": "assets/images/rooms/print_shop.png"
+        }
+      ],
+      "notes": "Connectez le Grappin de Fret au Sas Avant. La Mécano commence avec une Matraque"
+    },
+    "agenda": {
+      "description": "Sans une rayure",
+      "objetives": [
+        {
+          "main": {
+            "points": 2,
+            "description": "si l'Antimatière n'est pas Armée lors du Crash de la station"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "si le Projet X n'a pas été libéré"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 2,
+            "description": "si aucun Lieu n'est Endommagé lors du Crash de la station"
+          },
+          "sub": []
+        },
+        {
+          "main": {
+            "points": 1,
+            "description": "pour chaque Robot Vivant lors du Crash de la station"
+          },
+          "sub": []
+        }
+      ],
+      "notes": ""
+    },
+    "quirks": [],
+    "tips": [
+      "Votre pouvoir de révélation est très utile pour permettre à vos Conspirateurs de Réparer les Lieux Endommagés",
+      "Oeuvrez à garder les personnages hors de la Passserelle, de la Cryogénie et de la Chambre de confinement pour les empêcher de libérer le Projet X et d'Armer l'Antimatière"
+    ],
+    "board_modifications": [
+      "Le Grappin de Fret permet à n'importe quel Personnage de réaliser l'action \"Pince\" sur ce nouveau Lieu",
+      "Pince : Ramasser un objet actuellement dans l'Espace, ou Abattre un Personnage dans l'Espace"
+    ]
+  }
+  
+]
