@@ -35,7 +35,7 @@
     "abilities": [
       {
         "name": "Habile",
-        "description": "Peut se déplacer de 2 Lieux par action, et peut passer par les Conduits d'Aération,
+        "description": "Peut se déplacer de 2 Lieux par action, et peut passer par les Conduits d'Aération",
         "type": "mobilité"
       },
       {
