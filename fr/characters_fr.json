@@ -1186,7 +1186,7 @@
       "Les Drones sont un moyen utile d'Abattre les Personnages, puisqu'ils possèdent toujours une Matraque",
       "Les Drones permettent de Réparer les Lieux"
     ],
-    "board_modifications": Placez le bandeau \"Contrôle à distance\" parmi les actions de Pupitre, ce qui donne aux Personnages le moyen d'agir avec un Drone
+    "board_modifications": "Placez le bandeau \"Contrôle à distance\" parmi les actions de Pupitre, ce qui donne aux Personnages le moyen d'agir avec un Drone"
   },
   {
     "id": 15,
@@ -1630,7 +1630,7 @@
     "tips": [
       "Les Clones d'entretien peuvent se déplacer très vite",
       "Profitez du fait d'être dans trois endroits différents",
-      "La Preuve peut être Fabriquée au PC de Sécurité et Transmise via le Tableau de Contrôle, ou bien en s"Échappant avec elle lors du Crash de la station",
+      "La Preuve peut être Fabriquée au PC de Sécurité et Transmise via le Tableau de Contrôle, ou bien en s'Échappant avec elle lors du Crash de la station",
       "Éteignez les Brouilleurs pour pouvoir envoyer la Preuve à n'importe quel Personnage. "
     ],
     "board_modifications": [""]
