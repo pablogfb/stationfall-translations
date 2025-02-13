@@ -10,24 +10,24 @@
       "notes": "si le Cosmo-singe est votre Personnage Bonus et finit Échappé"
     },
     "influence_limit": 5,
-    "type": "Humain",
+    "type": "Human",
     "abilities": [
       {
         "name": "Rat d'égoûts",
         "description": "Peut se déplacer par les Conduits d'aération.",
-        "type": "mobilité"
+        "type": "mobility"
       },
       {
         "name": "Loyal",
         "description": "Pour Influencer, renvoyer tous les cubes d'influence déjà sur lui, et y placer au moins un de + que leur nombre.",
-        "type": "conspiration"
+        "type": "conspiracy"
       }
     ],
     "reveal": [
       {
         "name": "Acrobaties",
         "description": "Obtient \"Né en Zéro-G\" : Comme action gratuite, peut entrer dans un Lieu en Apesanteur à la place de Lâcher/Ramasser.",
-        "type": "mobilité"
+        "type": "mobility"
       }
     ],
     "icon": "assets/images/icons/astrochimp.png",
@@ -89,24 +89,24 @@
       "notes": "si Fletcher s'Échappe. (Tout le monde s'en tamponne du Milliardaire en fait, le public aime seulement son mignon bichon de l'espace.)"
     },
     "influence_limit": 3,
-    "type": "Humain",
+    "type": "Human",
     "abilities": [
       {
         "name": "En direct-live ",
         "description": "Si les Brouilleurs sont éteints, les Lieux du Milliardaire et de Fletcher sont toujours considérés comme Éclairés avec les Caméras allumées.",
-        "type": "défense"
+        "type": "defensive"
       },
       {
         "name": "Riche",
         "description": "N'accepte pas les Bakchich. En activant le Milliardaire on peut utiliser un Bakchich Gris. Les Bakchich Gris ne donnent des PV que si le Milliardaire s'Échappe.",
-        "type": "défense"
+        "type": "defensive"
       }
     ],
     "reveal": [
       {
         "name": "Fausses promesses",
         "description": "À la Révélation, gagnez et/ou récupérez les 3 Bakchich Gris",
-        "type": "conspiration"
+        "type": "conspiracy"
       }
     ],
     "icon": "assets/images/icons/billionaire.png",
@@ -179,29 +179,29 @@
       "notes": "si la Pirate de l'Espace est votre Personnage Bonus et finit Échappée"
     },
     "influence_limit": 4,
-    "type": "Humaine",
+    "type": "Human",
     "abilities": [
       {
         "name": "Effraction",
         "description": "Pour une action, elle peut retirer un Verrou adjacent.",
-        "type": "utilitaire"
+        "type": "utility"
       },
       {
         "name": "Fugitive",
         "description": "Aucune action effectuée avec ou contre ce personnage ne rendra le joueur Suspect.",
-        "type": "offensif"
+        "type": "offensive"
       }
     ],
     "reveal": [
       {
         "name": "Missiles",
         "description": "Si les Brouilleurs sont éteints, en tant qu'action placez 1 Marqueur Temps sur un Lieu non-échappé. Quand ce Marqueur sera résolu, Endommagez ce lieu et Abattez tous les Personnages présents. Le vaisseau de la Pirate ne peut envoyer qu'un seul Missile à la fois.",
-        "type": "offensif"
+        "type": "offensive"
       },
       {
         "name": "Extraction",
         "description": "À la Révélation (y compris lors du Crash de la station), retournez le Vaisseau de Secours sur sa face \"Vaisseau Pirate\". Ce dernier ne secourt que le Personnage (même Abattu) Possédant l'Attaché Case",
-        "type": "offensif"
+        "type": "offensive"
       }
     ],
     "icon": "assets/images/icons/boarder.png",
@@ -268,24 +268,24 @@
       "notes": "si le Botaniste est votre Personnage Bonus et que Fang Moss finit Échappée (aucuns points si le Botaniste s'Échappe)."
     },
     "influence_limit": 5,
-    "type": "Humain",
+    "type": "Human",
     "abilities": [
       {
         "name": "Scientifique",
         "description": "Comme action gratuite, peut faire une action de Lieu à la place d'une action Lâcher/Ramasser.",
-        "type": "utilitaire"
+        "type": "utility"
       },
       {
         "name": "Né en Zéro-G",
         "description": "Comme action gratuite, peut entrer dans un Lieu en Apesanteur à la place de Lâcher/Ramasser.",
-        "type": "mobilité"
+        "type": "mobility"
       }
     ],
     "reveal": [
       {
         "name": "Créationnisme",
         "description": "Pendant la phase d'Activation du Joueur du Botaniste, si aucun Personnage Vivant ne Possède Fang Moss, elle peut se déplacer 1 fois ou Détruire un personnage Abattu sur son Lieu (elle le dévore). Celui-ci Lâche tous ses objets ",
-        "type": "utilitaire"
+        "type": "utility"
       }
     ],
     "icon": "assets/images/icons/botanist.png",
@@ -343,7 +343,7 @@
     "tips": [
       "Traquez les personnages Abattus pour nourrir Fang Moss", 
       "Équipez-vous d'un Casque. Attrapez la Contamination dans le Labo de Biologie ", 
-      "Utilisez \"Né en zéro-G\" pour gagner en mobilité ", 
+      "Utilisez \"Né en zéro-G\" pour gagner en mobility ", 
       "Après la Révélation, essayez que personne ne Possède Fang Moss, pour lui faire réaliser des actions en plus des vôtres "
     ],
     "board_modifications": [""]
@@ -359,24 +359,24 @@
       "notes": "si le Colonel est votre Personnage Bonus et finit Échappé"
     },
     "influence_limit": 4,
-    "type": "Humain",
+    "type": "Human",
     "abilities": [
       {
         "name": "Fonctionnaire",
         "description": "Sauf pendant le Blackout, peut passer (ou être trainé si Abattu) à travers les Verrous, qui sont alors retirés.",
-        "type": "mobilité"
+        "type": "mobility"
       },
       {
         "name": "Paranoïaque",
         "description": "Le joueur actif doit avoir un Conspirateur sur le même Lieu pour pouvoir influencer ce personnage. N'accepte pas les Bakchich.",
-        "type": "conspiration"
+        "type": "conspiracy"
       }
     ],
     "reveal": [
       {
         "name": "La mission d'abord",
         "description": "À la Révélation, récupérez dans votre réserve tous vos Cubes d'Influence ayant été perdus par Traîtrise.",
-        "type": "conspiration"
+        "type": "conspiracy"
       }
     ],
     "icon": "assets/images/icons/colonel.png",
@@ -458,14 +458,14 @@
       {
         "name": "Double Visage",
         "description": "Après avoir Abattu un Humain dans un Lieu Éclairé, le Joueur actif peut choisir un autre Joueur ayant un Conspirateur sur le même Lieu, qui devient Suspect à sa place. ",
-        "type": "offensif"
+        "type": "offensive"
       }
     ],
     "reveal": [
       {
         "name": "Fin de l'illusion",
         "description": "À la Révélation, si l'Époux.se Modèle est Vivant.e, iel peut échanger sa position avec un PNJ (Humain ou Robot) qui n'est ni Échappé ni Détruit. Ces Personnages échangent aussi toutes leurs Possessions sauf les Intégrées (le joueur actif choisi quels objets en excés il peut Lâcher gratuitement)",
-        "type": "conspiration"
+        "type": "conspiracy"
       }
     ],
     "icon": "assets/images/icons/consort.png",
@@ -530,24 +530,24 @@
       "notes": "si la Cryo-Mamie est votre Personnage Bonus et finit Échappée"
     },
     "influence_limit": 5,
-    "type": "Humaine",
+    "type": "Human",
     "abilities": [
       {
         "name": "Vengeresse",
         "description": "La Cryo-Mamie obtient une Matraque si on utilise son Kompromat. Son Kompromat peut être utilisé même si elle Abattue, et cela la Ravive tout de suite.",
-        "type": "offensif"
+        "type": "offensive"
       },
       {
         "name": "Mourante",
         "description": "Ne peut pas être Activée quand elle est Épuisée, et ne dispose pas de l'action gratuite Lâcher/Ramasser.",
-        "type": "conspiration"
+        "type": "conspiracy"
       }
     ],
     "reveal": [
       {
         "name": "Dernier sursaut",
         "description": "À la Révélation, elle se Ravive si elle était Abattue, puis elle réalise une action.",
-        "type": "utilitaire"
+        "type": "utility"
       }
     ],
     "icon": "assets/images/icons/corpsicle.png",
@@ -612,24 +612,24 @@
       "notes": "si le Conseiller Occulte est votre Personnage Bonus et finit Échappé."
     },
     "influence_limit": 6,
-    "type": "Humain",
+    "type": "Human",
     "abilities": [
       {
         "name": "Fonctionnaire",
         "description": "Sauf pendant le Blackout, peut passer (ou être trainé si Abattu) à travers les Verrous, qui sont alors retirés.",
-        "type": "mobilité"
+        "type": "mobility"
       },
       {
         "name": "Manipulateur",
         "description": "Pour une action, il fait perdre par Traîtrise un Cube d'Influence de la carte d'un Humain Vivant situé sur son lieu.",
-        "type": "conspiration"
+        "type": "conspiracy"
       }
     ],
     "reveal": [
       {
         "name": "Aveux enregistrés",
         "description": "À la Révélation, si vous êtes Vivant choisissez un Humain présent sur votre Lieu. Tous les autre joueurs Innocents qui ont cet Humain parmi leurs conspirateurs deviennent Suspects",
-        "type": "offensif"
+        "type": "offensive"
       }
     ],
     "icon": "assets/images/icons/counselor.png",
@@ -708,24 +708,24 @@
       {
         "name": "Surnaturel",
         "description": "Il faut deux disques d'Activation sur sa carte pour que ce personnage devienne Épuisé.",
-        "type": "conspiration"
+        "type": "conspiracy"
       },
       {
         "name": "Fugitive",
         "description": "Aucune action effectuée avec ou contre ce personnage ne rendra le joueur Suspect.",
-        "type": "offensif"
+        "type": "offensive"
       }
     ],
     "reveal": [
       {
         "name": "Violent",
         "description": "Peut utiliser une Matraque pour Abattre un Humain même s'il porte un Casque, mais cela Détruit la Matraque et le Casque",
-        "type": "offensif"
+        "type": "offensive"
       },
       {
         "name": "Auto-Réparation",
         "description": "Vous pouvez Activer le Cyborg même quand il est Abattu, en le Ravivant en tant que 1ère Action",
-        "type": "conspiration"
+        "type": "conspiracy"
       }
     ],
     "icon": "assets/images/icons/cyborg.png",
@@ -798,7 +798,7 @@
       "notes": "si la Casse-Cou est votre Personnage Bonus et finit Échappée"
     },
     "influence_limit": 5,
-    "type": "Humaine",
+    "type": "Human",
     "abilities": [
       {
         "name": "Fière",
@@ -808,14 +808,14 @@
       {
         "name": "Adrénaline",
         "description": "La Casse-Cou n'est pas Abattue par les Risques. Entrer dans un Lieu qui contient un Risque (y compris par un Sas) est toujours une Action gratuite.",
-        "type": "mobilité"
+        "type": "mobility"
       }
     ],
     "reveal": [
       {
         "name": "Apothéose",
         "description": "Si vous êtes Vivante, possédez un Casque et êtes dans le même Lieu que le Jet Pack lors du Crash de la station, vous vous Échappez",
-        "type": "mobilité"
+        "type": "mobility"
       }
     ],
     "icon": "assets/images/icons/daredevil.png",
@@ -895,19 +895,19 @@
       {
         "name": "Serviable",
         "description": "Aucun joueur ne peut avoir plus d'un seul Cube d'Influence sur ce Personnage.",
-        "type": "conspiration"
+        "type": "conspiracy"
       }
     ],
     "reveal": [
       {
         "name": "Accès SuperUtilisateur",
         "description": "Pour une action, réalisez une action avec un Robot qui possède le Data Assistant Numérique. Ignorez son Instinct de Survie",
-        "type": "utilitaire"
+        "type": "utility"
       },
       {
         "name": "Cheval de Troie",
         "description": "À la Révélation, Copier le Data de l'Assistant Numérique sur chaque Personnage non-échappé qui possède une Preuve ou le Secret X",
-        "type": "utilitaire"
+        "type": "utility"
       }
     ],
     "icon": "assets/images/icons/digital_assistant.png",
@@ -975,24 +975,24 @@
       "notes": "si la Docteur est votre Personnage Bonus et finit Échappée "
     },
     "influence_limit": 5,
-    "type": "Humaine",
+    "type": "Human",
     "abilities": [
       {
         "name": "Scientifique",
         "description": "Comme action gratuite, peut faire une action de Lieu à la place d'une action Lâcher/Ramasser.",
-        "type": "utilitaire"
+        "type": "utility"
       },
       {
         "name": "Schyzophrène",
         "description": "Ce personnage a deux Cartes d'identité différentes.",
-        "type": "conspiration"
+        "type": "conspiracy"
       }
     ],
     "reveal": [
       {
         "name": "Pistolet caché",
         "description": "À la Révélation, la Docteur Hyde gagne un Pistolet dans ses Possessions",
-        "type": "offensif"
+        "type": "offensive"
       }
     ],
     "icon": "assets/images/icons/doctor_hyde.png",
@@ -1051,24 +1051,24 @@
       "notes": "si la Docteur est votre Personnage Bonus et finit Échappée."
     },
     "influence_limit": 5,
-    "type": "Humaine",
+    "type": "Human",
     "abilities": [
       {
         "name": "Scientifique",
         "description": "Comme action gratuite, peut faire une action de Lieu à la place d'une action Lâcher/Ramasser.",
-        "type": "utilitaire"
+        "type": "utility"
       },
       {
         "name": "Schyzophrène",
         "description": "Ce personnage a deux Cartes d'identité différentes.",
-        "type": "conspiration"
+        "type": "conspiracy"
       }
     ],
     "reveal": [
       {
         "name": "Faux Artefact",
         "description": "À la Révélation, la Docteur reçoit l'Artefact (même si il était Détruit), sauf si un PJ l'avait déjà en sa Possession",
-        "type": "utilitaire"
+        "type": "utility"
       }
     ],
     "icon": "assets/images/icons/doctor_jekyll.png",
@@ -1141,7 +1141,7 @@
       {
         "name": "Démantèlement",
         "description": "Pour une action, un Drone peut s'Abattre lui-même pour Réparer son Lieu, ou un Robot sur son Lieu.",
-        "type": "utilitaire"
+        "type": "utility"
       },
       {
         "name": "Contrôle à distance",
@@ -1199,24 +1199,24 @@
       "notes": "si l'Ingénieur est votre Personnage Bonus et qu'il finit Abattu et non-Échappé lors du Crash de la station"
     },
     "influence_limit": 5,
-    "type": "Humain",
+    "type": "Human",
     "abilities": [
       {
         "name": "Fonctionnaire",
         "description": "Sauf pendant le Blackout, peut passer (ou être trainé si Abattu) à travers les Verrous, qui sont alors retirés.",
-        "type": "mobilité"
+        "type": "mobility"
       },
       {
         "name": "Outils de fortune",
         "description": "Pour une action, peut réparer son lieu s'il est Endommagé, ou un Robot Abattu situé sur son Lieu.",
-        "type": "utilitaire"
+        "type": "utility"
       }
     ],
     "reveal": [
       {
         "name": "Surcharge",
         "description": "À la Révélation, placez un Marqueur Temps dans n'importe que Lieu non-échappé. Quand il se résoud, Endommagez ce Lieu",
-        "type": "offensif"
+        "type": "offensive"
       }
     ],
     "icon": "assets/images/icons/engineer.png",
@@ -1290,7 +1290,7 @@
       "notes": "si l'Espion Cramé est votre Personnage Bonus et finit Échappé"
     },
     "influence_limit": 5,
-    "type": "Humain",
+    "type": "Human",
     "abilities": [
       {
         "name": "Embobineur",
@@ -1307,12 +1307,12 @@
       {
         "name": "Tirer les vers du nez",
         "description": "Après avoir utilisé le Kompromat d'un PNJ, reprenez-le en main",
-        "type": "conspiration"
+        "type": "conspiracy"
       },
       {
         "name": "Technique d'espionnage",
         "description": "En tant qu'action, défaussez deux Kompromats de votre main et récupérez en main le Kompromat déjà utilisé d'un PNJ.",
-        "type": "conspiration"
+        "type": "conspiracy"
       }
     ],
     "icon": "assets/images/icons/exile.png",
@@ -1379,19 +1379,19 @@
       {
         "name": "Enquête",
         "description": "Peut Ramasser des Kompromats ou Fabriquer du Data depuis les Lieux adjacents.",
-        "type": "utilitaire"
+        "type": "utility"
       },
       {
         "name": "Insigne",
         "description": "Peut Braquer les objets comme s'iel était en Possession d'un Pistolet.",
-        "type": "offensif"
+        "type": "offensive"
       }
     ],
     "reveal": [
       {
         "name": "Combines offshore",
         "description": "À la Révélation, récupérez votre Bakchich s'il avait été utilisé",
-        "type": "conspiration"
+        "type": "conspiracy"
       }
     ],
     "icon": "assets/images/icons/inspector.png",
@@ -1465,24 +1465,24 @@
       {
         "name": "Huissier de justice",
         "description": "Pour une action, Fabrique une Clause de Confidentialité dans les Possessions de tous les Humains ou Robots présents sur son Lieu. ",
-        "type": "utilitaire"
+        "type": "utility"
       },
       {
         "name": "Prends un avocat !",
         "description": "Pour une action, change le statut d'un Joueur dont le PJ est sur le Lieu, de Coupable ou Innocent à Suspect.",
-        "type": "offensif"
+        "type": "offensive"
       }
     ],
     "reveal": [
       {
         "name": "C'était écrit en bas de page",
         "description": "Vous pouvez Activer les PNJ qui possèdent une Clause de Confidentialité",
-        "type": "conspiration"
+        "type": "conspiracy"
       },
       {
         "name": "Copie certifiée",
         "description": "En tant qu'action, tout personnage sur le Lieu du robot juriste peut se Fabriquer une copie de la Clause de Confidentialité",
-        "type": "conspiration"
+        "type": "conspiracy"
       }
     ],
     "icon": "assets/images/icons/legal.png",
@@ -1562,19 +1562,19 @@
       {
         "name": "Né en Zéro-G",
         "description": "Comme action gratuite, peut entrer dans un Lieu en Apesanteur à la place de Lâcher/Ramasser.",
-        "type": "mobilité"
+        "type": "mobility"
       },
       {
         "name": "Outils de fortune",
         "description": "Pour une action, peut réparer son lieu s'il est Endommagé, ou un Robot Abattu situé sur son Lieu.",
-        "type": "utilitaire"
+        "type": "utility"
       }
     ],
     "reveal": [
       {
         "name": "hop hop hop",
         "description": "À la révélation, vous pouvez immédiatement réaliser une action avec chaque Clone Vivant et non-Échappé.",
-        "type": "utilitaire"
+        "type": "utility"
       }
     ],
     "icon": "assets/images/icons/maintenance-clones.png",
@@ -1651,19 +1651,19 @@
       {
         "name": "Réanimation",
         "description": "En tant qu'action, peut Raviver un Humain. Pénétrer dans un Lieu (même via un Sas) avec un Humain Abattu est toujours gratuit.",
-        "type": "utilitaire"
+        "type": "utility"
       },
       {
         "name": "Serviable",
         "description": "Aucun joueur ne peut avoir plus d'un seul Cube d'Influence sur ce Personnage.",
-        "type": "conspiration"
+        "type": "conspiracy"
       }
     ],
     "reveal": [
       {
         "name": "Détraqué",
         "description": "Gagnez une Matraque dans vos Possessions",
-        "type": "offensif"
+        "type": "offensive"
       }
     ],
     "icon": "assets/images/icons/medical.png",
@@ -1722,24 +1722,24 @@
       "notes": " si la Microbiologiste est votre Personnage Bonus et finit Échappée "
     },
     "influence_limit": 5,
-    "type": "Humaine",
+    "type": "Human",
     "abilities": [
       {
         "name": "Scientifique",
         "description": "Comme action gratuite, peut faire une action de Lieu à la place d'une action Lâcher/Ramasser.",
-        "type": "utilitaire"
+        "type": "utility"
       },
       {
         "name": "Loyal",
         "description": "Pour Influencer, renvoyer tous les cubes d'influence déjà sur lui, et y placer au moins un de + que leur nombre.",
-        "type": "conspiration"
+        "type": "conspiracy"
       }
     ],
     "reveal": [
       {
         "name": "Inoculer",
         "description": "En tant qu'action, Contamine un Humain ou un Robot sur son Lieu. S'ils n'ont pas d'emplacement d'objet vide, ils Lâchent un objet de votre choix. Chaque Personnage ne peut avoir qu'une seul Contamination",
-        "type": "offensif"
+        "type": "offensive"
       }
     ],
     "icon": "assets/images/icons/microbiologist.png",
@@ -1801,29 +1801,29 @@
       "notes": " si la Nettoyeuse est votre Personnage Bonus et qu'elle finit Abattue et non-Échappée lors du Crash de la station"
     },
     "influence_limit": 5,
-    "type": "Humaine",
+    "type": "Human",
     "abilities": [
       {
         "name": "I.E.M.(Impulsion Électro-Magnétique)",
         "description": "Cette action Endommage le Lieu de la Nettoyeuse, Abat tous les Robots qui s'y trouvent et Éfface tous les Data présents",
-        "type": "offensif"
+        "type": "offensive"
       },
       {
         "name": "Fonctionnaire",
         "description": "Sauf pendant le Blackout, peut passer (ou être trainé si Abattu) à travers les Verrous, qui sont alors retirés.",
-        "type": "mobilité"
+        "type": "mobility"
       }
     ],
     "reveal": [
       {
         "name": "Mine antipersonnel",
         "description": "Regardez puis placez les 3 marqueurs Piège, faces cachées dans 3 Lieux différents. Retournez un Piège quand un Personnage ou le Projet X entre dans son Lieu, et Abattez-le si le Piège est bien une mine. Les mines ne rendent pas Suspect, Coupable et contournent l'Instinct de Survie",
-        "type": "offensif"
+        "type": "offensive"
       },
       {
         "name": "Nerve Gas Grenades",
         "description": "En tant qu'action avec la Nettoyeuse, placez une Fuite de Gaz dans son Lieu ou dans un Lieu vers lequel elle peut Lancer",
-        "type": "offensif"
+        "type": "offensive"
       }
     ],
     "icon": "assets/images/icons/operative.png",
@@ -1917,7 +1917,7 @@
       {
         "name": "Usage de la force autorisé",
         "description": "Perdez votre capacité \"Pacificateur\" ",
-        "type": "offensif"
+        "type": "offensive"
       }
     ],
     "icon": "assets/images/icons/security.png",
@@ -1991,12 +1991,12 @@
       "notes": "si la Capitaine est votre Personnage Bonus et qu'elle finit Abattue et non-Échappée lors du Crash de la station"
     },
     "influence_limit": 5,
-    "type": "Humaine",
+    "type": "Human",
     "abilities": [
       {
         "name": "Fonctionnaire",
         "description": "Sauf pendant le Blackout, peut passer (ou être trainé si Abattu) à travers les Verrous, qui sont alors retirés.",
-        "type": "mobilité"
+        "type": "mobility"
       },
       {
         "name": "Fière",
@@ -2008,7 +2008,7 @@
       {
         "name": "Présence énergique",
         "description": "Au début de la Phase d'Activation de la Capitaine, vous pouvez réaliser une action basique gratuite avec un PNJ du même Lieu, ou un PNJ Fonctionnaire situé n'importe où",
-        "type": "utilitaire"
+        "type": "utility"
       }
     ],
     "icon": "assets/images/icons/station_chief.png",
@@ -2065,12 +2065,12 @@
       "notes": "si la Clandé est votre Personnage Bonus et finit Échappée"
     },
     "influence_limit": 4,
-    "type": "Humaine",
+    "type": "Human",
     "abilities": [
       {
         "name": "Rat d'égoûts",
         "description": "Peut se déplacer par les Conduits d'aération.",
-        "type": "mobilité"
+        "type": "mobility"
       },
       {
         "name": "Hackeur",
@@ -2154,19 +2154,19 @@
       {
         "name": "Surnaturel",
         "description": "Il faut deux disques d'Activation sur sa carte pour que ce personnage devienne Épuisé.",
-        "type": "conspiration"
+        "type": "conspiracy"
       }
     ],
     "reveal": [
       {
         "name": "Au travail",
         "description": "À la Révélation, vous pouvez révéler votre Personnage Bonus et réaliser une action avec",
-        "type": "utilitaire"
+        "type": "utility"
       },
       {
         "name": "Mystère",
         "description": "Si vous révélez l'Étranger.e par Schrödinger, ne défaussez aucunes cartes (gardez-les en Persos bonus).  YYY Si vous révélez l'Étranger.e par Schrödinger vous perdez \"Surnaturel\" ",
-        "type": "conspiration"
+        "type": "conspiracy"
       }
     ],
     "icon": "assets/images/icons/stranger.png",
@@ -2239,12 +2239,12 @@
       {
         "name": "Télépathie",
         "description": "Réaliser une action avec un Humain sans Casque du même lieu, en ignorant l'Instinct de Survie. Télépathie est la seule action possible du Rat Télépathe",
-        "type": "offensif"
+        "type": "offensive"
       },
       {
         "name": "Paranoïaque",
         "description": "Le joueur actif doit avoir un Conspirateur sur le même Lieu pour pouvoir influencer ce personnage. N'accepte pas les Bakchich",
-        "type": "conspiration"
+        "type": "conspiracy"
       }
     ],
     "reveal": [
@@ -2329,24 +2329,24 @@
       "notes": "si la Mécano est votre Personnage Bonus et finit Échappée"
     },
     "influence_limit": 6,
-    "type": "Humaine",
+    "type": "Human",
     "abilities": [
       {
         "name": "Rat d'égoûts",
         "description": "Peut se déplacer par les Conduits d'aération.",
-        "type": "mobilité"
+        "type": "mobility"
       },
       {
         "name": "Outils de fortune",
         "description": "Pour une action, peut réparer son lieu s'il est Endommagé, ou un Robot Abattu situé sur son Lieu.",
-        "type": "utilitaire"
+        "type": "utility"
       }
     ],
     "reveal": [
       {
         "name": "Suivez ma voix",
         "description": "Durant votre tour, si la Mécano est Vivante, vos Conspirateurs se déplacent et agissent comme s'ils avaient Outils de Fortune et Rat d'Égoûts. ",
-        "type": "utilitaire"
+        "type": "utility"
       }
     ],
     "icon": "assets/images/icons/troubleshooter.png",
