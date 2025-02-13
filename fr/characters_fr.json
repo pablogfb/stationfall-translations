@@ -453,7 +453,7 @@
       {
         "name": "Embobineur",
         "description": "Ne peux pas être Attaqué par un Humain avec une Matraque dans un Lieu Éclairé.",
-        "type": "defensif"
+        "type": "defensive"
       },
       {
         "name": "Double Visage",
@@ -703,7 +703,7 @@
       "notes": "si le Cyborg est votre Personnage Bonus et qu'il finit Abattu et non-Échappé lors du Crash de la station"
     },
     "influence_limit": 4,
-    "type": "Humain et Robot",
+    "type": "Human and Robot",
     "abilities": [
       {
         "name": "Surnaturel",
@@ -803,7 +803,7 @@
       {
         "name": "Fière",
         "description": "Ne peut pas être Braquée.",
-        "type": "defensif"
+        "type": "defensive"
       },
       {
         "name": "Adrénaline",
@@ -890,7 +890,7 @@
       {
         "name": "I.A.",
         "description": "Ne peut que faire des actions de Pupitre. Les Personnages qui possèdent l'Assistant Numérique en tant que Data sont considérés comme étant des \"Fonctionnaires\" pour les actions de Lieux, et comme ayant \"l'Évacuation d'Urgence\" lorsqu'ils veulent Lancer les Pods.",
-        "type": "pupitre"
+        "type": "console"
       },
       {
         "name": "Serviable",
@@ -1146,7 +1146,7 @@
       {
         "name": "Contrôle à distance",
         "description": "N'accepte pas les Bakchich, ne peut pas être influencé ni Activé. Avec une action de Pupitre, les Personnages peuvent réaliser une action avec un Drone qui n'est pas Abattu. ",
-        "type": "pupitre"
+        "type": "console"
       }
     ],
     "reveal": [
@@ -1295,12 +1295,12 @@
       {
         "name": "Embobineur",
         "description": "Ne peux pas être Attaqué par un Humain avec une Matraque dans un Lieu Éclairé.",
-        "type": "defensif"
+        "type": "defensive"
       },
       {
         "name": "Hackeur",
         "description": "Comme action gratuite, peut faire une action de Pupitre à la place de Lâcher/Ramasser. Si les Brouilleurs sont éteints, peut faire une action de Pupitre en tout Lieu.",
-        "type": "pupitre"
+        "type": "console"
       }
     ],
     "reveal": [
@@ -1374,7 +1374,7 @@
       "notes": "si l'Inspection est votre Personnage Bonus et finit Échappé.e"
     },
     "influence_limit": 4,
-    "type": "Humain.e",
+    "type": "Human",
     "abilities": [
       {
         "name": "Enquête",
@@ -1557,7 +1557,7 @@
       "notes": " pour chaque Clone qui finit Échappé. +1 si les 3 finissent Échappés"
     },
     "influence_limit": 5,
-    "type": "Humains",
+    "type": "Human",
     "abilities": [
       {
         "name": "Né en Zéro-G",
@@ -1905,12 +1905,12 @@
       {
         "name": "Pacificateur",
         "description": "Ne peut Attaquer que les Personnages fugitifs, le Projet X, ou les PJ de joueurs non-Innocents. Ne peut pas Endommager les Lieux",
-        "type": "defensif"
+        "type": "defensive"
       },
       {
         "name": "Cuirassé",
         "description": "Ne peut pas être attaqué par des Matraques",
-        "type": "defensif"
+        "type": "defensive"
       }
     ],
     "reveal": [
@@ -2001,7 +2001,7 @@
       {
         "name": "Fière",
         "description": "Ne peut pas être Braquée.",
-        "type": "defensif"
+        "type": "defensive"
       }
     ],
     "reveal": [
@@ -2075,14 +2075,14 @@
       {
         "name": "Hackeur",
         "description": "Comme action gratuite, peut faire une action de Pupitre à la place de Lâcher/Ramasser. Si les Brouilleurs sont éteints, peut faire une action de Pupitre en tout Lieu.",
-        "type": "pupitre"
+        "type": "console"
       }
     ],
     "reveal": [
       {
         "name": "Planque secrète",
         "description": "À la révélation, vous ou l'un de vos Conspirateurs gagne un Casque",
-        "type": "defensif"
+        "type": "defensive"
       }
     ],
     "icon": "assets/images/icons/stowaway.png",
@@ -2149,7 +2149,7 @@
       "notes": "si l'Étranger.e est votre Personnage Bonus et finit Échappé.e"
     },
     "influence_limit": 6,
-    "type": "Humain.e",
+    "type": "Human",
     "abilities": [
       {
         "name": "Surnaturel",
@@ -2234,7 +2234,7 @@
       "notes": "si le rat Télépathe est votre Personnage Bonus et finit Échappé"
     },
     "influence_limit": 8,
-    "type": "Objet",
+    "type": "Item",
     "abilities": [
       {
         "name": "Télépathie",
@@ -2251,7 +2251,7 @@
       {
         "name": "Mon précieux",
         "description": "Les autres Joueurs ne peuvent plus vous Jeter, vous Lâcher ou vous Évacuer dans un Sas. Vous pouvez toujours être Donné à un Personnage sur le même Lieu",
-        "type": "defensif"
+        "type": "defensive"
       }
     ],
     "icon": "assets/images/icons/telephatic_rat.png",
