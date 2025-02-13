@@ -1,504 +1,184 @@
 [
   {
-    "id": 1,
-    "name": "Ventilo arrière",
-    "diagram": "assets/images/rooms/aft_exahust.png",
-    "action": [
-      ""
+    "name": "Le Mutant Carnivore",
+    "subtitle": "Prototype défectueux d'arme biologique",
+    "image": "assets/images/projects_x/carnivorous.png",
+    "setup": [
+      "Placer le Mutant Carnivore dans le Coffre-X"
     ],
-    "type": "blue",
-    "light": false,
-    "energy": false,
-    "notes": ""
+    "abilities": [
+      {
+        "name": "Rat d'Égoûts",
+        "description": "Peut se déplacer par les Conduits d'aération.",
+        "type": "mobilité"
+      },
+      {
+        "name": "Méfiant",
+        "description": "Ne peut pas être Attaqué dans les Endroits Sombres.",
+        "type": "defensif"
+      }
+    ],
+    "instructions": [
+      "À la fin de chaque phase Résolution, le Mutant Carnivore doit Abattre un Humain Vivant de son Lieu, si possible",
+      "Sinon, le Joueur actif doit Déplacer le Mutant Carnivore d'un Lieu pour le rapprocher du Personnage Humain le plus proche. S'il y a plusieurs chemins possibles, le Joueur actif choisit dans quel Lieu il se déplace en empruntant l'un de ces chemins",
+      "Le Mutant Carnivore se  défend comme un Humain sans Casque et se fait Abattre par les Risques. Il possède l'Instinct de Survie: si son seul chemin possible passe par un Risque, alors il ne se déplace pas "
+    ]
   },
   {
-    "id": 2,
-    "name": "Cuisine",
-    "diagram": "assets/images/rooms/kitchen.png",
-    "action": [
-      ""
+    "name": "l'Essaim de combat",
+    "subtitle": "Drones meurtriers pilotés à distance",
+    "image": "assets/images/projects_x/combat_swarm.png",
+    "setup": [
+      "Placer l'Essaim de combat dans le Coffre-X",
+      "Placer \"Diriger l'Essaim\" parmi les actions de Pupitre"
     ],
-    "type": "blue",
-    "light": true,
-    "energy": false,
-    "notes": ""
+    "abilities": [
+      {
+        "name": "Habile",
+        "description": "Peut se déplacer de 2 Lieux par action, et peut passer par les Conduits d'Aération",
+        "type": "mobilité"
+      },
+      {
+        "name": "Outils de fortune",
+        "description": "our une action, réparer un lieu Endommagé ou un Robot Abattu situé sur le même Lieu. ",
+        "type": "utilitaire"
+      }
+    ],
+    "instructions": [
+      "L'essaim de combat est contrôlé via les actions de Pupitre. Il ne peut que se déplacer, utiliser ses \"Outils de Fortune\" ou Attaquer (comme s'il avait un Pistolet)",
+      "Il ne peut pas être Abattu à moins de pénétrer dans la Chambre de confinement, ce qui l'Abat immédiatement",
+      "Agir avec l'Essaim de Combat ne rend pas Suspect",
+      "Puisque l'essaim de combat est un robot, il ignore les risques, il peut être Réparé et il compte comme un Robot dans les conditions de décompte final "
+    ]
   },
   {
-    "id": 3,
-    "name": "Quartiers",
-    "diagram": "assets/images/rooms/quarters.png",
-    "action": [
-      "Zone de lancement"
+    "name": "Le Rayon de la Mort",
+    "subtitle": "Station de combat 100% opérationnelle",
+    "image": "assets/images/projects_x/death_ray.png",
+    "setup": [
+      "Placer le Jeton \"Rayon de la Mort\" au Tableau de Contrôle"
     ],
-    "type": "blue",
-    "light": true,
-    "energy": false,
-    "notes": ""
+    "abilities": [
+    ],
+    "instructions": [
+      "Le Rayon de la mort peut faire feu grâce à l'action d'un Humain ou d'un Robot au Tableau de Contrôle. Le Rayon de la mort ne peut pas tirer si le Réacteur ou le Tableau de Contrôle sont Endommagés. Tirer Endommage le Réacteur",
+      "Le Rayon de la mort peut cibler les Hors-Sites, les Pods déjà lancés et le Vaisseau de Secours / Vaisseau Pirate. Ce que le Rayon de la mort a ciblé devient Détruit et est retiré du jeu, avec tout son contenu éventuel",
+      "Les Joueurs Coupables redeviennent Suspects si les Autorités sont Détruites. Utiliser le Rayon de la mort ne rend pas Suspect "
+    ]
   },
   {
-    "id": 4,
-    "name": "Salle des jeux",
-    "diagram": "assets/images/rooms/rec_room.png",
-    "action": [
-      ""
+    "name": "le Spectre Entropique",
+    "subtitle": "Un fantôme énergétique",
+    "image": "assets/images/projects_x/entropy_phantom.png",
+    "setup": [
+      "Placer le Spectre Entropique dans le Coffre-X"
     ],
-    "type": "blue",
-    "light": true,
-    "energy": false,
-    "notes": ""
+    "abilities": [
+      {
+        "name": "Rat d'Égoûts",
+        "description": "Peut se déplacer par les Conduits d'aération.",
+        "type": "mobilité"
+      },
+      {
+        "name": "Éthéré",
+        "description": "Peut se déplacer à travers les Verrous.",
+        "type": "mobilité"
+      }
+    ],
+    "instructions": [
+      "À la fin des phases Résolution, le Joueur actif doit faire perdre un Cube d'influence par Traîtrise à un Personnage du Lieu du Spectre, si possible. (Le Spectre se nourrit de ses souvenirs !)",
+      "S'il n'y a pas de Cubes sur place, le Joueur actif doit Déplacer le Spectre d'un Lieu en direction de l'Antimatière. S'il l'atteint : armez-la (si elle ne l'est pas déjà) et Détruisez le Spectre entropique. Si l'Antimatière est déjà Détruite, le Spectre Entropique se dirige à la place vers la Chambre de Confinement",
+      "Le Spectre Entropiquene peut pas être Abattu",
+      "Tout Data situé dans le même lieu que le Spectre est immédiatement Effacé"
+    ]
   },
   {
-    "id": 5,
-    "name": "PC de sécurité",
-    "diagram": "assets/images/rooms/security_station.png",
-    "action": [
-      "Action de pupitre",
-      "Cameras ON/OFF",
-      "Fabrication de Preuve"
+    "name": "la Gelée Grise",
+    "subtitle": "NanoMucus en croissance exponentielle",
+    "image": "assets/images/projects_x/grey_go.png",
+    "setup": [
+      "Donner cette carte au Joueur Actif",
+      "Noter la valeur de Propagation de la Gelée en plaçant le Marqueur de Propagation sur le 0 de cette carte "
     ],
-    "type": "blue",
-    "light": true,
-    "energy": false,
-    "notes": ""
+    "abilities": [
+    ],
+    "instructions": [
+      "À la fin de la phase Résolution du joueur qui détient cette carte, placer un jeton Gelée Grise sur chacun des Lieux dans la zone de Propagation de la Gelée. Tous les Personnages dans ces Lieux doivent Détruire un Casque en leur possession, ou sont Abattus s'ils n'ont pas de Casque",
+      "Alors, sauf s'il y a le Blackout, le détenteur de la carte  augmente la valeur de Propagation de 1. Tous les Lieux qui sont distants du Coffre-X de cette nouvelle valeur, ou moins, sont désormais dans la zone de Propagation de la Gelée Grise",
+      "La Gelée Grise se propage à travers les Verrous mais ne passe pas par les Conduits d'Aération",
+      "Si la Propagation atteint 5, procéder au Crash de la station"
+    ]
   },
   {
-    "id": 6,
-    "name": "Déchiqueteuse",
-    "diagram": "assets/images/rooms/shred_room.png",
-    "action": [
-      "Mine d'infos: Prendre un Kompromat n'importe où sur le plateau"
+    "name": "le Robot Assassin",
+    "subtitle": "Tueur d'acier implacable",
+    "image": "assets/images/projects_x/robotic_assassin.png",
+    "setup": [
+      "Placer le Robot Assassin dans le Coffre-X",
+      "Placer le jeton \"Acquisition de Cible\" parmi les actions de Pupitre",
+      "Le joueur qui a libéré le Robot Assassin pose le Marqueur \"Cible\" sur un Personnage Humain ou Robot non-Échappé"
     ],
-    "type": "blue",
-    "light": false,
-    "energy": false,
-    "notes": ""
+    "abilities": [
+      {
+        "name": "Mastodonte ",
+        "description": "Peut passer par les Verrous (ils sont alors retirés).",
+        "type": "mobilité"
+      },
+      {
+        "name": "Cuirassé",
+        "description": "Ne peut pas être attaqué par des Matraques",
+        "type": "defensif"
+      }
+    ],
+    "instructions": [
+      "L'action de Pupitre \"Acquisition de Cible\" permet de déplacer le Marqueur \"Cible\" vers un Humain ou un Robot Vivant et non-échappé",
+      "À la fin de chaque phase Résolution, le Robot Assassin Abat la cible si elle est Vivante et sur son Lieu",
+      "Sinon, le Joueur actif doit Déplacer le Robot Assassin d'un Lieu pour le rapprocher du Personnage portant la Cible",
+      "En cas de chemins égaux, le Joueur actif choisit dans quel Lieu le Robot Assassin se déplace, parmi les chemins égaux en question",
+      "Puisque le Robot Assassin est un Robot, il ignore les Risques, il peut être Réparé et il compte comme un Robot pour les besoins du décompte final "
+    ]
   },
   {
-    "id": 7,
-    "name": "Entrepôt",
-    "diagram": "assets/images/rooms/storage.png",
-    "action": [
-      ""
+    "name": "Le Trou de Ver Stabilisé",
+    "subtitle": "Un portail vers CERN",
+    "image": "assets/images/projects_x/stable_wormhole.png",
+    "setup": [
+      "Endommagez le Réacteur s'il ne l'est pas déjà"
     ],
-    "type": "blue",
-    "light": true,
-    "energy": false,
-    "notes": ""
+    "abilities": [
+    ],
+    "instructions": [
+      "Tout Objet ou Personnage qui est déjà, ou qui entre dans le Coffre-X est immédiatement considéré comme Échappé",
+      "Tout ce qui a été Échappé de cette manière est considéré comme étant sur le même Lieu pour les besoins du décompte final ",
+      "Si l'Antimatière s'Échappe à travers le trou de ver stabilisé, Détruisez-le ainsi que tout ce qui s'est Échappé à travers lui"
+    ]
   },
   {
-    "id": 8,
-    "name": "Suite de luxe",
-    "diagram": "assets/images/rooms/suite.png",
-    "action": [
-      ""
+    "name": "Le Monstre à Tentacules",
+    "subtitle": "Hybride animal-végétal avec un bel appétit",
+    "image": "assets/images/projects_x/tentacled_monstrosity.png",
+    "setup": [
+      "Placer Le Monstre à Tentacules dans le Coffre-X"
     ],
-    "type": "blue",
-    "light": true,
-    "energy": false,
-    "notes": ""
-  },
-  {
-    "id": 9,
-    "name": "Jardin Zen",
-    "diagram": "assets/images/rooms/therapy_garden.png",
-    "action": [
-      "Mediter (PJ uniquement)"
+    "abilities": [
+      {
+        "name": "Mastodonte",
+        "description": "Peut passer par les Verrous (ils sont alors retirés).",
+        "type": "mobilité"
+      },
+      {
+        "name": "Méfiant",
+        "description": "Ne peut pas être Attaqué dans les Endroits Sombres.",
+        "type": "defensif"
+      }
     ],
-    "type": "blue",
-    "light": true,
-    "energy": false,
-    "notes": ""
-  },
-  {
-    "id": 10,
-    "name": "Labo de biologie",
-    "diagram": "assets/images/rooms/bio_lab.png",
-    "action": [
-      "Entrer ici donne une Contamiation sauf si le Labo est Endommagé",
-      "Fabrication de preuve du Projet-X"
-    ],
-    "type": "darkBlue",
-    "light": true,
-    "energy": false,
-    "notes": ""
-  },
-  {
-    "id": 11,
-    "name": "Labo de chimie",
-    "diagram": "assets/images/rooms/chem_lab.png",
-    "action": [
-      "Fabrication de Grenade"
-    ],
-    "type": "darkBlue",
-    "light": true,
-    "energy": false,
-    "notes": ""
-  },
-  {
-    "id": 12,
-    "name": "Cryogénie",
-    "diagram": "assets/images/rooms/cryo_lab.png",
-    "action": [
-      "Libérer le Projet X (Fonctionnaires uniquement)"
-    ],
-    "type": "darkBlue",
-    "light": true,
-    "energy": false,
-    "notes": ""
-  },
-  {
-    "id": 13,
-    "name": "Ventilo avant",
-    "diagram": "assets/images/rooms/forward_exhaust.png",
-    "action": [
-      "Airlock"
-    ],
-    "type": "darkBlue",
-    "light": false,
-    "energy": false,
-    "notes": ""
-  },
-  {
-    "id": 14,
-    "name": "Unité centrale",
-    "diagram": "assets/images/rooms/mainframe.png",
-    "action": [
-      "Action de pupitre"
-    ],
-    "type": "darkBlue",
-    "light": true,
-    "energy": true,
-    "notes": ""
-  },
-  {
-    "id": 15,
-    "name": "Usine Nano",
-    "diagram": "assets/images/rooms/nanofactory.png",
-    "action": [
-      "Fabrication de Nanogel"
-    ],
-    "type": "darkBlue",
-    "light": true,
-    "energy": false,
-    "notes": ""
-  },
-  {
-    "id": 16,
-    "name": "Laboratoire",
-    "diagram": "assets/images/rooms/physics_lab.png",
-    "action": [
-      "A chacune des Résolutions, tous les data présents ici sont Éffacés"
-    ],
-    "type": "darkBlue",
-    "light": true,
-    "energy": false,
-    "notes": ""
-  },
-  {
-    "id": 17,
-    "name": "Fab lab",
-    "diagram": "assets/images/rooms/print_shop.png",
-    "action": [
-      "Fabrication de Casque, de Matraque ou de Pistolet (Fonctionnaires uniquement pour le Pistolet)"
-    ],
-    "type": "darkBlue",
-    "light": true,
-    "energy": false,
-    "notes": ""
-  },
-  {
-    "id": 18,
-    "name": "Coffre-X",
-    "diagram": "assets/images/rooms/vault_x.png",
-    "action": [
-      "si Endommagé, libérer le Projet X et déclencher l'Évacuation d'Urgence"
-    ],
-    "type": "darkBlue",
-    "light": true,
-    "energy": false,
-    "notes": ""
-  },
-  {
-    "id": 19,
-    "name": "SAS arrière",
-    "diagram": "assets/images/rooms/aft_airlocks.png",
-    "action": [
-      "SAS",
-      "Zone de lancement"
-    ],
-    "type": "pink",
-    "light": false,
-    "energy": false,
-    "notes": ""
-  },
-  {
-    "id": 20,
-    "name": "Hub arrière",
-    "diagram": "assets/images/rooms/aft_hub.png",
-    "action": [
-      ""
-    ],
-    "type": "pink",
-    "light": true,
-    "energy": false,
-    "notes": ""
-  },
-  {
-    "id": 21,
-    "name": "Tableau de contrôle",
-    "diagram": "assets/images/rooms/array_control.png",
-    "action": [
-      "Transmettre"
-    ],
-    "type": "pink",
-    "light": true,
-    "energy": false,
-    "notes": ""
-  },
-  {
-    "id": 22,
-    "name": "Passerelle",
-    "diagram": "assets/images/rooms/bridge.png",
-    "action": [
-      "Libérer le Projet X",
-      "Auto-Destruction",
-      "Évacuation d'Urgence",
-      "Zone de lancement"
-    ],
-    "type": "pink",
-    "light": true,
-    "energy": false,
-    "notes": "Fonctionnaires uniquement"
-  },
-  {
-    "id": 23,
-    "name": "Grappin de fret",
-    "diagram": "assets/images/rooms/cargo_claw.png",
-    "action": [
-      "Pince: Ramasser un objet dans l'Espace, ou Abattre un Personnage dans l'Espace"
-    ],
-    "type": "pink",
-    "light": true,
-    "energy": false,
-    "notes": ""
-  },  
-  {
-    "id": 24,
-    "name": "SAS avant",
-    "diagram": "assets/images/rooms/f	orward_airlocks.png",
-    "action": [
-      "SAS"
-    ],
-    "type": "pink",
-    "light": true,
-    "energy": false,
-    "notes": ""
-  },
-  {
-    "id": 25,
-    "name": "Hub avant",
-    "diagram": "assets/images/rooms/forward_hub.png",
-    "action": [
-      ""
-    ],
-    "type": "pink",
-    "light": true,
-    "energy": false,
-    "notes": ""
-  },
-  {
-    "id": 26,
-    "name": "Piles à combustible",
-    "diagram": "assets/images/rooms/fuel_cells.png",
-    "action": [
-      "si Endommagé, placez un Départ de feu ici et dans les Cuves"
-    ],
-    "type": "pink",
-    "light": true,
-    "energy": true,
-    "notes": ""
-  },
-  {
-    "id": 27,
-    "name": "Hydroponie",
-    "diagram": "assets/images/rooms/hydroponics.png",
-    "action": [
-      ""
-    ],
-    "type": "pink",
-    "light": true,
-    "energy": false,
-    "notes": ""
-  },
-  {
-    "id": 28,
-    "name": "Vestiaires",
-    "diagram": "assets/images/rooms/locker_room.png",
-    "action": [
-      ""
-    ],
-    "type": "pink",
-    "light": false,
-    "energy": false,
-    "notes": ""
-  },
-  {
-    "id": 29,
-    "name": "Atelier méca",
-    "diagram": "assets/images/rooms/machine_shop.png",
-    "action": [
-      "Réparer un Robot"
-    ],
-    "type": "pink",
-    "light": true,
-    "energy": false,
-    "notes": ""
-  },
-  {
-    "id": 30,
-    "name": "Chambre de confinement",
-    "diagram": "assets/images/rooms/magnetic_containmet.png",
-    "action": [
-      "Expulser l'Antimatière"
-    ],
-    "type": "pink",
-    "light": true,
-    "energy": false,
-    "notes": "A chacune des Résolutions, tous les Cubes d'influence des Robots présents ici sont perdus par Traîtrise"
-  },
-  {
-    "id": 31,
-    "name": "Réacteur",
-    "diagram": "assets/images/rooms/reactor.png",
-    "action": [
-      ""
-    ],
-    "type": "pink",
-    "light": true,
-    "energy": true,
-    "notes": "Ne peut pas être Endommagé par une Matraque. Si Endommagé, placez une Fuite de gaz ici et dans chaque Lieu adjacent"
-  },
-  {
-    "id": 32,
-    "name": "Abri tempête",
-    "diagram": "assets/images/rooms/storm_shelter.png",
-    "action": [
-      ""
-    ],
-    "type": "pink",
-    "light": true,
-    "energy": false,
-    "notes": ""
-  },
-  {
-    "id": 33,
-    "name": "Cuves",
-    "diagram": "assets/images/rooms/tanks.png",
-    "action": [
-      "Décontamination"
-    ],
-    "type": "pink",
-    "light": false,
-    "energy": false,
-    "notes": ""
-  },
-  {
-    "id": 34,
-    "name": "Alcatraz",
-    "diagram": "assets/images/rooms/alcatraz.png",
-    "action": [
-      "Lancement Planifié"
-    ],
-    "type": "green",
-    "light": true,
-    "energy": false,
-    "notes": "Nécessite l'Évacuation d'Urgence pour lancer. Si le Robot Juriste est en jeu, tous les occupants Vivants doivent avoir une Clause de Confidentialité pour lancer"
-  },
-  {
-    "id": 35,
-    "name": "Ave MAria",
-    "diagram": "assets/images/rooms/hail_mary.png",
-    "action": [
-      "Lancement Planifié"
-    ],
-    "type": "green",
-    "light": true,
-    "energy": false,
-    "notes": "Nécessite l'Évacuation d'Urgence pour lancer. Si le Robot Juriste est en jeu, tous les occupants Vivants doivent avoir une Clause de Confidentialité pour lancer"
-  },
-  {
-    "id": 36,
-    "name": "Houdini",
-    "diagram": "assets/images/rooms/houdini.png",
-    "action": [
-      "Lancement Planifié"
-    ],
-    "type": "green",
-    "light": true,
-    "energy": false,
-    "notes": "Nécessite l'Évacuation d'Urgence pour lancer. Si le Robot Juriste est en jeu, tous les occupants Vivants doivent avoir une Clause de Confidentialité pour lancer"
-  },
-  {
-    "id": 37,
-    "name": "McQueen",
-    "diagram": "assets/images/rooms/mcqueen.png",
-    "action": [
-      "Lancement Planifié"
-    ],
-    "type": "green",
-    "light": false,
-    "energy": false,
-    "notes": "Nécessite l'Évacuation d'Urgence pour lancer. Si le Robot Juriste est en jeu, tous les occupants Vivants doivent avoir une Clause de Confidentialité pour lancer"
-  },
-  {
-    "id": 38,
-    "name": "Pod Médical",
-    "diagram": "assets/images/rooms/medivac_pod.png",
-    "action": [
-      "Lancement Planifié"
-    ],
-    "type": "green",
-    "light": true,
-    "energy": false,
-    "notes": "Peut être lancé si occupé par un Humain Abattu. L'Évacuation d'Urgence n'est pas requise pour lancer"
-  },
-  {
-    "id": 39,
-    "name": "dans l'Espace",
-    "diagram": "assets/images/rooms/outer_space.png",
-    "action": [
-      "SAS"
-    ],
-    "type": "green",
-    "light": false,
-    "energy": false,
-    "notes": ""
-  },
-  {
-    "id": 40,
-    "name": "Panic Pod",
-    "diagram": "assets/images/rooms/panic_pod.png",
-    "action": [
-      "Lancement Planifié"
-    ],
-    "type": "green",
-    "light": true,
-    "energy": false,
-    "notes": "Nécessite l'Évacuation d'Urgence pour lancer"
-  },
-  {
-    "id": 41,
-    "name": "Vaisseau Pirate / Vaisseau de Secours",
-    "diagram": "assets/images/rooms/pirate_ship.png",
-    "action": [
-      "Vaisseau Pirate : Lors du décompte, le personnage qui Possède l'Attaché Case est considéré comme Échappé",
-      "Vaisseau de Secours : Lors du décompte, tout personnage Humain dans l'Espace est considéré comme Échappé"
-    ],
-    "type": "green",
-    "light": true,
-    "energy": false,
-    "notes": ""
+    "instructions": [
+      "À la fin d chaque phase Résolution, le Joueur actif choisit un Personnage présent sur le Lieu, ou un Objet non-Possédé, qui sera consumé : le placer sur cette carte. On ne peut plus intéragir avec les Personnages consumés, et ils sont Abattus si ce sont des Humains sans Casque",
+      "S'il n'y a pas de Personnage ou d'Objet sur le Lieu, alors le Monstre à Tentacules attire à la place un Personnage ou un Objet non-Possédé adjacent sur son Lieu",
+      "S'il n'y en a pas, le Joueur actif doit Déplacer le Monstre à Tentacules d'un Lieu vers l'Humain (Vivant ou Abattu) le plus proche qui n'a pas encore été consumé",
+      "S'il y a plusieurs choix, le Joueur actif choisit vers quel Lieu le Monstre à Tentacules se Déplace",
+      "Il ne peut être Abattu que par un Départ de feu et possède l'Instinct de Survie : si son seul chemin possible passe par un Départ de feu, alors il ne se déplace pas",
+       "Si le Monstre à Tentacules est Abattu, tous les Personnages et Objets ayant été consumés sont placés dans son Lieu actuel"
+    ]
   }
-  
- 
-  ]
+]
