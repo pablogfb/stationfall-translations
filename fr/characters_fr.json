@@ -1186,7 +1186,7 @@
       "Les Drones sont un moyen utile d'Abattre les Personnages, puisqu'ils possèdent toujours une Matraque",
       "Les Drones permettent de Réparer les Lieux"
     ],
-    "board_modifications": "Placez le bandeau \"Contrôle à distance\" parmi les actions de Pupitre, ce qui donne aux Personnages le moyen d'agir avec un Drone"
+    "board_modifications": ["Placez le bandeau \"Contrôle à distance\" parmi les actions de Pupitre, ce qui donne aux Personnages le moyen d'agir avec un Drone"]
   },
   {
     "id": 15,
