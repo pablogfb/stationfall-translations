@@ -40,7 +40,7 @@
       },
       {
         "name": "Outils de fortune",
-        "description": "our une action, réparer un lieu Endommagé ou un Robot Abattu situé sur le même Lieu. ",
+        "description": "Pour une action, réparer un lieu Endommagé ou un Robot Abattu situé sur le même Lieu. ",
         "type": "utilitaire"
       }
     ],
@@ -88,8 +88,8 @@
     "instructions": [
       "À la fin des phases Résolution, le Joueur actif doit faire perdre un Cube d'influence par Traîtrise à un Personnage du Lieu du Spectre, si possible. (Le Spectre se nourrit de ses souvenirs !)",
       "S'il n'y a pas de Cubes sur place, le Joueur actif doit Déplacer le Spectre d'un Lieu en direction de l'Antimatière. S'il l'atteint : armez-la (si elle ne l'est pas déjà) et Détruisez le Spectre entropique. Si l'Antimatière est déjà Détruite, le Spectre Entropique se dirige à la place vers la Chambre de Confinement",
-      "Le Spectre Entropiquene peut pas être Abattu",
-      "Tout Data situé dans le même lieu que le Spectre est immédiatement Effacé"
+      "Le Spectre Entropique ne peut pas être Abattu",
+      "Tout Data situé dans le même lieu que le Spectre Entropique est immédiatement Effacé"
     ]
   },
   {
@@ -126,12 +126,12 @@
       },
       {
         "name": "Cuirassé",
-        "description": "Ne peut pas être attaqué par des Matraques",
+        "description": "Ne peut pas être attaqué par des Matraques.",
         "type": "defensif"
       }
     ],
     "instructions": [
-      "L'action de Pupitre \"Acquisition de Cible\" permet de déplacer le Marqueur \"Cible\" vers un Humain ou un Robot Vivant et non-échappé",
+      "L'action de Pupitre \"Acquisition de Cible\" permet de déplacer le Marqueur \"Cible\" vers un Humain ou un Robot Vivant et non-Échappé",
       "À la fin de chaque phase Résolution, le Robot Assassin Abat la cible si elle est Vivante et sur son Lieu",
       "Sinon, le Joueur actif doit Déplacer le Robot Assassin d'un Lieu pour le rapprocher du Personnage portant la Cible",
       "En cas de chemins égaux, le Joueur actif choisit dans quel Lieu le Robot Assassin se déplace, parmi les chemins égaux en question",
@@ -173,11 +173,11 @@
       }
     ],
     "instructions": [
-      "À la fin d chaque phase Résolution, le Joueur actif choisit un Personnage présent sur le Lieu, ou un Objet non-Possédé, qui sera consumé : le placer sur cette carte. On ne peut plus intéragir avec les Personnages consumés, et ils sont Abattus si ce sont des Humains sans Casque",
+      "À la fin de chaque phase Résolution, le Joueur actif choisit un Personnage présent sur le Lieu, ou un Objet non-Possédé, qui sera consumé : le placer sur cette carte. On ne peut plus intéragir avec les Personnages consumés, et ils sont Abattus si ce sont des Humains sans Casque",
       "S'il n'y a pas de Personnage ou d'Objet sur le Lieu, alors le Monstre à Tentacules attire à la place un Personnage ou un Objet non-Possédé adjacent sur son Lieu",
       "S'il n'y en a pas, le Joueur actif doit Déplacer le Monstre à Tentacules d'un Lieu vers l'Humain (Vivant ou Abattu) le plus proche qui n'a pas encore été consumé",
       "S'il y a plusieurs choix, le Joueur actif choisit vers quel Lieu le Monstre à Tentacules se Déplace",
-      "Il ne peut être Abattu que par un Départ de feu et possède l'Instinct de Survie : si son seul chemin possible passe par un Départ de feu, alors il ne se déplace pas",
+      "Il ne peut être Abattu que par un Risque Incendie et possède l'Instinct de Survie : si son seul chemin possible passe par un Risque Incendie, alors il ne se déplace pas",
        "Si le Monstre à Tentacules est Abattu, tous les Personnages et Objets ayant été consumés sont placés dans son Lieu actuel"
     ]
   }
