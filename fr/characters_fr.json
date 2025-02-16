@@ -86,7 +86,7 @@
     "bonus_points": {
       "points": 2,
       "alive": true,
-      "notes": "si Fletcher s'Échappe. (Tout le monde s'en tamponne du Milliardaire en fait, le public aime seulement son mignon bichon de l'espace.)"
+      "notes": "si Fletcher s'Échappe. (Tout le monde s'en tamponne du Milliardaire, on aime seulement son mignon bichon de l'espace.)"
     },
     "influence_limit": 3,
     "type": "Human",
@@ -195,7 +195,7 @@
     "reveal": [
       {
         "name": "Missiles",
-        "description": "Si les Brouilleurs sont éteints, en tant qu'action placez 1 Marqueur Temps sur un Lieu non-échappé. Quand ce Marqueur sera résolu, Endommagez ce lieu et Abattez tous les Personnages présents. Le vaisseau de la Pirate ne peut envoyer qu'un seul Missile à la fois.",
+        "description": "Si les Brouilleurs sont éteints, en tant qu'action placez 1 Marqueur Temps sur un Lieu non-échappé. Quand ce marqueur sera résolu, endommagez ce lieu et Abattez tous les personnages présents. Le vaisseau de la Pirate ne peut envoyer qu'un seul Missile à la fois.",
         "type": "offensive"
       },
       {
@@ -311,7 +311,7 @@
         {
           "main": {
             "points": 2,
-            "description": "pour chaque Humain Détruit par Fang Moss"
+            "description": "pour chaque Humain dévoré par Fang Moss"
           },
           "sub": []  
         },
@@ -343,7 +343,7 @@
     "tips": [
       "Traquez les personnages Abattus pour nourrir Fang Moss", 
       "Équipez-vous d'un Casque. Attrapez la Contamination dans le Labo de Biologie ", 
-      "Utilisez \"Né en zéro-G\" pour gagner en mobility ", 
+      "Utilisez \"Né en zéro-G\" pour gagner en mobilité ", 
       "Après la Révélation, essayez que personne ne Possède Fang Moss, pour lui faire réaliser des actions en plus des vôtres "
     ],
     "board_modifications": [""]
@@ -435,7 +435,7 @@
     ],
     "board_modifications": [
       "La présence du Panic Pod rajoute une navette pour s'Échapper. Elle commence Verrouillée, avec un Pistolet à l'intérieur", 
-      "Tout Personnage à l'intérieur du Panic Pod peut utiliser son action de Lancement Planifié. A l'instar des 4 autres navettes toutefois, cela nécessite l'Évacuation d'Urgence"]
+      "Tout Personnage à l'intérieur du Panic Pod peut utiliser son action de Lancement Planifié. Comme pour les 4 autres navettes toutefois, cela nécessite l'Évacuation d'Urgence"]
   },
   {
     "id": 6,
@@ -445,7 +445,7 @@
     "bonus_points": {
       "points": 2,
       "alive": true,
-      "notes": "si l'Époux.se Modèle est votre Personnage Bonus et finit Échappé.e"
+      "notes": "si l'Époux.se Modèle est votre Personnage Bonus et finit Échappé"
     },
     "influence_limit": 6,
     "type": "Robot",
@@ -464,7 +464,7 @@
     "reveal": [
       {
         "name": "Fin de l'illusion",
-        "description": "À la Révélation, si l'Époux.se Modèle est Vivant.e, iel peut échanger sa position avec un PNJ (Humain ou Robot) qui n'est ni Échappé ni Détruit. Ces Personnages échangent aussi toutes leurs Possessions sauf les Intégrées (le joueur actif choisi quels objets en excés il peut Lâcher gratuitement)",
+        "description": "À la Révélation, si l'Époux.se Modèle est Vivant, il peut échanger sa position avec un PNJ (Humain ou Robot) qui n'est ni Échappé ni Détruit. Ces Personnages échangent aussi toutes leurs Possessions sauf les Intégrées (le joueur actif choisi quels objets en excés il peut Lâcher gratuitement)",
         "type": "conspiracy"
       }
     ],
@@ -486,7 +486,7 @@
         {
           "main": {
             "points": 0,
-            "description": "si l'Époux.se Modèle finit Échappé.e"
+            "description": "si l'Époux.se Modèle finit Échappé"
           },
           "sub": [
             {
@@ -508,14 +508,14 @@
     },
     "quirks": [
       "L'Époux.se Modèle gagne 2 points pour chaque Bakchich en sa possession",
-      "En dépit des apparences, l'Époux.se Modèle est un.e robot."
+      "En dépit des apparences, l'Époux.se Modèle est un robot."
       ],
     "tips": [
       "L'attaché Case est dans la Suite de Luxe",
       "Souvenez-vous que votre pouvoir de Révélation permet d'échanger les Objets et les Bakchich, en plus d'échanger les Lieux",
       "Une Révélation tardive bien préparée peut vous amener au bon endroit, au bon moment",
       "Plus vous attendez, plus avez de chances d'obtenir des Bakchich",
-      "Envisagez d'utiliser un PNJ pour sécuriser l'Attaché Case et l'amener vers une sortie (en prévision d'une Fin de l'illusion tardive) "
+      "Envisagez d'utiliser un PNJ pour sécuriser l'Attaché Case et l'amener vers une sortie (en prévision d'une \"Fin de l'illusion\" tardive) "
     ],
     "board_modifications": [""]
   },
@@ -680,7 +680,7 @@
       "notes": ""
     },
     "quirks": [
-      "aucuns"
+      "aucunes"
     ],
     "tips": [
       "L'Artefact est dans le Laboratoire",
@@ -869,9 +869,9 @@
       "Empêchez les autres Humains de s'Échapper en les Abattant, en libérant le Projet X, en Endommageant les Pods ou en empêchant l'Évacuation d'Urgence "
     ],
     "board_modifications": [
-      "Le Jet Pack est ajouté sur le plateau: il offre une nouvelle manière de s'Échapper.",
+      "Le Jet Pack est ajouté sur le plateau : il offre une nouvelle manière de s'Échapper.",
       "Le jeton \"Évacuation en Jet Pack\" offre une nouvelle action à réaliser \"dans l'Espace\" ",
-      "\"Évacuation en Jet Pack\" : Un Personnage qui a le Jet Pack en sa Possession en étant \"dans l'Espace\", finit Échappé. Si c'est un Humain, il a toujours besoin de Posséder aussi un Casque"]
+      "\"Évacuation en Jet Pack\" : Un Personnage qui a le Jet Pack en sa Possession en étant \"dans l'Espace\", finit Échappé. Si c'est un Humain, il a quand même besoin de Posséder un Casque"]
 
   },
   {
@@ -889,7 +889,7 @@
     "abilities": [
       {
         "name": "I.A.",
-        "description": "Ne peut que faire des actions de Pupitre. Les Personnages qui possèdent l'Assistant Numérique en tant que Data sont considérés comme étant des \"Fonctionnaires\" pour les actions de Lieux, et comme ayant \"l'Évacuation d'Urgence\" lorsqu'ils veulent Lancer les Pods.",
+        "description": "Ne peut réaliser que des actions de Pupitre. Les Personnages qui possèdent l'Assistant Numérique en tant que Data sont considérés comme étant des \"Fonctionnaires\" pour les actions de Lieux, et comme ayant \"l'Évacuation d'Urgence\" lorsqu'ils veulent Lancer les Pods.",
         "type": "console"
       },
       {
@@ -946,7 +946,7 @@
       "notes": "L'assistant Numérique peut gagner même en étant Coupable"
     },
     "quirks": [
-      "L'assistant Numérique est du Data, il ne peut Posséder ni objets ni Data",
+      "L'assistant Numérique est du Data, il ne peut Posséder ni Objets ni Data",
       "L'assistant Numérique peut être Fabriqué à l'Unité Centrale ",
       "L'assistant Numérique peut gagner même en étant Coupable",
       "Le Blackout empêche l'Assistant Numérique de réaliser des actions de Pupitre",
@@ -1029,12 +1029,12 @@
     },
     "quirks": [
       "La Docteur a 2 Cartes d'identité, chacune ayant ses propres objectifs",
-      "La Docteur peut devenir le PJ de deux Joueurs. Un Joueur qui essaye de jouer un Bakchich ou un Kompromat dans ce cas de figure, doit choisir l'un des deux Joueurs qui décide alors tout seul s'il accepte ou refuse. Les deux Joueurs partageant l'identité de la Docteur deviennent Suspects si le Joueur ainsi sollicité refuse",
+      "La Docteur peut devenir le PJ de deux Joueurs. Un Joueur qui essaye de jouer un Bakchich ou un Kompromat dans ce cas de figure, doit choisir l'un des deux Joueurs qui décide alors tout seul s'il accepte ou refuse. Les deux Joueurs partageant l'identité de la Docteur deviennent Suspects si le Joueur ainsi sollicité refuse le Kompromat",
       "Hyde gagne 2 points pour chaque Bakchich en sa possession",
       "Les deux Joueurs qui ont la Docteur comme PJ peuvent l'activer et agir avec elle"
     ],
     "tips": [
-      "L'attaché Case est dans la Suite",
+      "L'Attaché Case est dans la Suite",
       "Plus vous vous Révélerez tard, plus vous aurez de chances d'obtenir des Bakchich",
       "Un bon timing de Révélation peut vous permettre d'Abattre un Personnage avec votre Pistolet caché, juste avant de vous Échapper avec son corps"
     ],
@@ -1067,7 +1067,7 @@
     "reveal": [
       {
         "name": "Faux Artefact",
-        "description": "À la Révélation, la Docteur reçoit l'Artefact (même si il était Détruit), sauf si un PJ l'avait déjà en sa Possession",
+        "description": "À la Révélation, la Docteur reçoit l'Artefact (même s'il était Détruit), sauf si un PJ l'avait déjà en sa Possession",
         "type": "utility"
       }
     ],
@@ -1114,7 +1114,7 @@
     },
     "quirks": [
       "La Docteur a 2 Cartes d'identité, chacune ayant ses propres objectifs",
-      "La Docteur peut devenir le PJ de deux Joueurs. Un Joueur qui essaye de jouer un Bakchich ou un Kompromat dans ce cas de figure, doit choisir l'un des deux Joueurs qui décide alors tout seul s'il accepte ou refuse. Les deux Joueurs partageant l'identité de la Docteur deviennent Suspects si le Joueur ainsi sollicité refuse",
+      "La Docteur peut devenir le PJ de deux Joueurs. Un Joueur qui essaye de jouer un Bakchich ou un Kompromat dans ce cas de figure, doit choisir l'un des deux Joueurs qui décide alors tout seul s'il accepte ou refuse. Les deux Joueurs partageant l'identité de la Docteur deviennent Suspects si le Joueur ainsi sollicité refuse le Kompromat",
       "Jekyll gagne 1 seul point pour chaque Bakchich en sa possession",
       "Les deux Joueurs qui ont la Docteur comme PJ peuvent l'activer et agir avec elle"
     ],
@@ -1229,7 +1229,7 @@
           "diagram": "assets/images/rooms/array_control.png"
         }
       ],
-      "notes": "Recouvrer l'emplacement d'action du Réacteur avec le jeton \"Réacteur\" "
+      "notes": "Recouvrir l'emplacement d'action du Réacteur avec le jeton \"Réacteur\" "
     },
     "agenda": {
       "description": "Préserver l'écosphère",
@@ -1371,7 +1371,7 @@
     "bonus_points": {
       "points": 2,
       "alive": true,
-      "notes": "si l'Inspection est votre Personnage Bonus et finit Échappé.e"
+      "notes": "si l'Inspection est votre Personnage Bonus et finit Échappée"
     },
     "influence_limit": 4,
     "type": "Human",
@@ -1383,7 +1383,7 @@
       },
       {
         "name": "Insigne",
-        "description": "Peut Braquer les objets comme s'iel était en Possession d'un Pistolet.",
+        "description": "Peut Braquer les objets comme si elle était en Possession d'un Pistolet.",
         "type": "offensive"
       }
     ],
@@ -1412,12 +1412,12 @@
         {
           "main": {
             "points": 2,
-            "description": "si l'Inspection finit Échappé.e"
+            "description": "si l'Inspection finit Échappée"
           },
           "sub": [
             {
             "points": 4,
-            "description": "si iel Possède l'Attaché Case"
+            "description": "si elle Possède l'Attaché Case"
             }
           ]
         },
@@ -1441,7 +1441,7 @@
     ],
     "tips": [
       "L'Attaché Case est dans la Suite de Luxe",
-      "On peut Fabriquer une Preuve au PC de Sécurité et l'envoyer via le Tableau de Contrôle, ou bien finir Échappé.e avec elle lors du Crash de la station",
+      "On peut Fabriquer une Preuve au PC de Sécurité et l'envoyer via le Tableau de Contrôle, ou bien finir Échappé avec elle lors du Crash de la station",
       "Gardez les Brouilleurs éteints pour envoyer la Preuve à qui vous voulez",
       "Votre navette n'a pas besoin de l'Évacuation d'Urgence pour être Lancée",
       "Plus vous vous Révélez tard, plus vous avez de chances d'obtenir des Bakchich"
@@ -1534,7 +1534,7 @@
     "quirks": [
       "La Clause de Confidentialité est du Data. Le Robot Juriste ne la Possède pas, mais peut la Fabriquer dans les Possessions des Personnages présents sur son Lieu",
       "Les Personnages qui Possèdent une Clause de Confidentialité ne peuvent plus Copier, Effacer, Transmettre, Livrer ou se faire Braquer du Data",
-      "Le Robot Juriste peut Fabriquer une Clause de Confidentialité, y compris sur les Personnages Abattus (Visualisez-le expliquer tous les termes du contrat à une victime inconsciente... avant de lui soulever la main pour apposer ses empreintes inertes sur ce joli contrat, par-lequel le défunt s'engage à ne pas dévoiler les manquements de la Compagnie)"
+      "Le Robot Juriste peut Fabriquer une Clause de Confidentialité, y compris sur les Personnages Abattus (Imaginez-le en train d'expliquer tous les termes du contrat à une victime inconsciente... avant de lui soulever la main pour apposer ses empreintes sur un contrat par-lequel le défunt s'engage à ne pas dévoiler les manquements de la Compagnie)"
     ],
     "tips": [
       "Acquérir et utiliser les Kompromats est un bon moyen de créer des Suspects",
@@ -1544,7 +1544,7 @@
       "La Clause de Confidentialité ne peut être que personnellement Fabriquée sur, ou avec des Personnages présents sur le Lieu, donc essayez de garder le Robot Juriste Vivant"
     ],
     "board_modifications": [
-      "Lancer les Pods Alcatraz, Houdini, et McQueen nécessite maintenant l'Évacuation d'Urgence, et aussi que tous les occupants Vivants possèdent une Clause de Confidentialité"]
+      "Lancer les Pods Alcatraz, Houdini, et McQueen nécessite toujours l'Évacuation d'Urgence, mais aussi désormais que tous les occupants Vivants possèdent une Clause de Confidentialité"]
   },
   {
     "id": 19,
@@ -1560,7 +1560,7 @@
     "type": "Human",
     "abilities": [
       {
-        "name": "Né en Zéro-G",
+        "name": "Nés en Zéro-G",
         "description": "Comme action gratuite, peut entrer dans un Lieu en Apesanteur à la place de Lâcher/Ramasser.",
         "type": "mobility"
       },
@@ -1805,7 +1805,7 @@
     "abilities": [
       {
         "name": "I.E.M.(Impulsion Électro-Magnétique)",
-        "description": "Cette action Endommage le Lieu de la Nettoyeuse, Abat tous les Robots qui s'y trouvent et Éfface tous les Data présents",
+        "description": "Cette action Endommage le Lieu de la Nettoyeuse, Abat tous les Robots qui s'y trouvent et Efface tous les Data présents",
         "type": "offensive"
       },
       {
@@ -1821,7 +1821,7 @@
         "type": "offensive"
       },
       {
-        "name": "Nerve Gas Grenades",
+        "name": "Grenades à gaz innervant",
         "description": "En tant qu'action avec la Nettoyeuse, placez une Fuite de Gaz dans son Lieu ou dans un Lieu vers lequel elle peut Lancer",
         "type": "offensive"
       }
@@ -1851,7 +1851,7 @@
         {
           "main": {
             "points": 2,
-            "description": "si le Secret X ne finit Échappé"
+            "description": "si le Secret X ne finit pas Échappé"
           },
           "sub": []
         },
@@ -1904,12 +1904,12 @@
     "abilities": [
       {
         "name": "Pacificateur",
-        "description": "Ne peut Attaquer que les Personnages fugitifs, le Projet X, ou les PJ de joueurs non-Innocents. Ne peut pas Endommager les Lieux",
+        "description": "Ne peut Attaquer que les Personnages \"fugitifs\", le Projet X, ou les PJ de joueurs non-Innocents. Ne peut pas Endommager les Lieux.",
         "type": "defensive"
       },
       {
         "name": "Cuirassé",
-        "description": "Ne peut pas être attaqué par des Matraques",
+        "description": "Ne peut pas être attaqué par des Matraques.",
         "type": "defensive"
       }
     ],
@@ -2033,7 +2033,7 @@
           },
           "sub": [{
             "points": 1,
-            "description": "par PNJ qualifié de Fonctionnaire quifinit Échappé"
+            "description": "par PNJ qualifié de Fonctionnaire qui finit Échappé"
           }]
         },
         {
@@ -2165,7 +2165,7 @@
       },
       {
         "name": "Mystère",
-        "description": "Si vous révélez l'Étranger.e par Schrödinger, ne défaussez aucunes cartes (gardez-les en Persos bonus).  YYY Si vous révélez l'Étranger.e par Schrödinger vous perdez \"Surnaturel\" ",
+        "description": "Si vous révélez l'Étranger.e par Schrödinger, ne défaussez aucunes cartes (gardez-les en Persos bonus).  Si vous révélez l'Étranger.e par Schrödinger vous perdez \"Surnaturel\" ",
         "type": "conspiracy"
       }
     ],
@@ -2238,12 +2238,12 @@
     "abilities": [
       {
         "name": "Télépathie",
-        "description": "Réaliser une action avec un Humain sans Casque du même lieu, en ignorant l'Instinct de Survie. Télépathie est la seule action possible du Rat Télépathe",
+        "description": "Réaliser une action avec un Humain sans Casque du même lieu, en ignorant l'Instinct de Survie. \"Télépathie\" est la seule action possible du Rat Télépathe.",
         "type": "offensive"
       },
       {
         "name": "Paranoïaque",
-        "description": "Le joueur actif doit avoir un Conspirateur sur le même Lieu pour pouvoir influencer ce personnage. N'accepte pas les Bakchich",
+        "description": "Le joueur actif doit avoir un Conspirateur sur le même Lieu pour pouvoir influencer ce personnage. N'accepte pas les Bakchich.",
         "type": "conspiracy"
       }
     ],
@@ -2345,7 +2345,7 @@
     "reveal": [
       {
         "name": "Suivez ma voix",
-        "description": "Durant votre tour, si la Mécano est Vivante, vos Conspirateurs se déplacent et agissent comme s'ils avaient Outils de Fortune et Rat d'Égoûts. ",
+        "description": "Durant votre tour, si la Mécano est Vivante, vos Conspirateurs se déplacent et agissent comme s'ils avaient \"Outils de Fortune\" et \"Rat d'Égoûts\". ",
         "type": "utility"
       }
     ],
